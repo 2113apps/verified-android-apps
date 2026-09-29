@@ -1,0 +1,290 @@
+# Verified Open-Source Android Apps
+
+Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
+
+109 apps. This list is generated from the site and updated when the site is.
+
+## Contents
+
+- [Topics and comparisons](#topics-and-comparisons)
+- [Guides](#guides)
+- [Root & Mods](#root--mods) (10)
+- [Customization](#customization) (5)
+- [Network & Privacy](#network--privacy) (19)
+- [Media](#media) (28)
+- [System Tools](#system-tools) (31)
+- [Cloud & Sync](#cloud--sync) (3)
+- [Other](#other) (4)
+- [Games: PC Emulators](#games-pc-emulators) (1)
+- [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
+- [Games: Console Emulators](#games-console-emulators) (5)
+
+## Topics and comparisons
+
+- [Obtainium Alternatives for Android](https://h5.2113.net/topics/app-updaters/): Four open-source alternatives to Obtainium for installing and updating Android apps outside Google Play. Sources, silent installs and tracking flags compared.
+- [Android Customization Apps: Open-Source Picks](https://h5.2113.net/topics/customization/): Six open-source apps to customize Android, from launchers and a desktop-style taskbar to system-wide icon packs and Quick Settings styling. What each needs.
+- [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from fixing old app installs to icon packs and freezing background apps. Xposed API confirmed in every APK, no trackers.
+- [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Three open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2 and Fold Craft Launcher, compared on versions, mods and devices.
+- [NewPipe Alternatives: Open-Source YouTube Apps](https://h5.2113.net/topics/newpipe-alternatives/): NewPipe, PipePipe, LibreTube, FreeTube Android, SkyTube and Tubular compared on features, how they reach YouTube, upkeep and devices. Every APK checked.
+- [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
+- [Best Shizuku Apps: 15 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Fifteen open-source Android apps that use Shizuku for ADB-level access without root. We confirmed the Shizuku API inside every APK and scanned each for trackers.
+- [Termux Plugins: All 7 Add-ons Explained](https://h5.2113.net/topics/termux-plugins/): What each Termux plugin adds, from Termux:API to Termux:GUI, how to set it up, and why plugins must come from the same source as Termux. All seven checked.
+- [Open-Source VPN Apps for Android: 6 Compared](https://h5.2113.net/topics/vpn-apps/): WG Tunnel, OpenVPN for Android, OpenConnect, Tailscale, Shadowsocks and NekoBox compared by the protocol each one speaks and what you need to connect. Every APK checked.
+- [Open-Source YouTube Music Clients for Android](https://h5.2113.net/topics/youtube-music-clients/): Metrolist, ArchiveTune, Kreate, VIVI Music, Gyawun, SimpMusic, OuterTune and Bloomee compared on sources, accounts, lyrics and devices. Every APK signature-checked.
+
+## Guides
+
+- [How to Start Shizuku: Wireless Debugging, PC or Root](https://h5.2113.net/guides/how-to-start-shizuku.html): Three ways to start Shizuku (root, wireless debugging on Android 11+, or a computer), what to redo after a reboot, and fixes for when it won't start or keeps stopping.
+- [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
+
+## Root & Mods
+
+- **[APatch](https://h5.2113.net/apps/apatch.html)**: The manager for APatch, which roots Android by patching the kernel image and supports both Magisk-style and kernel modules.  
+  ARM64 · kernel 3.18–6.1 · unlocked bootloader · no known trackers found · GPL-3.0-only · [source](https://github.com/bmax121/APatch)
+- **[Cirno](https://h5.2113.net/apps/cirno.html)**: An app freezer for rooted phones: apps left in the background are frozen so they use no CPU. It has no interface and works automatically once enabled.  
+  Root + LSPosed · Android 12+ · kernel 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Freezer-Team/Cirno)
+- **[Disable Target API Block](https://h5.2113.net/apps/disable-target-api-block.html)**: Lifts Android 14’s block on installing apps built for Android 5 and older, for every install method.  
+  Root + LSPosed · Android 14+ · no known trackers found · MPL-2.0 · [source](https://github.com/buttercookie42/DisableTargetAPIBlock)
+- **[Free Notifications](https://h5.2113.net/apps/free-notifications.html)**: Makes every notification channel editable again, including locked system ones like the Developer options notice.  
+  Root + LSPosed · no known trackers found · EUPL-1.2 · [source](https://github.com/binarynoise/XposedModulets)
+- **[HideMockLocation](https://h5.2113.net/apps/hidemocklocation.html)**: Hides an active mock location from the apps you choose, so they stop refusing to work.  
+  Root + LSPosed · no known trackers found · MIT · [source](https://github.com/auag0/HideMockLocation)
+- **[KernelSU](https://h5.2113.net/apps/kernelsu.html)**: The manager app for KernelSU, a root solution built into the Android kernel. It grants root per app and manages modules.  
+  A KernelSU kernel · unlocked bootloader · no known trackers found · GPL-3.0-only · [source](https://github.com/tiann/KernelSU)
+- **[KnoxPatch](https://h5.2113.net/apps/knoxpatch.html)**: Gets Samsung apps and features working again on a rooted Galaxy phone by hooking the checks that fail after rooting.  
+  Samsung Galaxy · root + LSPosed · no known trackers found · GPL-3.0-or-later · [source](https://github.com/salvogiangri/KnoxPatch)
+- **[Magisk](https://h5.2113.net/apps/magisk.html)**: The best-known way to root Android: patch your phone’s boot image with the Magisk app, flash it, and get root access, modules and Zygisk without touching the system partition.  
+  Unlocked bootloader · fastboot · Android 6.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/topjohnwu/Magisk)
+- **[NoStorageRestrict](https://h5.2113.net/apps/nostoragerestrict.html)**: Lets apps pick the Download and Android folders through the system folder picker again, which Android 11 blocked.  
+  Root + LSPosed · Android 11+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict)
+- **[Pengeek](https://h5.2113.net/apps/pengeek.html)**: A large set of system tweaks for Xiaomi phones on HyperOS, and the successor to CustoMIUIzer.  
+  HyperOS · Android 15+ · root + LSPosed · no known trackers found · GPL-3.0-only · [source](https://github.com/MonwF/customiuizer)
+
+## Customization
+
+- **[Global Icon Pack](https://h5.2113.net/apps/global-icon-pack.html)**: Applies your icon pack across all of Android, including Settings, Recents and other screens a launcher can’t reach.  
+  Root + LSPosed · no known trackers found · GPL-3.0-only · [source](https://github.com/RichardLuo0/global-icon-pack-android)
+- **[Iconify](https://h5.2113.net/apps/iconify.html)**: Restyles Quick Settings, notifications, the volume panel and system icons on Pixel and AOSP ROMs, with previews.  
+  Root · Pixel/AOSP ROM · Android 12+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Mahmud0808/Iconify)
+- **[KISS Launcher](https://h5.2113.net/apps/kiss-launcher.html)**: A home screen built around one search box: type the first letters of an app, a contact or a setting and tap the result. What you open most rises to the top.  
+  No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Neamar/KISS)
+- **[Lawnchair](https://h5.2113.net/apps/lawnchair.html)**: A Pixel-style home screen app built on Android’s Launcher3, with icon packs, grid and icon-size controls. This is the Lawnchair 15 beta; the stable version is on Google Play.  
+  No root · no known trackers found · Apache-2.0 · [source](https://github.com/LawnchairLauncher/lawnchair)
+- **[Taskbar](https://h5.2113.net/apps/taskbar.html)**: A PC-style start menu and a bar of recent apps that sit on top of any screen, plus floating app windows and a desktop mode for when your phone drives an external display.  
+  No root · overlay permission · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/farmerbb/Taskbar)
+
+## Network & Privacy
+
+- **[AdAway](https://h5.2113.net/apps/adaway.html)**: A system-wide ad blocker. With root it rewrites the hosts file; without root it filters DNS requests through a local VPN. Either way, ads are blocked before they load.  
+  Root, or VPN mode without root · Android 8.0+ · tracker code found: Sentry · GPL-3.0-only · [source](https://github.com/AdAway/AdAway)
+- **[AIS-catcher](https://h5.2113.net/apps/ais-catcher.html)**: Turns your phone and a cheap RTL-SDR dongle into a portable AIS receiver for tracking ships, even offline.  
+  RTL-SDR dongle · USB OTG · no known trackers found · GPL-3.0-only · [source](https://github.com/jvde-github/AIS-catcher-for-Android)
+- **[Exodus](https://h5.2113.net/apps/exodus.html)**: Find out which tracking libraries are inside the apps you have installed. Exodus looks each one up in the reports of Exodus Privacy, a French non-profit.  
+  No root · internet · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Exodus-Privacy/exodus-android-app)
+- **[FireWall Blocks](https://h5.2113.net/apps/firewall-blocks.html)**: Blocks Wi-Fi or mobile data per app without root, through Shizuku or a local VPN.  
+  Shizuku, or nothing in VPN mode · no known trackers found · MIT · [source](https://github.com/shynoiddev/FireWall-Blocks)
+- **[Intra](https://h5.2113.net/apps/intra.html)**: A one-switch app that protects your DNS lookups from tampering: it sends them encrypted over HTTPS, which gets around blocking that works by faking DNS answers.  
+  No root · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/Jigsaw-Code/Intra)
+- **[Kizzy](https://h5.2113.net/apps/kizzy.html)**: Shows Discord Rich Presence from your Android phone, with presets and custom statuses.  
+  A Discord account · no known trackers found · GPL-3.0-only · [source](https://github.com/dead8309/Kizzy)
+- **[Meshtastic](https://h5.2113.net/apps/meshtastic.html)**: The official app for Meshtastic, the open-source off-grid radio project: pair your phone with a small LoRa radio and message others on the mesh, with no mobile network or internet.  
+  A Meshtastic radio · 64-bit phone · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meshtastic/Meshtastic-Android)
+- **[Mousedroid](https://h5.2113.net/apps/mousedroid.html)**: Turns your phone into a touchpad, keyboard and numpad for a Windows or Linux PC, over USB or Wi-Fi.  
+  Desktop server on the PC · no root · no known trackers found · MIT · [source](https://github.com/darusc/Mousedroid)
+- **[NekoBox](https://h5.2113.net/apps/nekobox.html)**: A proxy client built on sing-box, for Shadowsocks, VMess, VLESS, Trojan and other protocols.  
+  Your own proxy server · ARM64 · no known trackers found · GPL-3.0-only · [source](https://github.com/MatsuriDayo/NekoBoxForAndroid)
+- **[NetGuard](https://h5.2113.net/apps/netguard.html)**: Decide which apps may go online, separately for Wi-Fi and mobile data, without rooting your phone. Blocked traffic is dropped by a local VPN on the device.  
+  No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/M66B/NetGuard)
+- **[Open SSTP Client](https://h5.2113.net/apps/open-sstp-client.html)**: An open-source client for SSTP, the VPN protocol that travels over TLS on port 443. It was built for SoftEther VPN servers and the VPN Azure service.  
+  No root · an SSTP server · Android 6.0+ · no known trackers found · MIT · [source](https://github.com/kittoku/Open-SSTP-Client)
+- **[OpenConnect](https://h5.2113.net/apps/openconnect.html)**: An open-source client for company and campus SSL VPNs: Cisco AnyConnect and ocserv, Palo Alto GlobalProtect, Fortinet, Pulse, Juniper, F5 and Array.  
+  No root · a VPN account · Android 6.0+ · no known trackers found · GPL-2.0-or-later · [source](https://gitlab.com/openconnect/ics-openconnect)
+- **[OpenVPN for Android](https://h5.2113.net/apps/openvpn-for-android.html)**: The open-source OpenVPN client for Android: import the .ovpn profile from your VPN provider, company or own server, and connect without root.  
+  No root · an OpenVPN profile · Android 6.0+ · no known trackers found · GPL-2.0-only · [source](https://github.com/schwabe/ics-openvpn)
+- **[PCAPdroid](https://h5.2113.net/apps/pcapdroid.html)**: See every connection your apps make, without root. PCAPdroid captures traffic through a local VPN on the phone, lets you inspect and export it, and can decrypt HTTPS.  
+  No root · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/emanuele-f/PCAPdroid)
+- **[PCAPdroid mitm](https://h5.2113.net/apps/pcapdroid-mitm.html)**: An add-on that lets PCAPdroid decrypt HTTPS traffic on the phone, using mitmproxy.  
+  The PCAPdroid app · ARM64 · no known trackers found · GPL-3.0-only · [source](https://github.com/emanuele-f/PCAPdroid-mitm)
+- **[Private DNS Quick Toggle](https://h5.2113.net/apps/private-dns-quick-toggle.html)**: A Quick Settings tile that switches Android’s Private DNS between providers in one tap.  
+  One-time grant via Shizuku or ADB · no known trackers found · MIT · [source](https://github.com/karasevm/PrivateDNSAndroid)
+- **[Shadowsocks](https://h5.2113.net/apps/shadowsocks.html)**: The Shadowsocks project’s own Android client. Add your server or a subscription link, then send all apps, or only the ones you choose, through an encrypted proxy.  
+  No root · a Shadowsocks server · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shadowsocks/shadowsocks-android)
+- **[Tailscale](https://h5.2113.net/apps/tailscale.html)**: Connect your phone, computers and servers into one private network, a tailnet, built on WireGuard. Once you sign in, your devices can reach each other wherever they are.  
+  No root · an account or Headscale · Android 8.0+ · no known trackers found · BSD-3-Clause · [source](https://github.com/tailscale/tailscale-android)
+- **[WG Tunnel](https://h5.2113.net/apps/wg-tunnel.html)**: A WireGuard and AmneziaWG client that turns tunnels on and off by itself depending on the network you’re on, with a kill switch, split tunneling and encrypted DNS.  
+  No root · a WireGuard config · no known trackers found · MIT · [source](https://github.com/wgtunnel/android)
+
+## Media
+
+- **[AntennaPod](https://h5.2113.net/apps/antennapod.html)**: A podcast manager and player with no ads and no account: subscribe to any podcast by its feed, download or stream episodes, and control exactly when downloads happen.  
+  No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/AntennaPod/AntennaPod)
+- **[ArchiveTune](https://h5.2113.net/apps/archivetune.html)**: A YouTube Music player built on Metrolist’s framework, with quick switching between accounts, local files alongside streaming, and detailed audio and lyrics options.  
+  No root · 64-bit phone · no known trackers found · GPL-3.0-only · [source](https://github.com/rukamori/ArchiveTune)
+- **[Bloomee](https://h5.2113.net/apps/bloomee.html)**: A music player that plays your local files and online streams side by side. Its online sources come from a plugin system, and it adds synced lyrics, an equalizer and Last.fm scrobbling.  
+  No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
+- **[Fossify Gallery](https://h5.2113.net/apps/fossify-gallery.html)**: A photo and video gallery that stays offline: browse, edit, hide and lock your pictures, restore deleted ones from a recycle bin, and strip location data before you share.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Gallery)
+- **[FreeTube Android](https://h5.2113.net/apps/freetube.html)**: The Android version of FreeTube: watch YouTube without an account, keep subscriptions, playlists and history on your phone, and organise channels into profiles.  
+  No root · Android 10+ · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/MarmadileManteater/FreeTubeAndroid)
+- **[Gyawun Music](https://h5.2113.net/apps/gyawun-music.html)**: A light, open-source player for YouTube Music, with offline downloads, synced lyrics, an equalizer and podcasts, and no account sign-in in the app.  
+  No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/sheikhhaziq/gyawun_music)
+- **[Jellyfin](https://h5.2113.net/apps/jellyfin.html)**: The official Android app for Jellyfin, the free media server: stream your own films, series, music and audiobooks from a server you run, or download them to the phone.  
+  Your own Jellyfin server · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-android)
+- **[Kodi](https://h5.2113.net/apps/kodi.html)**: A media center designed for the TV screen and a remote control: organise and play your own videos, music and photos from local storage and network shares.  
+  No root · 64-bit ARM · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/xbmc/xbmc)
+- **[Kreate](https://h5.2113.net/apps/kreate.html)**: An open-source YouTube Music client that carries on from RiMusic: stream, cache or download songs, sign in to sync your library, and play on Android Auto or a TV.  
+  No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/knighthat/Kreate)
+- **[LibreTube](https://h5.2113.net/apps/libretube.html)**: A YouTube client built around privacy: subscriptions, playlists and downloads without a Google account, plus SponsorBlock, DeArrow and optional sync through Piped.  
+  No root · no Google account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/libre-tube/LibreTube)
+- **[Metrolist](https://h5.2113.net/apps/metrolist.html)**: An open-source YouTube Music client: stream and download from YouTube Music, sync your library if you sign in, and get synced lyrics, an equalizer and listen-together sessions.  
+  No root · YouTube Music available where you are · no known trackers found · GPL-3.0-only · [source](https://github.com/MetrolistGroup/Metrolist)
+- **[mpvExtended](https://h5.2113.net/apps/mpvextended.html)**: A video player built on mpv, the powerful open-source media engine, with an easier interface than mpv-android, file browsing, network shares and picture-in-picture.  
+  No root · 64-bit phone · no known trackers found · Apache-2.0 · [source](https://github.com/marlboro-advance/mpvEx)
+- **[NewPipe](https://h5.2113.net/apps/newpipe.html)**: A lightweight player for YouTube, PeerTube, SoundCloud and Bandcamp that works without an account or Google services, with background play, a popup player and downloads.  
+  No root · no Google account · tracker code found: ACRA · GPL-3.0-or-later · [source](https://github.com/TeamNewPipe/NewPipe)
+- **[Next Player](https://h5.2113.net/apps/next-player.html)**: A modern open-source video player: FFmpeg-based decoders for most formats, swipe gestures for volume, brightness and seeking, and playback straight from network shares.  
+  No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/anilbeesetti/nextplayer)
+- **[Open Camera](https://h5.2113.net/apps/open-camera.html)**: A full-featured open-source camera: manual focus and exposure, RAW photos, HDR and exposure bracketing, a night mode, and date, location or text stamps on your photos.  
+  No root · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://sourceforge.net/p/opencamera/code)
+- **[OuterTune](https://h5.2113.net/apps/outertune.html)**: A Material 3 music player that combines YouTube Music with your own music files. The version here is the last one with YouTube Music, which its maintainers no longer develop.  
+  No root · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/OuterTune/OuterTune)
+- **[PhotonCamera](https://h5.2113.net/apps/photoncamera.html)**: An experimental camera that captures raw frames and stacks them for HDR, with manual controls.  
+  ARM64 · beta · no known trackers found · GPL-3.0-or-later · [source](https://github.com/eszdman/PhotonCamera)
+- **[PipePipe](https://h5.2113.net/apps/pipepipe.html)**: A fork of NewPipe with more of everything: SponsorBlock and Return YouTube Dislike, filters that hide Shorts and paid videos, gestures, a sleep timer and BiliBili support.  
+  No root · 64-bit phone · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/InfinityLoop1308/PipePipe)
+- **[Seal](https://h5.2113.net/apps/seal.html)**: A friendly Android front end for yt-dlp: share or paste a link from a supported site, pick video or audio, and Seal handles the download, whole playlists included.  
+  No root · 64-bit phone · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/JunkFood02/Seal)
+- **[SimpMusic](https://h5.2113.net/apps/simpmusic.html)**: An open-source YouTube Music player for Android and desktop, with synced lyrics from several sources, a ten-band equalizer, Android Auto and offline downloads. No account needed.  
+  No root · 64-bit phone · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/maxrave-dev/SimpMusic)
+- **[SkyTube](https://h5.2113.net/apps/skytube.html)**: A YouTube client that lets you filter what you see: block channels, hide low-view videos, keep bookmarks and subscriptions on your phone, and download videos.  
+  No root · no Google account · Android 4.4+ · no known trackers found · GPL-3.0-only · [source](https://github.com/SkyTubeTeam/SkyTube)
+- **[SongSync](https://h5.2113.net/apps/songsync.html)**: Downloads lyrics for the songs in your local music library and can embed them in the files.  
+  No root · local music files · no known trackers found · GPL-3.0-only · [source](https://github.com/Lambada10/SongSync)
+- **[Spotube](https://h5.2113.net/apps/spotube.html)**: A music streaming app in which plugins supply everything: song information, playlists and audio. Out of the box it uses MusicBrainz and ListenBrainz for metadata and YouTube for audio.  
+  No root · Android 7.0+ · no known trackers found · BSD-4-Clause · [source](https://github.com/KRTirtho/spotube)
+- **[Tubular](https://h5.2113.net/apps/tubular.html)**: A fork of NewPipe that adds SponsorBlock and Return YouTube Dislike. Its developer has discontinued it, so this final version won’t receive fixes when YouTube changes.  
+  No root · no Google account · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/polymorphicshade/Tubular)
+- **[VIVI Music](https://h5.2113.net/apps/vivi.html)**: A YouTube Music client that puts its effort into looks: colors that follow the album art, animated backdrops, karaoke-style lyrics, plus downloads and Android Auto.  
+  No root · no known trackers found · GPL-3.0-only · [source](https://github.com/vivizzz007/vivi-music)
+- **[VLC](https://h5.2113.net/apps/vlc.html)**: The open-source player that plays almost anything: video and audio files in nearly every format, network streams, DVD images and the shared folders on your network.  
+  No root · 64-bit phone · Android 4.2+ · no known trackers found · GPL-3.0-only · [source](https://code.videolan.org/videolan/vlc-android)
+- **[Volume Manager](https://h5.2113.net/apps/volume-manager.html)**: Gives each app its own volume, from its own screen or a replacement volume popup.  
+  Shizuku · Android 13+ · no known trackers found · GPL-2.0-only · [source](https://github.com/yume-chan/VolumeManager)
+- **[YTDLnis](https://h5.2113.net/apps/ytdlnis.html)**: A full-featured Android front end for yt-dlp: queue and schedule downloads, trim by timestamp or chapter, embed subtitles and metadata, or run your own yt-dlp commands.  
+  No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/deniscerri/ytdlnis)
+
+## System Tools
+
+- **[Activity Launcher](https://h5.2113.net/apps/activity-launcher.html)**: Open the screens apps don’t show you: hidden settings pages and other activities, launched directly or pinned to your home screen as shortcuts.  
+  No root · Android 4.1+ · no known trackers found · ISC · [source](https://github.com/butzist/ActivityLauncher)
+- **[Androoster](https://h5.2113.net/apps/androoster.html)**: A toolbox of on/off root tweaks for CPU, memory, kernel, I/O and network settings.  
+  Root + BusyBox · no known trackers found · Apache-2.0 · [source](https://github.com/cioccarellia/androoster)
+- **[APKUpdater](https://h5.2113.net/apps/apkupdater.html)**: Checks your installed apps for updates on APKMirror, Aptoide, F-Droid and GitHub, and can install them.  
+  No root · no known trackers found · GPL-3.0-only · [source](https://github.com/rumboalla/apkupdater)
+- **[App Manager](https://h5.2113.net/apps/app-manager.html)**: A power-user tool for everything about installed apps: scan them for trackers, install split APKs, back them up, revoke permissions, freeze apps or block their components.  
+  No root for basics · root or ADB for more · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/MuntashirAkon/AppManager)
+- **[aShell](https://h5.2113.net/apps/ashell.html)**: The original local ADB shell for Shizuku: type the commands you’d run with adb shell straight on the phone, with examples, bookmarks and history to help.  
+  Shizuku · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/sunilpaulmathew/ashell)
+- **[aShell You](https://h5.2113.net/apps/ashell-you.html)**: A Material You terminal for ADB commands: run shell commands on the phone itself through Shizuku or root, or on another Android device over OTG or wireless debugging.  
+  Shizuku or root · Android 9+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/DP-Hridayan/aShellYou)
+- **[Aurora Store](https://h5.2113.net/apps/aurora-store.html)**: An open-source client for Google Play: search, download and update free apps from Play without the Play Store app, signed in anonymously or with your own account.  
+  No root · no Google services needed · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/AuroraOSS/AuroraStore)
+- **[Canta](https://h5.2113.net/apps/canta.html)**: Remove the apps your phone maker pre-installed, without root. Canta works through Shizuku, marks which apps are risky to remove, and can put system apps back.  
+  Shizuku · Android 9+ · no known trackers found · LGPL-3.0-or-later · [source](https://github.com/samolego/Canta)
+- **[Current Activity](https://h5.2113.net/apps/current-activity.html)**: A small tool for developers and tinkerers: it shows the package name and activity class of whatever is on screen, in a floating window you can move and copy from.  
+  No root · usage access · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/codehasan/Current-Activity)
+- **[Droid-ify](https://h5.2113.net/apps/droid-ify.html)**: A tidier way to use F-Droid: browse and install from F-Droid, IzzyOnDroid and your own repositories, keep apps updated in the background, and install without prompts through Shizuku or root.  
+  No root needed · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Droid-ify/client)
+- **[Edge Seek](https://h5.2113.net/apps/edge-seek.html)**: Turns the edges of your screen into sliders for volume and brightness, with a dimmer below the minimum brightness.  
+  No root · no known trackers found · Apache-2.0 · [source](https://github.com/LSafer/edgeseek)
+- **[Florid](https://h5.2113.net/apps/florid.html)**: A redesigned client for browsing, installing and updating apps from F-Droid.  
+  No root · ARM64 · no known trackers found · GPL-3.0-only · [source](https://github.com/Nandanrmenon/florid)
+- **[Install with Options](https://h5.2113.net/apps/install-with-options.html)**: Installs APKs with options normally reserved for adb: test-only apps, downgrades, split APKs and Android 14’s blocked old apps.  
+  Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
+- **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
+  No root · accessibility service · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/keymapperorg/KeyMapper)
+- **[LocalSend](https://h5.2113.net/apps/localsend.html)**: An open-source AirDrop alternative that works across Android, Windows, macOS, Linux and iOS: pick a nearby device on the same network and send files or text directly.  
+  No root · same local network · Android 7.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/localsend/localsend)
+- **[Material Files](https://h5.2113.net/apps/material-files.html)**: A clean, open-source file manager in Material Design: open and create archives, browse network shares, and reach files ordinary apps can’t, with root or, since version 1.7.5, Shizuku.  
+  No root needed · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/zhanghai/MaterialFiles)
+- **[Obtainium](https://h5.2113.net/apps/obtainium.html)**: Installs and updates Android apps straight from where developers publish them, such as GitHub releases, and tells you when a new version is out.  
+  No root · no known trackers found · GPL-3.0-only · [source](https://github.com/ImranR98/Obtainium)
+- **[OwnDroid](https://h5.2113.net/apps/owndroid.html)**: Puts Android’s device-owner and work-profile controls on your own phone: block uninstalls, disable the camera, manage users and more.  
+  Shizuku, Dhizuku or ADB to activate · no known trackers found · GPL-3.0-or-later · [source](https://github.com/BinTianqi/OwnDroid)
+- **[Payload Dumper](https://h5.2113.net/apps/payload-dumper.html)**: Extracts boot.img and other partition images from an OTA zip or payload.bin on the phone, with hash verification.  
+  No root · a full OTA package · no known trackers found · GPL-3.0-only · [source](https://github.com/rajmani7584/Payload-Dumper-Android)
+- **[Prism File Explorer](https://h5.2113.net/apps/prism-file-explorer.html)**: A Material 3 file manager with tabs, ZIP archives and built-in viewers for images, video, audio, PDF and code.  
+  No root · no known trackers found · GPL-3.0-only · [source](https://github.com/Raival-e/Prism-File-Explorer)
+- **[RustDesk](https://h5.2113.net/apps/rustdesk.html)**: Control a computer or another phone remotely, or let someone help you with yours. RustDesk is open source and can run entirely on a server you host yourself.  
+  No root · Android 5.1+ · 6.0+ to share the screen · no known trackers found · GPL-3.0-only · [source](https://github.com/rustdesk/rustdesk)
+- **[Shizuku](https://h5.2113.net/apps/shizuku.html)**: Lets other apps use Android’s system APIs with the same rights as ADB. You start it once with wireless debugging or root, and apps that support it can do what normally needs a computer.  
+  Root, or wireless debugging on Android 11+ · no known trackers found · Apache-2.0 · [source](https://github.com/RikkaApps/Shizuku)
+- **[Termux](https://h5.2113.net/apps/termux.html)**: A terminal emulator and Linux environment for Android. Install packages with pkg or apt, then run shells, scripting languages, SSH, Git and much more, without root.  
+  No root · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-app)
+- **[Termux:API](https://h5.2113.net/apps/termux-api.html)**: The add-on that connects the Termux command line to Android itself. With it, your scripts can show notifications, read sensors and location, send SMS, take photos and much more.  
+  Termux from F-Droid · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-api)
+- **[Termux:Boot](https://h5.2113.net/apps/termux-boot.html)**: A tiny add-on that runs your own Termux scripts every time the phone finishes starting, so servers and background jobs come back by themselves after a reboot.  
+  Termux from F-Droid · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-boot)
+- **[Termux:Float](https://h5.2113.net/apps/termux-float.html)**: A terminal that floats above your other apps, so a Termux session can stay on screen while you read documentation, follow a guide or keep an eye on a long job.  
+  Termux from F-Droid · overlay permission · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-float)
+- **[Termux:GUI](https://h5.2113.net/apps/termux-gui.html)**: An add-on that lets programs running in Termux draw native Android interfaces, such as windows, dialogs, buttons and home screen widgets, without VNC or an X server.  
+  Termux from F-Droid · a GUI library · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-gui)
+- **[Termux:Styling](https://h5.2113.net/apps/termux-styling.html)**: Change how Termux looks without editing config files: pick a color scheme and a terminal font from a menu, and Termux applies them straight away.  
+  Termux from F-Droid · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-styling)
+- **[Termux:Tasker](https://h5.2113.net/apps/termux-tasker.html)**: A plugin that lets automation apps such as Tasker run your Termux scripts, so a shell script can react to a time, a place, a notification or any other trigger.  
+  Termux from F-Droid · Tasker or similar · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-tasker)
+- **[Termux:Widget](https://h5.2113.net/apps/termux-widget.html)**: Turns your Termux scripts into buttons: a home screen widget that lists them, shortcuts for single scripts, and device controls that run them without opening Termux.  
+  Termux from F-Droid · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-widget)
+- **[USB HID Client](https://h5.2113.net/apps/usb-hid-client.html)**: Makes your phone act as a real USB keyboard and mouse, with no software on the computer, even in BIOS.  
+  Root (Magisk or KernelSU) · no known trackers found · GPL-3.0-only · [source](https://github.com/Arian04/android-hid-client)
+
+## Cloud & Sync
+
+- **[Cryptomator](https://h5.2113.net/apps/cryptomator.html)**: Encrypts files on your phone before they are uploaded, so the cloud only ever stores scrambled data. Opens vaults made with the desktop app. Without a paid license key, access is read-only.  
+  License key to edit vaults · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/cryptomator/android)
+- **[Immich](https://h5.2113.net/apps/immich.html)**: The mobile app for Immich, a self-hosted photo and video library: back up the camera roll to a server you run, then browse, search and share it from the phone.  
+  Your own Immich server · Android 8.0+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/immich-app/immich)
+- **[Nextcloud](https://h5.2113.net/apps/nextcloud.html)**: The official Android app for Nextcloud Files: reach the files on your own Nextcloud server, or an account with a provider, upload photos automatically and keep chosen folders synced.  
+  A Nextcloud server · 64-bit phone · Android 9+ · no known trackers found · GPL-2.0-only · [source](https://github.com/nextcloud/android)
+
+## Other
+
+- **[AnySoftKeyboard](https://h5.2113.net/apps/anysoftkeyboard.html)**: An open-source on-screen keyboard that you can shape to your liking: word suggestions and next-word prediction, gesture typing, themes, and extra languages as separate packs.  
+  No root · Android 6.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
+- **[Kiwix](https://h5.2113.net/apps/kiwix.html)**: Reads Wikipedia and other websites offline from downloaded ZIM archives. This is the full version, which can open ZIM files from any folder, unlike the Google Play version.  
+  No root · 64-bit phone · Android 7.1+ · no known trackers found · GPL-3.0 · [source](https://github.com/kiwix/kiwix-android)
+- **[KOReader](https://h5.2113.net/apps/koreader.html)**: A document reader built first for e-ink readers such as Kindle and Kobo, and available on Android: EPUB, PDF, DjVu, comics and more, with dictionaries and Calibre built in.  
+  No root · 64-bit phone · Android 4.3+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/koreader/koreader)
+- **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
+  No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
+
+## Games: PC Emulators
+
+- **[Winlator](https://h5.2113.net/games/winlator.html)**: Runs Windows (x86-64) games and programs on an Android phone, using Wine to handle Windows and Box64 to translate the x86 code.  
+  64-bit ARM phone · Android 8+ · no root · no known trackers found · LGPL-2.1 · [source](https://github.com/brunodev85/winlator)
+
+## Games: Minecraft Launchers
+
+- **[Amethyst Launcher](https://h5.2113.net/games/amethyst-launcher.html)**: Runs the PC (Java) edition of Minecraft on Android. It continues PojavLauncher and supports Forge and Fabric mods.  
+  Android 5+ · Microsoft account with Minecraft Java · no known trackers found · LGPL-3.0 · [source](https://github.com/AngelAuraMC/Amethyst-Android)
+- **[Fold Craft Launcher](https://h5.2113.net/games/fold-craft-launcher.html)**: A Minecraft Java Edition launcher for Android that combines HMCL’s version and mod management with the Amethyst engine.  
+  Android 8+ · Microsoft account with Minecraft Java · no known trackers found · GPL-3.0 · [source](https://github.com/FCL-Team/FoldCraftLauncher)
+- **[Zalith Launcher 2](https://h5.2113.net/games/zalith-launcher-2.html)**: A newly designed Minecraft Java Edition launcher for Android. It uses the PojavLauncher engine under a modern Material Design 3 interface.  
+  Android 8+ · Microsoft account with Minecraft Java · no known trackers found · GPL-3.0 · [source](https://github.com/ZalithLauncher/ZalithLauncher2)
+
+## Games: Console Emulators
+
+- **[Dolphin Emulator](https://h5.2113.net/games/dolphin-emulator.html)**: The open-source GameCube and Wii emulator, on Android. It needs a 64-bit phone and a GPU with OpenGL ES 3.0 or Vulkan, and you bring your own games.  
+  Your own games · 64-bit phone · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/dolphin-emu/dolphin)
+- **[Lemuroid](https://h5.2113.net/games/lemuroid.html)**: One app for many retro consoles, built on libretro: it finds the games on your phone, saves your progress automatically and works with touch controls or a gamepad. Games are not included.  
+  Your own games · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Swordfish90/Lemuroid)
+- **[PPSSPP](https://h5.2113.net/games/ppsspp.html)**: A PSP emulator that needs no BIOS file, adds sharper graphics and save states, and works with touch controls, gamepads or a keyboard. Games are not included.  
+  Your own PSP games · OpenGL ES 2.0 · Android 2.3+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/hrydgard/ppsspp)
+- **[RetroArch](https://h5.2113.net/games/retroarch.html)**: One frontend for many emulators: RetroArch runs emulator cores for many consoles and computers under a single interface, with its core downloader built in. Games are not included.  
+  Your own games and BIOS · Android 4.1+ · no known trackers found · GPL-3.0-only · [source](https://github.com/libretro/RetroArch)
+- **[Vita3K](https://h5.2113.net/games/vita3k.html)**: An experimental PlayStation Vita emulator. It runs homebrew and many commercial Vita games that you dump from your own console.  
+  64-bit phone · Android 9+ · your own games · no known trackers found · GPL-2.0 · [source](https://github.com/Vita3K/Vita3K)
+
+## About this list
+
+2113 Apps doesn’t modify, rebuild or re-sign any app. A tracker scan shows which known tracker SDKs are in the code, not what an app sends; “no known trackers found” means none of the Exodus Privacy signatures matched. Developers can add a “Get it on 2113 Apps” badge to their README: see [For developers](https://h5.2113.net/developers.html). Corrections: zmkm568@gmail.com.
