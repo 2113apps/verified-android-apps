@@ -346,24 +346,28 @@
       "name": "Iconify",
       "package": "com.drdisagree.iconify.foss",
       "page": "https://h5.2113.net/apps/iconify.html",
-      "category": "Customization",
-      "version": "7.2.0",
-      "versionCode": 24,
-      "released": "2025-03-02",
-      "size": 32200293,
-      "sha256": "918247429e76b7be7cdce0fe75622805ea709e45a8d345939f6bd06e27551039",
+      "category": "Other",
+      "version": "7.3.0",
+      "versionCode": 25,
+      "released": "2026-05-23",
+      "size": 33836259,
+      "sha256": "4ab1419fbfa1d097c5f075c236f711e72d12553df3213dc07f457696b8d9a405",
       "signers": [
         "4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e"
       ],
       "signedBy": "developer",
-      "source": "izzy",
+      "source": "github",
+      "sourceRelease": "https://github.com/Mahmud0808/Iconify/releases/tag/v7.3.0",
       "sourceCode": "https://github.com/Mahmud0808/Iconify",
-      "license": "GPL-3.0-only",
+      "license": "GPL-3.0",
       "minSdk": 31,
       "minAndroid": "Android 12",
       "targetSdk": 35,
       "abis": [
-        "arm64-v8a"
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
       ],
       "permissions": 14,
       "trackers": [],
@@ -798,19 +802,20 @@
       "name": "Florid",
       "package": "com.nahnah.florid",
       "page": "https://h5.2113.net/apps/florid.html",
-      "category": "System Tools",
-      "version": "1.2.1",
-      "versionCode": 2015,
-      "released": "2026-03-13",
-      "size": 29490732,
-      "sha256": "1d4da9e505155b79673dd3cf6e55a8e4fa98593cb6d5830345ec851856d5a3e9",
+      "category": "Other",
+      "version": "1.4.0",
+      "versionCode": 2017,
+      "released": "2026-09-07",
+      "size": 28516626,
+      "sha256": "1f7c2ae7c9735419669d375b568072c8be81cc14233ab17fee2710824802e571",
       "signers": [
         "8486d1cb98e0ebeba90b5715c5e9196c6867f0db1044d760416c139e5c10ce12"
       ],
       "signedBy": "developer",
-      "source": "izzy",
+      "source": "github",
+      "sourceRelease": "https://github.com/Nandanrmenon/florid/releases/tag/v1.4.0+17",
       "sourceCode": "https://github.com/Nandanrmenon/florid",
-      "license": "GPL-3.0-only",
+      "license": "GPL-3.0",
       "minSdk": 24,
       "minAndroid": "Android 7.0",
       "targetSdk": 36,
@@ -2386,33 +2391,6 @@
       "olderVersions": []
     },
     {
-      "name": "ArchiveTune",
-      "package": "moe.koiverse.archivetune",
-      "page": "https://h5.2113.net/apps/archivetune.html",
-      "category": "Media",
-      "version": "13.4.0",
-      "versionCode": 135,
-      "released": "2026-05-31",
-      "size": 36256097,
-      "sha256": "7ba8d27c28364659bea0e14057454506846c9e481b4077ee26b4c530343a39f4",
-      "signers": [
-        "bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33"
-      ],
-      "signedBy": "developer",
-      "source": "izzy",
-      "sourceCode": "https://github.com/rukamori/ArchiveTune",
-      "license": "GPL-3.0-only",
-      "minSdk": 26,
-      "minAndroid": "Android 8.0",
-      "targetSdk": 37,
-      "abis": [
-        "arm64-v8a"
-      ],
-      "permissions": 17,
-      "trackers": [],
-      "olderVersions": []
-    },
-    {
       "name": "NekoBox",
       "package": "moe.nb4a",
       "page": "https://h5.2113.net/apps/nekobox.html",
@@ -2436,6 +2414,37 @@
         "arm64-v8a"
       ],
       "permissions": 19,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "ArchiveTune",
+      "package": "moe.rukamori.archivetune",
+      "page": "https://h5.2113.net/apps/archivetune.html",
+      "category": "Media",
+      "version": "15.1.0",
+      "versionCode": 142,
+      "released": "2026-09-26",
+      "size": 37166003,
+      "sha256": "e9f13ff113c2defbd1bfb8bbef570eb43e37f544bfa9528846fd742976beb450",
+      "signers": [
+        "bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/rukamori/ArchiveTune/releases/tag/v15.1.0",
+      "sourceCode": "https://github.com/rukamori/ArchiveTune",
+      "license": "GPL-3.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 17,
       "trackers": [],
       "olderVersions": []
     },
