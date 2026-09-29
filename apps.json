@@ -1,0 +1,3212 @@
+{
+  "site": "https://h5.2113.net/",
+  "license": "CC-BY-4.0",
+  "apps": [
+    {
+      "name": "Immich",
+      "package": "app.alextran.immich",
+      "page": "https://h5.2113.net/apps/immich.html",
+      "category": "Cloud & Sync",
+      "version": "3.2.2",
+      "versionCode": 3020299,
+      "released": "2026-09-20",
+      "size": 179565680,
+      "sha256": "36b0d1368881ad6388b011d9a5bb91f7bd6133371d1eb585390c80232b9f22ea",
+      "signers": [
+        "fa8b4395f4a64771a053d1c757735fa2301374f53d580dd175aaf7a135729cbf"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/immich-app/immich",
+      "license": "AGPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 25,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Intra",
+      "package": "app.intra",
+      "page": "https://h5.2113.net/apps/intra.html",
+      "category": "Network & Privacy",
+      "version": "1.5.1",
+      "versionCode": 75,
+      "released": "2026-09-26",
+      "size": 15842957,
+      "sha256": "28cf11361c6601f5d5f8be45c7e2bdfa76c633cb7ded03e908338120424e0bed",
+      "signers": [
+        "777d6de4161dfdfdc4287e5dfed83355714f9a3227e2fd81111831f30596e407"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Jigsaw-Code/Intra",
+      "license": "Apache-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Lawnchair",
+      "package": "app.lawnchair",
+      "page": "https://h5.2113.net/apps/lawnchair.html",
+      "category": "Customization",
+      "version": "15.Beta 3",
+      "versionCode": 1500020300,
+      "released": "2026-05-13",
+      "size": 17314003,
+      "sha256": "d4200d0985169fd79ba1bd225d653f2a2fe7b50aa07cb0d05ca64c7623f86059",
+      "signers": [
+        "747c3645b357258b2e23e851e53c96747fe0add007e5ba2cd97e8c85572e4dc5"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/LawnchairLauncher/lawnchair",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 57,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "mpvExtended",
+      "package": "app.marlboroadvance.mpvex",
+      "page": "https://h5.2113.net/apps/mpvextended.html",
+      "category": "Media",
+      "version": "1.3.1-fdroid",
+      "versionCode": 1312,
+      "released": "2026-09-25",
+      "size": 28304727,
+      "sha256": "ddc117b94f19e8c545fe69121ed2d952006fa47385814f7db2ed413cf4fbcad0",
+      "signers": [
+        "68690654e3ee46d70895a12445dfa98d8c963d13e2de0f8aaa209765cc2c415e"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/marlboro-advance/mpvEx",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Androoster",
+      "package": "com.andreacioccarelli.androoster",
+      "page": "https://h5.2113.net/apps/androoster.html",
+      "category": "System Tools",
+      "version": "1.6.2",
+      "versionCode": 62,
+      "released": "2025-03-14",
+      "size": 2994715,
+      "sha256": "96215804d31dae0e9b3492fe97550637b945e8dd524bee2c4249651edfcf13e2",
+      "signers": [
+        "c07f28e982c2536f63cf48173e9ea9ca8c2ce8dbc19b0f5091c114aadf40d582"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/cioccarellia/androoster",
+      "license": "Apache-2.0",
+      "minSdk": 16,
+      "minAndroid": "Android 4.1",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "APKUpdater",
+      "package": "com.apkupdater.ci",
+      "page": "https://h5.2113.net/apps/apkupdater.html",
+      "category": "System Tools",
+      "version": "0.0.604",
+      "versionCode": 604,
+      "released": "2026-05-28",
+      "size": 4130561,
+      "sha256": "96741d501ae60ac73b94983187bc7db3cfe28a8b3520cffc371177d7cda354f2",
+      "signers": [
+        "7294a15b12efb0ffe7d6f29f9a032329a681a05a5730309cc6f9bf387764b559"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/rumboalla/apkupdater",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Aurora Store",
+      "package": "com.aurora.store",
+      "page": "https://h5.2113.net/apps/aurora-store.html",
+      "category": "System Tools",
+      "version": "4.8.4",
+      "versionCode": 76,
+      "released": "2026-07-31",
+      "size": 9360088,
+      "sha256": "fd9c75d90d0f4a7c132b9b4a5a2cf1992a45e03b8d8ff988b7dcfbc0db2c4d11",
+      "signers": [
+        "5c83c7672b929955dc0a1db89a5e6ae4389e2eae7ec939956041694e5815f532"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/AuroraOSS/AuroraStore",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 21,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "OwnDroid",
+      "package": "com.bintianqi.owndroid",
+      "page": "https://h5.2113.net/apps/owndroid.html",
+      "category": "System Tools",
+      "version": "8.3.1",
+      "versionCode": 47,
+      "released": "2026-08-26",
+      "size": 3381555,
+      "sha256": "7fc0808a8ee1401cf1f79010efde1d2511be36037725a9e32699595c6e6b8e98",
+      "signers": [
+        "e5d5db176a742c566ba6020ac24d93fabda5f6952d7fccae9e3a46e9848e83b5"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/BinTianqi/OwnDroid",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "RustDesk",
+      "package": "com.carriez.flutter_hbb",
+      "page": "https://h5.2113.net/apps/rustdesk.html",
+      "category": "System Tools",
+      "version": "1.4.9",
+      "versionCode": 104090002,
+      "released": "2026-07-15",
+      "size": 26793207,
+      "sha256": "c5f3ba33501ceecf14c7b30ba7a659286c87a464b7a62f2e958e120487bd1ada",
+      "signers": [
+        "85366b10ecadff33e10c53250444a125203908285363c27fc62a561f9660fa48"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/rustdesk/rustdesk",
+      "license": "GPL-3.0-only",
+      "minSdk": 22,
+      "minAndroid": "Android 5.1",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Mousedroid",
+      "package": "com.darusc.mousedroid",
+      "page": "https://h5.2113.net/apps/mousedroid.html",
+      "category": "Network & Privacy",
+      "version": "1.5",
+      "versionCode": 5,
+      "released": "2026-03-13",
+      "size": 10446217,
+      "sha256": "83952916beb5792c588bb89eddcd06ded1d52920c5ff5c0007f9d44ca6d215a2",
+      "signers": [
+        "50cdcd3e18a3550eabe52864c2fae9079d4c282456d4a2ffed50caa58c5d4a22"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/darusc/Mousedroid",
+      "license": "MIT",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 8,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "OuterTune",
+      "package": "com.dd3boh.outertune",
+      "page": "https://h5.2113.net/apps/outertune.html",
+      "category": "Media",
+      "version": "0.10.1",
+      "versionCode": 71,
+      "released": "2025-12-19",
+      "size": 10080644,
+      "sha256": "115a5df8e5f9aecbb4c7e65b8b8ea5053fb64e5111b3116e01bae803426d138c",
+      "signers": [
+        "acdd871a3de2947d3253ec90cdc53d1a0740d6038e25a6485d71899eefa96db8"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/OuterTune/OuterTune",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "YTDLnis",
+      "package": "com.deniscerri.ytdl",
+      "page": "https://h5.2113.net/apps/ytdlnis.html",
+      "category": "Media",
+      "version": "1.9.0",
+      "versionCode": 109000004,
+      "released": "2026-09-07",
+      "size": 49829505,
+      "sha256": "e6d5935056e007ec172c03e5d993fcdce634372d15e0cdc75fb7e294dc469151",
+      "signers": [
+        "263645cb5272eb290759fe1f59149ae24df6ce171e9f6666eead981d3fc64c95"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/deniscerri/ytdlnis",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 22,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Iconify",
+      "package": "com.drdisagree.iconify.foss",
+      "page": "https://h5.2113.net/apps/iconify.html",
+      "category": "Customization",
+      "version": "7.2.0",
+      "versionCode": 24,
+      "released": "2025-03-02",
+      "size": 32200293,
+      "sha256": "918247429e76b7be7cdce0fe75622805ea709e45a8d345939f6bd06e27551039",
+      "signers": [
+        "4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Mahmud0808/Iconify",
+      "license": "GPL-3.0-only",
+      "minSdk": 31,
+      "minAndroid": "Android 12",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "PCAPdroid",
+      "package": "com.emanuelef.remote_capture",
+      "page": "https://h5.2113.net/apps/pcapdroid.html",
+      "category": "Network & Privacy",
+      "version": "2.0.2",
+      "versionCode": 95,
+      "released": "2026-09-22",
+      "size": 17560048,
+      "sha256": "e03f79082278b3754b4954c7537e7c9f7681e5995a44e70aa1589eca10190066",
+      "signers": [
+        "9fdd93b62bcc95e86ff681a401f81653e37626e83369a3e192e060f2a3ca147d"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/emanuele-f/PCAPdroid",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Taskbar",
+      "package": "com.farmerbb.taskbar",
+      "page": "https://h5.2113.net/apps/taskbar.html",
+      "category": "Customization",
+      "version": "6.2.2-r2",
+      "versionCode": 208,
+      "released": "2024-11-25",
+      "size": 2753531,
+      "sha256": "58dc239cef19f05b527335e7b723dd3dfd1d8bb651a50ecc0f52402796e509d9",
+      "signers": [
+        "0e2b55c6ad9b989351da9d54e7b1d57762463aaf3159d2f0bc95ab607b95f7f0"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/farmerbb/Taskbar",
+      "license": "Apache-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 21,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Meshtastic",
+      "package": "com.geeksville.mesh",
+      "page": "https://h5.2113.net/apps/meshtastic.html",
+      "category": "Network & Privacy",
+      "version": "2.8.2 (29322440) fdroid",
+      "versionCode": 29322440,
+      "released": "2026-09-26",
+      "size": 33199756,
+      "sha256": "a3adae160da5987e7adfacdaefe6bd3ff6e5e55b716b906487401e1e7379f16b",
+      "signers": [
+        "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/meshtastic/Meshtastic-Android",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 20,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "NoStorageRestrict",
+      "package": "com.github.dan.NoStorageRestrict",
+      "page": "https://h5.2113.net/apps/nostoragerestrict.html",
+      "category": "Root & Mods",
+      "version": "0.7.0",
+      "versionCode": 7,
+      "released": "2026-08-01",
+      "size": 25118,
+      "sha256": "d922e253f4ee10c8534f5356ee94b343e1cba0c1c967d79371830f985ad79165",
+      "signers": [
+        "551353d4e096d5d117fc322dbfed42c5ae7c8f26ac1009a13edc0f39f80b4c8c"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict",
+      "license": "GPL-3.0-only",
+      "minSdk": 15,
+      "minAndroid": "Android 4.0.3",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "LibreTube",
+      "package": "com.github.libretube",
+      "page": "https://h5.2113.net/apps/libretube.html",
+      "category": "Media",
+      "version": "32.1",
+      "versionCode": 72,
+      "released": "2026-08-23",
+      "size": 9253519,
+      "sha256": "792b1e37e7bd6a26d8da1c826a68677465c333633cb2198224cc96c84257d615",
+      "signers": [
+        "a86631e8cc555838e8dfc29019fb0f7dac333ef1cda1139c424d1a08d68a030b"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/libre-tube/LibreTube",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Shadowsocks",
+      "package": "com.github.shadowsocks",
+      "page": "https://h5.2113.net/apps/shadowsocks.html",
+      "category": "Network & Privacy",
+      "version": "5.3.5-nightly",
+      "versionCode": 5030550,
+      "released": "2026-02-13",
+      "size": 14792235,
+      "sha256": "037fef062735bd0298221b7b29a7ef7ccd24dc3449fc0fbc2bfccdd8ae13b4ea",
+      "signers": [
+        "3ced42093b12aa0d08f745e5a0f01d13cb9ec4ef6cba0b8a0a056dbaecd45b98"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/shadowsocks/shadowsocks-android",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Gyawun Music",
+      "package": "com.jhelum.gyawun",
+      "page": "https://h5.2113.net/apps/gyawun-music.html",
+      "category": "Media",
+      "version": "2.0.18",
+      "versionCode": 2220,
+      "released": "2026-03-22",
+      "size": 14264689,
+      "sha256": "1f5f6df6254423d7bf5edff73fa2330852735adf45f7b06c9176abb8e440e7c8",
+      "signers": [
+        "d1ce3aba3f77ebc4582f8350dae1815aecce1bf05d678527cce8d0e6cd244ad0"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/sheikhhaziq/gyawun_music/releases/tag/v2.0.18",
+      "sourceCode": "https://github.com/sheikhhaziq/gyawun_music",
+      "license": "GPL-3.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Seal",
+      "package": "com.junkfood.seal",
+      "page": "https://h5.2113.net/apps/seal.html",
+      "category": "Media",
+      "version": "1.13.1-(F-Droid)",
+      "versionCode": 11312,
+      "released": "2026-01-06",
+      "size": 43057559,
+      "sha256": "7070a3d4f079046912b4b8dde4edc8d1ef6eade3c9c98b02bfcaba3669c11d98",
+      "signers": [
+        "7de6aeb93f196e677b087bc8d040fe598b613a9654990d6fcaa40d71eb13cd49"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/JunkFood02/Seal",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "AIS-catcher",
+      "package": "com.jvdegithub.aiscatcher",
+      "page": "https://h5.2113.net/apps/ais-catcher.html",
+      "category": "Network & Privacy",
+      "version": "1.21",
+      "versionCode": 121,
+      "released": "2026-08-20",
+      "size": 32496633,
+      "sha256": "a84c8023e55f6d8a77ed125bdc2ab1a2a18a1a3aba4469902f8fb96b5afcedfe",
+      "signers": [
+        "51e66fe88c480297b545d44c0b91edb33390bf875c92ba2f526c74cc4757fed2"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/jvde-github/AIS-catcher-for-Android",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Droid-ify",
+      "package": "com.looker.droidify",
+      "page": "https://h5.2113.net/apps/droid-ify.html",
+      "category": "System Tools",
+      "version": "0.7.8",
+      "versionCode": 780,
+      "released": "2026-09-13",
+      "size": 5997579,
+      "sha256": "3e7934ff9b811c2f77794793381241095a02bac2d163bf922cb5a5a0ed25ca82",
+      "signers": [
+        "ed8859c55af311162658b94af982b9f091dcd27628d4de3486d1217ebf3c9935"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Droid-ify/client",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 17,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "SimpMusic",
+      "package": "com.maxrave.simpmusic",
+      "page": "https://h5.2113.net/apps/simpmusic.html",
+      "category": "Media",
+      "version": "2.2.0",
+      "versionCode": 59,
+      "released": "2026-09-26",
+      "size": 27497350,
+      "sha256": "1b93a9cdc1bdee379f4089c0306fabcb45cc627b4146f53feff46be460926a72",
+      "signers": [
+        "76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/maxrave-dev/SimpMusic",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "AnySoftKeyboard",
+      "package": "com.menny.android.anysoftkeyboard",
+      "page": "https://h5.2113.net/apps/anysoftkeyboard.html",
+      "category": "Other",
+      "version": "1.13.8175",
+      "versionCode": 8175,
+      "released": "2026-03-11",
+      "size": 24880061,
+      "sha256": "daa95017e673f8f533fbcfa6839673ad76d66f1ad17f288d2220f751fcc258a6",
+      "signers": [
+        "716be98a10a886045cc3c39a7abaf501b9434b9602b25d02a89c326b7c7b9d0a"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/AnySoftKeyboard/AnySoftKeyboard",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Metrolist",
+      "package": "com.metrolist.music",
+      "page": "https://h5.2113.net/apps/metrolist.html",
+      "category": "Media",
+      "version": "13.7.0",
+      "versionCode": 153,
+      "released": "2026-09-08",
+      "size": 26868210,
+      "sha256": "6d2a5b6a2c7df2b09c6c31969a3978a61898879556f226bb3095596f07c874d7",
+      "signers": [
+        "e32c4f2efd7ee9548faee22e45a60425f7728a55a610fd5e8ab9364f74b7bcc9"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/MetrolistGroup/Metrolist",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Zalith Launcher 2",
+      "package": "com.movtery.zalithlauncher.v2",
+      "page": "https://h5.2113.net/games/zalith-launcher-2.html",
+      "category": "Minecraft Launchers",
+      "version": "2.6.1",
+      "versionCode": 200043,
+      "released": "2026-09-28",
+      "size": 354552390,
+      "sha256": "9877594734887ec60f8d87cf8bfc125a637098c23d07341957ce6748007f3422",
+      "signers": [
+        "851381b5eb6f169a2da6e323ff674accc835c6fc47b15bbfd7920578e97b0689"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.6.1",
+      "sourceCode": "https://github.com/ZalithLauncher/ZalithLauncher2",
+      "license": "GPL-3.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 20,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Kizzy",
+      "package": "com.my.kizzy",
+      "page": "https://h5.2113.net/apps/kizzy.html",
+      "category": "Network & Privacy",
+      "version": "6.2",
+      "versionCode": 14,
+      "released": "2026-07-30",
+      "size": 7234103,
+      "sha256": "141a48afacbc0c1a3c4eb6a0c0ab271516037fcd3a07f0114e16bdb4be69e486",
+      "signers": [
+        "006cf57063d2fc28a0f351e0ee313142dfc965041470f665e2a204792426e66d"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/dead8309/Kizzy",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Florid",
+      "package": "com.nahnah.florid",
+      "page": "https://h5.2113.net/apps/florid.html",
+      "category": "System Tools",
+      "version": "1.2.1",
+      "versionCode": 2015,
+      "released": "2026-03-13",
+      "size": 29490732,
+      "sha256": "1d4da9e505155b79673dd3cf6e55a8e4fa98593cb6d5830345ec851856d5a3e9",
+      "signers": [
+        "8486d1cb98e0ebeba90b5715c5e9196c6867f0db1044d760416c139e5c10ce12"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Nandanrmenon/florid",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 19,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Nextcloud",
+      "package": "com.nextcloud.client",
+      "page": "https://h5.2113.net/apps/nextcloud.html",
+      "category": "Cloud & Sync",
+      "version": "35.0.0",
+      "versionCode": 350000090,
+      "released": "2026-09-17",
+      "size": 96757432,
+      "sha256": "2d08059c9a0a94ef4316e5c8491e3c6aee99a87b58bb796163c44e08deb1615c",
+      "signers": [
+        "5709576f9d6c6a7687dd5d56b269d1fa5e379702b91bc83f39fd7b7c597c1b83"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/nextcloud/android",
+      "license": "GPL-2.0-only",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "permissions": 33,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "PhotonCamera",
+      "package": "com.particlesdevs.photoncamera",
+      "page": "https://h5.2113.net/apps/photoncamera.html",
+      "category": "Media",
+      "version": "0.88",
+      "versionCode": 17884,
+      "released": "2024-12-06",
+      "size": 11920759,
+      "sha256": "0363bc184e45f82694469c6599c2ec7769f17431501d502662573b1fd51d2ac8",
+      "signers": [
+        "255cb09eaddd26a9cc680786e4985372cf24d0e54bb120fc44d48f3273ff3956"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/eszdman/PhotonCamera",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "PCAPdroid mitm",
+      "package": "com.pcapdroid.mitm",
+      "page": "https://h5.2113.net/apps/pcapdroid-mitm.html",
+      "category": "Network & Privacy",
+      "version": "2.4",
+      "versionCode": 26,
+      "released": "2026-08-24",
+      "size": 28020180,
+      "sha256": "8268c55ddf1a63bd6c718bb57c34623228fccecafa0b77a6a974896339c93fe5",
+      "signers": [
+        "ac701125e653189b2bbaa78fba60c1136b88b8780078db0dc4257f019c81c9fe"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/emanuele-f/PCAPdroid-mitm",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Prism File Explorer",
+      "package": "com.raival.compose.file.explorer",
+      "page": "https://h5.2113.net/apps/prism-file-explorer.html",
+      "category": "System Tools",
+      "version": "1.3.2",
+      "versionCode": 10,
+      "released": "2025-09-12",
+      "size": 10722682,
+      "sha256": "49ffa960bb52876d03b29c21576becff391a59e847c7d56e07117d4ee946dc0f",
+      "signers": [
+        "830166b8bea60c42c6785459043adc1fb3b30537a56a7c90a595cb9e08126c26"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Raival-e/Prism-File-Explorer",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Payload Dumper",
+      "package": "com.rajmani7584.payloaddumper",
+      "page": "https://h5.2113.net/apps/payload-dumper.html",
+      "category": "System Tools",
+      "version": "5.2",
+      "versionCode": 20260713,
+      "released": "2026-07-19",
+      "size": 5962251,
+      "sha256": "0d8d4cd19a0bc6ef7b883c51f6904c34c79b775d023ccef69a6c4bb2a67512b6",
+      "signers": [
+        "24cb175eab56f2af3c73b80a89ef0f02d619730673fa9eaa873d2c93ef8e92b3"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/rajmani7584/Payload-Dumper-Android",
+      "license": "GPL-3.0-only",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "RetroArch",
+      "package": "com.retroarch",
+      "page": "https://h5.2113.net/games/retroarch.html",
+      "category": "Console Emulators",
+      "version": "1.22.2",
+      "versionCode": 1597175267,
+      "released": "2025-11-22",
+      "size": 30940927,
+      "sha256": "7120fd7a7f15b7a260366a8122c77070a80bc14bf28d34bc609439b2b52fdb64",
+      "signers": [
+        "f2b1eabcde44d62b9692c52801077c931dcb86293c2b3967bdc644a1c8d837eb"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/libretro/RetroArch",
+      "license": "GPL-3.0-only",
+      "minSdk": 16,
+      "minAndroid": "Android 4.1",
+      "targetSdk": 28,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Global Icon Pack",
+      "package": "com.richardluo.globalIconPack",
+      "page": "https://h5.2113.net/apps/global-icon-pack.html",
+      "category": "Customization",
+      "version": "0.6.1",
+      "versionCode": 601,
+      "released": "2026-09-21",
+      "size": 2160302,
+      "sha256": "53a9a2dfaa801ff045ba8bd8ee1d6714f59ce4228ee48e7234052fa99ff66f4c",
+      "signers": [
+        "4b285259d29e7fe0e5ac7ca0e0987445992d8feaa48e3054e579d97005d616b3"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/RichardLuo0/global-icon-pack-android",
+      "license": "GPL-3.0-only",
+      "minSdk": 27,
+      "minAndroid": "Android 8.1",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "FireWall Blocks",
+      "package": "com.shayan.firewall",
+      "page": "https://h5.2113.net/apps/firewall-blocks.html",
+      "category": "Network & Privacy",
+      "version": "1.5.shynoid",
+      "versionCode": 8,
+      "released": "2026-05-28",
+      "size": 12681333,
+      "sha256": "39b1fea1663241083d2bf2d8358dbe31388c4e2a7379d7abb685655eb586ab85",
+      "signers": [
+        "e2511eca05e29878980e8fd8adc6bfe346019fced7a5109b4f521babbaa25ce3"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/shynoiddev/FireWall-Blocks",
+      "license": "MIT",
+      "minSdk": 30,
+      "minAndroid": "Android 11",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Lemuroid",
+      "package": "com.swordfish.lemuroid",
+      "page": "https://h5.2113.net/games/lemuroid.html",
+      "category": "Console Emulators",
+      "version": "1.17.0",
+      "versionCode": 252,
+      "released": "2026-04-29",
+      "size": 11970354,
+      "sha256": "f83912a5c276f3616833fcf1b44a8e40c61d5a20f76db3f4297d6c1f63805c42",
+      "signers": [
+        "36e9853f4884e55c35803dbf671e1493e8b0b4d33e635ed84dbaa83bcad8303c"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Swordfish90/Lemuroid",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Tailscale",
+      "package": "com.tailscale.ipn",
+      "page": "https://h5.2113.net/apps/tailscale.html",
+      "category": "Network & Privacy",
+      "version": "1.102.4-t3caf7d9e7-g8fbef364a",
+      "versionCode": 298177930,
+      "released": "2026-09-14",
+      "size": 105453561,
+      "sha256": "de525c72705631d19a6608fb75ea803e7dee9df40334403449f5509006404bfc",
+      "signers": [
+        "3705f184cb67d683e76ecc203cc9cc357e6448c50e59002419085b4c286df0e8"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/tailscale/tailscale-android",
+      "license": "BSD-3-Clause",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux",
+      "package": "com.termux",
+      "page": "https://h5.2113.net/apps/termux.html",
+      "category": "System Tools",
+      "version": "0.118.3",
+      "versionCode": 1002,
+      "released": "2025-05-29",
+      "size": 113880067,
+      "sha256": "e6265a57eb5ca363808488e3b01955958bed93bc0c8a0d281849b363b11027ec",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-app",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 28,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [],
+      "olderVersions": [
+        {
+          "version": "0.118.2",
+          "versionCode": 1001,
+          "released": "2025-04-05",
+          "size": 113875971,
+          "sha256": "75a8dd74d6fe69681af450869d872cc6a7ce13dc6ef5f0d9c1b94ed9cc734d50"
+        },
+        {
+          "version": "0.118.1",
+          "versionCode": 1000,
+          "released": "2024-06-21",
+          "size": 106007555,
+          "sha256": "f137958392a800fca583bfc00f191b8edb29b77c705fddf27dffb6c26ca5d413"
+        },
+        {
+          "version": "0.118.0",
+          "versionCode": 118,
+          "released": "2022-01-11",
+          "size": 101739523,
+          "sha256": "822ac152bd7c2d9770b87c1feea03f22f2349a91b94481b268c739493a260f0b"
+        },
+        {
+          "version": "0.117",
+          "versionCode": 117,
+          "released": "2021-07-12",
+          "size": 85749239,
+          "sha256": "956f5945dd616206b1f226c54b1908110a1e8e2e759ba71c6f888577fa739993"
+        }
+      ]
+    },
+    {
+      "name": "Termux:API",
+      "package": "com.termux.api",
+      "page": "https://h5.2113.net/apps/termux-api.html",
+      "category": "System Tools",
+      "version": "0.53.0",
+      "versionCode": 1002,
+      "released": "2025-09-05",
+      "size": 3956196,
+      "sha256": "4497dbbf81906df52e59ed387a5223d225aa0de3aca817cc557a621e4dadda44",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-api",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 28,
+      "abis": [],
+      "permissions": 35,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux:Boot",
+      "package": "com.termux.boot",
+      "page": "https://h5.2113.net/apps/termux-boot.html",
+      "category": "System Tools",
+      "version": "0.8.1",
+      "versionCode": 1000,
+      "released": "2024-06-26",
+      "size": 26000,
+      "sha256": "6f7cf9b94f539d3efd4af3544ff819947b49395275d8cfa7e5f80de14f3d9cf8",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-boot",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 28,
+      "abis": [],
+      "permissions": 2,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux:GUI",
+      "package": "com.termux.gui",
+      "page": "https://h5.2113.net/apps/termux-gui.html",
+      "category": "System Tools",
+      "version": "0.1.6",
+      "versionCode": 7,
+      "released": "2025-02-20",
+      "size": 3492051,
+      "sha256": "f9bcb38c65a193da2b307385a55ab86632c4f9c1abd5250a0e1a8bd21145013f",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-gui",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux:Styling",
+      "package": "com.termux.styling",
+      "page": "https://h5.2113.net/apps/termux-styling.html",
+      "category": "System Tools",
+      "version": "0.32.1",
+      "versionCode": 1000,
+      "released": "2024-06-26",
+      "size": 32930486,
+      "sha256": "799a53f096c28e2aafae918f5ab91de500526bc5461030dbceea4e89bf56b68f",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-styling",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 28,
+      "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux:Tasker",
+      "package": "com.termux.tasker",
+      "page": "https://h5.2113.net/apps/termux-tasker.html",
+      "category": "System Tools",
+      "version": "0.9.0",
+      "versionCode": 1002,
+      "released": "2025-09-05",
+      "size": 2892038,
+      "sha256": "f8cd889f9987759bcaeb68b8a8ba337085b5938b97a5cd9f05a4e610d411ef5e",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-tasker",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 28,
+      "abis": [],
+      "permissions": 2,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux:Widget",
+      "package": "com.termux.widget",
+      "page": "https://h5.2113.net/apps/termux-widget.html",
+      "category": "System Tools",
+      "version": "0.15.0",
+      "versionCode": 1001,
+      "released": "2025-09-05",
+      "size": 5873060,
+      "sha256": "45fb3f56a7248cb8e14b24b478357e340c63d6cfabb87ff5be94b667ad1688d6",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-widget",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 28,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Termux:Float",
+      "package": "com.termux.window",
+      "page": "https://h5.2113.net/apps/termux-float.html",
+      "category": "System Tools",
+      "version": "0.17.0",
+      "versionCode": 1001,
+      "released": "2025-09-05",
+      "size": 1945141,
+      "sha256": "380f0dbb35d3142931b8918b976bac05ff59a717e8b396b9c82f72b894b8e220",
+      "signers": [
+        "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/termux/termux-float",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 28,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Magisk",
+      "package": "com.topjohnwu.magisk",
+      "page": "https://h5.2113.net/apps/magisk.html",
+      "category": "Root & Mods",
+      "version": "30.7",
+      "versionCode": 30700,
+      "released": "2026-02-23",
+      "size": 11613864,
+      "sha256": "e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5",
+      "signers": [
+        "b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/topjohnwu/Magisk/releases/tag/v30.7",
+      "sourceCode": "https://github.com/topjohnwu/Magisk",
+      "license": "GPL-3.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [],
+      "olderVersions": [
+        {
+          "version": "30.6",
+          "versionCode": 30600,
+          "released": "2025-12-01",
+          "size": 12919431,
+          "sha256": "f1ffc3c9a5614c251ba6bada308163acc3c3d844cf01d33f55a8bc151adc34ce"
+        },
+        {
+          "version": "29.0",
+          "versionCode": 29000,
+          "released": "2025-05-14",
+          "size": 11801932,
+          "sha256": "99d40df1a68a05a5e78452a9cd4f2d753434d7622baeeb44ea14ae8238c1a9ca"
+        },
+        {
+          "version": "28.1",
+          "versionCode": 28100,
+          "released": "2024-12-07",
+          "size": 11716982,
+          "sha256": "8bfd3346b3da5814f82eff6f1b1b5fedd0ad585f39a25709b23eb54aac45691d"
+        },
+        {
+          "version": "28.0",
+          "versionCode": 28000,
+          "released": "2024-10-10",
+          "size": 11212065,
+          "sha256": "1b1eebac29f8ab1a41e5f20bbdceefb3341e93bc3d55a0f995c902b0fe877fe2"
+        }
+      ]
+    },
+    {
+      "name": "Fold Craft Launcher",
+      "package": "com.tungsten.fcl",
+      "page": "https://h5.2113.net/games/fold-craft-launcher.html",
+      "category": "Minecraft Launchers",
+      "version": "1.3.3.5",
+      "versionCode": 1335,
+      "released": "2026-09-25",
+      "size": 329951905,
+      "sha256": "c5c227decc0ee0b4f7d997535772b7cb7ce5d8b755802b3deaf065b306f9a7a7",
+      "signers": [
+        "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.5",
+      "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
+      "license": "GPL-3.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 21,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "VIVI Music",
+      "package": "com.vivi.vivimusic",
+      "page": "https://h5.2113.net/apps/vivi.html",
+      "category": "Media",
+      "version": "6.0.8",
+      "versionCode": 77,
+      "released": "2026-09-25",
+      "size": 29694136,
+      "sha256": "042f4bb4f3587a224451d7ab143cb4e86b7a74c8065703fc2f1a86729e66d09c",
+      "signers": [
+        "e0581bab0b930b179396e13008aa08509cdcd1ee38f7ae54102fc3cf93256a9d"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/vivizzz007/vivi-music",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Winlator",
+      "package": "com.winlator",
+      "page": "https://h5.2113.net/games/winlator.html",
+      "category": "PC Emulators",
+      "version": "11.2",
+      "versionCode": 33,
+      "released": "2026-08-19",
+      "size": 157549075,
+      "sha256": "ea5c81bf0e5b90a6b9ccb8007121ab6738c8646a5a60b341ce0ac2b33f1d100a",
+      "signers": [
+        "e576bf5035e4bba4efb2c5099f9d74a95cc3abe8e3b6b0c72219cc07eac8c8fb"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/brunodev85/winlator/releases/tag/v11.2.0",
+      "sourceCode": "https://github.com/brunodev85/winlator",
+      "license": "LGPL-2.1",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 28,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 11,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "WG Tunnel",
+      "package": "com.zaneschepke.wireguardautotunnel",
+      "page": "https://h5.2113.net/apps/wg-tunnel.html",
+      "category": "Network & Privacy",
+      "version": "5.7.5",
+      "versionCode": 50705,
+      "released": "2026-09-26",
+      "size": 18566786,
+      "sha256": "4ac03ebf173fa8655f71c26205b4bc0beef4618b216507db47ba0d15b432b438",
+      "signers": [
+        "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/wgtunnel/android",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 21,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Free Notifications",
+      "package": "de.binarynoise.freeNotifications",
+      "page": "https://h5.2113.net/apps/free-notifications.html",
+      "category": "Root & Mods",
+      "version": "66-894ca4a-20251216",
+      "versionCode": 66,
+      "released": "2025-12-17",
+      "size": 19849,
+      "sha256": "157fb1082bdd39323a0839bc0f50bf7a33a9cf5efbcbfe58002bb44a60bf90bd",
+      "signers": [
+        "70692bac877fad4481f01c181125ebb66d0e234f45f7e88e4200fb566c7207c9"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/binarynoise/XposedModulets",
+      "license": "EUPL-1.2",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "OpenVPN for Android",
+      "package": "de.blinkt.openvpn",
+      "page": "https://h5.2113.net/apps/openvpn-for-android.html",
+      "category": "Network & Privacy",
+      "version": "0.7.65",
+      "versionCode": 220,
+      "released": "2026-09-11",
+      "size": 39765197,
+      "sha256": "3ce86b641d1627820d8f05606a3fb58d966ffa8360c234563b3c5e1bd3a8490a",
+      "signers": [
+        "4cd330fe6593e2e64b1e1fa383f0c6d73892184fc1cd1a909e71d558d862e212"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/schwabe/ics-openvpn",
+      "license": "GPL-2.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Disable Target API Block",
+      "package": "de.buttercookie.disabletargetapiblock",
+      "page": "https://h5.2113.net/apps/disable-target-api-block.html",
+      "category": "Root & Mods",
+      "version": "1.2",
+      "versionCode": 5,
+      "released": "2025-10-18",
+      "size": 13976,
+      "sha256": "e9d675c2fefeb4e47ee43eb15f4cd8393c1e8c7ccb831a531cfaf00add3a974b",
+      "signers": [
+        "7baab2feb8ac7fe10fe5414e4d28aa901a525981b1201e2d583df5bb6d9b1b13"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/buttercookie42/DisableTargetAPIBlock",
+      "license": "MPL-2.0",
+      "minSdk": 34,
+      "minAndroid": "Android 14",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "AntennaPod",
+      "package": "de.danoeh.antennapod",
+      "page": "https://h5.2113.net/apps/antennapod.html",
+      "category": "Media",
+      "version": "3.12.2",
+      "versionCode": 3120295,
+      "released": "2026-09-20",
+      "size": 17749828,
+      "sha256": "3f43a4337a693cdb49141afe06cb596e88c796009ed77bff51e9444ce2d1ebfc",
+      "signers": [
+        "179430565a4a04bfe7827483243099bd10870410800cd7c4c7b48d8d3226df55"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/AntennaPod/AntennaPod",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Activity Launcher",
+      "package": "de.szalkowski.activitylauncher",
+      "page": "https://h5.2113.net/apps/activity-launcher.html",
+      "category": "System Tools",
+      "version": "2.4.1",
+      "versionCode": 20406,
+      "released": "2026-07-10",
+      "size": 3401777,
+      "sha256": "d8ab42f6ab5943b380d96dd430e377d49bdc816ac792429ed0ca66768c41b153",
+      "signers": [
+        "2015709d519fd686b1e37b334f12082cbafcb9f5126a68a25b172043ebb581de"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/butzist/ActivityLauncher",
+      "license": "ISC",
+      "minSdk": 16,
+      "minAndroid": "Android 4.1",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 5,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Next Player",
+      "package": "dev.anilbeesetti.nextplayer",
+      "page": "https://h5.2113.net/apps/next-player.html",
+      "category": "Media",
+      "version": "0.18.0",
+      "versionCode": 74,
+      "released": "2026-09-16",
+      "size": 18948102,
+      "sha256": "717ab28053af129f79442aed269843bc3f2009b132c9d955342ddc3117dfd044",
+      "signers": [
+        "d37cabf3676cf58224fb242c8dd209129d05880379295faaa6d0fb607bec131b"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/anilbeesetti/nextplayer",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 11,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Obtainium",
+      "package": "dev.imranr.obtainium.fdroid",
+      "page": "https://h5.2113.net/apps/obtainium.html",
+      "category": "System Tools",
+      "version": "1.6.17",
+      "versionCode": 23563,
+      "released": "2026-09-15",
+      "size": 26088490,
+      "sha256": "8d03b4f02f070d8e64f448ce77ad66daccce9a585e4015b984ee5a7ddee9c29c",
+      "signers": [
+        "b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362"
+      ],
+      "signedBy": "developer",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ImranR98/Obtainium",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 18,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Install with Options",
+      "package": "dev.zwander.installwithoptions",
+      "page": "https://h5.2113.net/apps/install-with-options.html",
+      "category": "System Tools",
+      "version": "0.9.2",
+      "versionCode": 27,
+      "released": "2026-03-15",
+      "size": 13092588,
+      "sha256": "e448eb297733b7a194b27f47b502f2ae14d17b97e98b799925eb3dc0e15f937f",
+      "signers": [
+        "e6565e92740a44d5550a03dc34f1b2a736f8b13f60a2a5f29f1fb9364b6fc56e"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/zacharee/InstallWithOptions",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [
+        "Bugsnag"
+      ],
+      "olderVersions": []
+    },
+    {
+      "name": "NetGuard",
+      "package": "eu.faircode.netguard",
+      "page": "https://h5.2113.net/apps/netguard.html",
+      "category": "Network & Privacy",
+      "version": "2.337",
+      "versionCode": 2026080101,
+      "released": "2026-08-02",
+      "size": 3222200,
+      "sha256": "150a0362f04408c2d3cc7fb38d7e126445019d523489c8d82df6fb456c4e6ad2",
+      "signers": [
+        "e4a260a2dce7b7af23ee919c489e15fd0102b93f9e7c9d82b09c0b395000e4d4"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/M66B/NetGuard",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "KISS Launcher",
+      "package": "fr.neamar.kiss",
+      "page": "https://h5.2113.net/apps/kiss-launcher.html",
+      "category": "Customization",
+      "version": "3.26.0",
+      "versionCode": 224,
+      "released": "2026-07-03",
+      "size": 2205788,
+      "sha256": "da6ab0b1219ad3b5ee573698523fb15d60a918083e0843f94a03c1b12e1098c9",
+      "signers": [
+        "ec038e5b12c9fb8df23b5ecc1f71dd251bc503b30cec8d58a00cfae2c31abf1b"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Neamar/KISS",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "SkyTube",
+      "package": "free.rm.skytube.oss",
+      "page": "https://h5.2113.net/apps/skytube.html",
+      "category": "Media",
+      "version": "2.999",
+      "versionCode": 59,
+      "released": "2026-05-27",
+      "size": 9307080,
+      "sha256": "fd68f3689b53e56bdf967cfb6d5876fa35049ae3483303a2acad6ce7cfdd77be",
+      "signers": [
+        "435adf83d60ff5a9ccdcab9971865dca86f5086f615e83369aa6bbce26f5a830"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/SkyTubeTeam/SkyTube",
+      "license": "GPL-3.0-only",
+      "minSdk": 19,
+      "minAndroid": "Android 4.4",
+      "targetSdk": 28,
+      "abis": [],
+      "permissions": 4,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "aShell You",
+      "package": "in.hridayan.ashell",
+      "page": "https://h5.2113.net/apps/ashell-you.html",
+      "category": "System Tools",
+      "version": "v7.4.0",
+      "versionCode": 62,
+      "released": "2026-05-22",
+      "size": 11490894,
+      "sha256": "0ff9a694fcdb2dafd5661cac285a49b4541c7b33bc38e8e1aebaffa5a48e34b2",
+      "signers": [
+        "dc4217203a7284bd159d7b863b7990620069c7929d6f5a51f59a321e77f18d4c"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/DP-Hridayan/aShellYou",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 18,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "aShell",
+      "package": "in.sunilpaulmathew.ashell",
+      "page": "https://h5.2113.net/apps/ashell.html",
+      "category": "System Tools",
+      "version": "v0.29",
+      "versionCode": 29,
+      "released": "2026-09-11",
+      "size": 2200008,
+      "sha256": "1a09be44bddf425e97f59d89b4096d59250d9e5b0083e25d8a56b02237e61064",
+      "signers": [
+        "b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://gitlab.com/sunilpaulmathew/ashell",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 3,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "PipePipe",
+      "package": "InfinityLoop1309.NewPipeEnhanced",
+      "page": "https://h5.2113.net/apps/pipepipe.html",
+      "category": "Media",
+      "version": "5.4.0",
+      "versionCode": 110904,
+      "released": "2026-09-25",
+      "size": 32359236,
+      "sha256": "fd1013786971bb206ca00e0bc98a4096e90a29e43e0c3d2f8659f277f3fe1c54",
+      "signers": [
+        "dec73429ce2563275f5ed19825e44652b32b363a46f38bdff9ad6dcde4842d88"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/InfinityLoop1308/PipePipe",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 11,
+      "trackers": [
+        "ACRA"
+      ],
+      "olderVersions": []
+    },
+    {
+      "name": "FreeTube Android",
+      "package": "io.freetubeapp.freetube",
+      "page": "https://h5.2113.net/apps/freetube.html",
+      "category": "Media",
+      "version": "0.25.3.1",
+      "versionCode": 250003001,
+      "released": "2026-09-13",
+      "size": 5145861,
+      "sha256": "a52dd1307ac5847393fe7e1a0803a8013f4001b9d202eb1f7bf0bf7774deb7f7",
+      "signers": [
+        "4d9664daae8a83532756adc8777e96a6de9f8497bb60ad1c782adb71fae80fc1"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/MarmadileManteater/FreeTubeAndroid",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "HideMockLocation",
+      "package": "io.github.auag0.hidemocklocation",
+      "page": "https://h5.2113.net/apps/hidemocklocation.html",
+      "category": "Root & Mods",
+      "version": "2.3.1",
+      "versionCode": 11,
+      "released": "2026-05-12",
+      "size": 21958,
+      "sha256": "f74c113ddd134901988339e1822cc3b19fb57991544206789422068dd89e907a",
+      "signers": [
+        "06c19b8aeb0fdf14bef31ea34834d6ba7a3f38856728ff1fa35e334ef7fc2db1"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/auag0/HideMockLocation",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "App Manager",
+      "package": "io.github.muntashirakon.AppManager",
+      "page": "https://h5.2113.net/apps/app-manager.html",
+      "category": "System Tools",
+      "version": "4.1.1",
+      "versionCode": 451,
+      "released": "2026-09-04",
+      "size": 28270163,
+      "sha256": "2540d6d9352acd8b04d6210140630a380abb1bc46ad4745c89ad97603dee3c40",
+      "signers": [
+        "320c0c0fe8cef873f2b554cb88c837f1512589dcced50c5b25c43c04596760ab"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/MuntashirAkon/AppManager",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 63,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Current Activity",
+      "package": "io.github.ratul.topactivity",
+      "page": "https://h5.2113.net/apps/current-activity.html",
+      "category": "System Tools",
+      "version": "2.2.0",
+      "versionCode": 25,
+      "released": "2026-03-28",
+      "size": 2580693,
+      "sha256": "c8916f9832c75017aa89745b119669feb25357ef5c22abac86ab23e37b294fb3",
+      "signers": [
+        "09252c3533c4378957d22ead9165dbd91fb252119e7fce7eb595dcca6c4b6748"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/codehasan/Current-Activity",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Canta",
+      "package": "io.github.samolego.canta",
+      "page": "https://h5.2113.net/apps/canta.html",
+      "category": "System Tools",
+      "version": "3.2.2",
+      "versionCode": 225,
+      "released": "2026-03-01",
+      "size": 4698310,
+      "sha256": "5a646d366905c0be2033aa270b008b3ef79fda99fbc95988445b0f430283a1ed",
+      "signers": [
+        "0a2640317c43272188c3e13194c15460691f12c39ea19bba727dd67fb56289d4"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/samolego/Canta",
+      "license": "LGPL-3.0-or-later",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Key Mapper",
+      "package": "io.github.sds100.keymapper",
+      "page": "https://h5.2113.net/apps/key-mapper.html",
+      "category": "System Tools",
+      "version": "4.5.0-foss",
+      "versionCode": 271,
+      "released": "2026-09-22",
+      "size": 15034751,
+      "sha256": "9896a5d9b7ad976cc14f8f6d88ab4f57952b44f9bc32f68c87b03e1987204806",
+      "signers": [
+        "f4d753302710c9a7a40885c891aebdb1a0f275122fdcdb7c2f45a202b213f373"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/keymapperorg/KeyMapper",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 33,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "KnoxPatch",
+      "package": "io.mesalabs.knoxpatch",
+      "page": "https://h5.2113.net/apps/knoxpatch.html",
+      "category": "Root & Mods",
+      "version": "0.8.3",
+      "versionCode": 8003,
+      "released": "2026-06-25",
+      "size": 3364844,
+      "sha256": "fff78f1c0a7aa3ed2a0db98cfba3d1a9f2f9f907ae045476da5d578cd9f87365",
+      "signers": [
+        "339fb64d24a6a8c1c7ab85b6059ff810eae3bd1481a3af51a08f08d658e9172d"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/salvogiangri/KnoxPatch",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Open SSTP Client",
+      "package": "kittoku.osc",
+      "page": "https://h5.2113.net/apps/open-sstp-client.html",
+      "category": "Network & Privacy",
+      "version": "1.10.2",
+      "versionCode": 49,
+      "released": "2026-05-02",
+      "size": 5848328,
+      "sha256": "eaae3fc3b238d28567a661be6bd57df57aa293bfb2cfeed74cb78397672cb5ca",
+      "signers": [
+        "35a0107f1c39134a4ee7c03272fdccb80aac4b864583d063fef63758277de3d5"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/kittoku/Open-SSTP-Client",
+      "license": "MIT",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 7,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Bloomee",
+      "package": "ls.bloomee.musicplayer",
+      "page": "https://h5.2113.net/apps/bloomee.html",
+      "category": "Media",
+      "version": "3.0.4",
+      "versionCode": 2202,
+      "released": "2026-05-29",
+      "size": 24426451,
+      "sha256": "472081c0bcd1c94a41eb563e4a3505d7ae96e6eefa046060406a99f0c2052fec",
+      "signers": [
+        "7df992b9643abd442ad5eac0417503e0d8c4275104a0a66d8cf43df69611a47e"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/HemantKArya/BloomeeTunes",
+      "license": "GPL-2.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Edge Seek",
+      "package": "lsafer.edgeseek",
+      "page": "https://h5.2113.net/apps/edge-seek.html",
+      "category": "System Tools",
+      "version": "0.3-pre.7",
+      "versionCode": 21,
+      "released": "2025-11-19",
+      "size": 9904522,
+      "sha256": "bdc83b9bfae7c983bba475309d1c9e545b0f1255e6a2168b9b09b406a31c0f8b",
+      "signers": [
+        "fdfab44ae3e4cad95ebf96cd6132c72c7cb1903216ac67f928fb52d5d7df6347"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/LSafer/edgeseek",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "USB HID Client",
+      "package": "me.arianb.usb_hid_client",
+      "page": "https://h5.2113.net/apps/usb-hid-client.html",
+      "category": "System Tools",
+      "version": "v3.1.0",
+      "versionCode": 310,
+      "released": "2026-08-17",
+      "size": 2869054,
+      "sha256": "70b40b06e80e0184442b02eaedbe9b9f0cd9f155ba107beaaf70bb639ffb954d",
+      "signers": [
+        "2fb511247808358a1e0a6ab81fc66cf5445fb560cae050a895a2e008561b3d43"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Arian04/android-hid-client",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "APatch",
+      "package": "me.bmax.apatch",
+      "page": "https://h5.2113.net/apps/apatch.html",
+      "category": "Root & Mods",
+      "version": "0355948",
+      "versionCode": 11219,
+      "released": "2026-08-01",
+      "size": 5364295,
+      "sha256": "cadc957b2c76ac28bcb351cd09d12c48cb32d2848eac4596b04e8fb0fe72f501",
+      "signers": [
+        "d71dadc0ca07bdf594383bfb2a445134a07339f12a27044a1b326981acf5f319"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/bmax121/APatch",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Kreate",
+      "package": "me.knighthat.kreate",
+      "page": "https://h5.2113.net/apps/kreate.html",
+      "category": "Media",
+      "version": "2.2.3-izzy",
+      "versionCode": 141,
+      "released": "2026-07-02",
+      "size": 18859526,
+      "sha256": "c4ae33d286489f9ea2459540e8acad4be74b9a1de76fce4aab4adb29c5f000c9",
+      "signers": [
+        "1bd03a8de5df4dbd7faddb81b9f2aaf55681a584a93d6fb47e9a5ccc736ef7ac"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/knighthat/Kreate",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 16,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "KernelSU",
+      "package": "me.weishu.kernelsu",
+      "page": "https://h5.2113.net/apps/kernelsu.html",
+      "category": "Root & Mods",
+      "version": "v3.3.0",
+      "versionCode": 32601,
+      "released": "2026-08-28",
+      "size": 10777987,
+      "sha256": "c197060ecb89702e7d54a4c95e29cf5e8d97369bbbb436979ab7fd6bcde7b077",
+      "signers": [
+        "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/tiann/KernelSU",
+      "license": "GPL-3.0-only",
+      "minSdk": 31,
+      "minAndroid": "Android 12",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "olderVersions": [
+        {
+          "version": "v3.2.5",
+          "versionCode": 32525,
+          "released": "2026-06-23",
+          "size": 9083665,
+          "sha256": "1417081413bf7ab1de8e440ecbcb62685037c8f28f048f0f8b79e305b31ab916"
+        },
+        {
+          "version": "v3.2.4",
+          "versionCode": 32457,
+          "released": "2026-04-06",
+          "size": 8776001,
+          "sha256": "f0951351291494e0c309267b375cf5bfbdb5eca6df0ec18f6fb7df8b3dea990b"
+        }
+      ]
+    },
+    {
+      "name": "Material Files",
+      "package": "me.zhanghai.android.files",
+      "page": "https://h5.2113.net/apps/material-files.html",
+      "category": "System Tools",
+      "version": "1.7.5",
+      "versionCode": 40,
+      "released": "2026-09-22",
+      "size": 10944578,
+      "sha256": "2fe900bf43d725b655008d438f5ca46d0da0f301e3784403b5b96c3fc2df6e8a",
+      "signers": [
+        "9c22a742fa200c85bafbc9924a02ddc8f3a0b975d4d7b5a8da21d7cf34ce2b20"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/zhanghai/MaterialFiles",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Volume Manager",
+      "package": "moe.chensi.volume",
+      "page": "https://h5.2113.net/apps/volume-manager.html",
+      "category": "Media",
+      "version": "0.2",
+      "versionCode": 4,
+      "released": "2025-08-18",
+      "size": 18198007,
+      "sha256": "c1f1480166e486d16ec2db8f2a47a0bb6336c13c454c4290c93eb14b4027f02c",
+      "signers": [
+        "74cdd6422595d84f046eab3e96bf29401b2346532300c6155d50122d589235dc"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/yume-chan/VolumeManager",
+      "license": "GPL-2.0-only",
+      "minSdk": 33,
+      "minAndroid": "Android 13",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "ArchiveTune",
+      "package": "moe.koiverse.archivetune",
+      "page": "https://h5.2113.net/apps/archivetune.html",
+      "category": "Media",
+      "version": "13.4.0",
+      "versionCode": 135,
+      "released": "2026-05-31",
+      "size": 36256097,
+      "sha256": "7ba8d27c28364659bea0e14057454506846c9e481b4077ee26b4c530343a39f4",
+      "signers": [
+        "bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/rukamori/ArchiveTune",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 17,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "NekoBox",
+      "package": "moe.nb4a",
+      "page": "https://h5.2113.net/apps/nekobox.html",
+      "category": "Network & Privacy",
+      "version": "1.4.2",
+      "versionCode": 230,
+      "released": "2026-02-09",
+      "size": 15252519,
+      "sha256": "d01e76feeb05e4701f3ae382cb71c0a3ebb77039005e5893f8817e1051f8ac28",
+      "signers": [
+        "35762758ce86a6ec297d9ccac689469bc43b9fed8ae1b27f100a86bbac00a055"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 19,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Shizuku",
+      "package": "moe.shizuku.privileged.api",
+      "page": "https://h5.2113.net/apps/shizuku.html",
+      "category": "System Tools",
+      "version": "13.6.0.r1086.2650830c",
+      "versionCode": 1086,
+      "released": "2025-05-29",
+      "size": 2571773,
+      "sha256": "6e273ab0e991c4e79bc8b1bbb9b9dd739ccac1a8712a541a214078886b7b790f",
+      "signers": [
+        "268b5590e868fb08bae7e0ac413564cd1ff88f5ccff74af9dbd0dc918e30db30"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/RikkaApps/Shizuku",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": [
+        {
+          "version": "13.5.4.r1049.0e53409",
+          "versionCode": 1049,
+          "released": "2024-03-10",
+          "size": 3442426,
+          "sha256": "a05832ce3716afb1fcccf46f348006d2a296ca777e1ff3d223797dc74d06b31f"
+        },
+        {
+          "version": "13.5.3.r1036.fff3f87",
+          "versionCode": 1036,
+          "released": "2023-12-14",
+          "size": 3456838,
+          "sha256": "69cec1f0f4185add835409881a670db8873bae084d57f4ea3c7e6aba054e3474"
+        }
+      ]
+    },
+    {
+      "name": "Pengeek",
+      "package": "name.monwf.customiuizer",
+      "page": "https://h5.2113.net/apps/pengeek.html",
+      "category": "Root & Mods",
+      "version": "25.09.25",
+      "versionCode": 75,
+      "released": "2025-09-25",
+      "size": 2723112,
+      "sha256": "98c48d2edadef6d8428b7b3b16ad19b0ff75f222820a28628e8edb4138bade24",
+      "signers": [
+        "0bec108ccfabd380753d2ed68090398ddfe436d47d67bdb0bb50c969b80fc6a1"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/MonwF/customiuizer",
+      "license": "GPL-3.0-only",
+      "minSdk": 35,
+      "minAndroid": "Android 15",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 16,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Cirno",
+      "package": "nep.timeline.cirno",
+      "page": "https://h5.2113.net/apps/cirno.html",
+      "category": "Root & Mods",
+      "version": "7.0",
+      "versionCode": 7,
+      "released": "2025-06-16",
+      "size": 20448736,
+      "sha256": "8289b90780ab9c5a54df5c8644a770842f60833164e58ad595de504230ebcf26",
+      "signers": [
+        "cc437a8c20884735fce878e1ce02014cf69e7b360eec5f13f438e516973d2fa6"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Freezer-Team/Cirno",
+      "license": "GPL-3.0-only",
+      "minSdk": 31,
+      "minAndroid": "Android 12",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "OpenConnect",
+      "package": "net.openconnect_vpn.android",
+      "page": "https://h5.2113.net/apps/openconnect.html",
+      "category": "Network & Privacy",
+      "version": "1.12",
+      "versionCode": 1120,
+      "released": "2025-03-05",
+      "size": 31496937,
+      "sha256": "24e0ca76335317978edb9b4459dbb7be82c7a9502d13001b6c20c06dad89e7e8",
+      "signers": [
+        "4c965471abda2f1959722e0aa15adbe3d3189d98b590e1f0001ae6934ca191e3"
+      ],
+      "signedBy": "developer",
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/openconnect/ics-openconnect",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "OsmAnd~",
+      "package": "net.osmand.plus",
+      "page": "https://h5.2113.net/apps/osmand.html",
+      "category": "Other",
+      "version": "5.3.10",
+      "versionCode": 531003,
+      "released": "2026-05-11",
+      "size": 162183115,
+      "sha256": "27f1eb82d288a9939b7c0bdd0fb94f78749824ffc753d32d421e01cbe487e5e0",
+      "signers": [
+        "38294eaac95c3bb5a994692cd7758f8bcdbffb40819af6e806eb7fe482324dcd"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/osmandapp/Osmand",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 27,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Open Camera",
+      "package": "net.sourceforge.opencamera",
+      "page": "https://h5.2113.net/apps/open-camera.html",
+      "category": "Media",
+      "version": "1.56.2",
+      "versionCode": 96,
+      "released": "2026-06-30",
+      "size": 4973923,
+      "sha256": "ca5672ca8c7174554ca0b07b5b26e505817a05142f571cf2abe67e790c30249c",
+      "signers": [
+        "438991c968e8d308ca34078d37511c90c502d596baf9f0d0c5fbd1c9bf67df6d"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://sourceforge.net/p/opencamera/code",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 8,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "AdAway",
+      "package": "org.adaway",
+      "page": "https://h5.2113.net/apps/adaway.html",
+      "category": "Network & Privacy",
+      "version": "6.1.4",
+      "versionCode": 60104,
+      "released": "2024-11-15",
+      "size": 16061184,
+      "sha256": "0de00a58a0dbb4c4b6befc9fe1f5e53800993484baab955824798f46fbf3338e",
+      "signers": [
+        "42203f1ac857426d1496e971db96fbe1f88c25c9e1f895a5c98d703891292277"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/AdAway/AdAway",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [
+        "Sentry"
+      ],
+      "olderVersions": []
+    },
+    {
+      "name": "Amethyst Launcher",
+      "package": "org.angelauramc.amethyst",
+      "page": "https://h5.2113.net/games/amethyst-launcher.html",
+      "category": "Minecraft Launchers",
+      "version": "amethyst-legacy-20260731-56194e3-release-1.1.7",
+      "versionCode": 10000000,
+      "released": "2026-07-31",
+      "size": 156535672,
+      "sha256": "6b5579e93f50a62f4d96279683bb447325e5a4de9015deae787eee56c248211f",
+      "signers": [
+        "18ded02f505ece77151295183d86e1126ee5a6522d97dd62c60c8624f7c86cf8"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/AngelAuraMC/Amethyst-Android/releases/tag/1.1.7",
+      "sourceCode": "https://github.com/AngelAuraMC/Amethyst-Android",
+      "license": "LGPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "mips",
+        "mips64",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Cryptomator",
+      "package": "org.cryptomator",
+      "page": "https://h5.2113.net/apps/cryptomator.html",
+      "category": "Cloud & Sync",
+      "version": "2.0.0",
+      "versionCode": 3128,
+      "released": "2026-06-26",
+      "size": 26403624,
+      "sha256": "0d443052f55794a5e0156bd3ffdc8f109a1150f6a009cd83d925690a78b89eb4",
+      "signers": [
+        "f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/cryptomator/android",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 16,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Dolphin Emulator",
+      "package": "org.dolphinemu.dolphinemu",
+      "page": "https://h5.2113.net/games/dolphin-emulator.html",
+      "category": "Console Emulators",
+      "version": "2603a",
+      "versionCode": 42460,
+      "released": "2026-03-24",
+      "size": 20588646,
+      "sha256": "5279425e01c552ba6cde1adc7f08f1c1f5b8f9271c2418a4ad849ee4106ee719",
+      "signers": [
+        "4014f9169e3ff08cd8fdf8ac33419d4603ed95582716494a0392853c91148835"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/dolphin-emu/dolphin",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Exodus",
+      "package": "org.eu.exodus_privacy.exodusprivacy",
+      "page": "https://h5.2113.net/apps/exodus.html",
+      "category": "Network & Privacy",
+      "version": "3.3.2",
+      "versionCode": 23,
+      "released": "2024-11-23",
+      "size": 7289289,
+      "sha256": "3fc2119af9119a187e298e9f6bc2099feae1f83e51dc18d78d5f21a9be0d8ecb",
+      "signers": [
+        "c9a406bd8e614c72bbdd242d56795f7a5ce13c0cf14bac22aec98030a71be486"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Exodus-Privacy/exodus-android-app",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Gallery",
+      "package": "org.fossify.gallery",
+      "page": "https://h5.2113.net/apps/fossify-gallery.html",
+      "category": "Media",
+      "version": "1.13.1",
+      "versionCode": 28,
+      "released": "2026-02-17",
+      "size": 38606538,
+      "sha256": "ae7e699599e81f70e2b82626bb1dfa883fe096cd938387133e123c116e5641d9",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Gallery",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Jellyfin",
+      "package": "org.jellyfin.mobile",
+      "page": "https://h5.2113.net/apps/jellyfin.html",
+      "category": "Media",
+      "version": "2.7.3",
+      "versionCode": 2070399,
+      "released": "2026-09-14",
+      "size": 8964986,
+      "sha256": "f9f4b3ab46cc9434df811194c2d4351417f4db83a4c1a0facd0a662d69533f7f",
+      "signers": [
+        "d881796ed2a67ff6ef9f676828723c6b1fa18e09388962cba4abc4a594a69131"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/jellyfin/jellyfin-android",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Kiwix",
+      "package": "org.kiwix.kiwixmobile.standalone",
+      "page": "https://h5.2113.net/apps/kiwix.html",
+      "category": "Other",
+      "version": "3.14.1",
+      "versionCode": 6231767,
+      "released": "2026-05-14",
+      "size": 70366062,
+      "sha256": "62a9910be260030e642465c17d642537e6ee4ee5f2d4596c248267c2766a88b8",
+      "signers": [
+        "6dfbfc62e16587a78aa2d9585ae9bb7f6973c2bf84034b7b90101a401409f5aa"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/kiwix/kiwix-android/releases/tag/v3.14.1",
+      "sourceCode": "https://github.com/kiwix/kiwix-android",
+      "license": "GPL-3.0",
+      "minSdk": 25,
+      "minAndroid": "Android 7.1",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "KOReader",
+      "package": "org.koreader.launcher.fdroid",
+      "page": "https://h5.2113.net/apps/koreader.html",
+      "category": "Other",
+      "version": "v2026.07.1",
+      "versionCode": 119462,
+      "released": "2026-08-03",
+      "size": 30121616,
+      "sha256": "1e740b6a964032f67bd8235f98a3f12d229f3427d23e2486d6a0ede6dd3dba7c",
+      "signers": [
+        "8c86266c9e9191b7d02329606a5ecea7460958515462642ffec8664bb919da4d"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/koreader/koreader",
+      "license": "AGPL-3.0-only",
+      "minSdk": 18,
+      "minAndroid": "Android 4.3",
+      "targetSdk": 30,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "LocalSend",
+      "package": "org.localsend.localsend_app",
+      "page": "https://h5.2113.net/apps/localsend.html",
+      "category": "System Tools",
+      "version": "1.18.2",
+      "versionCode": 643,
+      "released": "2026-08-26",
+      "size": 46558706,
+      "sha256": "82ec3568fba2aa5295b9aae8b76f701d7a4703d86b9f8bad749472038fbaeab3",
+      "signers": [
+        "3220c353a73cfbd0c2f3052471c445324cf452bcba26de1c473a52fe5c44e1d6"
+      ],
+      "signedBy": "developer",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/localsend/localsend",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 19,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Tubular",
+      "package": "org.polymorphicshade.tubular",
+      "page": "https://h5.2113.net/apps/tubular.html",
+      "category": "Media",
+      "version": "0.28.4",
+      "versionCode": 1009,
+      "released": "2026-03-09",
+      "size": 10989082,
+      "sha256": "b362605d9a7a3383262622d016a069221726a60a1288be1b8fade4b563e499f1",
+      "signers": [
+        "8ad7025a8c911454e2a7b4515e360c52ca63ec0410a042ff46e9ad05b509e187"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/polymorphicshade/Tubular",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [
+        "ACRA"
+      ],
+      "olderVersions": []
+    },
+    {
+      "name": "PPSSPP",
+      "package": "org.ppsspp.ppsspp",
+      "page": "https://h5.2113.net/games/ppsspp.html",
+      "category": "Console Emulators",
+      "version": "1.19.3",
+      "versionCode": 119030000,
+      "released": "2025-07-24",
+      "size": 41264596,
+      "sha256": "44e1ecb9268702fb65adcee14cffb6cdc3607e87abcf409004c9bdb6b2543f6c",
+      "signers": [
+        "19ed8afe0520d512bd1d9a780131d486edb7e384614b5e43af9ad8c688b2e100"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/hrydgard/ppsspp",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 9,
+      "minAndroid": "Android 2.3",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "NewPipe",
+      "package": "org.schabi.newpipe",
+      "page": "https://h5.2113.net/apps/newpipe.html",
+      "category": "Media",
+      "version": "0.29.1",
+      "versionCode": 1015,
+      "released": "2026-08-21",
+      "size": 11507122,
+      "sha256": "18447bfb1e06d113edc88df93f471827280de06f6f3d4dc42f56f28b9c1bab79",
+      "signers": [
+        "cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab"
+      ],
+      "signedBy": "developer",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/TeamNewPipe/NewPipe",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [
+        "ACRA"
+      ],
+      "olderVersions": [
+        {
+          "version": "0.29.0",
+          "versionCode": 1014,
+          "released": "2026-07-26",
+          "size": 11507122,
+          "sha256": "1765284f67c09c983b025954da4f142419e93cc510f39f735700b670b04ba3ff"
+        },
+        {
+          "version": "0.28.8",
+          "versionCode": 1013,
+          "released": "2026-06-11",
+          "size": 10901946,
+          "sha256": "d9fb2540b3a2a0b059c73a296f0cda1c06738426d013c626dbf088aea66629b3"
+        },
+        {
+          "version": "0.28.7",
+          "versionCode": 1012,
+          "released": "2026-05-28",
+          "size": 10885562,
+          "sha256": "eb56aa9ae68b4d4b04e40251d7fe7ea49f97e0c4be5a8384e28d98ee36b9c5e2"
+        },
+        {
+          "version": "0.28.5",
+          "versionCode": 1010,
+          "released": "2026-04-14",
+          "size": 10881466,
+          "sha256": "12e28bdeeec5a9512ec550ba233dc890276f4e73e757ca0e787acede42dc6c1c"
+        }
+      ]
+    },
+    {
+      "name": "VLC",
+      "package": "org.videolan.vlc",
+      "page": "https://h5.2113.net/apps/vlc.html",
+      "category": "Media",
+      "version": "3.7.1",
+      "versionCode": 13070106,
+      "released": "2026-05-10",
+      "size": 47990842,
+      "sha256": "355ff246a0348c094a256926ea31cbec92701a2faca3d41d49170798c550ee3b",
+      "signers": [
+        "80535be61eedb9a03b0476a6f493d496c3498770404339ea7a8000f5e61d22c0"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://code.videolan.org/videolan/vlc-android",
+      "license": "GPL-3.0-only",
+      "minSdk": 17,
+      "minAndroid": "Android 4.2",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 30,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Vita3K",
+      "package": "org.vita3k.emulator",
+      "page": "https://h5.2113.net/games/vita3k.html",
+      "category": "Console Emulators",
+      "version": "0.2.1",
+      "versionCode": 21,
+      "released": "2026-09-27",
+      "size": 28549104,
+      "sha256": "f28bb76765845fc59fc45a0699fcb8b1ecc52dad6edde314e561f3cead293ad5",
+      "signers": [
+        "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
+      ],
+      "signedBy": "developer",
+      "source": "github",
+      "sourceRelease": "https://github.com/Vita3K/Vita3K/releases/tag/continuous",
+      "sourceCode": "https://github.com/Vita3K/Vita3K",
+      "license": "GPL-2.0",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Kodi",
+      "package": "org.xbmc.kodi",
+      "page": "https://h5.2113.net/apps/kodi.html",
+      "category": "Media",
+      "version": "21.3",
+      "versionCode": 2103001,
+      "released": "2026-03-29",
+      "size": 181782325,
+      "sha256": "2ced80c56809f73a21726cefc406233cc143566333cea6882af67576a0852407",
+      "signers": [
+        "13268f04efdc5a0ae4c93626ce357e4e15a1d67f8f1235340d9f631d9d8c6c43"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/xbmc/xbmc",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Spotube",
+      "package": "oss.krtirtho.spotube",
+      "page": "https://h5.2113.net/apps/spotube.html",
+      "category": "Media",
+      "version": "5.1.2",
+      "versionCode": 45,
+      "released": "2026-06-09",
+      "size": 128561194,
+      "sha256": "f853b511a6c7461b34c4c9f01c47de3416eb5d2dea1dbcd0b1e11fcde2706add",
+      "signers": [
+        "49fa0dd990cd68877545b661360f0538245c791e5b8b5384a54f40de013dadfb"
+      ],
+      "signedBy": "fdroid",
+      "source": "fdroid",
+      "sourceCode": "https://github.com/KRTirtho/spotube",
+      "license": "BSD-4-Clause",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "SongSync",
+      "package": "pl.lambada.songsync",
+      "page": "https://h5.2113.net/apps/songsync.html",
+      "category": "Media",
+      "version": "4.3.3",
+      "versionCode": 433,
+      "released": "2025-05-15",
+      "size": 5068473,
+      "sha256": "f372118c0ed17cb2cb1d5e5e25fcef64144f5a8d1e6c3add8e9b859e00be61b0",
+      "signers": [
+        "56b13a099dcd24f1d3c53b3c7ac0fc65ea1e30a3f7e43fc713c9593613b715f0"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/Lambada10/SongSync",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Private DNS Quick Toggle",
+      "package": "ru.karasevm.privatednstoggle",
+      "page": "https://h5.2113.net/apps/private-dns-quick-toggle.html",
+      "category": "Network & Privacy",
+      "version": "1.11.0",
+      "versionCode": 19,
+      "released": "2025-08-05",
+      "size": 4297106,
+      "sha256": "7d42277188f9eeb219c203e9dfe894b90664895bc25a3847279ac1786eb6b26e",
+      "signers": [
+        "1347c51f78d056fb15fe1eeaa1a0f34c6a08e2bfe4bce8ea1a1abd3db7e2c3fb"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/karasevm/PrivateDNSAndroid",
+      "license": "MIT",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "olderVersions": []
+    }
+  ]
+}

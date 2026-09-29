@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-109 apps. This list is generated from the site and updated when the site is.
+109 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -288,3 +288,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 ## About this list
 
 2113 Apps doesn’t modify, rebuild or re-sign any app. A tracker scan shows which known tracker SDKs are in the code, not what an app sends; “no known trackers found” means none of the Exodus Privacy signatures matched. Developers can add a “Get it on 2113 Apps” badge to their README: see [For developers](https://h5.2113.net/developers.html). Corrections: zmkm568@gmail.com.
+
+## License
+
+The text and data in this repository are licensed under [CC BY 4.0](LICENSE). You may share and adapt them, commercially too, as long as you credit 2113 Apps with a link to https://h5.2113.net/. Each app is under its own licence, listed with it.
