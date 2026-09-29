@@ -38,6 +38,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - [How to Start Shizuku: Wireless Debugging, PC or Root](https://h5.2113.net/guides/how-to-start-shizuku.html): Three ways to start Shizuku (root, wireless debugging on Android 11+, or a computer), what to redo after a reboot, and fixes for when it won't start or keeps stopping.
 - [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
+- [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
 
 ## Root & Mods
 

@@ -24,9 +24,14 @@ With the Android SDK build tools:
 apksigner verify --print-certs app.apk
 ```
 
-Compare the line `Signer #1 certificate SHA-256 digest` with the `signers` value in `apps.json`, or “Signer SHA-256” on the app’s page. If an app lists more than one fingerprint, its APK carries more than one certificate, for example after a signing-key rotation, and a match with any of them is expected.
+Compare the line ending in `certificate SHA-256 digest` with the `signers` value in `apps.json`, or “Signer SHA-256” on the app’s page. Its wording depends on your Build Tools version:
 
-With a Java JDK, `keytool -printcert -jarfile app.apk` prints the certificate’s SHA256 fingerprint too, in capitals with colons between the bytes. It only works on APKs that still carry the older v1 signature, which many current apps no longer do, so `apksigner` is the reliable way.
+- 36.1.0 and earlier: `Signer #1 certificate SHA-256 digest: …`
+- 37.0.0: `V2 Signer: certificate SHA-256 digest: …`, or `V3.0 Signer: …` for APKs signed with the v3 scheme
+
+If the file was changed after signing, apksigner prints `DOES NOT VERIFY` and an error instead of a certificate. If an app lists more than one fingerprint, its APK carries more than one certificate, for example after a signing-key rotation, and a match with any of them is expected.
+
+With a Java JDK, `keytool -printcert -jarfile app.apk` prints the certificate’s SHA256 fingerprint too, in capitals with colons between the bytes. It only works on APKs that still carry the older v1 signature, which many current apps no longer do (it then answers `Not a signed jar file`), so `apksigner` is the reliable way. A step-by-step version, with output we got from real APKs, is on the site: [How to verify an APK’s signature](https://h5.2113.net/guides/verify-apk-signature.html).
 
 ## What the signer tells you
 
