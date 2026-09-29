@@ -2773,6 +2773,126 @@
       "olderVersions": []
     },
     {
+      "name": "Fossify Calendar",
+      "package": "org.fossify.calendar",
+      "page": "https://h5.2113.net/apps/fossify-calendar.html",
+      "category": "Productivity",
+      "version": "1.11.0",
+      "versionCode": 22,
+      "released": "2026-09-23",
+      "size": 7841005,
+      "sha256": "4b946bee820b516ef9e4893a7f92ba2aa187201b15915e159c6f04567648f93e",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Calendar",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Clock",
+      "package": "org.fossify.clock",
+      "page": "https://h5.2113.net/apps/fossify-clock.html",
+      "category": "Productivity",
+      "version": "1.6.0",
+      "versionCode": 10,
+      "released": "2026-01-31",
+      "size": 9110265,
+      "sha256": "43cf9f0ec45f1f1ff2df47286622e5b8f3acedaeb07b7f7641b5243dbedca079",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Clock",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Contacts",
+      "package": "org.fossify.contacts",
+      "page": "https://h5.2113.net/apps/fossify-contacts.html",
+      "category": "Productivity",
+      "version": "1.6.0",
+      "versionCode": 13,
+      "released": "2026-01-31",
+      "size": 8602985,
+      "sha256": "6a89be96b5ec39f5e2b11bd61dc7031f4b88261b324ab13af5743fbc62f0cddb",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Contacts",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify File Manager",
+      "package": "org.fossify.filemanager",
+      "page": "https://h5.2113.net/apps/fossify-file-manager.html",
+      "category": "System Tools",
+      "version": "1.6.1",
+      "versionCode": 13,
+      "released": "2026-02-17",
+      "size": 9982225,
+      "sha256": "9e97d2faf55fb2702386c3dc51e38a6b073781016b125701d3ab668419a70008",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/File-Manager",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
       "name": "Fossify Gallery",
       "package": "org.fossify.gallery",
       "page": "https://h5.2113.net/apps/fossify-gallery.html",
@@ -2799,6 +2919,156 @@
         "x86_64"
       ],
       "permissions": 13,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Launcher",
+      "package": "org.fossify.home",
+      "page": "https://h5.2113.net/apps/fossify-launcher.html",
+      "category": "Customization",
+      "version": "1.10.0",
+      "versionCode": 16,
+      "released": "2026-02-17",
+      "size": 5222266,
+      "sha256": "a603d3d510482feafd73d52a93a1ea9baefd2ca0aae329a14cbf0e21f43638e3",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Launcher",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Keyboard",
+      "package": "org.fossify.keyboard",
+      "page": "https://h5.2113.net/apps/fossify-keyboard.html",
+      "category": "Other",
+      "version": "1.9.1",
+      "versionCode": 14,
+      "released": "2026-02-02",
+      "size": 17098779,
+      "sha256": "e326885c08b68212fd9fdda9be8a4fa492d5daba7ff37bb4ff4511826f40a8d0",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Keyboard",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Music Player",
+      "package": "org.fossify.musicplayer",
+      "page": "https://h5.2113.net/apps/fossify-music-player.html",
+      "category": "Media",
+      "version": "1.8.1",
+      "versionCode": 14,
+      "released": "2026-02-17",
+      "size": 11027320,
+      "sha256": "b5d0ce367544df1ac162adf71d642878c5b963a304ca0ddf8f8556f07bbba79b",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Music-Player",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 8,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Notes",
+      "package": "org.fossify.notes",
+      "page": "https://h5.2113.net/apps/fossify-notes.html",
+      "category": "Productivity",
+      "version": "1.7.0",
+      "versionCode": 13,
+      "released": "2026-01-31",
+      "size": 9528948,
+      "sha256": "5a56e0e39cc488e1f3b947d3801006d3b7450ec73c67f03195c64c5fd3b6bced",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Notes",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Phone",
+      "package": "org.fossify.phone",
+      "page": "https://h5.2113.net/apps/fossify-phone.html",
+      "category": "Productivity",
+      "version": "1.11.1",
+      "versionCode": 22,
+      "released": "2026-02-03",
+      "size": 9165050,
+      "sha256": "d1ad08467034e5138a6e68f03b6e150f0bb010dfcbf490ff3d2bd4822b755728",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Phone",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 20,
       "trackers": [],
       "olderVersions": []
     },

@@ -2,19 +2,20 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-109 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+118 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (10)
-- [Customization](#customization) (5)
+- [Customization](#customization) (6)
 - [Network & Privacy](#network--privacy) (19)
-- [Media](#media) (28)
-- [System Tools](#system-tools) (31)
+- [Media](#media) (29)
+- [System Tools](#system-tools) (32)
 - [Cloud & Sync](#cloud--sync) (3)
-- [Other](#other) (4)
+- [Productivity](#productivity) (5)
+- [Other](#other) (5)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (5)
@@ -23,6 +24,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - [Obtainium Alternatives for Android](https://h5.2113.net/topics/app-updaters/): Four open-source alternatives to Obtainium for installing and updating Android apps outside Google Play. Sources, silent installs and tracking flags compared.
 - [Android Customization Apps: Open-Source Picks](https://h5.2113.net/topics/customization/): Six open-source apps to customize Android, from launchers and a desktop-style taskbar to system-wide icon packs and Quick Settings styling. What each needs.
+- [Fossify Apps: Simple Mobile Tools Alternatives](https://h5.2113.net/topics/fossify-apps/): The Fossify apps that carry on Simple Mobile Tools, from gallery and dialer to keyboard and launcher. None requests internet access; all ten share one signing key.
 - [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from fixing old app installs to icon packs and freezing background apps. Xposed API confirmed in every APK, no trackers.
 - [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Three open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2 and Fold Craft Launcher, compared on versions, mods and devices.
 - [NewPipe Alternatives: Open-Source YouTube Apps](https://h5.2113.net/topics/newpipe-alternatives/): NewPipe, PipePipe, LibreTube, FreeTube Android, SkyTube and Tubular compared on features, how they reach YouTube, upkeep and devices. Every APK checked.
@@ -62,6 +64,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Customization
 
+- **[Fossify Launcher](https://h5.2113.net/apps/fossify-launcher.html)**: A plain home screen that carries on from Simple Launcher: icons, folders and widgets on a grid you size yourself, an app drawer with search, and no account or news feed.  
+  Default home app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Launcher)
 - **[Global Icon Pack](https://h5.2113.net/apps/global-icon-pack.html)**: Applies your icon pack across all of Android, including Settings, Recents and other screens a launcher can’t reach.  
   Root + LSPosed · no known trackers found · GPL-3.0-only · [source](https://github.com/RichardLuo0/global-icon-pack-android)
 - **[Iconify](https://h5.2113.net/apps/iconify.html)**: Restyles Quick Settings, notifications, the volume panel and system icons on Pixel and AOSP ROMs, with previews.  
@@ -124,6 +128,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
 - **[Fossify Gallery](https://h5.2113.net/apps/fossify-gallery.html)**: A photo and video gallery that stays offline: browse, edit, hide and lock your pictures, restore deleted ones from a recycle bin, and strip location data before you share.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Gallery)
+- **[Fossify Music Player](https://h5.2113.net/apps/fossify-music-player.html)**: A player for the music files on your phone that carries on from Simple Music Player: browse by album, artist, genre or folder, with playlists, an equalizer and a sleep timer.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Music-Player)
 - **[FreeTube Android](https://h5.2113.net/apps/freetube.html)**: The Android version of FreeTube: watch YouTube without an account, keep subscriptions, playlists and history on your phone, and organise channels into profiles.  
   No root · Android 10+ · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/MarmadileManteater/FreeTubeAndroid)
 - **[Gyawun Music](https://h5.2113.net/apps/gyawun-music.html)**: A light, open-source player for YouTube Music, with offline downloads, synced lyrics, an equalizer and podcasts, and no account sign-in in the app.  
@@ -199,6 +205,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no known trackers found · Apache-2.0 · [source](https://github.com/LSafer/edgeseek)
 - **[Florid](https://h5.2113.net/apps/florid.html)**: A redesigned client for browsing, installing and updating apps from F-Droid.  
   No root · ARM64 · no known trackers found · GPL-3.0-only · [source](https://github.com/Nandanrmenon/florid)
+- **[Fossify File Manager](https://h5.2113.net/apps/fossify-file-manager.html)**: An open-source file manager that carries on from Simple File Manager: favourites, search, ZIP archives, a storage analyser, locks for hidden files, and root access if you have it.  
+  No root needed · all files access · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/File-Manager)
 - **[Install with Options](https://h5.2113.net/apps/install-with-options.html)**: Installs APKs with options normally reserved for adb: test-only apps, downgrades, split APKs and Android 14’s blocked old apps.  
   Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
 - **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
@@ -247,10 +255,25 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Nextcloud](https://h5.2113.net/apps/nextcloud.html)**: The official Android app for Nextcloud Files: reach the files on your own Nextcloud server, or an account with a provider, upload photos automatically and keep chosen folders synced.  
   A Nextcloud server · 64-bit phone · Android 9+ · no known trackers found · GPL-2.0-only · [source](https://github.com/nextcloud/android)
 
+## Productivity
+
+- **[Fossify Calendar](https://h5.2113.net/apps/fossify-calendar.html)**: An open-source calendar that works offline: day, week, month and year views, recurring events, reminders, built-in public holidays for 70 countries and home screen widgets.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Calendar)
+- **[Fossify Clock](https://h5.2113.net/apps/fossify-clock.html)**: An open-source clock app that carries on from Simple Clock: alarms with gradual volume and an adjustable snooze, a world clock, timers, a stopwatch and widgets.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Clock)
+- **[Fossify Contacts](https://h5.2113.net/apps/fossify-contacts.html)**: An open-source contacts app that carries on from Simple Contacts: groups and favourites, vCard import and export, and private contacts that other apps can’t read.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Contacts)
+- **[Fossify Notes](https://h5.2113.net/apps/fossify-notes.html)**: A plain notes app that carries on from Simple Notes Pro: text notes and checklists, home screen widgets, optional locks, and backups that stay on your phone.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Notes)
+- **[Fossify Phone](https://h5.2113.net/apps/fossify-phone.html)**: An open-source phone app that carries on from Simple Dialer: a call log, favourites and speed dial, blocking of numbers or unknown callers, and multi-SIM support.  
+  Default phone app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Phone)
+
 ## Other
 
 - **[AnySoftKeyboard](https://h5.2113.net/apps/anysoftkeyboard.html)**: An open-source on-screen keyboard that you can shape to your liking: word suggestions and next-word prediction, gesture typing, themes, and extra languages as separate packs.  
   No root · Android 6.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
+- **[Fossify Keyboard](https://h5.2113.net/apps/fossify-keyboard.html)**: A plain on-screen keyboard that carries on from Simple Keyboard: 44 layouts, from Portuguese to Colemak, an emoji picker and a clipboard manager, but no word suggestions.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Keyboard)
 - **[Kiwix](https://h5.2113.net/apps/kiwix.html)**: Reads Wikipedia and other websites offline from downloaded ZIM archives. This is the full version, which can open ZIM files from any folder, unlike the Google Play version.  
   No root · 64-bit phone · Android 7.1+ · no known trackers found · GPL-3.0 · [source](https://github.com/kiwix/kiwix-android)
 - **[KOReader](https://h5.2113.net/apps/koreader.html)**: A document reader built first for e-ink readers such as Kindle and Kobo, and available on Android: EPUB, PDF, DjVu, comics and more, with dictionaries and Calibre built in.  
