@@ -3349,9 +3349,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-09-27",
-      "size": 28549104,
-      "sha256": "f28bb76765845fc59fc45a0699fcb8b1ecc52dad6edde314e561f3cead293ad5",
+      "released": "2026-09-30",
+      "size": 28552536,
+      "sha256": "5402197faa3a14d6a2fd51988bf219c82dad1885272d3b87726c1a429bdebb98",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
