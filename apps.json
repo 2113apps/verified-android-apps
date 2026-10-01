@@ -8,11 +8,11 @@
       "package": "app.alextran.immich",
       "page": "https://h5.2113.net/apps/immich.html",
       "category": "Cloud & Sync",
-      "version": "3.2.2",
-      "versionCode": 3020299,
-      "released": "2026-09-20",
+      "version": "3.2.4",
+      "versionCode": 3020499,
+      "released": "2026-10-01",
       "size": 179565680,
-      "sha256": "36b0d1368881ad6388b011d9a5bb91f7bd6133371d1eb585390c80232b9f22ea",
+      "sha256": "cfb6104485ffc161ac70d7944604db830250bc39968083efc4835f4bf9de677c",
       "signers": [
         "fa8b4395f4a64771a053d1c757735fa2301374f53d580dd175aaf7a135729cbf"
       ],
