@@ -1,6 +1,7 @@
 {
   "site": "https://h5.2113.net/",
   "license": "CC-BY-4.0",
+  "version": "1.0",
   "apps": [
     {
       "name": "Immich",
@@ -16,6 +17,11 @@
         "fa8b4395f4a64771a053d1c757735fa2301374f53d580dd175aaf7a135729cbf"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/immich-app/immich",
       "license": "AGPL-3.0-only",
@@ -29,6 +35,7 @@
       ],
       "permissions": 25,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -45,6 +52,11 @@
         "777d6de4161dfdfdc4287e5dfed83355714f9a3227e2fd81111831f30596e407"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/Jigsaw-Code/Intra",
       "license": "Apache-2.0",
@@ -59,6 +71,7 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -75,6 +88,9 @@
         "747c3645b357258b2e23e851e53c96747fe0add007e5ba2cd97e8c85572e4dc5"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/LawnchairLauncher/lawnchair",
       "license": "Apache-2.0",
@@ -89,6 +105,7 @@
       ],
       "permissions": 57,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -105,6 +122,11 @@
         "68690654e3ee46d70895a12445dfa98d8c963d13e2de0f8aaa209765cc2c415e"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/marlboro-advance/mpvEx",
       "license": "Apache-2.0",
@@ -116,6 +138,44 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Amaze File Manager",
+      "package": "com.amaze.filemanager",
+      "page": "https://h5.2113.net/apps/amaze-file-manager.html",
+      "category": "System Tools",
+      "version": "3.11.3",
+      "versionCode": 125,
+      "released": "2026-07-30",
+      "size": 12311594,
+      "sha256": "864bcec7c1e69bd5a4a6f8613a4ac047e748a598e5a9948f28fba3f3e709d203",
+      "signers": [
+        "aff656d7ca84d71254d272c55fb420edf172b2549de14f5ccefd5a82528df554"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/TeamAmaze/AmazeFileManager",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 18,
+      "trackers": [
+        "ACRA"
+      ],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -132,6 +192,10 @@
         "c07f28e982c2536f63cf48173e9ea9ca8c2ce8dbc19b0f5091c114aadf40d582"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/cioccarellia/androoster",
       "license": "Apache-2.0",
@@ -141,6 +205,7 @@
       "abis": [],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -157,6 +222,11 @@
         "7294a15b12efb0ffe7d6f29f9a032329a681a05a5730309cc6f9bf387764b559"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/rumboalla/apkupdater",
       "license": "GPL-3.0-only",
@@ -171,6 +241,10 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet",
+        "Tracking"
+      ],
       "olderVersions": []
     },
     {
@@ -187,6 +261,11 @@
         "5c83c7672b929955dc0a1db89a5e6ae4389e2eae7ec939956041694e5815f532"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://gitlab.com/AuroraOSS/AuroraStore",
       "license": "GPL-3.0-or-later",
@@ -201,6 +280,10 @@
       ],
       "permissions": 21,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet",
+        "Tracking"
+      ],
       "olderVersions": []
     },
     {
@@ -217,6 +300,10 @@
         "e5d5db176a742c566ba6020ac24d93fabda5f6952d7fccae9e3a46e9848e83b5"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/BinTianqi/OwnDroid",
       "license": "GPL-3.0-or-later",
@@ -231,6 +318,7 @@
       ],
       "permissions": 15,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -247,6 +335,11 @@
         "85366b10ecadff33e10c53250444a125203908285363c27fc62a561f9660fa48"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/rustdesk/rustdesk",
       "license": "GPL-3.0-only",
@@ -258,6 +351,9 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [
+        "Tracking"
+      ],
       "olderVersions": []
     },
     {
@@ -274,6 +370,9 @@
         "50cdcd3e18a3550eabe52864c2fae9079d4c282456d4a2ffed50caa58c5d4a22"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/darusc/Mousedroid",
       "license": "MIT",
@@ -283,6 +382,7 @@
       "abis": [],
       "permissions": 8,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -299,6 +399,9 @@
         "acdd871a3de2947d3253ec90cdc53d1a0740d6038e25a6485d71899eefa96db8"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/OuterTune/OuterTune",
       "license": "GPL-3.0-only",
@@ -313,6 +416,9 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -329,6 +435,9 @@
         "263645cb5272eb290759fe1f59149ae24df6ce171e9f6666eead981d3fc64c95"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/deniscerri/ytdlnis",
       "license": "GPL-3.0-only",
@@ -340,6 +449,7 @@
       ],
       "permissions": 22,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -356,6 +466,9 @@
         "4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/Mahmud0808/Iconify/releases/tag/v7.3.0",
       "sourceCode": "https://github.com/Mahmud0808/Iconify",
@@ -371,6 +484,7 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -387,6 +501,11 @@
         "9fdd93b62bcc95e86ff681a401f81653e37626e83369a3e192e060f2a3ca147d"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/emanuele-f/PCAPdroid",
       "license": "GPL-3.0-or-later",
@@ -401,6 +520,7 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -417,6 +537,11 @@
         "0e2b55c6ad9b989351da9d54e7b1d57762463aaf3159d2f0bc95ab607b95f7f0"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/farmerbb/Taskbar",
       "license": "Apache-2.0",
@@ -426,6 +551,7 @@
       "abis": [],
       "permissions": 21,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -442,6 +568,9 @@
         "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/meshtastic/Meshtastic-Android",
       "license": "GPL-3.0-only",
@@ -453,6 +582,7 @@
       ],
       "permissions": 20,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -469,6 +599,10 @@
         "551353d4e096d5d117fc322dbfed42c5ae7c8f26ac1009a13edc0f39f80b4c8c"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict",
       "license": "GPL-3.0-only",
@@ -478,6 +612,7 @@
       "abis": [],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -494,6 +629,11 @@
         "a86631e8cc555838e8dfc29019fb0f7dac333ef1cda1139c424d1a08d68a030b"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/libre-tube/LibreTube",
       "license": "GPL-3.0-or-later",
@@ -503,6 +643,9 @@
       "abis": [],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -519,6 +662,11 @@
         "3ced42093b12aa0d08f745e5a0f01d13cb9ec4ef6cba0b8a0a056dbaecd45b98"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/shadowsocks/shadowsocks-android",
       "license": "GPL-3.0-or-later",
@@ -533,6 +681,7 @@
       ],
       "permissions": 13,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -549,6 +698,9 @@
         "d1ce3aba3f77ebc4582f8350dae1815aecce1bf05d678527cce8d0e6cd244ad0"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/sheikhhaziq/gyawun_music/releases/tag/v2.0.18",
       "sourceCode": "https://github.com/sheikhhaziq/gyawun_music",
@@ -561,6 +713,7 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -577,6 +730,11 @@
         "7de6aeb93f196e677b087bc8d040fe598b613a9654990d6fcaa40d71eb13cd49"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/JunkFood02/Seal",
       "license": "GPL-3.0-only",
@@ -588,6 +746,9 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -604,6 +765,11 @@
         "51e66fe88c480297b545d44c0b91edb33390bf875c92ba2f526c74cc4757fed2"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/jvde-github/AIS-catcher-for-Android",
       "license": "GPL-3.0-only",
@@ -618,6 +784,7 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -634,6 +801,11 @@
         "ed8859c55af311162658b94af982b9f091dcd27628d4de3486d1217ebf3c9935"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Droid-ify/client",
       "license": "GPL-3.0-or-later",
@@ -648,6 +820,7 @@
       ],
       "permissions": 17,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -664,6 +837,11 @@
         "76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/maxrave-dev/SimpMusic",
       "license": "GPL-3.0-only",
@@ -675,6 +853,9 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -691,6 +872,11 @@
         "716be98a10a886045cc3c39a7abaf501b9434b9602b25d02a89c326b7c7b9d0a"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/AnySoftKeyboard/AnySoftKeyboard",
       "license": "Apache-2.0",
@@ -705,6 +891,7 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -721,6 +908,11 @@
         "e32c4f2efd7ee9548faee22e45a60425f7728a55a610fd5e8ab9364f74b7bcc9"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/MetrolistGroup/Metrolist",
       "license": "GPL-3.0-only",
@@ -735,6 +927,9 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -751,6 +946,9 @@
         "851381b5eb6f169a2da6e323ff674accc835c6fc47b15bbfd7920578e97b0689"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.6.1",
       "sourceCode": "https://github.com/ZalithLauncher/ZalithLauncher2",
@@ -766,6 +964,7 @@
       ],
       "permissions": 20,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -782,6 +981,9 @@
         "006cf57063d2fc28a0f351e0ee313142dfc965041470f665e2a204792426e66d"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/dead8309/Kizzy",
       "license": "GPL-3.0-only",
@@ -796,6 +998,9 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -812,6 +1017,9 @@
         "8486d1cb98e0ebeba90b5715c5e9196c6867f0db1044d760416c139e5c10ce12"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/Nandanrmenon/florid/releases/tag/v1.4.0+17",
       "sourceCode": "https://github.com/Nandanrmenon/florid",
@@ -824,6 +1032,7 @@
       ],
       "permissions": 19,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -840,6 +1049,11 @@
         "5709576f9d6c6a7687dd5d56b269d1fa5e379702b91bc83f39fd7b7c597c1b83"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/nextcloud/android",
       "license": "GPL-2.0-only",
@@ -852,6 +1066,7 @@
       ],
       "permissions": 33,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -868,6 +1083,9 @@
         "255cb09eaddd26a9cc680786e4985372cf24d0e54bb120fc44d48f3273ff3956"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/eszdman/PhotonCamera",
       "license": "GPL-3.0-or-later",
@@ -879,6 +1097,9 @@
       ],
       "permissions": 13,
       "trackers": [],
+      "antiFeatures": [
+        "ApplicationDebuggable"
+      ],
       "olderVersions": []
     },
     {
@@ -895,6 +1116,9 @@
         "ac701125e653189b2bbaa78fba60c1136b88b8780078db0dc4257f019c81c9fe"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/emanuele-f/PCAPdroid-mitm",
       "license": "GPL-3.0-only",
@@ -906,6 +1130,7 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -922,6 +1147,11 @@
         "830166b8bea60c42c6785459043adc1fb3b30537a56a7c90a595cb9e08126c26"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Raival-e/Prism-File-Explorer",
       "license": "GPL-3.0-only",
@@ -936,6 +1166,7 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -952,6 +1183,11 @@
         "24cb175eab56f2af3c73b80a89ef0f02d619730673fa9eaa873d2c93ef8e92b3"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/rajmani7584/Payload-Dumper-Android",
       "license": "GPL-3.0-only",
@@ -966,6 +1202,7 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -982,6 +1219,11 @@
         "f2b1eabcde44d62b9692c52801077c931dcb86293c2b3967bdc644a1c8d837eb"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/libretro/RetroArch",
       "license": "GPL-3.0-only",
@@ -996,6 +1238,9 @@
       ],
       "permissions": 4,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1012,6 +1257,9 @@
         "4b285259d29e7fe0e5ac7ca0e0987445992d8feaa48e3054e579d97005d616b3"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/RichardLuo0/global-icon-pack-android",
       "license": "GPL-3.0-only",
@@ -1026,6 +1274,7 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1042,6 +1291,9 @@
         "e2511eca05e29878980e8fd8adc6bfe346019fced7a5109b4f521babbaa25ce3"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/shynoiddev/FireWall-Blocks",
       "license": "MIT",
@@ -1051,6 +1303,7 @@
       "abis": [],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1067,6 +1320,11 @@
         "36e9853f4884e55c35803dbf671e1493e8b0b4d33e635ed84dbaa83bcad8303c"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/Swordfish90/Lemuroid",
       "license": "GPL-3.0-or-later",
@@ -1081,6 +1339,10 @@
       ],
       "permissions": 13,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeAdd",
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1097,6 +1359,11 @@
         "3705f184cb67d683e76ecc203cc9cc357e6448c50e59002419085b4c286df0e8"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/tailscale/tailscale-android",
       "license": "BSD-3-Clause",
@@ -1111,6 +1378,9 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [
+        "Tracking"
+      ],
       "olderVersions": []
     },
     {
@@ -1127,6 +1397,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-app",
       "license": "GPL-3.0-only",
@@ -1141,6 +1416,7 @@
       ],
       "permissions": 15,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": [
         {
           "version": "0.118.2",
@@ -1186,6 +1462,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-api",
       "license": "GPL-3.0-only",
@@ -1195,6 +1476,7 @@
       "abis": [],
       "permissions": 35,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1211,6 +1493,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-boot",
       "license": "GPL-3.0-only",
@@ -1220,6 +1507,7 @@
       "abis": [],
       "permissions": 2,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1236,6 +1524,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-gui",
       "license": "GPL-3.0-only",
@@ -1250,6 +1543,7 @@
       ],
       "permissions": 4,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1266,6 +1560,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-styling",
       "license": "GPL-3.0-only",
@@ -1275,6 +1574,7 @@
       "abis": [],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1291,6 +1591,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-tasker",
       "license": "GPL-3.0-only",
@@ -1300,6 +1605,9 @@
       "abis": [],
       "permissions": 2,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeDep"
+      ],
       "olderVersions": []
     },
     {
@@ -1316,6 +1624,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-widget",
       "license": "GPL-3.0-only",
@@ -1330,6 +1643,7 @@
       ],
       "permissions": 2,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1346,6 +1660,11 @@
         "228fb2cfe90831c1499ec3ccaf61e96e8e1ce70766b9474672ce427334d41c42"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/termux/termux-float",
       "license": "GPL-3.0-only",
@@ -1360,6 +1679,7 @@
       ],
       "permissions": 3,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1376,6 +1696,10 @@
         "b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/topjohnwu/Magisk/releases/tag/v30.7",
       "sourceCode": "https://github.com/topjohnwu/Magisk",
@@ -1391,6 +1715,7 @@
       ],
       "permissions": 11,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": [
         {
           "version": "30.6",
@@ -1436,6 +1761,9 @@
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.6",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
@@ -1451,6 +1779,7 @@
       ],
       "permissions": 21,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1467,6 +1796,11 @@
         "e0581bab0b930b179396e13008aa08509cdcd1ee38f7ae54102fc3cf93256a9d"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/vivizzz007/vivi-music",
       "license": "GPL-3.0-only",
@@ -1481,6 +1815,9 @@
       ],
       "permissions": 15,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1497,6 +1834,9 @@
         "e576bf5035e4bba4efb2c5099f9d74a95cc3abe8e3b6b0c72219cc07eac8c8fb"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/brunodev85/winlator/releases/tag/v11.2.0",
       "sourceCode": "https://github.com/brunodev85/winlator",
@@ -1509,6 +1849,7 @@
       ],
       "permissions": 11,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1525,6 +1866,9 @@
         "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/wgtunnel/android",
       "license": "MIT",
@@ -1536,6 +1880,7 @@
       ],
       "permissions": 21,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1552,6 +1897,9 @@
         "70692bac877fad4481f01c181125ebb66d0e234f45f7e88e4200fb566c7207c9"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/binarynoise/XposedModulets",
       "license": "EUPL-1.2",
@@ -1561,6 +1909,7 @@
       "abis": [],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1577,6 +1926,11 @@
         "4cd330fe6593e2e64b1e1fa383f0c6d73892184fc1cd1a909e71d558d862e212"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/schwabe/ics-openvpn",
       "license": "GPL-2.0-only",
@@ -1591,6 +1945,7 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1607,6 +1962,9 @@
         "7baab2feb8ac7fe10fe5414e4d28aa901a525981b1201e2d583df5bb6d9b1b13"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/buttercookie42/DisableTargetAPIBlock",
       "license": "MPL-2.0",
@@ -1616,6 +1974,7 @@
       "abis": [],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1632,6 +1991,11 @@
         "179430565a4a04bfe7827483243099bd10870410800cd7c4c7b48d8d3226df55"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/AntennaPod/AntennaPod",
       "license": "GPL-3.0-only",
@@ -1646,6 +2010,44 @@
       ],
       "permissions": 11,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Kvaesitso",
+      "package": "de.mm20.launcher2.release",
+      "page": "https://h5.2113.net/apps/kvaesitso.html",
+      "category": "Customization",
+      "version": "1.41.0",
+      "versionCode": 2026091500,
+      "released": "2026-09-15",
+      "size": 13936180,
+      "sha256": "55e4a287f1198be22f040c2ad1443f5861b58b1d1394d7377221f1ad4448b810",
+      "signers": [
+        "bf65bbd617997397800d02e0ac2e45cee153151518545c23ef66b3cb2cfdf7bc"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/MM2-0/Kvaesitso",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 29,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeDep",
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1662,6 +2064,11 @@
         "2015709d519fd686b1e37b334f12082cbafcb9f5126a68a25b172043ebb581de"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/butzist/ActivityLauncher",
       "license": "ISC",
@@ -1671,6 +2078,7 @@
       "abis": [],
       "permissions": 5,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1687,6 +2095,9 @@
         "d37cabf3676cf58224fb242c8dd209129d05880379295faaa6d0fb607bec131b"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/anilbeesetti/nextplayer",
       "license": "GPL-3.0-only",
@@ -1698,6 +2109,7 @@
       ],
       "permissions": 11,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1714,6 +2126,11 @@
         "b353601f6a1d5fd6603ae2f50be80cf301367b86b6ab8b1f66243da96cd57362"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/ImranR98/Obtainium",
       "license": "GPL-3.0-only",
@@ -1725,6 +2142,7 @@
       ],
       "permissions": 18,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1741,6 +2159,9 @@
         "e6565e92740a44d5550a03dc34f1b2a736f8b13f60a2a5f29f1fb9364b6fc56e"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/zacharee/InstallWithOptions",
       "license": "MIT",
@@ -1757,6 +2178,7 @@
       "trackers": [
         "Bugsnag"
       ],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1773,6 +2195,10 @@
         "e4a260a2dce7b7af23ee919c489e15fd0102b93f9e7c9d82b09c0b395000e4d4"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/M66B/NetGuard",
       "license": "GPL-3.0-only",
@@ -1787,6 +2213,10 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeComp",
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1803,6 +2233,11 @@
         "ec038e5b12c9fb8df23b5ecc1f71dd251bc503b30cec8d58a00cfae2c31abf1b"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/Neamar/KISS",
       "license": "GPL-3.0-only",
@@ -1812,6 +2247,7 @@
       "abis": [],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1828,6 +2264,11 @@
         "435adf83d60ff5a9ccdcab9971865dca86f5086f615e83369aa6bbce26f5a830"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/SkyTubeTeam/SkyTube",
       "license": "GPL-3.0-only",
@@ -1837,6 +2278,9 @@
       "abis": [],
       "permissions": 4,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1853,6 +2297,9 @@
         "dc4217203a7284bd159d7b863b7990620069c7929d6f5a51f59a321e77f18d4c"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/DP-Hridayan/aShellYou",
       "license": "GPL-3.0-or-later",
@@ -1867,6 +2314,7 @@
       ],
       "permissions": 18,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1883,6 +2331,9 @@
         "b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://gitlab.com/sunilpaulmathew/ashell",
       "license": "GPL-3.0-or-later",
@@ -1892,6 +2343,7 @@
       "abis": [],
       "permissions": 3,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1908,6 +2360,10 @@
         "dec73429ce2563275f5ed19825e44652b32b363a46f38bdff9ad6dcde4842d88"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/InfinityLoop1308/PipePipe",
       "license": "GPL-3.0-only",
@@ -1920,6 +2376,9 @@
       "permissions": 11,
       "trackers": [
         "ACRA"
+      ],
+      "antiFeatures": [
+        "NonFreeNet"
       ],
       "olderVersions": []
     },
@@ -1937,6 +2396,9 @@
         "4d9664daae8a83532756adc8777e96a6de9f8497bb60ad1c782adb71fae80fc1"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/MarmadileManteater/FreeTubeAndroid",
       "license": "AGPL-3.0-or-later",
@@ -1946,6 +2408,9 @@
       "abis": [],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1962,6 +2427,9 @@
         "06c19b8aeb0fdf14bef31ea34834d6ba7a3f38856728ff1fa35e334ef7fc2db1"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/auag0/HideMockLocation",
       "license": "MIT",
@@ -1971,6 +2439,7 @@
       "abis": [],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1987,6 +2456,11 @@
         "320c0c0fe8cef873f2b554cb88c837f1512589dcced50c5b25c43c04596760ab"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/MuntashirAkon/AppManager",
       "license": "GPL-3.0-only",
@@ -2001,6 +2475,7 @@
       ],
       "permissions": 63,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2017,6 +2492,9 @@
         "09252c3533c4378957d22ead9165dbd91fb252119e7fce7eb595dcca6c4b6748"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/codehasan/Current-Activity",
       "license": "GPL-3.0-or-later",
@@ -2026,6 +2504,7 @@
       "abis": [],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2042,6 +2521,9 @@
         "0a2640317c43272188c3e13194c15460691f12c39ea19bba727dd67fb56289d4"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/samolego/Canta",
       "license": "LGPL-3.0-or-later",
@@ -2056,6 +2538,10 @@
       ],
       "permissions": 7,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeDep",
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -2072,6 +2558,11 @@
         "f4d753302710c9a7a40885c891aebdb1a0f275122fdcdb7c2f45a202b213f373"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/keymapperorg/KeyMapper",
       "license": "GPL-3.0-only",
@@ -2086,6 +2577,9 @@
       ],
       "permissions": 33,
       "trackers": [],
+      "antiFeatures": [
+        "Ads"
+      ],
       "olderVersions": []
     },
     {
@@ -2102,6 +2596,9 @@
         "339fb64d24a6a8c1c7ab85b6059ff810eae3bd1481a3af51a08f08d658e9172d"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/salvogiangri/KnoxPatch",
       "license": "GPL-3.0-or-later",
@@ -2116,6 +2613,7 @@
       ],
       "permissions": 1,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2132,6 +2630,10 @@
         "35a0107f1c39134a4ee7c03272fdccb80aac4b864583d063fef63758277de3d5"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/kittoku/Open-SSTP-Client",
       "license": "MIT",
@@ -2141,6 +2643,7 @@
       "abis": [],
       "permissions": 7,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2157,6 +2660,9 @@
         "7df992b9643abd442ad5eac0417503e0d8c4275104a0a66d8cf43df69611a47e"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/HemantKArya/BloomeeTunes",
       "license": "GPL-2.0-only",
@@ -2168,6 +2674,7 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2184,6 +2691,9 @@
         "fdfab44ae3e4cad95ebf96cd6132c72c7cb1903216ac67f928fb52d5d7df6347"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/LSafer/edgeseek",
       "license": "Apache-2.0",
@@ -2198,6 +2708,7 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2214,6 +2725,9 @@
         "2fb511247808358a1e0a6ab81fc66cf5445fb560cae050a895a2e008561b3d43"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Arian04/android-hid-client",
       "license": "GPL-3.0-only",
@@ -2228,6 +2742,7 @@
       ],
       "permissions": 1,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2244,6 +2759,11 @@
         "d71dadc0ca07bdf594383bfb2a445134a07339f12a27044a1b326981acf5f319"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/bmax121/APatch",
       "license": "GPL-3.0-only",
@@ -2255,6 +2775,7 @@
       ],
       "permissions": 5,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2271,6 +2792,10 @@
         "1bd03a8de5df4dbd7faddb81b9f2aaf55681a584a93d6fb47e9a5ccc736ef7ac"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/knighthat/Kreate",
       "license": "GPL-3.0-only",
@@ -2285,6 +2810,9 @@
       ],
       "permissions": 16,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -2301,6 +2829,9 @@
         "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/tiann/KernelSU",
       "license": "GPL-3.0-only",
@@ -2313,6 +2844,7 @@
       ],
       "permissions": 7,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": [
         {
           "version": "v3.2.5",
@@ -2344,6 +2876,11 @@
         "9c22a742fa200c85bafbc9924a02ddc8f3a0b975d4d7b5a8da21d7cf34ce2b20"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/zhanghai/MaterialFiles",
       "license": "GPL-3.0-or-later",
@@ -2358,6 +2895,7 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2374,6 +2912,11 @@
         "74cdd6422595d84f046eab3e96bf29401b2346532300c6155d50122d589235dc"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/yume-chan/VolumeManager",
       "license": "GPL-2.0-only",
@@ -2388,6 +2931,7 @@
       ],
       "permissions": 4,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2404,6 +2948,10 @@
         "35762758ce86a6ec297d9ccac689469bc43b9fed8ae1b27f100a86bbac00a055"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
       "license": "GPL-3.0-only",
@@ -2415,6 +2963,7 @@
       ],
       "permissions": 19,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2431,6 +2980,11 @@
         "bb2e5b7e476c0de63b06686209c0f60e904f9988e9bb452da280596e8ae98e33"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/rukamori/ArchiveTune/releases/tag/v15.1.0",
       "sourceCode": "https://github.com/rukamori/ArchiveTune",
@@ -2446,6 +3000,7 @@
       ],
       "permissions": 17,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2462,6 +3017,9 @@
         "268b5590e868fb08bae7e0ac413564cd1ff88f5ccff74af9dbd0dc918e30db30"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/RikkaApps/Shizuku",
       "license": "Apache-2.0",
@@ -2476,6 +3034,9 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [
+        "UpstreamNonFree"
+      ],
       "olderVersions": [
         {
           "version": "13.5.4.r1049.0e53409",
@@ -2507,6 +3068,9 @@
         "0bec108ccfabd380753d2ed68090398ddfe436d47d67bdb0bb50c969b80fc6a1"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/MonwF/customiuizer",
       "license": "GPL-3.0-only",
@@ -2518,6 +3082,7 @@
       ],
       "permissions": 16,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2534,6 +3099,11 @@
         "cc437a8c20884735fce878e1ce02014cf69e7b360eec5f13f438e516973d2fa6"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Freezer-Team/Cirno",
       "license": "GPL-3.0-only",
@@ -2548,6 +3118,7 @@
       ],
       "permissions": 2,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2564,6 +3135,10 @@
         "4c965471abda2f1959722e0aa15adbe3d3189d98b590e1f0001ae6934ca191e3"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "fdroid",
       "sourceCode": "https://gitlab.com/openconnect/ics-openconnect",
       "license": "GPL-2.0-or-later",
@@ -2578,6 +3153,7 @@
       ],
       "permissions": 5,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2594,6 +3170,11 @@
         "38294eaac95c3bb5a994692cd7758f8bcdbffb40819af6e806eb7fe482324dcd"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/osmandapp/Osmand",
       "license": "GPL-3.0-only",
@@ -2605,6 +3186,11 @@
       ],
       "permissions": 27,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeAssets",
+        "NonFreeNet",
+        "Tracking"
+      ],
       "olderVersions": []
     },
     {
@@ -2621,6 +3207,11 @@
         "438991c968e8d308ca34078d37511c90c502d596baf9f0d0c5fbd1c9bf67df6d"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://sourceforge.net/p/opencamera/code",
       "license": "GPL-3.0-or-later",
@@ -2630,6 +3221,7 @@
       "abis": [],
       "permissions": 8,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2646,6 +3238,11 @@
         "42203f1ac857426d1496e971db96fbe1f88c25c9e1f895a5c98d703891292277"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/AdAway/AdAway",
       "license": "GPL-3.0-only",
@@ -2662,6 +3259,7 @@
       "trackers": [
         "Sentry"
       ],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2678,6 +3276,10 @@
         "18ded02f505ece77151295183d86e1126ee5a6522d97dd62c60c8624f7c86cf8"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/AngelAuraMC/Amethyst-Android/releases/tag/1.1.7",
       "sourceCode": "https://github.com/AngelAuraMC/Amethyst-Android",
@@ -2696,6 +3298,43 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Breezy Weather",
+      "package": "org.breezyweather",
+      "page": "https://h5.2113.net/apps/breezy-weather.html",
+      "category": "Productivity",
+      "version": "6.2.2",
+      "versionCode": 60202,
+      "released": "2026-08-23",
+      "size": 21755054,
+      "sha256": "20a33a588e884257ab9329fee794d30a9d15ea067f64302c70c69c9adc3c6309",
+      "signers": [
+        "29d435f70aa9aec3c1faff7f7ffa6e15785088d87f06ecfcab9c3cc62dc269d8"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/breezy-weather/breezy-weather",
+      "license": "LGPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 18,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2712,6 +3351,9 @@
         "f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/cryptomator/android",
       "license": "GPL-3.0-only",
@@ -2721,6 +3363,9 @@
       "abis": [],
       "permissions": 16,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -2737,6 +3382,11 @@
         "4014f9169e3ff08cd8fdf8ac33419d4603ed95582716494a0392853c91148835"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/dolphin-emu/dolphin",
       "license": "GPL-2.0-or-later",
@@ -2749,6 +3399,7 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2765,6 +3416,10 @@
         "c9a406bd8e614c72bbdd242d56795f7a5ce13c0cf14bac22aec98030a71be486"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Exodus-Privacy/exodus-android-app",
       "license": "GPL-3.0-only",
@@ -2779,6 +3434,9 @@
       ],
       "permissions": 5,
       "trackers": [],
+      "antiFeatures": [
+        "TetheredNet"
+      ],
       "olderVersions": []
     },
     {
@@ -2795,6 +3453,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Calendar",
       "license": "GPL-3.0-only",
@@ -2809,6 +3470,7 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2825,6 +3487,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Clock",
       "license": "GPL-3.0-only",
@@ -2839,6 +3504,7 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2855,6 +3521,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Contacts",
       "license": "GPL-3.0-only",
@@ -2869,6 +3538,7 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2885,6 +3555,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/File-Manager",
       "license": "GPL-3.0-only",
@@ -2899,6 +3572,7 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2915,6 +3589,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Gallery",
       "license": "GPL-3.0-only",
@@ -2929,6 +3606,7 @@
       ],
       "permissions": 13,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2945,6 +3623,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Launcher",
       "license": "GPL-3.0-only",
@@ -2959,6 +3640,7 @@
       ],
       "permissions": 5,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2975,6 +3657,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Keyboard",
       "license": "GPL-3.0-only",
@@ -2989,6 +3674,7 @@
       ],
       "permissions": 2,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3005,6 +3691,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Music-Player",
       "license": "GPL-3.0-only",
@@ -3019,6 +3708,7 @@
       ],
       "permissions": 8,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3035,6 +3725,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Notes",
       "license": "GPL-3.0-only",
@@ -3049,6 +3742,7 @@
       ],
       "permissions": 6,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3065,6 +3759,9 @@
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/FossifyOrg/Phone",
       "license": "GPL-3.0-only",
@@ -3079,6 +3776,7 @@
       ],
       "permissions": 20,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3095,6 +3793,10 @@
         "d881796ed2a67ff6ef9f676828723c6b1fa18e09388962cba4abc4a594a69131"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/jellyfin/jellyfin-android",
       "license": "GPL-2.0-or-later",
@@ -3109,6 +3811,7 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3125,6 +3828,9 @@
         "6dfbfc62e16587a78aa2d9585ae9bb7f6973c2bf84034b7b90101a401409f5aa"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/kiwix/kiwix-android/releases/tag/v3.14.1",
       "sourceCode": "https://github.com/kiwix/kiwix-android",
@@ -3137,6 +3843,7 @@
       ],
       "permissions": 14,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3153,6 +3860,11 @@
         "8c86266c9e9191b7d02329606a5ecea7460958515462642ffec8664bb919da4d"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/koreader/koreader",
       "license": "AGPL-3.0-only",
@@ -3164,6 +3876,7 @@
       ],
       "permissions": 7,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3180,6 +3893,9 @@
         "3220c353a73cfbd0c2f3052471c445324cf452bcba26de1c473a52fe5c44e1d6"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/localsend/localsend",
       "license": "Apache-2.0",
@@ -3191,6 +3907,7 @@
       ],
       "permissions": 19,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3207,6 +3924,11 @@
         "8ad7025a8c911454e2a7b4515e360c52ca63ec0410a042ff46e9ad05b509e187"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/polymorphicshade/Tubular",
       "license": "GPL-3.0-only",
@@ -3222,6 +3944,10 @@
       "permissions": 11,
       "trackers": [
         "ACRA"
+      ],
+      "antiFeatures": [
+        "NonFreeNet",
+        "SourceArchived"
       ],
       "olderVersions": []
     },
@@ -3239,6 +3965,11 @@
         "19ed8afe0520d512bd1d9a780131d486edb7e384614b5e43af9ad8c688b2e100"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/hrydgard/ppsspp",
       "license": "GPL-2.0-or-later",
@@ -3252,6 +3983,7 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3268,6 +4000,11 @@
         "cb84069bd68116bafae5ee4ee5b08a567aa6d898404e7cb12f9e756df5cf5cab"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/TeamNewPipe/NewPipe",
       "license": "GPL-3.0-or-later",
@@ -3283,6 +4020,9 @@
       "permissions": 11,
       "trackers": [
         "ACRA"
+      ],
+      "antiFeatures": [
+        "NonFreeNet"
       ],
       "olderVersions": [
         {
@@ -3329,6 +4069,11 @@
         "80535be61eedb9a03b0476a6f493d496c3498770404339ea7a8000f5e61d22c0"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://code.videolan.org/videolan/vlc-android",
       "license": "GPL-3.0-only",
@@ -3340,6 +4085,7 @@
       ],
       "permissions": 30,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3356,6 +4102,9 @@
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "github",
       "sourceRelease": "https://github.com/Vita3K/Vita3K/releases/tag/continuous",
       "sourceCode": "https://github.com/Vita3K/Vita3K",
@@ -3369,6 +4118,7 @@
       ],
       "permissions": 12,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3385,6 +4135,11 @@
         "13268f04efdc5a0ae4c93626ce357e4e15a1d67f8f1235340d9f631d9d8c6c43"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/xbmc/xbmc",
       "license": "GPL-2.0-or-later",
@@ -3396,6 +4151,7 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3412,6 +4168,11 @@
         "49fa0dd990cd68877545b661360f0538245c791e5b8b5384a54f40de013dadfb"
       ],
       "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
       "source": "fdroid",
       "sourceCode": "https://github.com/KRTirtho/spotube",
       "license": "BSD-4-Clause",
@@ -3425,6 +4186,9 @@
       ],
       "permissions": 13,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -3441,6 +4205,10 @@
         "56b13a099dcd24f1d3c53b3c7ac0fc65ea1e30a3f7e43fc713c9593613b715f0"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/Lambada10/SongSync",
       "license": "GPL-3.0-only",
@@ -3455,6 +4223,9 @@
       ],
       "permissions": 7,
       "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -3471,6 +4242,9 @@
         "1347c51f78d056fb15fe1eeaa1a0f34c6a08e2bfe4bce8ea1a1abd3db7e2c3fb"
       ],
       "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
       "source": "izzy",
       "sourceCode": "https://github.com/karasevm/PrivateDNSAndroid",
       "license": "MIT",
@@ -3485,6 +4259,7 @@
       ],
       "permissions": 3,
       "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     }
   ]

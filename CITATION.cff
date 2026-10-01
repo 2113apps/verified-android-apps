@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Verified Open-Source Android Apps"
+abstract: "Open-source Android APKs hosted and checked by 2113 Apps: version, APK SHA-256, signing-certificate SHA-256, signature schemes, minimum and target SDK, native ABIs, permissions, tracker libraries and anti-feature labels."
+authors:
+  - name: "2113 Apps"
+    website: "https://h5.2113.net/"
+url: "https://h5.2113.net/"
+repository-code: "https://github.com/2113apps/verified-android-apps"
+license: CC-BY-4.0
+version: "1.0"
+date-released: "2026-10-01"
+keywords:
+  - android
+  - apk
+  - open-source
+  - f-droid
+  - apk-signature

@@ -2,19 +2,20 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-118 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+121 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
+- [Data, reports and citation](#data-reports-and-citation)
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (10)
-- [Customization](#customization) (6)
+- [Customization](#customization) (7)
 - [Network & Privacy](#network--privacy) (19)
 - [Media](#media) (29)
-- [System Tools](#system-tools) (32)
+- [System Tools](#system-tools) (33)
 - [Cloud & Sync](#cloud--sync) (3)
-- [Productivity](#productivity) (7)
+- [Productivity](#productivity) (8)
 - [Reading & Maps](#reading--maps) (3)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
@@ -44,6 +45,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [KernelSU LKM vs GKI: Why LKM, and How to Install It](https://h5.2113.net/guides/kernelsu-lkm-vs-gki.html): Since v3.0, KernelSU officially supports only LKM mode. What LKM and GKI mean, how to check support and match your KMI, and how to install KernelSU with the manager.
 - [How to Play Minecraft Java Edition on Android](https://h5.2113.net/guides/minecraft-java-on-android.html): Open-source launchers run Minecraft Java Edition on Android. What you need (you must own the game), which Java each version needs, and the first launch, step by step.
 - [App Not Installed as Package Conflicts: How to Fix](https://h5.2113.net/guides/package-conflicts.html): What Android’s “package conflicts with an existing package” error means: a different signing key, a copy kept for another user, or a clash with another app, and each fix.
+- [How to Remove Bloatware Without Root (Shizuku, Canta)](https://h5.2113.net/guides/remove-bloatware-without-root.html): Remove preinstalled apps without root using Shizuku and Canta: what it really does, which apps are risky, how to bring one back, and what changes in Android 17.
 - [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
 
 ## Root & Mods
@@ -79,6 +81,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Root · Pixel/AOSP ROM · Android 12+ · no known trackers found · GPL-3.0 · [source](https://github.com/Mahmud0808/Iconify)
 - **[KISS Launcher](https://h5.2113.net/apps/kiss-launcher.html)**: A home screen built around one search box: type the first letters of an app, a contact or a setting and tap the result. What you open most rises to the top.  
   No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Neamar/KISS)
+- **[Kvaesitso](https://h5.2113.net/apps/kvaesitso.html)**: A home screen app that puts search first: type instead of scrolling an app drawer, with a calculator, unit converter and quick actions built in, plus clock, calendar, weather and music widgets.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/MM2-0/Kvaesitso)
 - **[Lawnchair](https://h5.2113.net/apps/lawnchair.html)**: A Pixel-style home screen app built on Android’s Launcher3, with icon packs, grid and icon-size controls. This is the Lawnchair 15 beta; the stable version is on Google Play.  
   No root · no known trackers found · Apache-2.0 · [source](https://github.com/LawnchairLauncher/lawnchair)
 - **[Taskbar](https://h5.2113.net/apps/taskbar.html)**: A PC-style start menu and a bar of recent apps that sit on top of any screen, plus floating app windows and a desktop mode for when your phone drives an external display.  
@@ -190,6 +194,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Activity Launcher](https://h5.2113.net/apps/activity-launcher.html)**: Open the screens apps don’t show you: hidden settings pages and other activities, launched directly or pinned to your home screen as shortcuts.  
   No root · Android 4.1+ · no known trackers found · ISC · [source](https://github.com/butzist/ActivityLauncher)
+- **[Amaze File Manager](https://h5.2113.net/apps/amaze-file-manager.html)**: An open-source Material Design file manager with tabs, a root explorer, AES file encryption, an app manager that backs up APKs, network shares and a built-in FTP server.  
+  No root needed · Android 5.0+ · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/TeamAmaze/AmazeFileManager)
 - **[Androoster](https://h5.2113.net/apps/androoster.html)**: A toolbox of on/off root tweaks for CPU, memory, kernel, I/O and network settings.  
   Root + BusyBox · no known trackers found · Apache-2.0 · [source](https://github.com/cioccarellia/androoster)
 - **[APKUpdater](https://h5.2113.net/apps/apkupdater.html)**: Checks your installed apps for updates on APKMirror, Aptoide, F-Droid and GitHub, and can install them.  
@@ -266,6 +272,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[AnySoftKeyboard](https://h5.2113.net/apps/anysoftkeyboard.html)**: An open-source on-screen keyboard that you can shape to your liking: word suggestions and next-word prediction, gesture typing, themes, and extra languages as separate packs.  
   No root · Android 6.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
+- **[Breezy Weather](https://h5.2113.net/apps/breezy-weather.html)**: A weather app that lets you choose the source: forecasts from more than 50 weather services, with rain in the next hour, severe weather alerts, air quality, pollen and widgets.  
+  No root · Android 6.0+ · no known trackers found · LGPL-3.0-only · [source](https://github.com/breezy-weather/breezy-weather)
 - **[Fossify Calendar](https://h5.2113.net/apps/fossify-calendar.html)**: An open-source calendar that works offline: day, week, month and year views, recurring events, reminders, built-in public holidays for 70 countries and home screen widgets.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Calendar)
 - **[Fossify Clock](https://h5.2113.net/apps/fossify-clock.html)**: An open-source clock app that carries on from Simple Clock: alarms with gradual volume and an adjustable snooze, a world clock, timers, a stopwatch and widgets.  
@@ -314,6 +322,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Your own games and BIOS · Android 4.1+ · no known trackers found · GPL-3.0-only · [source](https://github.com/libretro/RetroArch)
 - **[Vita3K](https://h5.2113.net/games/vita3k.html)**: An experimental PlayStation Vita emulator. It runs homebrew and many commercial Vita games that you dump from your own console.  
   64-bit phone · Android 9+ · your own games · no known trackers found · GPL-2.0 · [source](https://github.com/Vita3K/Vita3K)
+
+## Data, reports and citation
+
+- **[apps.json](apps.json)** and **[apps.csv](apps.csv)**: one row per app, updated with the site. Every field is described in [SCHEMA.md](SCHEMA.md).
+- **[reports/](reports/)**: frozen snapshots behind our [open-source APK report](https://h5.2113.net/reports/open-source-apk-report-2026.html). They don’t change after publication, so the report’s numbers can be reproduced from them.
+- **Version 1.0** (2026-10-01) is tagged `v1.0`. To cite the data, use “Cite this repository” on GitHub ([CITATION.cff](CITATION.cff)).
+- **Limits:** a matching hash and signing certificate show that a file is the developer’s or repository’s original, not that the app is safe. The tracker scan finds known third-party libraries in the code; it doesn’t see what an app sends. The apps are the ones we host, chosen because people look for them, not a random sample.
+- **Corrections** are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## About this list
 
