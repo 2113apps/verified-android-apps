@@ -932,11 +932,11 @@
       "package": "com.machiav3lli.fdroid",
       "page": "https://h5.2113.net/apps/neo-store.html",
       "category": "System Tools",
-      "version": "1.3.1",
-      "versionCode": 1302,
-      "released": "2026-09-30",
-      "size": 5907734,
-      "sha256": "c80398e389f3dc36f53e8d49ca1b0f9f2d455edb22445dbfff26728554937748",
+      "version": "1.3.2",
+      "versionCode": 1303,
+      "released": "2026-10-02",
+      "size": 5924118,
+      "sha256": "87a3d6f553f7ce0e9fe1858748f94c83aa2bc3e54e25410e31a317a2cb93cc3b",
       "signers": [
         "c5860146138b7799bb9d0617c398c1e5241550f558252a3f97b2a51f15263ef7"
       ],
@@ -2055,11 +2055,11 @@
       "package": "de.blinkt.openvpn",
       "page": "https://h5.2113.net/apps/openvpn-for-android.html",
       "category": "Network & Privacy",
-      "version": "0.7.65",
-      "versionCode": 220,
-      "released": "2026-09-11",
-      "size": 39765197,
-      "sha256": "3ce86b641d1627820d8f05606a3fb58d966ffa8360c234563b3c5e1bd3a8490a",
+      "version": "0.7.66",
+      "versionCode": 221,
+      "released": "2026-10-02",
+      "size": 33742016,
+      "sha256": "203b9bfca7bf8f9a8393e439cc6a501f419a1fe09d4dd22349ee24ba0198b416",
       "signers": [
         "4cd330fe6593e2e64b1e1fa383f0c6d73892184fc1cd1a909e71d558d862e212"
       ],
@@ -2685,11 +2685,11 @@
       "package": "io.github.samolego.canta",
       "page": "https://h5.2113.net/apps/canta.html",
       "category": "System Tools",
-      "version": "3.2.2",
-      "versionCode": 225,
-      "released": "2026-03-01",
-      "size": 4698310,
-      "sha256": "5a646d366905c0be2033aa270b008b3ef79fda99fbc95988445b0f430283a1ed",
+      "version": "4.0.0",
+      "versionCode": 226,
+      "released": "2026-10-02",
+      "size": 5022883,
+      "sha256": "7ad02041900c1ab2f2ffca0ecfc2d2c01f217a5894e92c95f37852ba975560ce",
       "signers": [
         "0a2640317c43272188c3e13194c15460691f12c39ea19bba727dd67fb56289d4"
       ],
@@ -2702,7 +2702,7 @@
       "license": "LGPL-3.0-or-later",
       "minSdk": 28,
       "minAndroid": "Android 9",
-      "targetSdk": 35,
+      "targetSdk": 37,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -4379,8 +4379,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-10-02",
-      "size": 28546368,
-      "sha256": "8e2616aa75c536b5e13447d5213716791c262b0f71011b01e0ff2ffa02d6085b",
+      "size": 28545820,
+      "sha256": "b9c7cf96dcc2d5bb0286dbf29676ea6ce4b556bc030b0d7c90ef27db8d8963dc",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
