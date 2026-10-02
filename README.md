@@ -2,20 +2,20 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-124 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+129 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
 - [Data, reports and citation](#data-reports-and-citation)
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
-- [Root & Mods](#root--mods) (10)
+- [Root & Mods](#root--mods) (11)
 - [Customization](#customization) (8)
 - [Network & Privacy](#network--privacy) (19)
-- [Media](#media) (29)
-- [System Tools](#system-tools) (34)
+- [Media](#media) (31)
+- [System Tools](#system-tools) (35)
 - [Cloud & Sync](#cloud--sync) (3)
-- [Productivity](#productivity) (9)
+- [Productivity](#productivity) (10)
 - [Reading & Maps](#reading--maps) (3)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
@@ -37,6 +37,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Guides
 
+- [Android Developer Verification: Can You Still Sideload?](https://h5.2113.net/guides/android-developer-verification.html): Since 30 September 2026, Android checks apps from 7 app stores in Brazil, Indonesia, Singapore and Thailand. What that means for APKs you download, adb and F-Droid.
 - [arm64-v8a vs armeabi-v7a: Which APK Do You Need?](https://h5.2113.net/guides/arm64-vs-armeabi.html): arm64-v8a is for 64-bit ARM phones, armeabi-v7a for 32-bit ARM. How to check which your phone runs, when to take the universal APK, and what happens if you pick wrong.
 - [“Built for an Older Version of Android”: What It Means](https://h5.2113.net/guides/built-for-older-android.html): Why Android shows the “built for an older version of Android” warning, why Android 14 and later refuse to install some old apps, and the ways around each.
 - [How to Extract boot.img From an OTA or payload.bin](https://h5.2113.net/guides/extract-boot-img.html): Get the stock boot.img or init\_boot.img you need for rooting: which image to use, why the build must match, and how to extract it on the phone or on a computer.
@@ -67,6 +68,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Samsung Galaxy · root + LSPosed · no known trackers found · GPL-3.0-or-later · [source](https://github.com/salvogiangri/KnoxPatch)
 - **[Magisk](https://h5.2113.net/apps/magisk.html)**: The best-known way to root Android: patch your phone’s boot image with the Magisk app, flash it, and get root access, modules and Zygisk without touching the system partition.  
   Unlocked bootloader · fastboot · Android 6.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/topjohnwu/Magisk)
+- **[Neo Backup](https://h5.2113.net/apps/neo-backup.html)**: Back up your apps together with their data on a rooted phone, and put them back later or on a fresh install: one app at a time, in batches or on schedules, encrypted if you want.  
+  Root · Android 8.0+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/NeoApplications/Neo-Backup)
 - **[NoStorageRestrict](https://h5.2113.net/apps/nostoragerestrict.html)**: Lets apps pick the Download and Android folders through the system folder picker again, which Android 11 blocked.  
   Root + LSPosed · Android 11+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict)
 - **[Pengeek](https://h5.2113.net/apps/pengeek.html)**: A large set of system tweaks for Xiaomi phones on HyperOS, and the successor to CustoMIUIzer.  
@@ -164,6 +167,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no Google account · tracker code found: ACRA · GPL-3.0-or-later · [source](https://github.com/TeamNewPipe/NewPipe)
 - **[Next Player](https://h5.2113.net/apps/next-player.html)**: A modern open-source video player: FFmpeg-based decoders for most formats, swipe gestures for volume, brightness and seeking, and playback straight from network shares.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/anilbeesetti/nextplayer)
+- **[Nova Video Player](https://h5.2113.net/apps/nova-video-player.html)**: An open-source video player for phones, tablets and Android TV: it plays files from the device and from network shares, and builds a library with posters and descriptions.  
+  No root · Android 6.0+ · 32- or 64-bit · tracker code found: Sentry · Apache-2.0 · [source](https://github.com/nova-video-player/aos-AVP)
 - **[Open Camera](https://h5.2113.net/apps/open-camera.html)**: A full-featured open-source camera: manual focus and exposure, RAW photos, HDR and exposure bracketing, a night mode, and date, location or text stamps on your photos.  
   No root · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://sourceforge.net/p/opencamera/code)
 - **[OuterTune](https://h5.2113.net/apps/outertune.html)**: A Material 3 music player that combines YouTube Music with your own music files. The version here is the last one with YouTube Music, which its maintainers no longer develop.  
@@ -178,6 +183,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/maxrave-dev/SimpMusic)
 - **[SkyTube](https://h5.2113.net/apps/skytube.html)**: A YouTube client that lets you filter what you see: block channels, hide low-view videos, keep bookmarks and subscriptions on your phone, and download videos.  
   No root · no Google account · Android 4.4+ · no known trackers found · GPL-3.0-only · [source](https://github.com/SkyTubeTeam/SkyTube)
+- **[SmartTube](https://h5.2113.net/apps/smarttube.html)**: A YouTube client made for the TV screen and remote, for Android TVs, TV boxes and sticks: browse and play videos, skip segments with SponsorBlock, change playback speed.  
+  Android TV or TV box · not for phones · tracker code found: Google CrashLytics · MIT · [source](https://github.com/yuliskov/SmartTube)
 - **[SongSync](https://h5.2113.net/apps/songsync.html)**: Downloads lyrics for the songs in your local music library and can embed them in the files.  
   No root · local music files · no known trackers found · GPL-3.0-only · [source](https://github.com/Lambada10/SongSync)
 - **[Spotube](https://h5.2113.net/apps/spotube.html)**: A music streaming app in which plugins supply everything: song information, playlists and audio. Out of the box it uses MusicBrainz and ListenBrainz for metadata and YouTube for audio.  
@@ -233,6 +240,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · same local network · Android 7.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/localsend/localsend)
 - **[Material Files](https://h5.2113.net/apps/material-files.html)**: A clean, open-source file manager in Material Design: open and create archives, browse network shares, and reach files ordinary apps can’t, with root or, since version 1.7.5, Shizuku.  
   No root needed · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/zhanghai/MaterialFiles)
+- **[Neo Store](https://h5.2113.net/apps/neo-store.html)**: An alternative app for browsing and installing open-source apps from F-Droid, IzzyOnDroid and other repositories, with filters, download statistics and silent updates through root or Shizuku.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://codeberg.org/NeoApplications/Neo-Store)
 - **[Obtainium](https://h5.2113.net/apps/obtainium.html)**: Installs and updates Android apps straight from where developers publish them, such as GitHub releases, and tells you when a new version is out.  
   No root · no known trackers found · GPL-3.0-only · [source](https://github.com/ImranR98/Obtainium)
 - **[OwnDroid](https://h5.2113.net/apps/owndroid.html)**: Puts Android’s device-owner and work-profile controls on your own phone: block uninstalls, disable the camera, manage users and more.  
@@ -293,6 +302,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Default phone app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Phone)
 - **[HeliBoard](https://h5.2113.net/apps/heliboard.html)**: An on-screen keyboard that works fully offline: word suggestions from dictionaries you add, typing in several languages at once, themes, clipboard history, and one-handed and split modes.  
   No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/HeliBorg/HeliBoard)
+- **[Unexpected Keyboard](https://h5.2113.net/apps/unexpected-keyboard.html)**: A small on-screen keyboard where you swipe a key toward one of its corners to type the symbol printed there, so more characters fit on one page. Designed for programmers using Termux.  
+  No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Julow/Unexpected-Keyboard)
 
 ## Reading & Maps
 

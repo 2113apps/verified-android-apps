@@ -894,6 +894,74 @@
       "olderVersions": []
     },
     {
+      "name": "Neo Backup",
+      "package": "com.machiav3lli.backup",
+      "page": "https://h5.2113.net/apps/neo-backup.html",
+      "category": "Root & Mods",
+      "version": "8.3.18",
+      "versionCode": 8331,
+      "released": "2026-05-04",
+      "size": 11430871,
+      "sha256": "d2bd2fbd57bf1e99d12a40ba4418e66543a2983742f16b0f3509262f36f7b4f7",
+      "signers": [
+        "c94f10243c14d57dd69dede61c234bb5e8bb0704d61b45dafe496728ac32f378"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/NeoApplications/Neo-Backup",
+      "license": "AGPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 25,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Neo Store",
+      "package": "com.machiav3lli.fdroid",
+      "page": "https://h5.2113.net/apps/neo-store.html",
+      "category": "System Tools",
+      "version": "1.3.1",
+      "versionCode": 1302,
+      "released": "2026-09-30",
+      "size": 5907734,
+      "sha256": "c80398e389f3dc36f53e8d49ca1b0f9f2d455edb22445dbfff26728554937748",
+      "signers": [
+        "c5860146138b7799bb9d0617c398c1e5241550f558252a3f97b2a51f15263ef7"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://codeberg.org/NeoApplications/Neo-Store",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 22,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "SimpMusic",
       "package": "com.maxrave.simpmusic",
       "page": "https://h5.2113.net/apps/simpmusic.html",
@@ -2722,6 +2790,41 @@
       "olderVersions": []
     },
     {
+      "name": "Unexpected Keyboard",
+      "package": "juloo.keyboard2",
+      "page": "https://h5.2113.net/apps/unexpected-keyboard.html",
+      "category": "Productivity",
+      "version": "2.1.0",
+      "versionCode": 56,
+      "released": "2026-09-09",
+      "size": 1104032,
+      "sha256": "d68353621aa2a23968469c657d006a82d4c099d0fce43b4bc9157a728d6f91ad",
+      "signers": [
+        "0fd96daf7a70981edc7af42d14a20ff19e90514c9966de93abb7af251453efc4"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Julow/Unexpected-Keyboard",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Open SSTP Client",
       "package": "kittoku.osc",
       "page": "https://h5.2113.net/apps/open-sstp-client.html",
@@ -3439,6 +3542,45 @@
       ],
       "permissions": 18,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Nova Video Player",
+      "package": "org.courville.nova",
+      "page": "https://h5.2113.net/apps/nova-video-player.html",
+      "category": "Media",
+      "version": "6.5.3-20260930.1914",
+      "versionCode": 2671314,
+      "released": "2026-09-30",
+      "size": 84355186,
+      "sha256": "9fb09f80467a82194202ffe157bc7515d00a03b4b4ffd0d4debe4e1ada78f028",
+      "signers": [
+        "05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.5.3",
+      "sourceCode": "https://github.com/nova-video-player/aos-AVP",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 24,
+      "trackers": [
+        "Sentry"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -4161,6 +4303,42 @@
       ]
     },
     {
+      "name": "SmartTube",
+      "package": "org.smarttube.stable",
+      "page": "https://h5.2113.net/apps/smarttube.html",
+      "category": "Media",
+      "version": "32.56",
+      "versionCode": 2446,
+      "released": "2026-09-23",
+      "size": 34922752,
+      "sha256": "4a35b90940612e048e4e9cb9e10379f7db1e84f30375994129f10a571ee04ce5",
+      "signers": [
+        "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/yuliskov/SmartTube/releases/tag/32.56s",
+      "sourceCode": "https://github.com/yuliskov/SmartTube",
+      "license": "MIT",
+      "minSdk": 17,
+      "minAndroid": "Android 4.2",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "permissions": 20,
+      "trackers": [
+        "Google CrashLytics"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "VLC",
       "package": "org.videolan.vlc",
       "page": "https://h5.2113.net/apps/vlc.html",
@@ -4201,8 +4379,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-10-02",
-      "size": 28554016,
-      "sha256": "5b0c9dcfef05affba869d8d1492be86de120b88f430f5f2ea1cb07f1f78e0fef",
+      "size": 28546368,
+      "sha256": "8e2616aa75c536b5e13447d5213716791c262b0f71011b01e0ff2ffa02d6085b",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
