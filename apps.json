@@ -142,6 +142,42 @@
       "olderVersions": []
     },
     {
+      "name": "Hail",
+      "package": "com.aistra.hail",
+      "page": "https://h5.2113.net/apps/hail.html",
+      "category": "System Tools",
+      "version": "1.11.0",
+      "versionCode": 35,
+      "released": "2026-08-27",
+      "size": 5757409,
+      "sha256": "abc30e1443075a86c54adbd0df8602d760384928306b3baa5fe4ecd0750456fc",
+      "signers": [
+        "e3e3c4927798fa34b06cce56823f34b542c9106f4ab77dee22cc469ef995c0c6"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/aistra0528/Hail",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 20,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Amaze File Manager",
       "package": "com.amaze.filemanager",
       "page": "https://h5.2113.net/apps/amaze-file-manager.html",
@@ -448,6 +484,40 @@
         "arm64-v8a"
       ],
       "permissions": 22,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "ColorBlendr",
+      "package": "com.drdisagree.colorblendr",
+      "page": "https://h5.2113.net/apps/colorblendr.html",
+      "category": "Customization",
+      "version": "v3.0.1",
+      "versionCode": 42,
+      "released": "2026-08-02",
+      "size": 6501453,
+      "sha256": "a30ea8f14ea9d6349381fc2b6d537b19c137e4762dc58713da18a8af91700045",
+      "signers": [
+        "4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/Mahmud0808/ColorBlendr",
+      "license": "GPL-3.0-only",
+      "minSdk": 31,
+      "minAndroid": "Android 12",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 16,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2284,6 +2354,41 @@
       "olderVersions": []
     },
     {
+      "name": "HeliBoard",
+      "package": "helium314.keyboard",
+      "page": "https://h5.2113.net/apps/heliboard.html",
+      "category": "Productivity",
+      "version": "4.1",
+      "versionCode": 4101,
+      "released": "2026-08-30",
+      "size": 22413693,
+      "sha256": "eb9c06685ebd5b7307491da9ef15fb5e29694077a934a8699b9b6772c6f76075",
+      "signers": [
+        "5ec0a5313aa43558ee75b20b58ccd8194cdbf066df94a43ba288d933d60b86ce"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/HeliBorg/HeliBoard",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "aShell You",
       "package": "in.hridayan.ashell",
       "page": "https://h5.2113.net/apps/ashell-you.html",
@@ -4095,9 +4200,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-01",
-      "size": 28554136,
-      "sha256": "c9c99ea917ad33ef27853bf1ca9ccd479367a42d3f501e189323306a238ad4ac",
+      "released": "2026-10-02",
+      "size": 28554016,
+      "sha256": "5b0c9dcfef05affba869d8d1492be86de120b88f430f5f2ea1cb07f1f78e0fef",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],

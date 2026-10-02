@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-121 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+124 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -10,12 +10,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (10)
-- [Customization](#customization) (7)
+- [Customization](#customization) (8)
 - [Network & Privacy](#network--privacy) (19)
 - [Media](#media) (29)
-- [System Tools](#system-tools) (33)
+- [System Tools](#system-tools) (34)
 - [Cloud & Sync](#cloud--sync) (3)
-- [Productivity](#productivity) (8)
+- [Productivity](#productivity) (9)
 - [Reading & Maps](#reading--maps) (3)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
@@ -42,6 +42,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [How to Extract boot.img From an OTA or payload.bin](https://h5.2113.net/guides/extract-boot-img.html): Get the stock boot.img or init\_boot.img you need for rooting: which image to use, why the build must match, and how to extract it on the phone or on a computer.
 - [How to Start Shizuku: Wireless Debugging, PC or Root](https://h5.2113.net/guides/how-to-start-shizuku.html): Three ways to start Shizuku (root, wireless debugging on Android 11+, or a computer), what to redo after a reboot, and fixes for when it won't start or keeps stopping.
 - [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
+- [How to Install XAPK, APKS and APKM Files on Android](https://h5.2113.net/guides/install-xapk-apks-apkm.html): XAPK, APKS and APKM files hold one app split into several APKs. What is in each, how to install them with App Manager or adb, and why “App not installed” appears.
 - [KernelSU LKM vs GKI: Why LKM, and How to Install It](https://h5.2113.net/guides/kernelsu-lkm-vs-gki.html): Since v3.0, KernelSU officially supports only LKM mode. What LKM and GKI mean, how to check support and match your KMI, and how to install KernelSU with the manager.
 - [How to Play Minecraft Java Edition on Android](https://h5.2113.net/guides/minecraft-java-on-android.html): Open-source launchers run Minecraft Java Edition on Android. What you need (you must own the game), which Java each version needs, and the first launch, step by step.
 - [App Not Installed as Package Conflicts: How to Fix](https://h5.2113.net/guides/package-conflicts.html): What Android’s “package conflicts with an existing package” error means: a different signing key, a copy kept for another user, or a clash with another app, and each fix.
@@ -73,6 +74,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Customization
 
+- **[ColorBlendr](https://h5.2113.net/apps/colorblendr.html)**: Take over the Material You palette that Android 12 and later builds from your wallpaper: pick your own seed color, tune saturation and lightness, and override single shades.  
+  Root, Shizuku or wireless ADB · Android 12+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Mahmud0808/ColorBlendr)
 - **[Fossify Launcher](https://h5.2113.net/apps/fossify-launcher.html)**: A plain home screen that carries on from Simple Launcher: icons, folders and widgets on a grid you size yourself, an app drawer with search, and no account or news feed.  
   Default home app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Launcher)
 - **[Global Icon Pack](https://h5.2113.net/apps/global-icon-pack.html)**: Applies your icon pack across all of Android, including Settings, Recents and other screens a launcher can’t reach.  
@@ -220,6 +223,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · ARM64 · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/Nandanrmenon/florid)
 - **[Fossify File Manager](https://h5.2113.net/apps/fossify-file-manager.html)**: An open-source file manager that carries on from Simple File Manager: favourites, search, ZIP archives, a storage analyser, locks for hidden files, and root access if you have it.  
   No root needed · all files access · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/File-Manager)
+- **[Hail](https://h5.2113.net/apps/hail.html)**: Switch off the apps you rarely use instead of uninstalling them: Hail disables, hides or suspends them, and brings them back with a tap when you need them.  
+  Shizuku, root or device owner · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/aistra0528/Hail)
 - **[Install with Options](https://h5.2113.net/apps/install-with-options.html)**: Installs APKs with options normally reserved for adb: test-only apps, downgrades, split APKs and Android 14’s blocked old apps.  
   Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
 - **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
@@ -286,6 +291,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Notes)
 - **[Fossify Phone](https://h5.2113.net/apps/fossify-phone.html)**: An open-source phone app that carries on from Simple Dialer: a call log, favourites and speed dial, blocking of numbers or unknown callers, and multi-SIM support.  
   Default phone app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Phone)
+- **[HeliBoard](https://h5.2113.net/apps/heliboard.html)**: An on-screen keyboard that works fully offline: word suggestions from dictionaries you add, typing in several languages at once, themes, clipboard history, and one-handed and split modes.  
+  No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/HeliBorg/HeliBoard)
 
 ## Reading & Maps
 
