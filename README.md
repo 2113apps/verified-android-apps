@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-129 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+132 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -13,13 +13,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Customization](#customization) (8)
 - [Network & Privacy](#network--privacy) (19)
 - [Media](#media) (31)
-- [System Tools](#system-tools) (35)
+- [System Tools](#system-tools) (36)
 - [Cloud & Sync](#cloud--sync) (3)
 - [Productivity](#productivity) (10)
 - [Reading & Maps](#reading--maps) (3)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
-- [Games: Console Emulators](#games-console-emulators) (5)
+- [Games: Console Emulators](#games-console-emulators) (6)
+- [Games: Game Streaming](#games-game-streaming) (1)
 
 ## Topics and comparisons
 
@@ -42,6 +43,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [“Built for an Older Version of Android”: What It Means](https://h5.2113.net/guides/built-for-older-android.html): Why Android shows the “built for an older version of Android” warning, why Android 14 and later refuse to install some old apps, and the ways around each.
 - [How to Extract boot.img From an OTA or payload.bin](https://h5.2113.net/guides/extract-boot-img.html): Get the stock boot.img or init\_boot.img you need for rooting: which image to use, why the build must match, and how to extract it on the phone or on a computer.
 - [How to Start Shizuku: Wireless Debugging, PC or Root](https://h5.2113.net/guides/how-to-start-shizuku.html): Three ways to start Shizuku (root, wireless debugging on Android 11+, or a computer), what to redo after a reboot, and fixes for when it won't start or keeps stopping.
+- [How to Install APKs on Android TV and TV Boxes](https://h5.2113.net/guides/install-apk-android-tv.html): Allow unknown apps, get the file onto the TV by browser, USB or adb, and fix the two classic problems: 32-bit TV boxes and apps missing from the home screen.
 - [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
 - [How to Install XAPK, APKS and APKM Files on Android](https://h5.2113.net/guides/install-xapk-apks-apkm.html): XAPK, APKS and APKM files hold one app split into several APKs. What is in each, how to install them with App Manager or adb, and why “App not installed” appears.
 - [KernelSU LKM vs GKI: Why LKM, and How to Install It](https://h5.2113.net/guides/kernelsu-lkm-vs-gki.html): Since v3.0, KernelSU officially supports only LKM mode. What LKM and GKI mean, how to check support and match your KMI, and how to install KernelSU with the manager.
@@ -226,6 +228,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root needed · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Droid-ify/client)
 - **[Edge Seek](https://h5.2113.net/apps/edge-seek.html)**: Turns the edges of your screen into sliders for volume and brightness, with a dimmer below the minimum brightness.  
   No root · no known trackers found · Apache-2.0 · [source](https://github.com/LSafer/edgeseek)
+- **[Flicky](https://h5.2113.net/apps/flicky.html)**: An app store for open-source apps that you can use with a TV remote. It browses F-Droid, IzzyOnDroid and other repositories, and installs and updates apps on Android TV and Google TV.  
+  No root · Android 6.0+ · made for TV · no known trackers found · GPL-3.0-only · [source](https://github.com/mlm-games/flicky)
 - **[Florid](https://h5.2113.net/apps/florid.html)**: A redesigned client for browsing, installing and updating apps from F-Droid and other repositories you add. It sends a daily usage ping, which you can switch off.  
   No root · ARM64 · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/Nandanrmenon/florid)
 - **[Fossify File Manager](https://h5.2113.net/apps/fossify-file-manager.html)**: An open-source file manager that carries on from Simple File Manager: favourites, search, ZIP archives, a storage analyser, locks for hidden files, and root access if you have it.  
@@ -334,12 +338,19 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Your own games · 64-bit phone · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/dolphin-emu/dolphin)
 - **[Lemuroid](https://h5.2113.net/games/lemuroid.html)**: One app for many retro consoles, built on libretro: it finds the games on your phone, saves your progress automatically and works with touch controls or a gamepad. Games are not included.  
   Your own games · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Swordfish90/Lemuroid)
+- **[melonDS](https://h5.2113.net/games/melonds.html)**: An emulator for Nintendo DS and DSi games. DS games need no BIOS files, thanks to a built-in open-source replacement; the games themselves are not included.  
+  Your own DS games · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rafaelvcaetano/melonDS-android)
 - **[PPSSPP](https://h5.2113.net/games/ppsspp.html)**: A PSP emulator that needs no BIOS file, adds sharper graphics and save states, and works with touch controls, gamepads or a keyboard. Games are not included.  
   Your own PSP games · OpenGL ES 2.0 · Android 2.3+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/hrydgard/ppsspp)
 - **[RetroArch](https://h5.2113.net/games/retroarch.html)**: One frontend for many emulators: RetroArch runs emulator cores for many consoles and computers under a single interface, with its core downloader built in. Games are not included.  
   Your own games and BIOS · Android 4.1+ · no known trackers found · GPL-3.0-only · [source](https://github.com/libretro/RetroArch)
 - **[Vita3K](https://h5.2113.net/games/vita3k.html)**: An experimental PlayStation Vita emulator. It runs homebrew and many commercial Vita games that you dump from your own console.  
   64-bit phone · Android 9+ · your own games · no known trackers found · GPL-2.0 · [source](https://github.com/Vita3K/Vita3K)
+
+## Games: Game Streaming
+
+- **[Moonlight](https://h5.2113.net/games/moonlight.html)**: Plays the games on your own gaming PC on an Android phone, tablet or TV. The game runs on the PC, with Sunshine or NVIDIA GeForce Experience; Moonlight shows the picture and sends your controls back.  
+  A gaming PC as the host · Android 5.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/moonlight-stream/moonlight-android)
 
 ## Data, reports and citation
 

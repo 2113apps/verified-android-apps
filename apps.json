@@ -39,6 +39,41 @@
       "olderVersions": []
     },
     {
+      "name": "Flicky",
+      "package": "app.flicky",
+      "page": "https://h5.2113.net/apps/flicky.html",
+      "category": "System Tools",
+      "version": "4.5.3",
+      "versionCode": 981,
+      "released": "2026-09-23",
+      "size": 4365409,
+      "sha256": "6a8462c3874c0dfa3ee5cfc4288ca1df36da96cf86d5c1aece00d5d88ede1dc5",
+      "signers": [
+        "4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/mlm-games/flicky",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Intra",
       "package": "app.intra",
       "page": "https://h5.2113.net/apps/intra.html",
@@ -846,6 +881,42 @@
       "minSdk": 23,
       "minAndroid": "Android 6.0",
       "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Moonlight",
+      "package": "com.limelight",
+      "page": "https://h5.2113.net/games/moonlight.html",
+      "category": "Game Streaming",
+      "version": "12.2",
+      "versionCode": 315,
+      "released": "2026-09-12",
+      "size": 11137885,
+      "sha256": "a871f6190365386ef3ac5722a016d4da015ee1555631ec257f6e5dc3f4a45fe0",
+      "signers": [
+        "d6ce3a4df15060fe488fe52441a549dee4ba199b36e2cb1ed9085cca8bfa1aca"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/moonlight-stream/moonlight-android/releases/tag/v12.2",
+      "sourceCode": "https://github.com/moonlight-stream/moonlight-android",
+      "license": "GPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -3024,6 +3095,40 @@
       "olderVersions": []
     },
     {
+      "name": "melonDS",
+      "package": "me.magnum.melonds",
+      "page": "https://h5.2113.net/games/melonds.html",
+      "category": "Console Emulators",
+      "version": "2.0.1 GH",
+      "versionCode": 40,
+      "released": "2026-05-06",
+      "size": 21061910,
+      "sha256": "646eb4564c71b0817ace6474e92c169da16630d58826c43e0fe648896311ec94",
+      "signers": [
+        "0493bb8749289f0304cc868489dd68b930c19ccc4dce2da876bfe6b9bdbabebc"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/rafaelvcaetano/melonDS-android/releases/tag/2.0.1",
+      "sourceCode": "https://github.com/rafaelvcaetano/melonDS-android",
+      "license": "GPL-3.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 16,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "KernelSU",
       "package": "me.weishu.kernelsu",
       "page": "https://h5.2113.net/apps/kernelsu.html",
@@ -4378,9 +4483,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-02",
-      "size": 28545820,
-      "sha256": "b9c7cf96dcc2d5bb0286dbf29676ea6ce4b556bc030b0d7c90ef27db8d8963dc",
+      "released": "2026-10-03",
+      "size": 28544792,
+      "sha256": "f1282256dc7fe87be3cc9477b6bac4fefd2b3e4ab69f50e8d627e4d700431978",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
