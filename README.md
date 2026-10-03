@@ -159,7 +159,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit ARM · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/xbmc/xbmc)
 - **[Kreate](https://h5.2113.net/apps/kreate.html)**: An open-source YouTube Music client that carries on from RiMusic: stream, cache or download songs, sign in to sync your library, and play on Android Auto or a TV.  
   No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/knighthat/Kreate)
-- **[LibreTube](https://h5.2113.net/apps/libretube.html)**: A YouTube client built around privacy: subscriptions, playlists and downloads without a Google account, plus SponsorBlock, DeArrow and optional sync through Piped.  
+- **[LibreTube](https://h5.2113.net/apps/libretube.html)**: A YouTube client with subscriptions, playlists and downloads and no Google account. Version 32.1 fetches everything straight from YouTube by default; Piped is now optional.  
   No root · no Google account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/libre-tube/LibreTube)
 - **[Metrolist](https://h5.2113.net/apps/metrolist.html)**: An open-source YouTube Music client: stream and download from YouTube Music, sync your library if you sign in, and get synced lyrics, an equalizer and listen-together sessions.  
   No root · YouTube Music available where you are · no known trackers found · GPL-3.0-only · [source](https://github.com/MetrolistGroup/Metrolist)
