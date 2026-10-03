@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-132 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+137 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -17,6 +17,9 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Cloud & Sync](#cloud--sync) (3)
 - [Productivity](#productivity) (10)
 - [Reading & Maps](#reading--maps) (3)
+- [Games: Strategy Games](#games-strategy-games) (3)
+- [Games: Sandbox Games](#games-sandbox-games) (1)
+- [Games: Adventure & RPG](#games-adventure--rpg) (1)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (6)
@@ -30,6 +33,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from fixing old app installs to icon packs and freezing background apps. Xposed API confirmed in every APK, no trackers.
 - [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Three open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2 and Fold Craft Launcher, compared on versions, mods and devices.
 - [NewPipe Alternatives: Open-Source YouTube Apps](https://h5.2113.net/topics/newpipe-alternatives/): NewPipe, PipePipe, LibreTube, FreeTube Android, SkyTube and Tubular compared on features, how they reach YouTube, upkeep and devices. Every APK checked.
+- [Open-Source Strategy Games for Android](https://h5.2113.net/topics/open-source-strategy-games/): Mindustry, Unciv and The Battle for Wesnoth compared on pace, online play, data downloads, controllers and Android support. Every APK signature-checked.
 - [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
 - [Best Shizuku Apps: 15 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Fifteen open-source Android apps that use Shizuku for ADB-level access without root. We confirmed the Shizuku API inside every APK and scanned each for trackers.
 - [Termux Plugins: All 7 Add-ons Explained](https://h5.2113.net/topics/termux-plugins/): What each Termux plugin adds, from Termux:API to Termux:GUI, how to set it up, and why plugins must come from the same source as Termux. All seven checked.
@@ -317,6 +321,25 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · Android 4.3+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/koreader/koreader)
 - **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
+
+## Games: Strategy Games
+
+- **[Mindustry](https://h5.2113.net/games/mindustry.html)**: Build drills, conveyor belts and factories that feed your turrets and units, and defend your core through campaigns on two planets. Free and open source; this is F-Droid’s build.  
+  Android 5.0+ · no account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Anuken/Mindustry)
+- **[The Battle for Wesnoth](https://h5.2113.net/games/wesnoth.html)**: Lead fantasy armies through story campaigns or online battles, turn by turn on a hex map. On Android, only the 1.19 development branch exists, and the project calls it an alpha.  
+  Android 6.0+ · 64-bit ARM · 0.6 GB download · no known trackers found · GPL-2.0-or-later · [source](https://github.com/wesnoth/wesnoth)
+- **[Unciv](https://h5.2113.net/games/unciv.html)**: Found cities, research technologies and grow an empire turn by turn, against the computer or friends. Small, free and open source, with mods; this is F-Droid’s build.  
+  Android 5.0+ · no account · no known trackers found · MPL-2.0 · [source](https://github.com/yairm210/Unciv)
+
+## Games: Sandbox Games
+
+- **[Luanti](https://h5.2113.net/games/luanti.html)**: A block-building game engine: install a game from its built-in library, then play alone, with friends or on public servers. Formerly called Minetest; this is F-Droid’s build.  
+  Android 5.0+ · a game from ContentDB · no known trackers found · LGPL-2.1-or-later · [source](https://github.com/luanti-org/luanti)
+
+## Games: Adventure & RPG
+
+- **[Endless Sky](https://h5.2113.net/games/endless-sky.html)**: Fly a starship between star systems, trade, take on missions and fight pirates. This is an unofficial Android port of the desktop game; it needs no internet and no permissions.  
+  Android 5.0+ · OpenGL ES 3.0 · works offline · no known trackers found · GPL-3.0-only · [source](https://github.com/thewierdnut/endless-mobile)
 
 ## Games: PC Emulators
 

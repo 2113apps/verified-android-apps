@@ -790,6 +790,40 @@
       "olderVersions": []
     },
     {
+      "name": "Endless Sky",
+      "package": "com.github.thewierdnut.endless_mobile",
+      "page": "https://h5.2113.net/games/endless-sky.html",
+      "category": "Adventure & RPG",
+      "version": "0.11.1-61",
+      "versionCode": 61,
+      "released": "2026-07-04",
+      "size": 92523317,
+      "sha256": "bc1bb86e741b7a798a310b05a54ee4daf83c6ef5235dc8c68e082715f2c57321",
+      "signers": [
+        "d94e2a75421d8466ecdbea45a5e7d9c488e5d8ff5caa2695e3527f63032b9df6"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/thewierdnut/endless-mobile",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Gyawun Music",
       "package": "com.jhelum.gyawun",
       "page": "https://h5.2113.net/apps/gyawun-music.html",
@@ -1992,6 +2026,42 @@
       "olderVersions": []
     },
     {
+      "name": "Unciv",
+      "package": "com.unciv.app",
+      "page": "https://h5.2113.net/games/unciv.html",
+      "category": "Strategy Games",
+      "version": "4.22.4",
+      "versionCode": 1265,
+      "released": "2026-09-28",
+      "size": 27314271,
+      "sha256": "de1e58c0909391ebb1a9bf6ba1234380419fdc520827717ea2c1d18bba7eb563",
+      "signers": [
+        "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/yairm210/Unciv",
+      "license": "MPL-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "VIVI Music",
       "package": "com.vivi.vivimusic",
       "page": "https://h5.2113.net/apps/vivi.html",
@@ -2624,6 +2694,42 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Mindustry",
+      "package": "io.anuke.mindustry",
+      "page": "https://h5.2113.net/games/mindustry.html",
+      "category": "Strategy Games",
+      "version": "8-fdroid-160.5",
+      "versionCode": 1113,
+      "released": "2026-09-26",
+      "size": 78535102,
+      "sha256": "7695c00507a2ed5e7838d845ee13a14b38de6b81d53ce9caf10a17b15b98e086",
+      "signers": [
+        "fbd07935ef2e2ada5d918aea62ec25dd7dda7407492c6c3d1582b59b6cb84bed"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Anuken/Mindustry",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3430,6 +3536,42 @@
         "x86_64"
       ],
       "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Luanti",
+      "package": "net.minetest.minetest",
+      "page": "https://h5.2113.net/games/luanti.html",
+      "category": "Sandbox Games",
+      "version": "5.17.0",
+      "versionCode": 5170000,
+      "released": "2026-08-29",
+      "size": 43074578,
+      "sha256": "87a136d408ed560d3d56e55ca2ac780deb7a8941635b16960c88831fb33f9233",
+      "signers": [
+        "e7d6047c1d75719811b317964a4ab1c0ad3b003bc3b8b3d72925b4d605ca45ee"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/luanti-org/luanti",
+      "license": "LGPL-2.1-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4505,6 +4647,39 @@
         "x86_64"
       ],
       "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "The Battle for Wesnoth",
+      "package": "org.wesnoth.Wesnoth",
+      "page": "https://h5.2113.net/games/wesnoth.html",
+      "category": "Strategy Games",
+      "version": "1.19.28",
+      "versionCode": 1192800002,
+      "released": "2026-09-22",
+      "size": 59066972,
+      "sha256": "ad2248ca2dc5a48cd8d63cc5025e6d6bee8710b65a798e19a6dc994af8061b35",
+      "signers": [
+        "3ff2fa4abe9ac48c0af7a6e8a71048d33a5f00a0256e87a20df6c7a67e95c7dd"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/wesnoth/wesnoth",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 4,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
