@@ -2030,11 +2030,11 @@
       "package": "com.unciv.app",
       "page": "https://h5.2113.net/games/unciv.html",
       "category": "Strategy Games",
-      "version": "4.22.4",
-      "versionCode": 1265,
-      "released": "2026-09-28",
-      "size": 27314271,
-      "sha256": "de1e58c0909391ebb1a9bf6ba1234380419fdc520827717ea2c1d18bba7eb563",
+      "version": "4.22.6-patch1",
+      "versionCode": 1267,
+      "released": "2026-10-03",
+      "size": 27334751,
+      "sha256": "c03cb2b887b855bba8216a8f482e43551f8d3a5af97d93e3cc2aa836ff101589",
       "signers": [
         "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
       ],
