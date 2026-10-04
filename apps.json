@@ -2196,11 +2196,11 @@
       "package": "de.blinkt.openvpn",
       "page": "https://h5.2113.net/apps/openvpn-for-android.html",
       "category": "Network & Privacy",
-      "version": "0.7.66",
-      "versionCode": 221,
-      "released": "2026-10-02",
-      "size": 33742016,
-      "sha256": "203b9bfca7bf8f9a8393e439cc6a501f419a1fe09d4dd22349ee24ba0198b416",
+      "version": "0.7.65",
+      "versionCode": 220,
+      "released": "2026-09-11",
+      "size": 39765197,
+      "sha256": "3ce86b641d1627820d8f05606a3fb58d966ffa8360c234563b3c5e1bd3a8490a",
       "signers": [
         "4cd330fe6593e2e64b1e1fa383f0c6d73892184fc1cd1a909e71d558d862e212"
       ],
