@@ -1521,6 +1521,42 @@
       "olderVersions": []
     },
     {
+      "name": "Shattered Pixel Dungeon",
+      "package": "com.shatteredpixel.shatteredpixeldungeon",
+      "page": "https://h5.2113.net/games/shattered-pixel-dungeon.html",
+      "category": "Adventure & RPG",
+      "version": "4.0.0",
+      "versionCode": 912,
+      "released": "2026-09-12",
+      "size": 30266866,
+      "sha256": "ed1b43d7312a70e86c5cd159d4ac29d7d69fae1033331a4e70f9a00dd346b207",
+      "signers": [
+        "d45f760b89608b4b253a3b160dc2707f1ff4e8dd8ca4d2e8e1b81c2c72d81753"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/00-Evan/shattered-pixel-dungeon",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "FireWall Blocks",
       "package": "com.shayan.firewall",
       "page": "https://h5.2113.net/apps/firewall-blocks.html",
@@ -2967,6 +3003,73 @@
       "olderVersions": []
     },
     {
+      "name": "OpenRCT2",
+      "package": "io.openrct2",
+      "page": "https://h5.2113.net/games/openrct2.html",
+      "category": "Simulation Games",
+      "version": "0.5.5",
+      "versionCode": 25,
+      "released": "2026-09-06",
+      "size": 218826596,
+      "sha256": "8dcabe11c87a5ea8de00a7e083ee3f54bd37239def6cb6f14d2b192492707111",
+      "signers": [
+        "f22b57042c6d4114b40ce559216ac049cdae9b34b830f7b0f018bca090ef99a9"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.5",
+      "sourceCode": "https://github.com/OpenRCT2/OpenRCT2",
+      "license": "GPL-3.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "VCMI",
+      "package": "is.xyz.vcmi",
+      "page": "https://h5.2113.net/games/vcmi.html",
+      "category": "Strategy Games",
+      "version": "1.7.5",
+      "versionCode": 17501,
+      "released": "2026-08-17",
+      "size": 37490514,
+      "sha256": "aa293835733a66929ac234d6310ab77d6c42fe7dc7e7905b784fa9bcfa510561",
+      "signers": [
+        "7a3559e561d6d3175c26c4bc79e72f199dfec2555e1bd0996167553895b03beb"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/vcmi/vcmi",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Unexpected Keyboard",
       "package": "juloo.keyboard2",
       "page": "https://h5.2113.net/apps/unexpected-keyboard.html",
@@ -3793,6 +3896,39 @@
       "olderVersions": []
     },
     {
+      "name": "Brogue CE Android",
+      "package": "org.broguece.game",
+      "page": "https://h5.2113.net/games/brogue-ce.html",
+      "category": "Adventure & RPG",
+      "version": "1.15.1.23",
+      "versionCode": 1150123,
+      "released": "2026-08-14",
+      "size": 13229132,
+      "sha256": "d6ae87a56beae5062d0b2da30a80028e10ff20c2309fd2b0deaab0e300bd189a",
+      "signers": [
+        "bb8f7d9d0ba011057a1e76cae2df4430d8d5b439b3b10e44c631bdfb0ab1ae41"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/tyrannotorus/c-brogue-ce-android",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Nova Video Player",
       "package": "org.courville.nova",
       "page": "https://h5.2113.net/apps/nova-video-player.html",
@@ -3860,6 +3996,42 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Dungeon Crawl Stone Soup",
+      "package": "org.develz.crawl",
+      "page": "https://h5.2113.net/games/dungeon-crawl-stone-soup.html",
+      "category": "Adventure & RPG",
+      "version": "0.34.1-3-ga2c7840dd7",
+      "versionCode": 40,
+      "released": "2026-03-20",
+      "size": 60024692,
+      "sha256": "1b0745d6755ecbafe8708fa13b8bb7e9ffdc059d9cb35730aea611b50c8c9850",
+      "signers": [
+        "b1dd92dfda9976a3390ad76587676c8a295843c6dedcba07aa46977511d60827"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/crawl/crawl",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -4405,6 +4577,42 @@
       "olderVersions": []
     },
     {
+      "name": "OpenTTD",
+      "package": "org.openttd.fdroid",
+      "page": "https://h5.2113.net/games/openttd.html",
+      "category": "Simulation Games",
+      "version": "14.1.rev128",
+      "versionCode": 1410128,
+      "released": "2024-07-23",
+      "size": 75972249,
+      "sha256": "355cc302a892fa8c62459b6ae6d0f2940868b9fea5221f784f36f90677b34610",
+      "signers": [
+        "4bd2acb6c3925d1741133e090bf90a32090e2ace116266d2bf7fb1597234835b"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/n-ice-community/commandergenius",
+      "license": "LGPL-2.1-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Tubular",
       "package": "org.polymorphicshade.tubular",
       "page": "https://h5.2113.net/apps/tubular.html",
@@ -4582,6 +4790,42 @@
       "trackers": [
         "Google CrashLytics"
       ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "SuperTuxKart",
+      "package": "org.supertuxkart.stk",
+      "page": "https://h5.2113.net/games/supertuxkart.html",
+      "category": "Racing Games",
+      "version": "1.5",
+      "versionCode": 328,
+      "released": "2025-10-20",
+      "size": 183727403,
+      "sha256": "e1f2f49152abfb8f3ed0ced47981e84096758bff9758563aa3b917111a2a3cbd",
+      "signers": [
+        "326b6dc20bfee3eda6bf25624e164a2a266e3f7a094d6fded99dda29da92f8bb"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/supertuxkart/stk-code/releases/tag/1.5",
+      "sourceCode": "https://github.com/supertuxkart/stk-code",
+      "license": null,
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
     },

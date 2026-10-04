@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-137 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+144 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -17,9 +17,11 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Cloud & Sync](#cloud--sync) (3)
 - [Productivity](#productivity) (10)
 - [Reading & Maps](#reading--maps) (3)
-- [Games: Strategy Games](#games-strategy-games) (3)
+- [Games: Strategy Games](#games-strategy-games) (4)
 - [Games: Sandbox Games](#games-sandbox-games) (1)
-- [Games: Adventure & RPG](#games-adventure--rpg) (1)
+- [Games: Adventure & RPG](#games-adventure--rpg) (4)
+- [Games: Simulation Games](#games-simulation-games) (2)
+- [Games: Racing Games](#games-racing-games) (1)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (6)
@@ -28,11 +30,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 ## Topics and comparisons
 
 - [Obtainium Alternatives for Android](https://h5.2113.net/topics/app-updaters/): Four open-source alternatives to Obtainium for installing and updating Android apps outside Google Play. Sources, silent installs and tracking flags compared.
+- [Heroes III, RCT2 and Transport Tycoon on Android](https://h5.2113.net/topics/classic-pc-games-android/): VCMI, OpenRCT2 and OpenTTD rebuild three classic PC strategy games as open source for Android. What each needs from the original game, and how to set it up.
 - [Android Customization Apps: Open-Source Picks](https://h5.2113.net/topics/customization/): Six open-source apps to customize Android, from launchers and a desktop-style taskbar to system-wide icon packs and Quick Settings styling. What each needs.
 - [Fossify Apps: Simple Mobile Tools Alternatives](https://h5.2113.net/topics/fossify-apps/): The Fossify apps that carry on Simple Mobile Tools, from gallery and dialer to keyboard and launcher. None requests internet access; all ten share one signing key.
+- [Android Games With No Ads: 12 Open-Source Picks](https://h5.2113.net/topics/games-without-ads/): Twelve open-source Android games, from strategy and roguelikes to racing and sandbox, whose files contain no ad libraries, no billing code and no trackers.
 - [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from fixing old app installs to icon packs and freezing background apps. Xposed API confirmed in every APK, no trackers.
 - [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Three open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2 and Fold Craft Launcher, compared on versions, mods and devices.
 - [NewPipe Alternatives: Open-Source YouTube Apps](https://h5.2113.net/topics/newpipe-alternatives/): NewPipe, PipePipe, LibreTube, FreeTube Android, SkyTube and Tubular compared on features, how they reach YouTube, upkeep and devices. Every APK checked.
+- [Open-Source Roguelikes for Android](https://h5.2113.net/topics/open-source-roguelikes/): Shattered Pixel Dungeon, Dungeon Crawl Stone Soup and Brogue CE compared on controls, depth, online features and who makes each Android version. All free, no ads.
 - [Open-Source Strategy Games for Android](https://h5.2113.net/topics/open-source-strategy-games/): Mindustry, Unciv and The Battle for Wesnoth compared on pace, online play, data downloads, controllers and Android support. Every APK signature-checked.
 - [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
 - [Best Shizuku Apps: 15 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Fifteen open-source Android apps that use Shizuku for ADB-level access without root. We confirmed the Shizuku API inside every APK and scanned each for trackers.
@@ -330,6 +335,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 6.0+ · 64-bit ARM · 0.6 GB download · no known trackers found · GPL-2.0-or-later · [source](https://github.com/wesnoth/wesnoth)
 - **[Unciv](https://h5.2113.net/games/unciv.html)**: Found cities, research technologies and grow an empire turn by turn, against the computer or friends. Small, free and open source, with mods; this is F-Droid’s build.  
   Android 5.0+ · no account · no known trackers found · MPL-2.0 · [source](https://github.com/yairm210/Unciv)
+- **[VCMI](https://h5.2113.net/games/vcmi.html)**: Play Heroes of Might and Magic III on your phone with a rebuilt, open-source engine. Bring the original game files (the GOG version works); VCMI supplies everything else.  
+  Heroes III files · Android 5.0+ · 64-bit ARM · no known trackers found · GPL-2.0-or-later · [source](https://github.com/vcmi/vcmi)
 
 ## Games: Sandbox Games
 
@@ -338,8 +345,26 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Adventure & RPG
 
+- **[Brogue CE Android](https://h5.2113.net/games/brogue-ce.html)**: Fight your way down a randomly generated dungeon to retrieve the Amulet of Yendor from its 26th level. A personal, unofficial port of Brogue: Community Edition to Android.  
+  Android 7.0+ · no account · offline · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/tyrannotorus/c-brogue-ce-android)
+- **[Dungeon Crawl Stone Soup](https://h5.2113.net/games/dungeon-crawl-stone-soup.html)**: Pick a species and a background, then dive for the Orb of Zot through a dungeon full of monsters and fickle gods. A deep, free roguelike that runs entirely offline.  
+  Android 5.0+ · no account · offline · no known trackers found · GPL-2.0-or-later · [source](https://github.com/crawl/crawl)
 - **[Endless Sky](https://h5.2113.net/games/endless-sky.html)**: Fly a starship between star systems, trade, take on missions and fight pirates. This is an unofficial Android port of the desktop game; it needs no internet and no permissions.  
   Android 5.0+ · OpenGL ES 3.0 · works offline · no known trackers found · GPL-3.0-only · [source](https://github.com/thewierdnut/endless-mobile)
+- **[Shattered Pixel Dungeon](https://h5.2113.net/games/shattered-pixel-dungeon.html)**: Pick a hero, go down, and try to survive: every run has new levels, enemies and loot, and dying means starting over. Free and open source, from a single developer.  
+  Android 5.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/00-Evan/shattered-pixel-dungeon)
+
+## Games: Simulation Games
+
+- **[OpenRCT2](https://h5.2113.net/games/openrct2.html)**: Build and run theme parks from RollerCoaster Tycoon 2 on Android, with an open-source re-implementation of the game. You copy over files from a desktop copy of the game; the rest is included.  
+  RCT2 desktop files · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/OpenRCT2/OpenRCT2)
+- **[OpenTTD](https://h5.2113.net/games/openttd.html)**: Build railways, roads, airports and shipping lines and grow a transport company over decades. An unofficial Android port of OpenTTD, ready to play with its free graphics and sound.  
+  Android 7.0+ · no original files needed · no known trackers found · LGPL-2.1-or-later · [source](https://github.com/n-ice-community/commandergenius)
+
+## Games: Racing Games
+
+- **[SuperTuxKart](https://h5.2113.net/games/supertuxkart.html)**: Race Tux and friends through 21 tracks with power-ups, or play battles, soccer and egg hunts, alone or online. Free and open source, with no ads or microtransactions.  
+  Android 5.0+ · account only for online races · no known trackers found · [source](https://github.com/supertuxkart/stk-code)
 
 ## Games: PC Emulators
 
