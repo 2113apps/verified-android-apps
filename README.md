@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-144 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+148 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,9 +11,9 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (11)
 - [Customization](#customization) (8)
-- [Network & Privacy](#network--privacy) (19)
-- [Media](#media) (31)
-- [System Tools](#system-tools) (36)
+- [Network & Privacy](#network--privacy) (21)
+- [Media](#media) (32)
+- [System Tools](#system-tools) (37)
 - [Cloud & Sync](#cloud--sync) (3)
 - [Productivity](#productivity) (10)
 - [Reading & Maps](#reading--maps) (3)
@@ -42,7 +42,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
 - [Best Shizuku Apps: 15 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Fifteen open-source Android apps that use Shizuku for ADB-level access without root. We confirmed the Shizuku API inside every APK and scanned each for trackers.
 - [Termux Plugins: All 7 Add-ons Explained](https://h5.2113.net/topics/termux-plugins/): What each Termux plugin adds, from Termux:API to Termux:GUI, how to set it up, and why plugins must come from the same source as Termux. All seven checked.
-- [Open-Source VPN Apps for Android: 6 Compared](https://h5.2113.net/topics/vpn-apps/): WG Tunnel, OpenVPN for Android, OpenConnect, Tailscale, Shadowsocks and NekoBox compared by the protocol each one speaks and what you need to connect. Every APK checked.
+- [Open-Source VPN Apps for Android: 7 Compared](https://h5.2113.net/topics/vpn-apps/): WG Tunnel, OpenVPN for Android, OpenConnect, Tailscale, Shadowsocks, NekoBox and Windscribe compared by protocol and what you need to connect. Every APK checked.
 - [Open-Source YouTube Music Clients for Android](https://h5.2113.net/topics/youtube-music-clients/): Metrolist, ArchiveTune, Kreate, VIVI Music, Gyawun, SimpMusic, OuterTune and Bloomee compared on sources, accounts, lyrics and devices. Every APK signature-checked.
 
 ## Guides
@@ -59,6 +59,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [How to Play Minecraft Java Edition on Android](https://h5.2113.net/guides/minecraft-java-on-android.html): Open-source launchers run Minecraft Java Edition on Android. What you need (you must own the game), which Java each version needs, and the first launch, step by step.
 - [App Not Installed as Package Conflicts: How to Fix](https://h5.2113.net/guides/package-conflicts.html): What Android’s “package conflicts with an existing package” error means: a different signing key, a copy kept for another user, or a clash with another app, and each fix.
 - [How to Remove Bloatware Without Root (Shizuku, Canta)](https://h5.2113.net/guides/remove-bloatware-without-root.html): Remove preinstalled apps without root using Shizuku and Canta: what it really does, which apps are risky, how to bring one back, and what changes in Android 17.
+- [How to Update Apps You Installed From an APK](https://h5.2113.net/guides/update-sideloaded-apps.html): Why an APK update installs or fails, and four ways to keep sideloaded apps updated: a store app, Obtainium, the app’s own update check, or by hand.
 - [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
 
 ## Root & Mods
@@ -143,8 +144,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · a Shadowsocks server · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shadowsocks/shadowsocks-android)
 - **[Tailscale](https://h5.2113.net/apps/tailscale.html)**: Connect your phone, computers and servers into one private network, a tailnet, built on WireGuard. Once you sign in, your devices can reach each other wherever they are.  
   No root · an account or Headscale · Android 8.0+ · no known trackers found · BSD-3-Clause · [source](https://github.com/tailscale/tailscale-android)
+- **[VPN Hotspot](https://h5.2113.net/apps/vpn-hotspot.html)**: Normally, devices on your phone’s hotspot don’t go through its VPN. VPN Hotspot routes them through it, and lets you see and block connected devices. Root required.  
+  Root · Android 10+ · 64-bit ARM · tracker code found: Google CrashLytics, Google Firebase Analytics · Apache-2.0 · [source](https://github.com/Mygod/VPNHotspot)
 - **[WG Tunnel](https://h5.2113.net/apps/wg-tunnel.html)**: A WireGuard and AmneziaWG client that turns tunnels on and off by itself depending on the network you’re on, with a kill switch, split tunneling and encrypted DNS.  
   No root · a WireGuard config · no known trackers found · MIT · [source](https://github.com/wgtunnel/android)
+- **[Windscribe](https://h5.2113.net/apps/windscribe.html)**: The Windscribe VPN app: pick a server location, connect with WireGuard, IKEv2 or OpenVPN, and get a monthly free allowance with an account. This is F-Droid’s build, without Google services.  
+  Windscribe account · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Windscribe/Android-App)
 
 ## Media
 
@@ -152,6 +157,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/AntennaPod/AntennaPod)
 - **[ArchiveTune](https://h5.2113.net/apps/archivetune.html)**: A YouTube Music player built on Metrolist’s framework, with quick switching between accounts, local files alongside streaming, podcasts, and detailed audio and lyrics options.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rukamori/ArchiveTune)
+- **[Audio Recorder](https://h5.2113.net/apps/audio-recorder.html)**: Record voice notes, lectures or meetings in M4A, WAV or 3GP, see the waveform as you go, and since version 2.5.0 record what other apps are playing. Works fully offline.  
+  Android 8.0+ · no account · no known trackers found · Apache-2.0 · [source](https://github.com/Dimowner/AudioRecorder)
 - **[Bloomee](https://h5.2113.net/apps/bloomee.html)**: A music player that plays your local files and online streams side by side. Its online sources come from a plugin system, and it adds synced lyrics, an equalizer and Last.fm scrobbling.  
   No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
 - **[Fossify Gallery](https://h5.2113.net/apps/fossify-gallery.html)**: A photo and video gallery that stays offline: browse, edit, hide and lock your pictures, restore deleted ones from a recycle bin, and strip location data before you share.  
@@ -221,6 +228,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Root + BusyBox · no known trackers found · Apache-2.0 · [source](https://github.com/cioccarellia/androoster)
 - **[APKUpdater](https://h5.2113.net/apps/apkupdater.html)**: Checks your installed apps for updates on APKMirror, Aptoide, F-Droid and GitHub, and can install them.  
   No root · no known trackers found · GPL-3.0-only · [source](https://github.com/rumboalla/apkupdater)
+- **[App Lock](https://h5.2113.net/apps/app-lock.html)**: Put a PIN, pattern, password or your fingerprint in front of the apps you choose. Open source and fully offline: the app doesn’t even ask for internet access.  
+  No root · Android 8.0+ · Shizuku optional · no known trackers found · MIT · [source](https://github.com/aload0/AppLock)
 - **[App Manager](https://h5.2113.net/apps/app-manager.html)**: A power-user tool for everything about installed apps: scan them for trackers, install split APKs, back them up, revoke permissions, freeze apps or block their components.  
   No root for basics · root or ADB for more · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/MuntashirAkon/AppManager)
 - **[aShell](https://h5.2113.net/apps/ashell.html)**: The original local ADB shell for Shizuku: type the commands you’d run with adb shell straight on the phone, with examples, bookmarks and history to help.  

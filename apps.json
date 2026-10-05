@@ -177,6 +177,41 @@
       "olderVersions": []
     },
     {
+      "name": "VPN Hotspot",
+      "package": "be.mygod.vpnhotspot",
+      "page": "https://h5.2113.net/apps/vpn-hotspot.html",
+      "category": "Network & Privacy",
+      "version": "3.0.8",
+      "versionCode": 2011,
+      "released": "2026-08-02",
+      "size": 12466716,
+      "sha256": "c71b1c9170235fa6a271e1617ab343767ebafe638a1833c3ff20733ef5861668",
+      "signers": [
+        "724fffe17e1188533c0d6a7af3c1dc12947cb554323af2b187c1f5ec1963f2b7"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/Mygod/VPNHotspot/releases/tag/v3.0.8",
+      "sourceCode": "https://github.com/Mygod/VPNHotspot",
+      "license": "Apache-2.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 30,
+      "trackers": [
+        "Google CrashLytics",
+        "Google Firebase Analytics"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Hail",
       "package": "com.aistra.hail",
       "page": "https://h5.2113.net/apps/hail.html",
@@ -519,6 +554,42 @@
         "arm64-v8a"
       ],
       "permissions": 22,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Audio Recorder",
+      "package": "com.dimowner.audiorecorder",
+      "page": "https://h5.2113.net/apps/audio-recorder.html",
+      "category": "Media",
+      "version": "2.5.0",
+      "versionCode": 951,
+      "released": "2026-10-02",
+      "size": 4311248,
+      "sha256": "b4076bf8f1c64ada10614acdd04968ae95e8a4f434bc3763d8f5680de697be4e",
+      "signers": [
+        "a8d718965ffa5e7c2178d6635627d9753d0c59e7243395a7aedabe36f3db3500"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Dimowner/AudioRecorder",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 14,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2031,11 +2102,11 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.3.6",
-      "versionCode": 1336,
-      "released": "2026-09-30",
-      "size": 329923401,
-      "sha256": "2523a999919e2f5e32def25a252513ab2d080c18a73a194f71262bece14d51d4",
+      "version": "1.3.3.7",
+      "versionCode": 1337,
+      "released": "2026-10-05",
+      "size": 330048299,
+      "sha256": "db2c38219d721d57f54618755f0b885f7de0bb3037cdd5de904923dfba488b5b",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
@@ -2044,7 +2115,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.6",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.7",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -2129,6 +2200,44 @@
         "x86_64"
       ],
       "permissions": 15,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
+      "name": "Windscribe",
+      "package": "com.windscribe.vpn",
+      "page": "https://h5.2113.net/apps/windscribe.html",
+      "category": "Network & Privacy",
+      "version": "4.3",
+      "versionCode": 2360,
+      "released": "2026-09-03",
+      "size": 96715018,
+      "sha256": "fcdb00447206efbf485c1267899159537bbad7425a9a17300949e9f48bfc872d",
+      "signers": [
+        "932dd4e6fc65a076fdfa37e92a47269f34753e0bd5d8fe7ffe0ad0743c0bc5fe"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Windscribe/Android-App",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 22,
       "trackers": [],
       "antiFeatures": [
         "NonFreeNet"
@@ -2456,6 +2565,40 @@
         "arm64-v8a"
       ],
       "permissions": 18,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "App Lock",
+      "package": "dev.pranav.applock",
+      "page": "https://h5.2113.net/apps/app-lock.html",
+      "category": "System Tools",
+      "version": "2.5.1",
+      "versionCode": 251,
+      "released": "2026-07-11",
+      "size": 2342730,
+      "sha256": "1cc169e34303ab749155bea025597f6474279a37614fb9cffcb6024685866566",
+      "signers": [
+        "af7f36023c6a7750847252e5d4d14a992b621364600705e1d8b0fe44d1ac8c81"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/aload0/AppLock",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 17,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4869,9 +5012,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-04",
-      "size": 28544832,
-      "sha256": "f1db8e5b2d77d3006cb310738922865b8afa1ed37e1a5412b1f866d10bf225f4",
+      "released": "2026-10-05",
+      "size": 28545816,
+      "sha256": "d3d56b2b77799cfd64ad01ab582d0f6fa392ebdf396a54d337c9a411f7ab1ac6",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
