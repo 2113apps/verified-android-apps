@@ -7,7 +7,7 @@
       "name": "Immich",
       "package": "app.alextran.immich",
       "page": "https://h5.2113.net/apps/immich.html",
-      "category": "Cloud & Sync",
+      "category": "Cloud & Self-Hosted",
       "version": "3.2.4",
       "versionCode": 3020499,
       "released": "2026-10-01",
@@ -1353,7 +1353,7 @@
       "name": "Nextcloud",
       "package": "com.nextcloud.client",
       "page": "https://h5.2113.net/apps/nextcloud.html",
-      "category": "Cloud & Sync",
+      "category": "Cloud & Self-Hosted",
       "version": "35.0.0",
       "versionCode": 350000090,
       "released": "2026-09-17",
@@ -3112,6 +3112,44 @@
       "olderVersions": []
     },
     {
+      "name": "Home Assistant",
+      "package": "io.homeassistant.companion.android.minimal",
+      "page": "https://h5.2113.net/apps/home-assistant.html",
+      "category": "Cloud & Self-Hosted",
+      "version": "2026.8.4-minimal",
+      "versionCode": 24228,
+      "released": "2026-10-01",
+      "size": 57871716,
+      "sha256": "c3212821efeb998e21c1f0874992f6805a81a6f85ed03519fd3b89ec67690fe4",
+      "signers": [
+        "17485250a03a0f2b3f292a054f595a9e794beef80cf910f7b3bbb8098abf6d50"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/home-assistant/android",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 70,
+      "trackers": [
+        "AltBeacon"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "KnoxPatch",
       "package": "io.mesalabs.knoxpatch",
       "page": "https://h5.2113.net/apps/knoxpatch.html",
@@ -4114,7 +4152,7 @@
       "name": "Cryptomator",
       "package": "org.cryptomator",
       "page": "https://h5.2113.net/apps/cryptomator.html",
-      "category": "Cloud & Sync",
+      "category": "Cloud & Self-Hosted",
       "version": "2.0.0",
       "versionCode": 3128,
       "released": "2026-06-26",
@@ -4689,6 +4727,40 @@
       "olderVersions": []
     },
     {
+      "name": "Lichess",
+      "package": "org.lichess.mobileV2",
+      "page": "https://h5.2113.net/games/lichess.html",
+      "category": "Strategy Games",
+      "version": "0.28.4",
+      "versionCode": 280403,
+      "released": "2026-09-21",
+      "size": 69681104,
+      "sha256": "076c0310a0cb559b5d9bfe48d098d9dbba4b042060cf493805f4b00a6c82ffdd",
+      "signers": [
+        "496ed2c1542892a094a2a6e26d59cd07fb7e8c711355876dad3859ea82f8af62"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/lichess-org/mobile",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 8,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeAssets",
+        "TetheredNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "LocalSend",
       "package": "org.localsend.localsend_app",
       "page": "https://h5.2113.net/apps/localsend.html",
@@ -4715,6 +4787,40 @@
         "arm64-v8a"
       ],
       "permissions": 19,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Tomato",
+      "package": "org.nsh07.pomodoro",
+      "page": "https://h5.2113.net/apps/tomato.html",
+      "category": "Productivity",
+      "version": "2.0.1",
+      "versionCode": 40,
+      "released": "2026-09-26",
+      "size": 6050950,
+      "sha256": "36aa0e28055f6fadc8c634d2b94b024acc6ab52c2944f62f97227ccad5317892",
+      "signers": [
+        "07bef30581baee8f45ec93e47ee68ef20874e50ef5709c78b2ee67ac86be4c3d"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/nsh07/Tomato",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5069,6 +5175,45 @@
       "permissions": 4,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Wikipedia",
+      "package": "org.wikipedia",
+      "page": "https://h5.2113.net/apps/wikipedia.html",
+      "category": "Reading & Maps",
+      "version": "r/50606-r-2026-09-09",
+      "versionCode": 50606,
+      "released": "2026-09-12",
+      "size": 82518241,
+      "sha256": "eba82a0f77940d8a6be5bd2e53723675a59859a6c8a51be5e50bd034fc77101f",
+      "signers": [
+        "1c3ddb0e8f3258b0ff3b7b6a608d19e7cdeed38a5897bbda23bac155923b1267"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/wikimedia/apps-android-wikipedia",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 17,
+      "trackers": [],
+      "antiFeatures": [
+        "TetheredNet",
+        "Tracking"
+      ],
       "olderVersions": []
     },
     {

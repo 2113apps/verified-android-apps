@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-148 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+152 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -14,10 +14,10 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Network & Privacy](#network--privacy) (21)
 - [Media](#media) (32)
 - [System Tools](#system-tools) (37)
-- [Cloud & Sync](#cloud--sync) (3)
-- [Productivity](#productivity) (10)
-- [Reading & Maps](#reading--maps) (3)
-- [Games: Strategy Games](#games-strategy-games) (4)
+- [Cloud & Self-Hosted](#cloud--self-hosted) (4)
+- [Productivity](#productivity) (11)
+- [Reading & Maps](#reading--maps) (4)
+- [Games: Strategy Games](#games-strategy-games) (5)
 - [Games: Sandbox Games](#games-sandbox-games) (1)
 - [Games: Adventure & RPG](#games-adventure--rpg) (4)
 - [Games: Simulation Games](#games-simulation-games) (2)
@@ -295,10 +295,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[USB HID Client](https://h5.2113.net/apps/usb-hid-client.html)**: Makes your phone act as a real USB keyboard and mouse, with no software on the computer, even in BIOS.  
   Root (Magisk or KernelSU) · no known trackers found · GPL-3.0-only · [source](https://github.com/Arian04/android-hid-client)
 
-## Cloud & Sync
+## Cloud & Self-Hosted
 
 - **[Cryptomator](https://h5.2113.net/apps/cryptomator.html)**: Encrypts files on your phone before they are uploaded, so the cloud only ever stores scrambled data. Opens vaults made with the desktop app. Without a paid license key, access is read-only.  
   License key to edit vaults · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/cryptomator/android)
+- **[Home Assistant](https://h5.2113.net/apps/home-assistant.html)**: The official Android app for Home Assistant, in the minimal flavor that works without Google Play services. It needs a Home Assistant server that you run yourself.  
+  Your own Home Assistant server · Android 6.0+ · tracker code found: AltBeacon · Apache-2.0 · [source](https://github.com/home-assistant/android)
 - **[Immich](https://h5.2113.net/apps/immich.html)**: The mobile app for Immich, a self-hosted photo and video library: back up the camera roll to a server you run, then browse, search and share it from the phone.  
   Your own Immich server · Android 8.0+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/immich-app/immich)
 - **[Nextcloud](https://h5.2113.net/apps/nextcloud.html)**: The official Android app for Nextcloud Files: reach the files on your own Nextcloud server, or an account with a provider, upload photos automatically and keep chosen folders synced.  
@@ -324,6 +326,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Default phone app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Phone)
 - **[HeliBoard](https://h5.2113.net/apps/heliboard.html)**: An on-screen keyboard that works fully offline: word suggestions from dictionaries you add, typing in several languages at once, themes, clipboard history, and one-handed and split modes.  
   No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/HeliBorg/HeliBoard)
+- **[Tomato](https://h5.2113.net/apps/tomato.html)**: A minimalist Pomodoro timer: focus for 25 minutes, take a short break, and follow your focus time in daily, weekly, monthly and yearly statistics. It never goes online.  
+  Android 8.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/nsh07/Tomato)
 - **[Unexpected Keyboard](https://h5.2113.net/apps/unexpected-keyboard.html)**: A small on-screen keyboard where you swipe a key toward one of its corners to type the symbol printed there, so more characters fit on one page. Designed for programmers using Termux.  
   No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Julow/Unexpected-Keyboard)
 
@@ -335,9 +339,13 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · Android 4.3+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/koreader/koreader)
 - **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
+- **[Wikipedia](https://h5.2113.net/apps/wikipedia.html)**: The Wikimedia Foundation’s own Wikipedia app: search and read articles, save them for reading offline, and edit. This copy is F-Droid’s build, without Google’s services.  
+  Android 6.0+ · account optional · no known trackers found · Apache-2.0 · [source](https://github.com/wikimedia/apps-android-wikipedia)
 
 ## Games: Strategy Games
 
+- **[Lichess](https://h5.2113.net/games/lichess.html)**: The official app of Lichess, the free and open-source chess site: play people online, play the computer offline, solve puzzles and analyse your games.  
+  Android 8.0+ · 64-bit ARM · account optional · no known trackers found · GPL-3.0-or-later · [source](https://github.com/lichess-org/mobile)
 - **[Mindustry](https://h5.2113.net/games/mindustry.html)**: Build drills, conveyor belts and factories that feed your turrets and units, and defend your core through campaigns on two planets. Free and open source; this is F-Droid’s build.  
   Android 5.0+ · no account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Anuken/Mindustry)
 - **[The Battle for Wesnoth](https://h5.2113.net/games/wesnoth.html)**: Lead fantasy armies through story campaigns or online battles, turn by turn on a hex map. On Android, only the 1.19 development branch exists, and the project calls it an alpha.  
@@ -385,7 +393,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Amethyst Launcher](https://h5.2113.net/games/amethyst-launcher.html)**: Runs the PC (Java) edition of Minecraft on Android. It continues PojavLauncher and supports Forge and Fabric mods.  
   Android 5+ · Microsoft account with Minecraft Java · no known trackers found · LGPL-3.0 · [source](https://github.com/AngelAuraMC/Amethyst-Android)
 - **[Fold Craft Launcher](https://h5.2113.net/games/fold-craft-launcher.html)**: A Minecraft Java Edition launcher for Android that combines HMCL’s version and mod management with the Amethyst engine.  
-  Android 8+ · Microsoft account with Minecraft Java · no known trackers found · GPL-3.0 · [source](https://github.com/FCL-Team/FoldCraftLauncher)
+  Android 8.0+ · Minecraft: Java Edition, sold by Mojang · no known trackers found · GPL-3.0 · [source](https://github.com/FCL-Team/FoldCraftLauncher)
 - **[Zalith Launcher 2](https://h5.2113.net/games/zalith-launcher-2.html)**: A newly designed Minecraft Java Edition launcher for Android. It uses the PojavLauncher engine under a modern Material Design 3 interface.  
   Android 8+ · Microsoft account with Minecraft Java · no known trackers found · GPL-3.0 · [source](https://github.com/ZalithLauncher/ZalithLauncher2)
 
