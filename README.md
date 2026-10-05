@@ -419,7 +419,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## About this list
 
-2113 Apps doesn’t modify, rebuild or re-sign any app. A tracker scan shows which known tracker SDKs are in the code, not what an app sends; “no known trackers found” means none of the Exodus Privacy signatures matched. Developers can add a “Get it on 2113 Apps” badge to their README: see [For developers](https://h5.2113.net/developers.html). Corrections: zmkm568@gmail.com.
+2113 Apps doesn’t modify, rebuild or re-sign any app. A tracker scan shows which known tracker SDKs are in the code, not what an app sends; “no known trackers found” means none of the Exodus Privacy signatures matched. Developers can add a “Get it on 2113 Apps” badge to their README: see [For developers](https://h5.2113.net/developers.html). Corrections: hello@2113.net.
 
 ## License
 

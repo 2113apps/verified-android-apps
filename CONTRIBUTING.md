@@ -4,7 +4,7 @@ This repository is generated from https://h5.2113.net/ every time the site is pu
 
 ## Report a mistake
 
-Open an issue, or email zmkm568@gmail.com, with:
+Open an issue, or email hello@2113.net, with:
 
 - the app and its package name;
 - what is wrong (for example the version, source, signer, licence or category);
@@ -14,7 +14,7 @@ We check it against the official source and fix the site; the correction appears
 
 ## Developers
 
-If you develop one of these apps and want it removed or its text changed, open an issue or email us. Removal requests are handled the same day. See https://h5.2113.net/developers.html.
+If you develop one of these apps and want it removed or its text changed, open an issue or email us: hello@2113.net for changes, copyright@2113.net for removal. Removal requests are handled the same day. See https://h5.2113.net/developers.html.
 
 ## Suggest an app
 
