@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-152 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+156 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -18,10 +18,11 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Productivity](#productivity) (11)
 - [Reading & Maps](#reading--maps) (4)
 - [Games: Strategy Games](#games-strategy-games) (5)
-- [Games: Sandbox Games](#games-sandbox-games) (1)
-- [Games: Adventure & RPG](#games-adventure--rpg) (4)
+- [Games: Sandbox Games](#games-sandbox-games) (2)
+- [Games: Adventure & RPG](#games-adventure--rpg) (5)
 - [Games: Simulation Games](#games-simulation-games) (2)
-- [Games: Racing Games](#games-racing-games) (1)
+- [Games: Racing Games](#games-racing-games) (2)
+- [Games: Educational Games](#games-educational-games) (1)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (6)
@@ -51,6 +52,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [arm64-v8a vs armeabi-v7a: Which APK Do You Need?](https://h5.2113.net/guides/arm64-vs-armeabi.html): arm64-v8a is for 64-bit ARM phones, armeabi-v7a for 32-bit ARM. How to check which your phone runs, when to take the universal APK, and what happens if you pick wrong.
 - [“Built for an Older Version of Android”: What It Means](https://h5.2113.net/guides/built-for-older-android.html): Why Android shows the “built for an older version of Android” warning, why Android 14 and later refuse to install some old apps, and the ways around each.
 - [How to Extract boot.img From an OTA or payload.bin](https://h5.2113.net/guides/extract-boot-img.html): Get the stock boot.img or init\_boot.img you need for rooting: which image to use, why the build must match, and how to extract it on the phone or on a computer.
+- [Add Your Own Game Files to Android Game Engines](https://h5.2113.net/guides/game-files-for-android-engines.html): Open-source engines such as VCMI and OpenRCT2 run games you already own. Which files each one needs, where they go on Android, and why Android/data is off limits.
 - [How to Start Shizuku: Wireless Debugging, PC or Root](https://h5.2113.net/guides/how-to-start-shizuku.html): Three ways to start Shizuku (root, wireless debugging on Android 11+, or a computer), what to redo after a reboot, and fixes for when it won't start or keeps stopping.
 - [How to Install APKs on Android TV and TV Boxes](https://h5.2113.net/guides/install-apk-android-tv.html): Allow unknown apps, get the file onto the TV by browser, USB or adb, and fix the two classic problems: 32-bit TV boxes and apps missing from the home screen.
 - [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
@@ -359,6 +361,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Luanti](https://h5.2113.net/games/luanti.html)**: A block-building game engine: install a game from its built-in library, then play alone, with friends or on public servers. Formerly called Minetest; this is F-Droid’s build.  
   Android 5.0+ · a game from ContentDB · no known trackers found · LGPL-2.1-or-later · [source](https://github.com/luanti-org/luanti)
+- **[Principia](https://h5.2113.net/games/principia.html)**: Build cars, calculators, robots and whole games out of more than 200 physical objects, circuits and Lua scripts, then play levels made by the community. Once a paid game, now free and open source.  
+  Android 5.0+ · online for community levels · no known trackers found · [source](https://github.com/Bithack/principia)
 
 ## Games: Adventure & RPG
 
@@ -368,6 +372,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · no account · offline · no known trackers found · GPL-2.0-or-later · [source](https://github.com/crawl/crawl)
 - **[Endless Sky](https://h5.2113.net/games/endless-sky.html)**: Fly a starship between star systems, trade, take on missions and fight pirates. This is an unofficial Android port of the desktop game; it needs no internet and no permissions.  
   Android 5.0+ · OpenGL ES 3.0 · works offline · no known trackers found · GPL-3.0-only · [source](https://github.com/thewierdnut/endless-mobile)
+- **[HyperRogue](https://h5.2113.net/games/hyperrogue.html)**: A turn-based roguelike on a hyperbolic plane: hunt for treasure through dozens of lands in a world where you almost never pass the same place twice. This is the free GPL build, not HyperRogue Gold.  
+  Android 5.0+ · works offline · no known trackers found · GPL-2.0-only · [source](https://github.com/zenorogue/hyperrogue)
 - **[Shattered Pixel Dungeon](https://h5.2113.net/games/shattered-pixel-dungeon.html)**: Pick a hero, go down, and try to survive: every run has new levels, enemies and loot, and dying means starting over. Free and open source, from a single developer.  
   Android 5.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/00-Evan/shattered-pixel-dungeon)
 
@@ -380,8 +386,15 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Racing Games
 
+- **[Pixel Wheels](https://h5.2113.net/games/pixel-wheels.html)**: Race pixel-art cars around nine tracks seen from above, firing guns, mines and missiles at your rivals. Free, open source, and playable offline from start to finish.  
+  Android 4.4+ · works offline · no known trackers found · [source](https://github.com/agateau/pixelwheels)
 - **[SuperTuxKart](https://h5.2113.net/games/supertuxkart.html)**: Race Tux and friends through 21 tracks with power-ups, or play battles, soccer and egg hunts, alone or online. Free and open source, with no ads or microtransactions.  
   Android 5.0+ · account only for online races · no known trackers found · [source](https://github.com/supertuxkart/stk-code)
+
+## Games: Educational Games
+
+- **[GCompris](https://h5.2113.net/games/gcompris.html)**: Nearly 200 learning activities for children from 2 to 10: reading, counting, the clock, science, geography, logic games and more. Free, open source, no ads and no in-app purchases.  
+  Android 9+ · 64-bit ARM · no known trackers found · AGPL-3.0-only · [source](https://invent.kde.org/education/gcompris)
 
 ## Games: PC Emulators
 

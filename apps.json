@@ -212,6 +212,43 @@
       "olderVersions": []
     },
     {
+      "name": "Pixel Wheels",
+      "package": "com.agateau.tinywheels.android",
+      "page": "https://h5.2113.net/games/pixel-wheels.html",
+      "category": "Racing Games",
+      "version": "1.0.1",
+      "versionCode": 33,
+      "released": "2025-12-20",
+      "size": 29444553,
+      "sha256": "78fe17b60412358cb3b0b9e0052df3c9a8e2b42359bdca6d56a05982eb5a9a12",
+      "signers": [
+        "8a8ff484fdd780b3fbdb14183a5373dbe11b026edd3e6fec297e5f10aa3f32f1"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/agateau/pixelwheels/releases/tag/1.0.1",
+      "sourceCode": "https://github.com/agateau/pixelwheels",
+      "license": null,
+      "minSdk": 19,
+      "minAndroid": "Android 4.4",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Hail",
       "package": "com.aistra.hail",
       "page": "https://h5.2113.net/apps/hail.html",
@@ -423,6 +460,42 @@
         "x86_64"
       ],
       "permissions": 15,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Principia",
+      "package": "com.bithack.principia",
+      "page": "https://h5.2113.net/games/principia.html",
+      "category": "Sandbox Games",
+      "version": "2026.09.19",
+      "versionCode": 45,
+      "released": "2026-09-19",
+      "size": 30117266,
+      "sha256": "bbcae1d1d366140ee872d702bfaba2b9973747695645d3d7a5df32b9933fb5c3",
+      "signers": [
+        "45637639a699f6fcafb8eff94ccd4544471467bbd94e77096185ce738fc1fc93"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/Bithack/principia/releases/tag/2026.09.19",
+      "sourceCode": "https://github.com/Bithack/principia",
+      "license": null,
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 2,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1587,6 +1660,42 @@
         "x86_64"
       ],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "HyperRogue",
+      "package": "com.roguetemple.hyperroid",
+      "page": "https://h5.2113.net/games/hyperrogue.html",
+      "category": "Adventure & RPG",
+      "version": "13.1e",
+      "versionCode": 13105,
+      "released": "2025-09-16",
+      "size": 36944467,
+      "sha256": "496cc9c0a2366aa8a2c30ae1f4dc9f7b75c2e493b24a3520d50f082308bebed0",
+      "signers": [
+        "f83f95b2eb5dee7e59276266fada5c0f21a10440cefc72ff4d3ceadbd7d4c878"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/zenorogue/hyperrogue",
+      "license": "GPL-2.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3825,6 +3934,39 @@
       "olderVersions": []
     },
     {
+      "name": "GCompris",
+      "package": "net.gcompris.full",
+      "page": "https://h5.2113.net/games/gcompris.html",
+      "category": "Educational Games",
+      "version": "26.2",
+      "versionCode": 260201,
+      "released": "2026-09-29",
+      "size": 79873599,
+      "sha256": "4524fd1e400d680836bb9096be33b4cd61ebd345c17b8c45f4d1982cb3121bec",
+      "signers": [
+        "95f3d424a1d80a260a8e6832f1b98abff4a72a86012acf85c8f524cfcb2dc7ee"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://invent.kde.org/education/gcompris",
+      "license": "AGPL-3.0-only",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Luanti",
       "package": "net.minetest.minetest",
       "page": "https://h5.2113.net/games/luanti.html",
@@ -5118,9 +5260,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-05",
-      "size": 28553112,
-      "sha256": "894283f8aae8eba634cf276d9e75dbc4e327842cee8aa9c63c7a58b76a20da03",
+      "released": "2026-10-06",
+      "size": 28556264,
+      "sha256": "10e717300b52b60c015b15bc3ced2743038d7c9ce68bafbdf03c6ee5210ee5f3",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
