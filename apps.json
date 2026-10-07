@@ -938,11 +938,11 @@
       "package": "com.github.thewierdnut.endless_mobile",
       "page": "https://h5.2113.net/games/endless-sky.html",
       "category": "Adventure & RPG",
-      "version": "0.11.1-61",
-      "versionCode": 61,
-      "released": "2026-07-04",
-      "size": 92523317,
-      "sha256": "bc1bb86e741b7a798a310b05a54ee4daf83c6ef5235dc8c68e082715f2c57321",
+      "version": "0.11.3-62",
+      "versionCode": 62,
+      "released": "2026-10-06",
+      "size": 93083941,
+      "sha256": "108d2909ed297270e3117b67f1c61700707d9e8147178985654202cc4c36c46e",
       "signers": [
         "d94e2a75421d8466ecdbea45a5e7d9c488e5d8ff5caa2695e3527f63032b9df6"
       ],
@@ -1427,11 +1427,11 @@
       "package": "com.nextcloud.client",
       "page": "https://h5.2113.net/apps/nextcloud.html",
       "category": "Cloud & Self-Hosted",
-      "version": "35.0.0",
-      "versionCode": 350000090,
-      "released": "2026-09-17",
+      "version": "35.0.1",
+      "versionCode": 350000190,
+      "released": "2026-10-06",
       "size": 96757432,
-      "sha256": "2d08059c9a0a94ef4316e5c8491e3c6aee99a87b58bb796163c44e08deb1615c",
+      "sha256": "8fd4d86de9497d3afecc0bad201b177c8f413c0e2e3e152cbc80f48d6e9b481f",
       "signers": [
         "5709576f9d6c6a7687dd5d56b269d1fa5e379702b91bc83f39fd7b7c597c1b83"
       ],
@@ -3187,11 +3187,11 @@
       "package": "io.github.sds100.keymapper",
       "page": "https://h5.2113.net/apps/key-mapper.html",
       "category": "System Tools",
-      "version": "4.5.0-foss",
-      "versionCode": 271,
-      "released": "2026-09-22",
-      "size": 15034751,
-      "sha256": "9896a5d9b7ad976cc14f8f6d88ab4f57952b44f9bc32f68c87b03e1987204806",
+      "version": "4.6.0-foss",
+      "versionCode": 278,
+      "released": "2026-10-06",
+      "size": 15087999,
+      "sha256": "e61901735ec462503bc0d66f076e9f73e300ccbc5b7db7a5809273e8c3ad1e81",
       "signers": [
         "f4d753302710c9a7a40885c891aebdb1a0f275122fdcdb7c2f45a202b213f373"
       ],
@@ -5260,9 +5260,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-06",
-      "size": 28980000,
-      "sha256": "67438cef623e44577a9013b4136d8cf8fd5bf4fb4883657b1fe1060ea52c4ad4",
+      "released": "2026-10-07",
+      "size": 29010308,
+      "sha256": "8b0b212647f7daeab3f8ba4e9e86e6b8268d383d0dcc8bf6dbefaba18968a313",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
