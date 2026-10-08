@@ -212,6 +212,37 @@
       "olderVersions": []
     },
     {
+      "name": "Test DPC",
+      "package": "com.afwsamples.testdpc",
+      "page": "https://h5.2113.net/apps/test-dpc.html",
+      "category": "System Tools",
+      "version": "9.0.12",
+      "versionCode": 9012,
+      "released": "2024-10-01",
+      "size": 11054659,
+      "sha256": "aad38c1f608b1c7289405c4e866977f5d231502643ce2e2401a7c305808f9c00",
+      "signers": [
+        "8090f6630b4e8962479123249087cb4658feaae36a1b57dbeafd74d109b333dc"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/googlesamples/android-testdpc",
+      "license": "Apache-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 41,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Pixel Wheels",
       "package": "com.agateau.tinywheels.android",
       "page": "https://h5.2113.net/games/pixel-wheels.html",
@@ -347,6 +378,42 @@
       "targetSdk": 35,
       "abis": [],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Geto",
+      "package": "com.android.geto",
+      "page": "https://h5.2113.net/apps/geto.html",
+      "category": "System Tools",
+      "version": "1.17.3",
+      "versionCode": 173,
+      "released": "2026-07-19",
+      "size": 2325560,
+      "sha256": "8bf453ce79521ee1f1306c86df5751a99df0a8cca59d2447307a9705b205ae22",
+      "signers": [
+        "94a9d87cc8f0c33191a233ac74ed5c9e4e1afd556a9d916ac533bc50083a8dff"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/JackEblan/Geto",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3052,6 +3119,39 @@
       "olderVersions": []
     },
     {
+      "name": "Flow",
+      "package": "io.github.aedev.flow",
+      "page": "https://h5.2113.net/apps/flow.html",
+      "category": "Media",
+      "version": "2.2.1",
+      "versionCode": 18,
+      "released": "2026-08-28",
+      "size": 17021803,
+      "sha256": "2e70e8df44a0975e39f1fd3959926578b2b92c604b714b97e5e0b6d7ef69eaeb",
+      "signers": [
+        "4322294ed4caa2d4294140095818080ffe8acc1fbe3cdc76107df45c5286be40"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/A-EDev/Flow",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 21,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "HideMockLocation",
       "package": "io.github.auag0.hidemocklocation",
       "page": "https://h5.2113.net/apps/hidemocklocation.html",
@@ -5260,9 +5360,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-07",
-      "size": 29010308,
-      "sha256": "8b0b212647f7daeab3f8ba4e9e86e6b8268d383d0dcc8bf6dbefaba18968a313",
+      "released": "2026-10-08",
+      "size": 29010452,
+      "sha256": "c8c1b2a283e7e762b0bc75ff51f56b92a90f6880da880afbb52768503603469e",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],

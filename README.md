@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-156 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+159 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -12,8 +12,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Root & Mods](#root--mods) (11)
 - [Customization](#customization) (8)
 - [Network & Privacy](#network--privacy) (21)
-- [Media](#media) (32)
-- [System Tools](#system-tools) (37)
+- [Media](#media) (33)
+- [System Tools](#system-tools) (39)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (4)
 - [Productivity](#productivity) (11)
 - [Reading & Maps](#reading--maps) (4)
@@ -63,6 +63,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [How to Remove Bloatware Without Root (Shizuku, Canta)](https://h5.2113.net/guides/remove-bloatware-without-root.html): Remove preinstalled apps without root using Shizuku and Canta: what it really does, which apps are risky, how to bring one back, and what changes in Android 17.
 - [How to Update Apps You Installed From an APK](https://h5.2113.net/guides/update-sideloaded-apps.html): Why an APK update installs or fails, and four ways to keep sideloaded apps updated: a store app, Obtainium, the app’s own update check, or by hand.
 - [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
+- [Set Up a Work Profile on Android Without an Employer](https://h5.2113.net/guides/work-profile-without-employer.html): A work profile keeps a second set of apps and data apart on one phone. How to create one yourself with Test DPC or OwnDroid, what it separates, and how to remove it.
 
 ## Root & Mods
 
@@ -163,6 +164,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 8.0+ · no account · no known trackers found · Apache-2.0 · [source](https://github.com/Dimowner/AudioRecorder)
 - **[Bloomee](https://h5.2113.net/apps/bloomee.html)**: A music player that plays your local files and online streams side by side. Its online sources come from a plugin system, and it adds synced lyrics, an equalizer and Last.fm scrobbling.  
   No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
+- **[Flow](https://h5.2113.net/apps/flow.html)**: Watch YouTube and play music from it without signing in, with recommendations worked out on your phone. An unofficial, open-source client; it isn't made by or connected with YouTube.  
+  Android 8.0+ · 64-bit ARM · no known trackers found · GPL-3.0-only · [source](https://github.com/A-EDev/Flow)
 - **[Fossify Gallery](https://h5.2113.net/apps/fossify-gallery.html)**: A photo and video gallery that stays offline: browse, edit, hide and lock your pictures, restore deleted ones from a recycle bin, and strip location data before you share.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Gallery)
 - **[Fossify Music Player](https://h5.2113.net/apps/fossify-music-player.html)**: A player for the music files on your phone that carries on from Simple Music Player: browse by album, artist, genre or folder, with playlists, an equalizer and a sleep timer.  
@@ -254,6 +257,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · ARM64 · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/Nandanrmenon/florid)
 - **[Fossify File Manager](https://h5.2113.net/apps/fossify-file-manager.html)**: An open-source file manager that carries on from Simple File Manager: favourites, search, ZIP archives, a storage analyser, locks for hidden files, and root access if you have it.  
   No root needed · all files access · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/File-Manager)
+- **[Geto](https://h5.2113.net/apps/geto.html)**: Set system settings for one app: Geto applies them when it launches that app and restores them from a notification afterwards. Its author built it to switch developer options off for a banking app.  
+  Android 7.0+ · adb to grant one permission · no known trackers found · GPL-3.0-only · [source](https://github.com/JackEblan/Geto)
 - **[Hail](https://h5.2113.net/apps/hail.html)**: Switch off the apps you rarely use instead of uninstalling them: Hail disables, hides or suspends them, and brings them back with a tap when you need them.  
   Shizuku, root or device owner · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/aistra0528/Hail)
 - **[Install with Options](https://h5.2113.net/apps/install-with-options.html)**: Installs APKs with options normally reserved for adb: test-only apps, downgrades, split APKs and Android 14’s blocked old apps.  
@@ -294,6 +299,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Termux from F-Droid · Tasker or similar · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-tasker)
 - **[Termux:Widget](https://h5.2113.net/apps/termux-widget.html)**: Turns your Termux scripts into buttons: a home screen widget that lists them, shortcuts for single scripts, and device controls that run them without opening Termux.  
   Termux from F-Droid · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-widget)
+- **[Test DPC](https://h5.2113.net/apps/test-dpc.html)**: Google's sample app for Android Enterprise: create a work profile on your own phone, or make a spare device fully managed, and try the policies Android offers. Built for testing, not daily use.  
+  Android 5.0+ · adb for device owner · no known trackers found · Apache-2.0 · [source](https://github.com/googlesamples/android-testdpc)
 - **[USB HID Client](https://h5.2113.net/apps/usb-hid-client.html)**: Makes your phone act as a real USB keyboard and mouse, with no software on the computer, even in BIOS.  
   Root (Magisk or KernelSU) · no known trackers found · GPL-3.0-only · [source](https://github.com/Arian04/android-hid-client)
 
