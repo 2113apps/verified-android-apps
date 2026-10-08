@@ -43,11 +43,11 @@
       "package": "app.flicky",
       "page": "https://h5.2113.net/apps/flicky.html",
       "category": "System Tools",
-      "version": "4.5.3",
-      "versionCode": 981,
-      "released": "2026-09-23",
-      "size": 4365409,
-      "sha256": "6a8462c3874c0dfa3ee5cfc4288ca1df36da96cf86d5c1aece00d5d88ede1dc5",
+      "version": "4.5.4",
+      "versionCode": 991,
+      "released": "2026-10-08",
+      "size": 4349037,
+      "sha256": "2d7786bef304d5d1cd702affd0db699460dd122050d083d6b2b5a1fd88e5c033",
       "signers": [
         "4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f"
       ],
