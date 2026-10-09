@@ -2791,11 +2791,11 @@
       "package": "dev.anilbeesetti.nextplayer",
       "page": "https://h5.2113.net/apps/next-player.html",
       "category": "Media",
-      "version": "0.18.0",
-      "versionCode": 74,
-      "released": "2026-09-16",
-      "size": 18948102,
-      "sha256": "717ab28053af129f79442aed269843bc3f2009b132c9d955342ddc3117dfd044",
+      "version": "0.19.0",
+      "versionCode": 75,
+      "released": "2026-10-09",
+      "size": 19056893,
+      "sha256": "1912899f4d520e676f059584a69c778db4409c9e09de3180ae56f8348b818748",
       "signers": [
         "d37cabf3676cf58224fb242c8dd209129d05880379295faaa6d0fb607bec131b"
       ],
@@ -2812,7 +2812,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "permissions": 11,
+      "permissions": 12,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4497,11 +4497,11 @@
       "package": "org.courville.nova",
       "page": "https://h5.2113.net/apps/nova-video-player.html",
       "category": "Media",
-      "version": "6.5.3-20260930.1914",
-      "versionCode": 2671314,
-      "released": "2026-09-30",
-      "size": 84355186,
-      "sha256": "9fb09f80467a82194202ffe157bc7515d00a03b4b4ffd0d4debe4e1ada78f028",
+      "version": "6.5.5-20261009.2113",
+      "versionCode": 2672099,
+      "released": "2026-10-09",
+      "size": 84480195,
+      "sha256": "f252631680328916ed847c8c0d6711d6a9922373e54f939178c428a9b3c3e1a5",
       "signers": [
         "05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615"
       ],
@@ -4512,7 +4512,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.5.3",
+      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.5.5",
       "sourceCode": "https://github.com/nova-video-player/aos-AVP",
       "license": "Apache-2.0",
       "minSdk": 23,
@@ -4524,7 +4524,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 24,
+      "permissions": 25,
       "trackers": [
         "Sentry"
       ],
@@ -5537,9 +5537,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-08",
-      "size": 29010452,
-      "sha256": "c8c1b2a283e7e762b0bc75ff51f56b92a90f6880da880afbb52768503603469e",
+      "released": "2026-10-09",
+      "size": 28985250,
+      "sha256": "91d8e4be0174634f0c5788011d5fa6bf587cde2a44963d8bfb54fb295d747bb5",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
