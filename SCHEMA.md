@@ -20,7 +20,7 @@
 | `sourceRelease` | string (URL) | The GitHub release the file was taken from. Only present when `source` is "github". |
 | `sourceCode` | string (URL) or null | Source code repository; null when the listing doesn’t give one. |
 | `license` | string (SPDX) or null | The app’s licence; null when the listing doesn’t give one. |
-| `minSdk` | integer | Minimum API level. |
+| `minSdk` | integer | Minimum API level declared in the APK’s manifest. When an app needs a higher level in practice, its page on the site says so. |
 | `minAndroid` | string | `minSdk` as an Android version. |
 | `targetSdk` | integer | Target API level. |
 | `abis` | array of strings | CPU types the APK has native code for. Empty: no native code, runs on any CPU. |

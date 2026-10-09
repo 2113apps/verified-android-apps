@@ -54,7 +54,7 @@ A matching hash and signer show that your file is identical to the published rel
 | `signers`, `signedBy` | SHA-256 of the signing certificate(s), and whose key it is |
 | `source`, `sourceRelease` | Where the file came from: `izzy` (IzzyOnDroid), `fdroid` (F-Droid) or `github`, with the GitHub release for the latter |
 | `sourceCode`, `license` | The project’s source code and its licence |
-| `minSdk`, `minAndroid`, `targetSdk` | Minimum and target Android API level |
+| `minSdk`, `minAndroid`, `targetSdk` | Minimum Android API level as declared in the APK’s manifest, and target API level. A few apps need a higher level in practice; their pages on the site say so |
 | `abis` | CPU types with native code in the APK; empty means none is needed |
 | `permissions` | Number of permissions the APK declares |
 | `trackers` | Known tracker SDKs found in the code (Exodus Privacy signatures) |

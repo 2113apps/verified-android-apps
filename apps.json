@@ -177,6 +177,40 @@
       "olderVersions": []
     },
     {
+      "name": "Universal Installer",
+      "package": "app.pwhs.universalinstaller",
+      "page": "https://h5.2113.net/apps/universal-installer.html",
+      "category": "System Tools",
+      "version": "1.18.0",
+      "versionCode": 42,
+      "released": "2026-09-16",
+      "size": 6543222,
+      "sha256": "01d3b7eb76b1c0c221502004506e5f9eef670157a6d07306661e75271e905840",
+      "signers": [
+        "40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/pass-with-high-score/universal-installer",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 22,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "VPN Hotspot",
       "package": "be.mygod.vpnhotspot",
       "page": "https://h5.2113.net/apps/vpn-hotspot.html",
@@ -497,6 +531,41 @@
       "olderVersions": []
     },
     {
+      "name": "Aegis Authenticator",
+      "package": "com.beemdevelopment.aegis",
+      "page": "https://h5.2113.net/apps/aegis-authenticator.html",
+      "category": "Network & Privacy",
+      "version": "3.4.3",
+      "versionCode": 82,
+      "released": "2026-09-06",
+      "size": 6881897,
+      "sha256": "fa091c91912c0d56ec3553394fac4158f9a9d178e93bcbb35419601d788cb528",
+      "signers": [
+        "c6db80a8e14e5230c1de8415ef820d13dc901d8fe33cf3acb57b6862d858a823"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/beemdevelopment/Aegis",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "OwnDroid",
       "package": "com.bintianqi.owndroid",
       "page": "https://h5.2113.net/apps/owndroid.html",
@@ -730,6 +799,42 @@
         "x86_64"
       ],
       "permissions": 14,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Vector Pinball",
+      "package": "com.dozingcatsoftware.bouncy",
+      "page": "https://h5.2113.net/games/vector-pinball.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.16.0",
+      "versionCode": 43,
+      "released": "2026-07-01",
+      "size": 3233743,
+      "sha256": "ffda0d9cb0b1b2aa58be9559dda891c4fa24391bc481d297a8e3d96c31f62721",
+      "signers": [
+        "0e7b403c101bc1f619ba55382931eef8cf0b694eb3c419db3db17c7f72e8dfa3"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/dozingcat/Vector-Pinball",
+      "license": "GPL-3.0-only",
+      "minSdk": 4,
+      "minAndroid": "API 4",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 0,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3967,6 +4072,42 @@
       ]
     },
     {
+      "name": "Simon Tatham's Puzzles",
+      "package": "name.boyle.chris.sgtpuzzles",
+      "page": "https://h5.2113.net/games/simon-tatham-puzzles.html",
+      "category": "Puzzle & Arcade",
+      "version": "2025-09-12-1919-23762278-fdroid",
+      "versionCode": 149,
+      "released": "2025-09-20",
+      "size": 10576188,
+      "sha256": "6b36d5537984523c57984a784156eb853a92c940fded286483687484f3d652e4",
+      "signers": [
+        "9e8a696693c6cd0873455f80d406f84dc15951fdb23e5f2499c596909c2fd44f"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/chrisboyle/sgtpuzzles",
+      "license": "MIT",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Pengeek",
       "package": "name.monwf.customiuizer",
       "page": "https://h5.2113.net/apps/pengeek.html",
@@ -4526,6 +4667,42 @@
       "antiFeatures": [
         "TetheredNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "fheroes2",
+      "package": "org.fheroes2",
+      "page": "https://h5.2113.net/games/fheroes2.html",
+      "category": "Strategy Games",
+      "version": "1.1.17",
+      "versionCode": 34,
+      "released": "2026-06-30",
+      "size": 28364492,
+      "sha256": "6129478332e16ec0cb2fb98c9dc84097cccd00700536ffb8f468879e30272cff",
+      "signers": [
+        "e31cae6b56df57f3db0a789c61843e4eed3bdb41fe30b6c4063fbf934ee2d5af"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/ihhub/fheroes2/releases/tag/1.1.17",
+      "sourceCode": "https://github.com/ihhub/fheroes2",
+      "license": "GPL-2.0",
+      "minSdk": 22,
+      "minAndroid": "Android 5.1",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -5595,6 +5772,40 @@
         "x86_64"
       ],
       "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "ImageToolbox",
+      "package": "ru.tech.imageresizershrinker",
+      "page": "https://h5.2113.net/apps/image-toolbox.html",
+      "category": "Media",
+      "version": "4.2.0-foss",
+      "versionCode": 267,
+      "released": "2026-09-04",
+      "size": 107826476,
+      "sha256": "7df1317a461dd46fba91225b098e4fb24b69118e3bedd641f8072e26aecd3c30",
+      "signers": [
+        "20d7689de0874f00015ea3e31fa067c15c03457d362d41d5e793db3a864fa534"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/T8RIN/ImageToolbox/releases/tag/4.2.0",
+      "sourceCode": "https://github.com/T8RIN/ImageToolbox",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 15,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
