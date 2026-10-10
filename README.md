@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-174 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+186 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -10,29 +10,29 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (11)
-- [Customization](#customization) (9)
-- [Network & Privacy](#network--privacy) (24)
-- [Media](#media) (35)
+- [Customization](#customization) (10)
+- [Network & Privacy](#network--privacy) (28)
+- [Media](#media) (37)
 - [System Tools](#system-tools) (40)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (4)
 - [Productivity](#productivity) (12)
-- [Reading & Maps](#reading--maps) (4)
+- [Reading & Maps](#reading--maps) (5)
 - [Games: Strategy Games](#games-strategy-games) (7)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
 - [Games: Adventure & RPG](#games-adventure--rpg) (6)
-- [Games: Simulation Games](#games-simulation-games) (2)
+- [Games: Simulation Games](#games-simulation-games) (3)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (4)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (5)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
-- [Games: Console Emulators](#games-console-emulators) (6)
+- [Games: Console Emulators](#games-console-emulators) (8)
 - [Games: Game Streaming](#games-game-streaming) (1)
 
 ## Topics and comparisons
 
 - [Obtainium Alternatives for Android](https://h5.2113.net/topics/app-updaters/): Four open-source alternatives to Obtainium for installing and updating Android apps outside Google Play. Sources, silent installs and tracking flags compared.
-- [Heroes 2 & 3, RCT2 and Transport Tycoon on Android](https://h5.2113.net/topics/classic-pc-games-android/): fheroes2, VCMI, OpenRCT2 and OpenTTD rebuild four classic PC strategy games as open source for Android. What each needs from the original game, and how to set it up.
+- [Heroes 2 & 3, Caesar III, RCT2 and More on Android](https://h5.2113.net/topics/classic-pc-games-android/): fheroes2, VCMI, Julius, OpenRCT2 and OpenTTD rebuild five classic PC strategy and building games as open source for Android. What each needs, and how to set it up.
 - [Android Customization Apps: Open-Source Picks](https://h5.2113.net/topics/customization/): Six open-source apps to customize Android, from launchers and a desktop-style taskbar to system-wide icon packs and Quick Settings styling. What each needs.
 - [Fossify Apps: Simple Mobile Tools Alternatives](https://h5.2113.net/topics/fossify-apps/): The Fossify apps that carry on Simple Mobile Tools, from gallery and dialer to keyboard and launcher. None requests internet access; all ten share one signing key.
 - [Android Games With No Ads: 15 Open-Source Picks](https://h5.2113.net/topics/games-without-ads/): Fifteen open-source Android games, from strategy and roguelikes to puzzles, pinball and racing, whose files contain no ad libraries, no billing code and no trackers.
@@ -56,6 +56,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [How to Extract boot.img From an OTA or payload.bin](https://h5.2113.net/guides/extract-boot-img.html): Get the stock boot.img or init\_boot.img you need for rooting: which image to use, why the build must match, and how to extract it on the phone or on a computer.
 - [Add Your Own Game Files to Android Game Engines](https://h5.2113.net/guides/game-files-for-android-engines.html): Open-source engines such as VCMI and OpenRCT2 run games you already own. Which files each one needs, where they go on Android, and why Android/data is off limits.
 - [Move Google Authenticator Codes to Aegis](https://h5.2113.net/guides/google-authenticator-to-aegis.html): Export your two-factor accounts from Google Authenticator as QR codes and scan them into Aegis: the steps, what can’t move, and how to back up Aegis afterwards.
+- [Move Google Password Manager Passwords to KeePassDX](https://h5.2113.net/guides/google-password-manager-to-keepassdx.html): Export Google Password Manager passwords, turn the CSV into an encrypted KeePass file with KeePassXC, and use it in KeePassDX on Android, plus why passkeys stay behind.
 - [How to Start Shizuku: Wireless Debugging, PC or Root](https://h5.2113.net/guides/how-to-start-shizuku.html): Three ways to start Shizuku (root, wireless debugging on Android 11+, or a computer), what to redo after a reboot, and fixes for when it won't start or keeps stopping.
 - [How to Install APKs on Android TV and TV Boxes](https://h5.2113.net/guides/install-apk-android-tv.html): Allow unknown apps, get the file onto the TV by browser, USB or adb, and fix the two classic problems: 32-bit TV boxes and apps missing from the home screen.
 - [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
@@ -109,6 +110,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/MM2-0/Kvaesitso)
 - **[Lawnchair](https://h5.2113.net/apps/lawnchair.html)**: A Pixel-style home screen app built on Android’s Launcher3, with icon packs, grid and icon-size controls. This is the Lawnchair 15 beta; the stable version is on Google Play.  
   No root · no known trackers found · Apache-2.0 · [source](https://github.com/LawnchairLauncher/lawnchair)
+- **[Olauncher](https://h5.2113.net/apps/olauncher.html)**: A home screen with the time, the date and up to eight app names in plain text, and no icons. Swipe left or right to open two apps you pick; type to find the rest.  
+  Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/tanujnotes/Olauncher)
 - **[Taskbar](https://h5.2113.net/apps/taskbar.html)**: A PC-style start menu and a bar of recent apps that sit on top of any screen, plus floating app windows and a desktop mode for when your phone drives an external display.  
   No root · overlay permission · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/farmerbb/Taskbar)
 - **[µLauncher](https://h5.2113.net/apps/mulauncher.html)**: A home screen with just the date, the time and your wallpaper. Apps open with swipes, taps, drawn shapes or the volume keys, and everything else is a searchable list.  
@@ -126,10 +129,18 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · internet · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Exodus-Privacy/exodus-android-app)
 - **[FireWall Blocks](https://h5.2113.net/apps/firewall-blocks.html)**: Blocks Wi-Fi or mobile data per app without root, through Shizuku or a local VPN.  
   Shizuku, or nothing in VPN mode · no known trackers found · MIT · [source](https://github.com/shynoiddev/FireWall-Blocks)
+- **[Gadgetbridge](https://h5.2113.net/apps/gadgetbridge.html)**: Use a smartwatch, fitness band, earbuds or scale without the maker’s app and account: notifications on your wrist, activity and sleep data, music controls and more, all kept on your phone.  
+  No root · Android 6.0+ · a supported gadget · no known trackers found · AGPL-3.0-only · [source](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 - **[Intra](https://h5.2113.net/apps/intra.html)**: A one-switch app that protects your DNS lookups from tampering: it sends them encrypted over HTTPS, which gets around blocking that works by faking DNS answers.  
   No root · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/Jigsaw-Code/Intra)
+- **[KDE Connect](https://h5.2113.net/apps/kde-connect.html)**: Pair your phone with your computer over the local network to share files and the clipboard, read and answer phone notifications on the PC, and use the phone as a touchpad or media remote.  
+  KDE Connect on the computer · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://invent.kde.org/network/kdeconnect-android)
+- **[KeePassDX](https://h5.2113.net/apps/keepassdx.html)**: Your passwords in an encrypted KeePass file that you keep wherever you like. KeePassDX fills in logins and passkeys, generates passwords and one-time codes, and never goes online.  
+  No root · Android 4.4+ (passkeys: Android 14+) · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kunzisoft/KeePassDX)
 - **[Kizzy](https://h5.2113.net/apps/kizzy.html)**: Shows Discord Rich Presence from your Android phone, with presets and custom statuses.  
   A Discord account · no known trackers found · GPL-3.0-only · [source](https://github.com/dead8309/Kizzy)
+- **[LibreTorrent](https://h5.2113.net/apps/libretorrent.html)**: A torrent client without ads or a search engine: open .torrent files, magnet links or your own RSS feeds, pick the files you want, stream while downloading, and limit it to Wi-Fi or charging.  
+  No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/proninyaroslav/libretorrent)
 - **[Meshtastic](https://h5.2113.net/apps/meshtastic.html)**: The official app for Meshtastic, the open-source off-grid radio project: pair your phone with a small LoRa radio and message others on the mesh, with no mobile network or internet.  
   A Meshtastic radio · 64-bit phone · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meshtastic/Meshtastic-Android)
 - **[Mousedroid](https://h5.2113.net/apps/mousedroid.html)**: Turns your phone into a touchpad, keyboard and numpad for a Windows or Linux PC, over USB or Wi-Fi.  
@@ -189,6 +200,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/T8RIN/ImageToolbox)
 - **[Jellyfin](https://h5.2113.net/apps/jellyfin.html)**: The official Android app for Jellyfin, the free media server: stream your own films, series, music and audiobooks from a server you run, or download them to the phone.  
   Your own Jellyfin server · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-android)
+- **[Just Player](https://h5.2113.net/apps/just-player.html)**: A plain video player with no library and no ads: open a file or a streaming link and it plays, with swipe gestures, picture-in-picture, subtitle choice and audio sync for Bluetooth earphones.  
+  No root · 64-bit phone · Android 6.0+ · no known trackers found · Unlicense · [source](https://github.com/moneytoo/Player)
 - **[Kodi](https://h5.2113.net/apps/kodi.html)**: A media center designed for the TV screen and a remote control: organise and play your own videos, music and photos from local storage and network shares.  
   No root · 64-bit ARM · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/xbmc/xbmc)
 - **[Kreate](https://h5.2113.net/apps/kreate.html)**: An open-source YouTube Music client that carries on from RiMusic: stream, cache or download songs, sign in to sync your library, and play on Android Auto or a TV.  
@@ -197,6 +210,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no Google account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/libre-tube/LibreTube)
 - **[Metrolist](https://h5.2113.net/apps/metrolist.html)**: An open-source YouTube Music client: stream and download from YouTube Music, sync your library if you sign in, and get synced lyrics, an equalizer and listen-together sessions.  
   No root · YouTube Music available where you are · no known trackers found · GPL-3.0-only · [source](https://github.com/MetrolistGroup/Metrolist)
+- **[mpv-android](https://h5.2113.net/apps/mpv-android.html)**: The mpv media player on Android. It plays almost any video or audio format, draws styled subtitles with libass, and lets you tune playback in mpv’s own configuration files.  
+  No root · Android 6.0+ · no known trackers found · MIT · [source](https://github.com/mpv-android/mpv-android)
 - **[mpvExtended](https://h5.2113.net/apps/mpvextended.html)**: A video player built on mpv, the powerful open-source media engine, with an easier interface than mpv-android, file browsing, network shares and picture-in-picture.  
   No root · 64-bit phone · no known trackers found · Apache-2.0 · [source](https://github.com/marlboro-advance/mpvEx)
 - **[NewPipe](https://h5.2113.net/apps/newpipe.html)**: A lightweight player for YouTube, PeerTube, SoundCloud and Bandcamp that works without an account or Google services, with background play, a popup player and downloads.  
@@ -365,6 +380,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · Android 7.1+ · no known trackers found · GPL-3.0 · [source](https://github.com/kiwix/kiwix-android)
 - **[KOReader](https://h5.2113.net/apps/koreader.html)**: A document reader built first for e-ink readers such as Kindle and Kobo, and available on Android: EPUB, PDF, DjVu, comics and more, with dictionaries and Calibre built in.  
   No root · 64-bit phone · Android 4.3+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/koreader/koreader)
+- **[Librera Reader](https://h5.2113.net/apps/librera-reader.html)**: An e-book reader for PDF, EPUB, MOBI, DjVu, FB2, comics and office documents, with read-aloud, dictionaries and online catalogues. This is the ad-free F-Droid edition, Librera FD.  
+  No root · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/foobnix/LibreraReader)
 - **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
 - **[Wikipedia](https://h5.2113.net/apps/wikipedia.html)**: The Wikimedia Foundation’s own Wikipedia app: search and read articles, save them for reading offline, and edit. This copy is F-Droid’s build, without Google’s services.  
@@ -411,6 +428,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Simulation Games
 
+- **[Julius](https://h5.2113.net/games/julius.html)**: Play the 1998 city builder Caesar III on a phone or tablet with game files you own. Julius rebuilds the engine with the same rules and save files, plus widescreen and touch controls.  
+  Caesar III game files · Android 5.0+ · no known trackers found · AGPL-3.0 · [source](https://github.com/bvschaik/julius)
 - **[OpenRCT2](https://h5.2113.net/games/openrct2.html)**: Build and run theme parks from RollerCoaster Tycoon 2 on Android, with an open-source re-implementation of the game. You copy over files from a desktop copy of the game; the rest is included.  
   RCT2 desktop files · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/OpenRCT2/OpenRCT2)
 - **[OpenTTD](https://h5.2113.net/games/openttd.html)**: Build railways, roads, airports and shipping lines and grow a transport company over decades. An unofficial Android port of OpenTTD, ready to play with its free graphics and sound.  
@@ -434,6 +453,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meikpiep/gauguin)
 - **[LibreSudoku](https://h5.2113.net/games/libresudoku.html)**: Classic and Killer Sudoku in three sizes and four difficulties, generated on your phone, with notes, hints, statistics and your own puzzle collections. Free, ad-free and offline.  
   Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/kaajjo/LibreSudoku)
+- **[Open Surge: retro game engine](https://h5.2113.net/games/open-surge.html)**: A fast 16-bit-style platformer starring Surge the Rabbit, and the open-source engine it runs on: play the demo levels, change them on your phone, or load games other people made.  
+  No root · ARM phone or TV · Android 5.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/alemart/opensurge)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
   Android 5.0+ · no known trackers found · MIT · [source](https://github.com/chrisboyle/sgtpuzzles)
 - **[Vector Pinball](https://h5.2113.net/games/vector-pinball.html)**: Pinball drawn with lines and circles, where the physics matter more than the graphics: nine tables, multiball, local high scores, and not a single permission requested.  
@@ -457,6 +478,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Dolphin Emulator](https://h5.2113.net/games/dolphin-emulator.html)**: The open-source GameCube and Wii emulator, on Android. It needs a 64-bit phone and a GPU with OpenGL ES 3.0 or Vulkan, and you bring your own games.  
   Your own games · 64-bit phone · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/dolphin-emu/dolphin)
+- **[Flycast](https://h5.2113.net/games/flycast.html)**: Play Dreamcast discs and Naomi and Atomiswave arcade games you own on Android, with upscaling, controller support and the online modes of some Dreamcast games. A Dreamcast BIOS is optional.  
+  Your own games · Android 5.0+ · OpenGL ES 2.0 · no known trackers found · GPL-2.0 · [source](https://github.com/flyinghead/flycast)
 - **[Lemuroid](https://h5.2113.net/games/lemuroid.html)**: One app for many retro consoles, built on libretro: it finds the games on your phone, saves your progress automatically and works with touch controls or a gamepad. Games are not included.  
   Your own games · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Swordfish90/Lemuroid)
 - **[melonDS](https://h5.2113.net/games/melonds.html)**: An emulator for Nintendo DS and DSi games. DS games need no BIOS files, thanks to a built-in open-source replacement; the games themselves are not included.  
@@ -465,6 +488,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Your own PSP games · OpenGL ES 2.0 · Android 2.3+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/hrydgard/ppsspp)
 - **[RetroArch](https://h5.2113.net/games/retroarch.html)**: One frontend for many emulators: RetroArch runs emulator cores for many consoles and computers under a single interface, with its core downloader built in. Games are not included.  
   Your own games and BIOS · Android 4.1+ · no known trackers found · GPL-3.0-only · [source](https://github.com/libretro/RetroArch)
+- **[UniPatcher](https://h5.2113.net/games/unipatcher.html)**: Apply a fan translation or a ROM hack to a game you already own, on the phone: pick the ROM, the patch and where to save the result. UniPatcher reads ten patch formats and leaves the original alone.  
+  No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://github.com/btimofeev/UniPatcher)
 - **[Vita3K](https://h5.2113.net/games/vita3k.html)**: An experimental PlayStation Vita emulator. It runs homebrew and many commercial Vita games that you dump from your own console.  
   64-bit phone · Android 9+ · your own games · no known trackers found · GPL-2.0 · [source](https://github.com/Vita3K/Vita3K)
 

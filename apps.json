@@ -177,6 +177,35 @@
       "olderVersions": []
     },
     {
+      "name": "Olauncher",
+      "package": "app.olauncher",
+      "page": "https://h5.2113.net/apps/olauncher.html",
+      "category": "Customization",
+      "version": "v6.9.17",
+      "versionCode": 113,
+      "released": "2026-09-17",
+      "size": 2401356,
+      "sha256": "bc72df3b8162f68a7bfed886fa21eb62ee1d53eadb9526498606b8f0aae5aa19",
+      "signers": [
+        "a2bd5f2443fd4b43a039b73ebe254febbc7eb57a2993dff541de52c52e588149"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/tanujnotes/Olauncher",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 13,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Universal Installer",
       "package": "app.pwhs.universalinstaller",
       "page": "https://h5.2113.net/apps/universal-installer.html",
@@ -668,6 +697,39 @@
       "olderVersions": []
     },
     {
+      "name": "Just Player",
+      "package": "com.brouken.player",
+      "page": "https://h5.2113.net/apps/just-player.html",
+      "category": "Media",
+      "version": "0.217",
+      "versionCode": 2174,
+      "released": "2026-09-15",
+      "size": 13050016,
+      "sha256": "89e459ee69f2350f5006fb514d7a7e7f2f9b4e590c3b03b1f4e66c0ffc16d1a2",
+      "signers": [
+        "0dd37a735ff75f06d09aa661baf79a8d12864f41aeb0311d817dbc85f1ded7f8"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/moneytoo/Player",
+      "license": "Unlicense",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 8,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "RustDesk",
       "package": "com.carriez.flutter_hbb",
       "page": "https://h5.2113.net/apps/rustdesk.html",
@@ -1040,6 +1102,78 @@
       "olderVersions": []
     },
     {
+      "name": "Flycast",
+      "package": "com.flycast.emulator",
+      "page": "https://h5.2113.net/games/flycast.html",
+      "category": "Console Emulators",
+      "version": "v2.7-1-g44e4c7b50",
+      "versionCode": 3302,
+      "released": "2026-08-19",
+      "size": 36280670,
+      "sha256": "1ac54d77b8283f6d58d077396d0916ec12c15b7e4ada9d957836a64590756c00",
+      "signers": [
+        "0774794c54c7e463004754e2caba432a2057d917e64c5e24460606a7471b1395"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/flyinghead/flycast/releases/tag/v2.7",
+      "sourceCode": "https://github.com/flyinghead/flycast",
+      "license": "GPL-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Librera Reader",
+      "package": "com.foobnix.pro.pdf.reader",
+      "page": "https://h5.2113.net/apps/librera-reader.html",
+      "category": "Reading & Maps",
+      "version": "9.6.39-fdroid",
+      "versionCode": 7398,
+      "released": "2026-10-08",
+      "size": 108461451,
+      "sha256": "ada07b2d61bfeadaedadb58a8a29f246c35421fec2ba2ed548baa420cb59d7d6",
+      "signers": [
+        "ea0d90df4dde7b9a9e8eaebe2e8aa47ed13f4df9d77aa64bc99c7ed309d2a84d"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/foobnix/LibreraReader",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Meshtastic",
       "package": "com.geeksville.mesh",
       "page": "https://h5.2113.net/apps/meshtastic.html",
@@ -1066,6 +1200,42 @@
         "arm64-v8a"
       ],
       "permissions": 20,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Julius",
+      "package": "com.github.bvschaik.julius",
+      "page": "https://h5.2113.net/games/julius.html",
+      "category": "Simulation Games",
+      "version": "1.8.0",
+      "versionCode": 10800000,
+      "released": "2025-07-31",
+      "size": 9323591,
+      "sha256": "f5a0226e458da9f75efa4f704c0e654ed3ea764c468079b90c39cdf5d4856adb",
+      "signers": [
+        "a8b8e44c70e47f1e8e1d2fcaf7a263a0d9c5ef3baa2d8869bdac1f22444cc24b"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/bvschaik/julius/releases/tag/v1.8.0",
+      "sourceCode": "https://github.com/bvschaik/julius",
+      "license": "AGPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1338,6 +1508,41 @@
         "x86_64"
       ],
       "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "KeePassDX",
+      "package": "com.kunzisoft.keepass.libre",
+      "page": "https://h5.2113.net/apps/keepassdx.html",
+      "category": "Network & Privacy",
+      "version": "4.5.5",
+      "versionCode": 45500,
+      "released": "2026-09-25",
+      "size": 16746852,
+      "sha256": "99dccd0c350be4a97dc7b90ccd3c83dfa41f8179f5db1a7c071c17cc0278cc3a",
+      "signers": [
+        "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/Kunzisoft/KeePassDX",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 19,
+      "minAndroid": "Android 4.4",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2518,11 +2723,11 @@
       "package": "com.unciv.app",
       "page": "https://h5.2113.net/games/unciv.html",
       "category": "Strategy Games",
-      "version": "4.22.6-patch1",
-      "versionCode": 1267,
-      "released": "2026-10-03",
-      "size": 27334751,
-      "sha256": "c03cb2b887b855bba8216a8f482e43551f8d3a5af97d93e3cc2aa836ff101589",
+      "version": "4.22.7",
+      "versionCode": 1268,
+      "released": "2026-10-08",
+      "size": 27363320,
+      "sha256": "0918a2973d71fe1b6022549b3ba22539eded369c3e08395a4c328805a1b23bad",
       "signers": [
         "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
       ],
@@ -3633,11 +3838,11 @@
       "package": "io.openrct2",
       "page": "https://h5.2113.net/games/openrct2.html",
       "category": "Simulation Games",
-      "version": "0.5.5",
-      "versionCode": 25,
-      "released": "2026-09-06",
-      "size": 218826596,
-      "sha256": "8dcabe11c87a5ea8de00a7e083ee3f54bd37239def6cb6f14d2b192492707111",
+      "version": "0.5.6",
+      "versionCode": 26,
+      "released": "2026-10-10",
+      "size": 217138729,
+      "sha256": "49705d0c3f89fd729254edeece0e43c620396ee0ddbfd50eb59a4ae4ea6df5db",
       "signers": [
         "f22b57042c6d4114b40ce559216ac049cdae9b34b830f7b0f018bca090ef99a9"
       ],
@@ -3646,7 +3851,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.5",
+      "sourceRelease": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.6",
       "sourceCode": "https://github.com/OpenRCT2/OpenRCT2",
       "license": "GPL-3.0",
       "minSdk": 24,
@@ -3658,6 +3863,41 @@
         "x86_64"
       ],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "mpv-android",
+      "package": "is.xyz.mpv",
+      "page": "https://h5.2113.net/apps/mpv-android.html",
+      "category": "Media",
+      "version": "2026-09-17-release",
+      "versionCode": 48,
+      "released": "2026-09-19",
+      "size": 123244634,
+      "sha256": "5cba2237b20ba34b79eaccfbd39bdb5b09d2a9a774bdccee09ca450eac4edd34",
+      "signers": [
+        "43509443ff26dec9be7ab69cf7e32482680be75a5643c0759c9805d20d491a49"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/mpv-android/mpv-android",
+      "license": "MIT",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4516,6 +4756,42 @@
       "olderVersions": []
     },
     {
+      "name": "Gadgetbridge",
+      "package": "nodomain.freeyourgadget.gadgetbridge",
+      "page": "https://h5.2113.net/apps/gadgetbridge.html",
+      "category": "Network & Privacy",
+      "version": "0.95.1",
+      "versionCode": 255,
+      "released": "2026-10-09",
+      "size": 22030483,
+      "sha256": "187ce6606ad5fc8372e3f6da14686f6b3500dbab81a503f7be5afbda876e4050",
+      "signers": [
+        "01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://codeberg.org/Freeyourgadget/Gadgetbridge",
+      "license": "AGPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 74,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "AdAway",
       "package": "org.adaway",
       "page": "https://h5.2113.net/apps/adaway.html",
@@ -4798,6 +5074,42 @@
       ],
       "permissions": 9,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "UniPatcher",
+      "package": "org.emunix.unipatcher",
+      "page": "https://h5.2113.net/games/unipatcher.html",
+      "category": "Console Emulators",
+      "version": "0.18",
+      "versionCode": 180000,
+      "released": "2026-09-17",
+      "size": 3123273,
+      "sha256": "7eabc31a9e5da3c69c2d14f77f1a5ee4fbfd96daae62c2a4636f13d988d20c9a",
+      "signers": [
+        "febcbed69a1f017f79a17a1c1fe30a46ba4f9f9e0a91d6b5be2e2c2cd8695bf6"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/btimofeev/UniPatcher",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [
+        "ACRA"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -5319,6 +5631,42 @@
       "olderVersions": []
     },
     {
+      "name": "KDE Connect",
+      "package": "org.kde.kdeconnect_tp",
+      "page": "https://h5.2113.net/apps/kde-connect.html",
+      "category": "Network & Privacy",
+      "version": "1.35.17",
+      "versionCode": 13517,
+      "released": "2026-09-27",
+      "size": 6810668,
+      "sha256": "081f95a9f54a2113f65ef5cb81d79cab42cabe815aad6052e3f0ef1000929dad",
+      "signers": [
+        "79b50031486746dffbc746f48fb0eb62fc7bb0ae7b976e7d6507b2c078840d92"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://invent.kde.org/network/kdeconnect-android",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 39,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Kiwix",
       "package": "org.kiwix.kiwixmobile.standalone",
       "page": "https://h5.2113.net/apps/kiwix.html",
@@ -5483,6 +5831,40 @@
       "olderVersions": []
     },
     {
+      "name": "Open Surge: retro game engine",
+      "package": "org.opensurge2d.surgeengine",
+      "page": "https://h5.2113.net/games/open-surge.html",
+      "category": "Puzzle & Arcade",
+      "version": "6.1.3.0-fdroid",
+      "versionCode": 30650,
+      "released": "2026-01-29",
+      "size": 45065524,
+      "sha256": "c1020c5a1e594b2189816ac39f657e827b9a4d22d199d72228ed7e276d70be77",
+      "signers": [
+        "04fa8fbe40da5ac602d653aaa02526c04c14b51497ff1f2e311107c7571e5801"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/alemart/opensurge",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "OpenTTD",
       "package": "org.openttd.fdroid",
       "page": "https://h5.2113.net/games/openttd.html",
@@ -5620,6 +6002,41 @@
       ],
       "permissions": 10,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "LibreTorrent",
+      "package": "org.proninyaroslav.libretorrent",
+      "page": "https://h5.2113.net/apps/libretorrent.html",
+      "category": "Network & Privacy",
+      "version": "4.1.1",
+      "versionCode": 9000352,
+      "released": "2026-07-28",
+      "size": 23239603,
+      "sha256": "072d2fde19bcc6e0d5b56bc07422f2c65b6712656f8be41050b2eccac56dd950",
+      "signers": [
+        "1a96ed4427982c52e06709c941a8f39b2aba68bccae86b6c86f9f030bd9599ea"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/proninyaroslav/libretorrent",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 18,
+      "trackers": [
+        "ACRA"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -5901,11 +6318,11 @@
       "package": "org.wikipedia",
       "page": "https://h5.2113.net/apps/wikipedia.html",
       "category": "Reading & Maps",
-      "version": "r/50606-r-2026-09-09",
-      "versionCode": 50606,
-      "released": "2026-09-12",
-      "size": 82518241,
-      "sha256": "eba82a0f77940d8a6be5bd2e53723675a59859a6c8a51be5e50bd034fc77101f",
+      "version": "r/50610-r-2026-10-06",
+      "versionCode": 50610,
+      "released": "2026-10-08",
+      "size": 83177256,
+      "sha256": "4602977099bff12bf24afbbe5a516c0979cb6e5122a4fbbf21569c3fe46a7040",
       "signers": [
         "1c3ddb0e8f3258b0ff3b7b6a608d19e7cdeed38a5897bbda23bac155923b1267"
       ],
@@ -5918,8 +6335,8 @@
       "source": "fdroid",
       "sourceCode": "https://github.com/wikimedia/apps-android-wikipedia",
       "license": "Apache-2.0",
-      "minSdk": 23,
-      "minAndroid": "Android 6.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
       "targetSdk": 37,
       "abis": [
         "arm64-v8a",
