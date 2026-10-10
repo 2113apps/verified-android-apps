@@ -246,6 +246,37 @@
       "olderVersions": []
     },
     {
+      "name": "Anuto TD",
+      "package": "ch.logixisland.anuto",
+      "page": "https://h5.2113.net/games/anuto-td.html",
+      "category": "Strategy Games",
+      "version": "0.13",
+      "versionCode": 34,
+      "released": "2024-10-01",
+      "size": 6297049,
+      "sha256": "3b57a70201d631d081ff480e8b958a6a7dd6fdc116d611bd1b66e76e3f06ccd9",
+      "signers": [
+        "65197484d51b46703badc7ca3e45b3b3232fbfb483a6f5a20b5eff4e0583d5a5"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/mjaun/android-anuto",
+      "license": "GPL-2.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Test DPC",
       "package": "com.afwsamples.testdpc",
       "page": "https://h5.2113.net/apps/test-dpc.html",
@@ -669,6 +700,39 @@
       "antiFeatures": [
         "Tracking"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Rethink: DNS + Firewall + VPN",
+      "package": "com.celzero.bravedns",
+      "page": "https://h5.2113.net/apps/rethink-dns.html",
+      "category": "Network & Privacy",
+      "version": "v0.5.7",
+      "versionCode": 693,
+      "released": "2026-09-22",
+      "size": 30844329,
+      "sha256": "268c58bb3b9a6a0bdbf0006a8317483aff3cbf6e49d4f47b180395f1501348cd",
+      "signers": [
+        "abc6766ba34e027dc7dfa29b1c2b5b1d1dc14f7ba637895a81dfb68e40bc1579"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/celzero/rethink-app",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 21,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -1238,6 +1302,42 @@
         "x86_64"
       ],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "LibreSudoku",
+      "package": "com.kaajjo.libresudoku",
+      "page": "https://h5.2113.net/games/libresudoku.html",
+      "category": "Puzzle & Arcade",
+      "version": "2.0.2",
+      "versionCode": 22,
+      "released": "2025-03-05",
+      "size": 4084918,
+      "sha256": "1e93d2be2e234cdb2e38c79c539542a72cbe0330a0d1da1eeb0c8ce544e12d57",
+      "signers": [
+        "4e040a7f5f27dd49eb971c921e5aadc457d1573bacd1d682185c752dcd31424e"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/kaajjo/LibreSudoku",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2383,11 +2483,11 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.3.7",
-      "versionCode": 1337,
-      "released": "2026-10-05",
-      "size": 330048299,
-      "sha256": "db2c38219d721d57f54618755f0b885f7de0bb3037cdd5de904923dfba488b5b",
+      "version": "1.3.3.8",
+      "versionCode": 1338,
+      "released": "2026-10-10",
+      "size": 330289819,
+      "sha256": "9b164d7d42307726f510aca86657da9d48e94eb0842470b577d7e8abfe2e3d66",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
@@ -2396,7 +2496,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.7",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.8",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -2408,7 +2508,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 21,
+      "permissions": 22,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2714,6 +2814,37 @@
         "x86_64"
       ],
       "permissions": 11,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "µLauncher",
+      "package": "de.jrpie.android.launcher",
+      "page": "https://h5.2113.net/apps/mulauncher.html",
+      "category": "Customization",
+      "version": "0.2.12",
+      "versionCode": 57,
+      "released": "2026-06-25",
+      "size": 4099556,
+      "sha256": "f67124dad5009016dd1fce379d79b20ea93a46cefb5759002f3fa149d50b018f",
+      "signers": [
+        "0b5ee04000b2abf0b2c3f82cda9d9a3f615f3643bb917ff4e516270ab5dcaf12"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/jrpie/Launcher",
+      "license": "MIT",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 6,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4244,6 +4375,44 @@
       "olderVersions": []
     },
     {
+      "name": "Mullvad VPN: privacy is a universal right",
+      "package": "net.mullvad.mullvadvpn",
+      "page": "https://h5.2113.net/apps/mullvad-vpn.html",
+      "category": "Network & Privacy",
+      "version": "2026.12",
+      "versionCode": 26129000,
+      "released": "2026-10-02",
+      "size": 39000302,
+      "sha256": "0b3ca70ee0e9205cb6af0cc81b656c00fbcdf2beae13f4dddd94c4768b13aaaf",
+      "signers": [
+        "e1b66af1ac4869a33b091f81dcbd577bf8dcfe9125ddde3381bfff91813331ec"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/mullvad/mullvadvpn-app",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 8,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "OpenConnect",
       "package": "net.openconnect_vpn.android",
       "page": "https://h5.2113.net/apps/openconnect.html",
@@ -4706,6 +4875,42 @@
       "olderVersions": []
     },
     {
+      "name": "FLARE",
+      "package": "org.flare.app",
+      "page": "https://h5.2113.net/games/flare-rpg.html",
+      "category": "Adventure & RPG",
+      "version": "1.15",
+      "versionCode": 115,
+      "released": "2026-05-27",
+      "size": 10909948,
+      "sha256": "43dbb18ebcbadde99254851d1bde0263814e26bb167a9e66a3060e34b37fbc4e",
+      "signers": [
+        "593188f2ff67026928cc6fd2a4c2436275544af095f5afe714c4af29dfdf687d"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/flareteam/flare-engine",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 16,
+      "minAndroid": "Android 4.1",
+      "targetSdk": 29,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Fossify Calendar",
       "package": "org.fossify.calendar",
       "page": "https://h5.2113.net/apps/fossify-calendar.html",
@@ -5081,6 +5286,39 @@
       "olderVersions": []
     },
     {
+      "name": "Jitsi Meet",
+      "package": "org.jitsi.meet",
+      "page": "https://h5.2113.net/apps/jitsi-meet.html",
+      "category": "Productivity",
+      "version": "26.0.0",
+      "versionCode": 26000002,
+      "released": "2026-04-19",
+      "size": 19351057,
+      "sha256": "72a89e53ca532b3ab44e9204644edeef282d7d66a366939ea55f062057c47df4",
+      "signers": [
+        "41605393b4a087feb25d13e91f421c7d1a1a9146251fc2be992fc1b30b3181f6"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/jitsi/jitsi-meet",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 17,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Kiwix",
       "package": "org.kiwix.kiwixmobile.standalone",
       "page": "https://h5.2113.net/apps/kiwix.html",
@@ -5276,6 +5514,35 @@
         "x86_64"
       ],
       "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Gauguin",
+      "package": "org.piepmeyer.gauguin",
+      "page": "https://h5.2113.net/games/gauguin.html",
+      "category": "Puzzle & Arcade",
+      "version": "0.52.1",
+      "versionCode": 77,
+      "released": "2026-08-31",
+      "size": 13143932,
+      "sha256": "f149d7fe4db61ab0da187960a7d4db7cc8da42fdc8e79e55acfbf3a8b6680223",
+      "signers": [
+        "e3b52addda7ef701e1a42e0bc3b8b4443a5eb29cbf62a47492b9ee697438da62"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/meikpiep/gauguin",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5493,6 +5760,39 @@
         "x86_64"
       ],
       "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Tux Paint",
+      "package": "org.tuxpaint",
+      "page": "https://h5.2113.net/apps/tux-paint.html",
+      "category": "Media",
+      "version": "0.9.35",
+      "versionCode": 9350,
+      "released": "2025-06-01",
+      "size": 153343277,
+      "sha256": "0834a371444b62be6d7c776a43994f7ab603367eb7d5b55d2847b2de7896ce3f",
+      "signers": [
+        "940a39919d743b56560e3b38046df22f248f2d3dfaf395358760a2368c65fc04"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/tux4kids/Tuxpaint-Android",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 6,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
