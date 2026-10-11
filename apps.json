@@ -181,11 +181,11 @@
       "package": "app.mihon",
       "page": "https://h5.2113.net/apps/mihon.html",
       "category": "Reading & Maps",
-      "version": "0.20.4",
-      "versionCode": 29,
-      "released": "2026-08-05",
-      "size": 66875196,
-      "sha256": "49450a6b85ea37a2e1a0a5ff84549b62a00de7c6745d85a0779c30adf7c6894a",
+      "version": "0.21.0",
+      "versionCode": 36,
+      "released": "2026-10-11",
+      "size": 68090564,
+      "sha256": "2e83cbb94eb64d7083691f86f2edf7f1d3cd0d317c22506cc935d46a1163faf3",
       "signers": [
         "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2"
       ],
@@ -194,7 +194,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.20.4",
+      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.0",
       "sourceCode": "https://github.com/mihonapp/mihon",
       "license": "Apache-2.0",
       "minSdk": 26,
@@ -6131,11 +6131,11 @@
       "package": "org.fossify.musicplayer",
       "page": "https://h5.2113.net/apps/fossify-music-player.html",
       "category": "Media",
-      "version": "1.8.2",
-      "versionCode": 15,
-      "released": "2026-10-10",
+      "version": "1.8.4",
+      "versionCode": 17,
+      "released": "2026-10-11",
       "size": 11147453,
-      "sha256": "a2a805c0e9e5cbf3f249da0d6e52c4b095af7c22a1e951aa0663fa9fa59da523",
+      "sha256": "ddac49843267914b39c6340c2b050c0d6a597232d8586a34166cac34d095b1fc",
       "signers": [
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
