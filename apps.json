@@ -177,6 +177,44 @@
       "olderVersions": []
     },
     {
+      "name": "Mihon",
+      "package": "app.mihon",
+      "page": "https://h5.2113.net/apps/mihon.html",
+      "category": "Reading & Maps",
+      "version": "0.20.4",
+      "versionCode": 29,
+      "released": "2026-08-05",
+      "size": 66875196,
+      "sha256": "49450a6b85ea37a2e1a0a5ff84549b62a00de7c6745d85a0779c30adf7c6894a",
+      "signers": [
+        "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.20.4",
+      "sourceCode": "https://github.com/mihonapp/mihon",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 19,
+      "trackers": [
+        "Google CrashLytics",
+        "Google Firebase Analytics"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Olauncher",
       "package": "app.olauncher",
       "page": "https://h5.2113.net/apps/olauncher.html",
@@ -742,6 +780,40 @@
       "olderVersions": []
     },
     {
+      "name": "Brave",
+      "package": "com.brave.browser",
+      "page": "https://h5.2113.net/apps/brave.html",
+      "category": "Network & Privacy",
+      "version": "1.97.56",
+      "versionCode": 429705604,
+      "released": "2026-10-07",
+      "size": 211133892,
+      "sha256": "9b02840fb94dc172d3bf0073ce6877372bea0e311baba7952e4a0563df88ae89",
+      "signers": [
+        "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.97.56",
+      "sourceCode": "https://github.com/brave/brave-browser",
+      "license": "MPL-2.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 53,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Just Player",
       "package": "com.brouken.player",
       "page": "https://h5.2113.net/apps/just-player.html",
@@ -939,6 +1011,43 @@
       "olderVersions": []
     },
     {
+      "name": "MMRL",
+      "package": "com.dergoogler.mmrl",
+      "page": "https://h5.2113.net/apps/mmrl.html",
+      "category": "Root & Mods",
+      "version": "v34296-release",
+      "versionCode": 34296,
+      "released": "2026-03-09",
+      "size": 7493186,
+      "sha256": "ec259dae03336bd93b97c52198a4a6ab3ac8de8f76fa50b36522b569eb00dd3b",
+      "signers": [
+        "102c2579a177579073dfc69bdf889ad04de9e7c53726a99d65873ec122183860"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/MMRLApp/MMRL",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "mips",
+        "mips64",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Audio Recorder",
       "package": "com.dimowner.audiorecorder",
       "page": "https://h5.2113.net/apps/audio-recorder.html",
@@ -1077,6 +1186,44 @@
       "permissions": 14,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "DuckDuckGo",
+      "package": "com.duckduckgo.mobile.android",
+      "page": "https://h5.2113.net/apps/duckduckgo.html",
+      "category": "Network & Privacy",
+      "version": "5.295.3",
+      "versionCode": 52953000,
+      "released": "2026-10-03",
+      "size": 181296604,
+      "sha256": "f8ad6fe5e2785f6965c2806ddeb66309d59df053ab75ce3cf7e96c10cae90727",
+      "signers": [
+        "f0707d021c0bf3e6f8dcc11ba3f5700425d597dca301a31e210556934ebb1b0a"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/duckduckgo/Android",
+      "license": "Apache-2.0",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 22,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -1452,6 +1599,46 @@
       ],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "microG Services",
+      "package": "com.google.android.gms",
+      "page": "https://h5.2113.net/apps/microg.html",
+      "category": "System Tools",
+      "version": "0.3.17.252432",
+      "versionCode": 252432034,
+      "released": "2026-09-29",
+      "size": 108113833,
+      "sha256": "e5e6cba078bdec812b5450599350e5c1a12c8b7438da5bf77123af170f8c1a35",
+      "signers": [
+        "9bd06727e62796c0130eb6dab39b73157451582cbd138e86c468acc395d14165"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/microg/GmsCore/releases/tag/v0.3.17.252432",
+      "sourceCode": "https://github.com/microg/GmsCore",
+      "license": "Apache-2.0",
+      "minSdk": 19,
+      "minAndroid": "Android 4.4",
+      "targetSdk": 29,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 65,
+      "trackers": [
+        "Google Analytics",
+        "Google Firebase Analytics",
+        "Google AdMob"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -2262,6 +2449,40 @@
       "olderVersions": []
     },
     {
+      "name": "KernelSU Next",
+      "package": "com.rifsxd.ksunext",
+      "page": "https://h5.2113.net/apps/kernelsu-next.html",
+      "category": "Root & Mods",
+      "version": "v3.4.1",
+      "versionCode": 33333,
+      "released": "2026-10-09",
+      "size": 15132143,
+      "sha256": "eff4b9df6dc438a3fee3b298e4fb87843e7c95f16b6daabdd3161d51968ba2ff",
+      "signers": [
+        "79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/KernelSU-Next/KernelSU-Next/releases/tag/v3.4.1",
+      "sourceCode": "https://github.com/KernelSU-Next/KernelSU-Next",
+      "license": "GPL-3.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "riscv64",
+        "x86_64"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "HyperRogue",
       "package": "com.roguetemple.hyperroid",
       "page": "https://h5.2113.net/games/hyperrogue.html",
@@ -2870,6 +3091,38 @@
         "x86_64"
       ],
       "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "v2rayNG",
+      "package": "com.v2ray.ang",
+      "page": "https://h5.2113.net/apps/v2rayng.html",
+      "category": "Network & Privacy",
+      "version": "2.2.6",
+      "versionCode": 4000736,
+      "released": "2026-07-05",
+      "size": 28651812,
+      "sha256": "62b0675c0986a8613f1bb67f1a68c366c6357e04a68687a3bd907170594c437d",
+      "signers": [
+        "b7dc883e7678d6c618569e48a1c8c267a134a75f8bcb763510c8bffb3b90b077"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/2dust/v2rayNG/releases/tag/2.2.6",
+      "sourceCode": "https://github.com/2dust/v2rayNG",
+      "license": "GPL-3.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 12,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3719,6 +3972,41 @@
       ],
       "permissions": 3,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Element X",
+      "package": "io.element.android.x",
+      "page": "https://h5.2113.net/apps/element-x.html",
+      "category": "Productivity",
+      "version": "26.09.1",
+      "versionCode": 202609012,
+      "released": "2026-09-07",
+      "size": 117664325,
+      "sha256": "ceb076564298cd0aef4688ad79058b55638d196b9beb5ac47ab421d757335bf3",
+      "signers": [
+        "6a2fdc3148049ce0d5c6e85010723b83fb207d20c7477f5c22ac53c877e92d47"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/element-hq/element-x-android",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 22,
+      "trackers": [
+        "Sentry"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -5491,6 +5779,44 @@
       "olderVersions": []
     },
     {
+      "name": "F-Droid Basic",
+      "package": "org.fdroid.basic",
+      "page": "https://h5.2113.net/apps/f-droid.html",
+      "category": "System Tools",
+      "version": "2.0.1",
+      "versionCode": 2000051,
+      "released": "2026-09-29",
+      "size": 8720815,
+      "sha256": "ba37753a043b4de2d2265a480f7984bf8d9cd2a37edeed3c7826a8d9437e071e",
+      "signers": [
+        "ef7f822b7653e2011cb8c5a7fc99e8d2ade1717e539ca56d6456295e3bc07312"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/fdroid/fdroidclient",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [
+        "ACRA"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "fheroes2",
       "package": "org.fheroes2",
       "page": "https://h5.2113.net/games/fheroes2.html",
@@ -6661,9 +6987,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-09",
-      "size": 28985250,
-      "sha256": "91d8e4be0174634f0c5788011d5fa6bf587cde2a44963d8bfb54fb295d747bb5",
+      "released": "2026-10-11",
+      "size": 28989306,
+      "sha256": "e8189ef0dd59d38187e4b8a85bd861984d2fca24e426cc93c68757f6dcdeada6",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -6827,6 +7153,39 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "InviZible Pro",
+      "package": "pan.alexander.tordnscrypt.stable",
+      "page": "https://h5.2113.net/apps/invizible-pro.html",
+      "category": "Network & Privacy",
+      "version": "7.5.0",
+      "versionCode": 27203,
+      "released": "2026-07-15",
+      "size": 45134579,
+      "sha256": "463dbcb3f55820db3ffd3aa28f9fc756729676a7238583d83cd1b0e863ba3a12",
+      "signers": [
+        "977d4ca02ca0b94948c58be87bc34bbdd58e12350de078e28b17fcda176b3141"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Gedsh/InviZible",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 16,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
