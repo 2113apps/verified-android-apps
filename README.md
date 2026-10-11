@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-186 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+197 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,19 +11,19 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (11)
 - [Customization](#customization) (10)
-- [Network & Privacy](#network--privacy) (28)
-- [Media](#media) (37)
-- [System Tools](#system-tools) (40)
-- [Cloud & Self-Hosted](#cloud--self-hosted) (4)
-- [Productivity](#productivity) (12)
+- [Network & Privacy](#network--privacy) (31)
+- [Media](#media) (38)
+- [System Tools](#system-tools) (41)
+- [Cloud & Self-Hosted](#cloud--self-hosted) (5)
+- [Productivity](#productivity) (15)
 - [Reading & Maps](#reading--maps) (5)
-- [Games: Strategy Games](#games-strategy-games) (7)
+- [Games: Strategy Games](#games-strategy-games) (8)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
 - [Games: Adventure & RPG](#games-adventure--rpg) (6)
 - [Games: Simulation Games](#games-simulation-games) (3)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (5)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (6)
 - [Games: PC Emulators](#games-pc-emulators) (1)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (8)
@@ -51,6 +51,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - [Android Developer Verification: Can You Still Sideload?](https://h5.2113.net/guides/android-developer-verification.html): Since 30 September 2026, Android checks apps from 7 app stores in Brazil, Indonesia, Singapore and Thailand. What that means for APKs you download, adb and F-Droid.
 - [arm64-v8a vs armeabi-v7a: Which APK Do You Need?](https://h5.2113.net/guides/arm64-vs-armeabi.html): arm64-v8a is for 64-bit ARM phones, armeabi-v7a for 32-bit ARM. How to check which your phone runs, when to take the universal APK, and what happens if you pick wrong.
+- [Back Up Android Photos to a PC with Syncthing](https://h5.2113.net/guides/back-up-android-photos-to-pc-syncthing.html): Copy new photos from your Android phone to a Windows, Mac or Linux computer over Wi-Fi with Syncthing-Fork, and keep them when you delete them on the phone.
 - [How to Block Ads on Android Without Root](https://h5.2113.net/guides/block-ads-android-without-root.html): Three ways to block ads on Android without root: an ad-blocking Private DNS, a blocker app like AdAway, NetGuard or Rethink, or a browser add-on, and what none can block.
 - [“Built for an Older Version of Android”: What It Means](https://h5.2113.net/guides/built-for-older-android.html): Why Android shows the “built for an older version of Android” warning, why Android 14 and later refuse to install some old apps, and the ways around each.
 - [How to Extract boot.img From an OTA or payload.bin](https://h5.2113.net/guides/extract-boot-img.html): Get the stock boot.img or init\_boot.img you need for rooting: which image to use, why the build must match, and how to extract it on the phone or on a computer.
@@ -125,6 +126,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/beemdevelopment/Aegis)
 - **[AIS-catcher](https://h5.2113.net/apps/ais-catcher.html)**: Turns your phone and a cheap RTL-SDR dongle into a portable AIS receiver for tracking ships, even offline.  
   RTL-SDR dongle · USB OTG · no known trackers found · GPL-3.0-only · [source](https://github.com/jvde-github/AIS-catcher-for-Android)
+- **[Ente Auth](https://h5.2113.net/apps/ente-auth.html)**: An open-source authenticator for two-factor codes. Use it offline with no account, or with an Ente account so the codes sync, end-to-end encrypted, to your other phones, computers and the web.  
+  Android 7.0+ · account optional · tracker code found: Sentry · AGPL-3.0-only · [source](https://github.com/ente-io/ente/)
 - **[Exodus](https://h5.2113.net/apps/exodus.html)**: Find out which tracking libraries are inside the apps you have installed. Exodus looks each one up in the reports of Exodus Privacy, a French non-profit.  
   No root · internet · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Exodus-Privacy/exodus-android-app)
 - **[FireWall Blocks](https://h5.2113.net/apps/firewall-blocks.html)**: Blocks Wi-Fi or mobile data per app without root, through Shizuku or a local VPN.  
@@ -135,6 +138,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/Jigsaw-Code/Intra)
 - **[KDE Connect](https://h5.2113.net/apps/kde-connect.html)**: Pair your phone with your computer over the local network to share files and the clipboard, read and answer phone notifications on the PC, and use the phone as a touchpad or media remote.  
   KDE Connect on the computer · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://invent.kde.org/network/kdeconnect-android)
+- **[Keepass2Android](https://h5.2113.net/apps/keepass2android.html)**: A password manager for KeePass files that can keep your database in your own cloud storage or server, unlock it again with a few characters, and fill in passwords in apps and browsers.  
+  Android 5.0+ · a KeePass database or a new one · tracker code found: OpenTelemetry (OpenCensus, OpenTracing) · GPL-3.0 · [source](https://github.com/PhilippC/keepass2android)
 - **[KeePassDX](https://h5.2113.net/apps/keepassdx.html)**: Your passwords in an encrypted KeePass file that you keep wherever you like. KeePassDX fills in logins and passkeys, generates passwords and one-time codes, and never goes online.  
   No root · Android 4.4+ (passkeys: Android 14+) · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kunzisoft/KeePassDX)
 - **[Kizzy](https://h5.2113.net/apps/kizzy.html)**: Shows Discord Rich Presence from your Android phone, with presets and custom statuses.  
@@ -163,6 +168,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   The PCAPdroid app · ARM64 · no known trackers found · GPL-3.0-only · [source](https://github.com/emanuele-f/PCAPdroid-mitm)
 - **[Private DNS Quick Toggle](https://h5.2113.net/apps/private-dns-quick-toggle.html)**: A Quick Settings tile that switches Android’s Private DNS between providers in one tap.  
   One-time grant via Shizuku or ADB · no known trackers found · MIT · [source](https://github.com/karasevm/PrivateDNSAndroid)
+- **[Proton VPN](https://h5.2113.net/apps/proton-vpn.html)**: The Proton VPN app with its free plan: one device, servers in ten countries and no data cap. This copy is F-Droid’s build, without Google’s code, and it needs a Proton account.  
+  Android 8.0+ · Proton account (free) · tracker code found: Sentry · GPL-3.0-only · [source](https://github.com/ProtonVPN/android-app)
 - **[Rethink: DNS + Firewall + VPN](https://h5.2113.net/apps/rethink-dns.html)**: Encrypted DNS with optional block lists, a firewall that decides which apps may go online, and a WireGuard client, all from one local VPN on the phone. No root needed.  
   Android 6.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/celzero/rethink-app)
 - **[Shadowsocks](https://h5.2113.net/apps/shadowsocks.html)**: The Shadowsocks project’s own Android client. Add your server or a subscription link, then send all apps, or only the ones you choose, through an encrypted proxy.  
@@ -184,6 +191,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rukamori/ArchiveTune)
 - **[Audio Recorder](https://h5.2113.net/apps/audio-recorder.html)**: Record voice notes, lectures or meetings in M4A, WAV or 3GP, see the waveform as you go, and since version 2.5.0 record what other apps are playing. Works fully offline.  
   Android 8.0+ · no account · no known trackers found · Apache-2.0 · [source](https://github.com/Dimowner/AudioRecorder)
+- **[Auxio](https://h5.2113.net/apps/auxio.html)**: A music player for your own files that reads tags properly, plays albums without gaps and evens out the volume between them. It has no internet access at all.  
+  Android 7.0+ · music files on your phone · no known trackers found · GPL-3.0-only · [source](https://github.com/OxygenCobalt/Auxio)
 - **[Bloomee](https://h5.2113.net/apps/bloomee.html)**: A music player that plays your local files and online streams side by side. Its online sources come from a plugin system, and it adds synced lyrics, an equalizer and Last.fm scrobbling.  
   No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
 - **[Flow](https://h5.2113.net/apps/flow.html)**: Watch YouTube and play music from it without signing in, with recommendations worked out on your phone. An unofficial, open-source client; it isn't made by or connected with YouTube.  
@@ -275,6 +284,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no Google services needed · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/AuroraOSS/AuroraStore)
 - **[Canta](https://h5.2113.net/apps/canta.html)**: Remove the apps your phone maker pre-installed, without root. Canta works through Shizuku, marks which apps are risky to remove, and can put system apps back.  
   Shizuku · Android 9+ · no known trackers found · LGPL-3.0-or-later · [source](https://github.com/samolego/Canta)
+- **[ConnectBot](https://h5.2113.net/apps/connectbot.html)**: Log in to your servers from the phone: SSH with keys or passwords, Mosh for flaky connections, port forwarding and jump hosts. This is the open-source build, which needs no Google Play services.  
+  Android 7.0+ · a server to connect to · no known trackers found · Apache-2.0 · [source](https://github.com/connectbot/connectbot)
 - **[Current Activity](https://h5.2113.net/apps/current-activity.html)**: A small tool for developers and tinkerers: it shows the package name and activity class of whatever is on screen, in a floating window you can move and copy from.  
   No root · usage access · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/codehasan/Current-Activity)
 - **[Droid-ify](https://h5.2113.net/apps/droid-ify.html)**: A tidier way to use F-Droid: browse and install from F-Droid, IzzyOnDroid and your own repositories, keep apps updated in the background, and install without prompts through Shizuku or root.  
@@ -346,13 +357,19 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Your own Immich server · Android 8.0+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/immich-app/immich)
 - **[Nextcloud](https://h5.2113.net/apps/nextcloud.html)**: The official Android app for Nextcloud Files: reach the files on your own Nextcloud server, or an account with a provider, upload photos automatically and keep chosen folders synced.  
   A Nextcloud server · 64-bit phone · Android 9+ · no known trackers found · GPL-2.0-only · [source](https://github.com/nextcloud/android)
+- **[Syncthing-Fork](https://h5.2113.net/apps/syncthing-fork.html)**: The community-maintained Android app for Syncthing: choose folders on your phone and keep them in sync with your computer or other phones, device to device, and decide when it’s allowed to run.  
+  Android 6.0+ · Syncthing on your other devices · no known trackers found · MPL-2.0 · [source](https://github.com/researchxxl/syncthing-android)
 
 ## Productivity
 
+- **[AnkiDroid](https://h5.2113.net/apps/ankidroid.html)**: Study with flashcards that come back just before you’d forget them. AnkiDroid opens Anki decks, syncs with Anki on your computer through AnkiWeb, and works offline.  
+  Android 7.0+ · AnkiWeb account optional · tracker code found: ACRA · AGPL-3.0-or-later · [source](https://github.com/ankidroid/Anki-Android)
 - **[AnySoftKeyboard](https://h5.2113.net/apps/anysoftkeyboard.html)**: An open-source on-screen keyboard that you can shape to your liking: word suggestions and next-word prediction, gesture typing, themes, and extra languages as separate packs.  
   No root · Android 6.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
 - **[Breezy Weather](https://h5.2113.net/apps/breezy-weather.html)**: A weather app that lets you choose the source: forecasts from more than 50 weather services, with rain in the next hour, severe weather alerts, air quality, pollen and widgets.  
   No root · Android 6.0+ · no known trackers found · LGPL-3.0-only · [source](https://github.com/breezy-weather/breezy-weather)
+- **[FairEmail](https://h5.2113.net/apps/fairemail.html)**: A full email app for any IMAP or POP3 account, including Gmail and Outlook, that asks before loading images or opening links and supports PGP and S/MIME. This is the developer’s GitHub build.  
+  Android 6.0+ · works without Google services · no known trackers found · GPL-3.0-or-later · [source](https://github.com/M66B/FairEmail)
 - **[Fossify Calendar](https://h5.2113.net/apps/fossify-calendar.html)**: An open-source calendar that works offline: day, week, month and year views, recurring events, reminders, built-in public holidays for 70 countries and home screen widgets.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Calendar)
 - **[Fossify Clock](https://h5.2113.net/apps/fossify-clock.html)**: An open-source clock app that carries on from Simple Clock: alarms with gradual volume and an adjustable snooze, a world clock, timers, a stopwatch and widgets.  
@@ -369,6 +386,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/HeliBorg/HeliBoard)
 - **[Jitsi Meet](https://h5.2113.net/apps/jitsi-meet.html)**: Open-source video meetings: join from a link or a room name, on the public meet.jit.si service or on any Jitsi server. This build leaves out Google’s libraries and the analytics.  
   Android 8.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/jitsi/jitsi-meet)
+- **[Loop Habit Tracker](https://h5.2113.net/apps/loop-habit-tracker.html)**: Track the habits you want to build, from a daily walk to a number of pages read, and watch a strength score that forgives the odd missed day. Everything stays on your phone.  
+  Android 9+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/iSoron/uhabits)
 - **[Tomato](https://h5.2113.net/apps/tomato.html)**: A minimalist Pomodoro timer: focus for 25 minutes, take a short break, and follow your focus time in daily, weekly, monthly and yearly statistics. It never goes online.  
   Android 8.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/nsh07/Tomato)
 - **[Unexpected Keyboard](https://h5.2113.net/apps/unexpected-keyboard.html)**: A small on-screen keyboard where you swipe a key toward one of its corners to type the symbol printed there, so more characters fit on one page. Designed for programmers using Termux.  
@@ -385,12 +404,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
 - **[Wikipedia](https://h5.2113.net/apps/wikipedia.html)**: The Wikimedia Foundation’s own Wikipedia app: search and read articles, save them for reading offline, and edit. This copy is F-Droid’s build, without Google’s services.  
-  Android 6.0+ · account optional · no known trackers found · Apache-2.0 · [source](https://github.com/wikimedia/apps-android-wikipedia)
+  Android 7.0+ · account optional · no known trackers found · Apache-2.0 · [source](https://github.com/wikimedia/apps-android-wikipedia)
 
 ## Games: Strategy Games
 
 - **[Anuto TD](https://h5.2113.net/games/anuto-td.html)**: A classic endless tower defense with hand-drawn graphics: build and upgrade towers along a path, survive as many waves as you can, and chase the high score. No ads, no purchases, no permissions.  
   Android 6.0+ · portrait · no known trackers found · GPL-2.0-only · [source](https://github.com/mjaun/android-anuto)
+- **[Feudal Tactics](https://h5.2113.net/games/feudal-tactics.html)**: Conquer a randomly generated island of hexagons, one kingdom at a time: buy peasants, merge them into knights, build castles, and keep enough coins to pay everyone. Short games, no internet.  
+  Android 7.0+ · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Sesu8642/FeudalTactics)
 - **[fheroes2](https://h5.2113.net/games/fheroes2.html)**: Play Heroes of Might and Magic II on your phone with an engine rewritten from scratch. Bring the original game’s files or try the free demo; this is the project’s own APK.  
   Heroes II files or demo · Android 5.1+ · no known trackers found · GPL-2.0 · [source](https://github.com/ihhub/fheroes2)
 - **[Lichess](https://h5.2113.net/games/lichess.html)**: The official app of Lichess, the free and open-source chess site: play people online, play the computer offline, solve puzzles and analyse your games.  
@@ -449,6 +470,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Puzzle & Arcade
 
+- **[AAAAXY](https://h5.2113.net/games/aaaaxy.html)**: A retro-looking platformer where rooms loop back on themselves and corridors are longer inside than out. Explore one big, non-linear map at your own pace; no lives, no ads, no internet.  
+  64-bit ARM · Android 6.0+ · 4–6 hours to the end · no known trackers found · Apache-2.0 · [source](https://github.com/divVerent/aaaaxy)
 - **[Gauguin](https://h5.2113.net/games/gauguin.html)**: A Sudoku-like puzzle where every group of cells must reach its target by adding, subtracting, multiplying or dividing. Endless grids from 3×3 to 11×11, with no ads and no internet.  
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meikpiep/gauguin)
 - **[LibreSudoku](https://h5.2113.net/games/libresudoku.html)**: Classic and Killer Sudoku in three sizes and four difficulties, generated on your phone, with notes, hints, statistics and your own puzzle collections. Free, ad-free and offline.  

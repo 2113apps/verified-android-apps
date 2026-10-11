@@ -306,6 +306,51 @@
       "olderVersions": []
     },
     {
+      "name": "Proton VPN",
+      "package": "ch.protonvpn.android",
+      "page": "https://h5.2113.net/apps/proton-vpn.html",
+      "category": "Network & Privacy",
+      "version": "5.20.57.0",
+      "versionCode": 605205700,
+      "released": "2026-10-02",
+      "size": 64226504,
+      "sha256": "0043ee9033d0227c98168f41bfc21bde19fab58232749db6311650533598c3b9",
+      "signers": [
+        "950ee2d4d0a43ffba7ee1da9541c4a13defe81eb697ba7d24c17f6f886e32124"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ProtonVPN/android-app",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "mips",
+        "mips64",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [
+        "Sentry"
+      ],
+      "antiFeatures": [
+        "NonFreeNet",
+        "TetheredNet",
+        "Tracking"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Test DPC",
       "package": "com.afwsamples.testdpc",
       "page": "https://h5.2113.net/apps/test-dpc.html",
@@ -1241,6 +1286,43 @@
       "olderVersions": []
     },
     {
+      "name": "Syncthing-Fork",
+      "package": "com.github.catfriend1.syncthingfork",
+      "page": "https://h5.2113.net/apps/syncthing-fork.html",
+      "category": "Cloud & Self-Hosted",
+      "version": "2.1.6.0",
+      "versionCode": 2010600,
+      "released": "2026-10-06",
+      "size": 68351491,
+      "sha256": "183df465d2bbefca43833128dae8a57ba9fdf7a5f815473120acb5faa1efded0",
+      "signers": [
+        "d374b8de5057013143c7d1515a015598c2df403be8160cae01a58c227e6e86aa"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/researchxxl/syncthing-android/releases/tag/v2.1.6.0",
+      "sourceCode": "https://github.com/researchxxl/syncthing-android",
+      "license": "MPL-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 19,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "NoStorageRestrict",
       "package": "com.github.dan.NoStorageRestrict",
       "page": "https://h5.2113.net/apps/nostoragerestrict.html",
@@ -1370,6 +1452,44 @@
       ],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "AnkiDroid",
+      "package": "com.ichi2.anki",
+      "page": "https://h5.2113.net/apps/ankidroid.html",
+      "category": "Productivity",
+      "version": "2.25.1",
+      "versionCode": 22501300,
+      "released": "2026-10-08",
+      "size": 111923795,
+      "sha256": "5938d29a46c6848223382ab3a0291b213de86bf6562eb5d89662820f40ad04b4",
+      "signers": [
+        "24a3d4756c62dd69c86df69aa7fa327b2a6bf55f55c4a1749f99bd1da75906bb"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ankidroid/Anki-Android",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 17,
+      "trackers": [
+        "ACRA"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -1801,11 +1921,11 @@
       "package": "com.movtery.zalithlauncher.v2",
       "page": "https://h5.2113.net/games/zalith-launcher-2.html",
       "category": "Minecraft Launchers",
-      "version": "2.6.1",
-      "versionCode": 200043,
-      "released": "2026-09-28",
-      "size": 354552390,
-      "sha256": "9877594734887ec60f8d87cf8bfc125a637098c23d07341957ce6748007f3422",
+      "version": "2.7",
+      "versionCode": 200044,
+      "released": "2026-10-11",
+      "size": 353908894,
+      "sha256": "0d8ea16f415103b5677b937cb0565d621ba27ad2160f14cf74dc04831c58d5b4",
       "signers": [
         "851381b5eb6f169a2da6e323ff674accc835c6fc47b15bbfd7920578e97b0689"
       ],
@@ -1814,7 +1934,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.6.1",
+      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.7",
       "sourceCode": "https://github.com/ZalithLauncher/ZalithLauncher2",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -3092,6 +3212,42 @@
       "olderVersions": []
     },
     {
+      "name": "Feudal Tactics",
+      "package": "de.sesu8642.feudaltactics",
+      "page": "https://h5.2113.net/games/feudal-tactics.html",
+      "category": "Strategy Games",
+      "version": "1.5.5",
+      "versionCode": 20,
+      "released": "2026-09-19",
+      "size": 9855266,
+      "sha256": "29936ee82d344022fb11d2317aba54e8b9ea1a88987c45c882165664abcb9d9e",
+      "signers": [
+        "71e7d6c60f79446fca877e9a5c7a948027b925c4f5ae693c26315f7944a1c1d2"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Sesu8642/FeudalTactics",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Activity Launcher",
       "package": "de.szalkowski.activitylauncher",
       "page": "https://h5.2113.net/apps/activity-launcher.html",
@@ -3254,6 +3410,44 @@
         "Bugsnag"
       ],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "FairEmail",
+      "package": "eu.faircode.email",
+      "page": "https://h5.2113.net/apps/fairemail.html",
+      "category": "Productivity",
+      "version": "1.2338",
+      "versionCode": 2338,
+      "released": "2026-10-02",
+      "size": 29473364,
+      "sha256": "666b9f4ada53f69199355f1ccc2bed73e01fa23786fc0189cf81cc51932dc5a9",
+      "signers": [
+        "e02067249f5a350e0ec703fe9df4dd682e0291a09f0c2e041050bbe7c064f5c9"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/M66B/FairEmail",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 40,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeComp",
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -3529,6 +3723,43 @@
       "olderVersions": []
     },
     {
+      "name": "Ente Auth",
+      "package": "io.ente.auth",
+      "page": "https://h5.2113.net/apps/ente-auth.html",
+      "category": "Network & Privacy",
+      "version": "4.4.25",
+      "versionCode": 1072,
+      "released": "2026-08-06",
+      "size": 64571159,
+      "sha256": "971f5176dcd67281ed51d1e333ce2a01e10cba199f44bc63895279a569bb0726",
+      "signers": [
+        "bf5452863281d81bffcdf8550320ca2a300844541bef5c4859b066c2305c6352"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ente-io/ente/",
+      "license": "AGPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [
+        "Sentry"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "FreeTube Android",
       "package": "io.freetubeapp.freetube",
       "page": "https://h5.2113.net/apps/freetube.html",
@@ -3616,6 +3847,39 @@
       "minAndroid": "Android 8.0",
       "targetSdk": 36,
       "abis": [],
+      "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "AAAAXY",
+      "package": "io.github.divverent.aaaaxy",
+      "page": "https://h5.2113.net/games/aaaaxy.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.7.239+20260804.4198.805e2a0b",
+      "versionCode": 107302394,
+      "released": "2026-08-10",
+      "size": 46648239,
+      "sha256": "976ebc08571af97dcefc5feee2479eed47f0cbfc12b320f393462dfb50f077f3",
+      "signers": [
+        "3a036c605f89047371b30a78d99f45c5124832352682048c721803b89dee1fc8"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/divVerent/aaaaxy",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
       "permissions": 0,
       "trackers": [],
       "antiFeatures": [],
@@ -3967,6 +4231,45 @@
       ],
       "permissions": 5,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Keepass2Android",
+      "package": "keepass2android.keepass2android",
+      "page": "https://h5.2113.net/apps/keepass2android.html",
+      "category": "Network & Privacy",
+      "version": "1.15-r5",
+      "versionCode": 253,
+      "released": "2026-10-08",
+      "size": 73134286,
+      "sha256": "fddab42ceca03767fbfc830bd2840749e587b61639a0a3e305190ea5d55ce41e",
+      "signers": [
+        "0bf8056d3a394ed7c77173c4b42c800565b4f0a42977569cf3472c271c562939"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/PhilippC/keepass2android/releases/tag/v1.15-r5",
+      "sourceCode": "https://github.com/PhilippC/keepass2android",
+      "license": "GPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 20,
+      "trackers": [
+        "OpenTelemetry (OpenCensus, OpenTracing)"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -4938,6 +5241,43 @@
       "olderVersions": []
     },
     {
+      "name": "ConnectBot",
+      "package": "org.connectbot",
+      "page": "https://h5.2113.net/apps/connectbot.html",
+      "category": "System Tools",
+      "version": "v1.11.0",
+      "versionCode": 11100000,
+      "released": "2026-10-07",
+      "size": 12907938,
+      "sha256": "09cceb9df8c6b6ea9f1435bc172ae2abcd6180c2164648b90f97c4528831e887",
+      "signers": [
+        "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/connectbot/connectbot/releases/tag/v1.11.0",
+      "sourceCode": "https://github.com/connectbot/connectbot",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Nova Video Player",
       "package": "org.courville.nova",
       "page": "https://h5.2113.net/apps/nova-video-player.html",
@@ -5563,6 +5903,37 @@
       "olderVersions": []
     },
     {
+      "name": "Loop Habit Tracker",
+      "package": "org.isoron.uhabits",
+      "page": "https://h5.2113.net/apps/loop-habit-tracker.html",
+      "category": "Productivity",
+      "version": "2.3.1",
+      "versionCode": 20301,
+      "released": "2025-08-21",
+      "size": 10753773,
+      "sha256": "3903d3be3db0f1622ad61cf5bb267515c95a4069e8dd46f73249721b1bb8173e",
+      "signers": [
+        "9f338a863b0152c881e04954d07ae67f62afd11e064fb3ac99a8bd1d2842a395"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/iSoron/uhabits",
+      "license": "GPL-3.0-only",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Jellyfin",
       "package": "org.jellyfin.mobile",
       "page": "https://h5.2113.net/apps/jellyfin.html",
@@ -5896,6 +6267,42 @@
         "x86_64"
       ],
       "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Auxio",
+      "package": "org.oxycblt.auxio",
+      "page": "https://h5.2113.net/apps/auxio.html",
+      "category": "Media",
+      "version": "4.1.5",
+      "versionCode": 75,
+      "released": "2026-08-05",
+      "size": 11229630,
+      "sha256": "c2053d36c28dbe74de40eadcd8978ec874c465ed3352bba655d4b2b364780b45",
+      "signers": [
+        "65b3e62a2b57bf73235be6d2d42ae546fcb02fd17f62cd14500d1c412a285972"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/OxygenCobalt/Auxio",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
