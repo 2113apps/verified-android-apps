@@ -181,11 +181,11 @@
       "package": "app.mihon",
       "page": "https://h5.2113.net/apps/mihon.html",
       "category": "Reading & Maps",
-      "version": "0.21.0",
-      "versionCode": 36,
-      "released": "2026-10-11",
-      "size": 68090564,
-      "sha256": "2e83cbb94eb64d7083691f86f2edf7f1d3cd0d317c22506cc935d46a1163faf3",
+      "version": "0.21.1",
+      "versionCode": 37,
+      "released": "2026-10-12",
+      "size": 68091064,
+      "sha256": "3dfcecbe27e934bb71645563abeb1c306338c2daf017436be64a750c90b98944",
       "signers": [
         "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2"
       ],
@@ -194,7 +194,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.0",
+      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.1",
       "sourceCode": "https://github.com/mihonapp/mihon",
       "license": "Apache-2.0",
       "minSdk": 26,
@@ -241,6 +241,44 @@
       "permissions": 13,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Organic Maps",
+      "package": "app.organicmaps",
+      "page": "https://h5.2113.net/apps/organic-maps.html",
+      "category": "Reading & Maps",
+      "version": "2026.09.29-32-FDroid",
+      "versionCode": 26092932,
+      "released": "2026-10-03",
+      "size": 63797784,
+      "sha256": "654a736d43317084f13560281fe7013f869800610e9d6036b6789d9c9e07f8bc",
+      "signers": [
+        "e216fc386c327ec88d056026f1dea27be2bc3f9d7ee956e4361c4b64ec459fe9"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/organicmaps/organicmaps",
+      "license": "Apache-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 16,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeAssets"
+      ],
       "olderVersions": []
     },
     {
@@ -386,6 +424,35 @@
         "TetheredNet",
         "Tracking"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "SAI (Split APKs Installer)",
+      "package": "com.aefyr.sai.fdroid",
+      "page": "https://h5.2113.net/apps/sai.html",
+      "category": "System Tools",
+      "version": "4.5",
+      "versionCode": 60,
+      "released": "2021-03-06",
+      "size": 4513049,
+      "sha256": "cb96838c9a64b401bfff8c604b10712cdc7a1d96ea09b6a445cfd5b35702fc72",
+      "signers": [
+        "b8f6faa69e3b3f9fa62543243582e03e35d2f2d84e62d8d086e883849dce006d"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Aefyr/SAI",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 29,
+      "abis": [],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -842,6 +909,41 @@
         "arm64-v8a"
       ],
       "permissions": 8,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Klick’r",
+      "package": "com.buzbuz.smartautoclicker",
+      "page": "https://h5.2113.net/apps/klickr-auto-clicker.html",
+      "category": "System Tools",
+      "version": "4.0.5",
+      "versionCode": 1000000,
+      "released": "2026-09-09",
+      "size": 53127777,
+      "sha256": "b2ade9b2c3ef6b02ad36508a8c65604e4f328be968164c3ef657d987f43205c2",
+      "signers": [
+        "286873f2e082b8de9c68eaa68b9dfab04b208ec5513b6cd6202c9fc3cd05c3e3"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/Nain57/Smart-AutoClicker/releases/tag/4.0.5",
+      "sourceCode": "https://github.com/Nain57/Smart-AutoClicker",
+      "license": "GPL-3.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1850,6 +1952,40 @@
         "x86_64"
       ],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Limbo PC Emulator",
+      "package": "com.limbo.emu.main",
+      "page": "https://h5.2113.net/games/limbo-pc-emulator.html",
+      "category": "PC Emulators",
+      "version": "6.0.1-x86",
+      "versionCode": 60001,
+      "released": "2022-03-24",
+      "size": 16378859,
+      "sha256": "b85ae2ed1963104b03e1e29581f4bccd4163818208dbcbcb427b5168b495efaf",
+      "signers": [
+        "f78b31e0f5b82f060b4417e7e27ae51bcede4277b6f27a7f4243eb742cc54aa2"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/limboemu/limbo",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 29,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "permissions": 11,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3527,6 +3663,39 @@
       "targetSdk": 37,
       "abis": [],
       "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Aves Libre",
+      "package": "deckers.thibault.aves.libre",
+      "page": "https://h5.2113.net/apps/aves.html",
+      "category": "Media",
+      "version": "1.15.5",
+      "versionCode": 17902,
+      "released": "2026-10-04",
+      "size": 62740343,
+      "sha256": "6a43f71a5064daba4e8fc4dcaf01f55d8c4e29bd71f5dd34140ab85bf1a66167",
+      "signers": [
+        "e4378c86e5df4c401b0c9c4ca800d335c8b0750467eae61386a803089ee9972e"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/deckerst/aves",
+      "license": "BSD-3-Clause",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 21,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5347,6 +5516,72 @@
       "olderVersions": []
     },
     {
+      "name": "Shelter",
+      "package": "net.typeblog.shelter",
+      "page": "https://h5.2113.net/apps/shelter.html",
+      "category": "System Tools",
+      "version": "1.9.1",
+      "versionCode": 445,
+      "released": "2023-12-12",
+      "size": 2756345,
+      "sha256": "d6d67b22f066d40f8771d8d7c0e0efe9315b37224d5b7e724f4c0e9b0eecca07",
+      "signers": [
+        "2d4837134f3519a11d104630ed42a4a795f4ab2327e1c9899cbebfbf89aba483"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitea.angry.im/PeterCxy/Shelter",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 13,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Session",
+      "package": "network.loki.messenger",
+      "page": "https://h5.2113.net/apps/session.html",
+      "category": "Productivity",
+      "version": "1.33.6",
+      "versionCode": 4545,
+      "released": "2026-10-11",
+      "size": 125014662,
+      "sha256": "93bb1d79fd1b509bda16bf85f7b3512aaee85c9a9793533b46bc37b73f863e86",
+      "signers": [
+        "f2a0ecf70686447d1d6c6cbbf58c42890500ccf41af372ae2099303980824edd"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/session-foundation/session-android/releases/tag/1.33.6",
+      "sourceCode": "https://github.com/session-foundation/session-android",
+      "license": "GPL-3.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 37,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Gadgetbridge",
       "package": "nodomain.freeyourgadget.gadgetbridge",
       "page": "https://h5.2113.net/apps/gadgetbridge.html",
@@ -6915,6 +7150,78 @@
       "olderVersions": []
     },
     {
+      "name": "Tasks.org",
+      "package": "org.tasks",
+      "page": "https://h5.2113.net/apps/tasks-org.html",
+      "category": "Productivity",
+      "version": "15.12",
+      "versionCode": 151202,
+      "released": "2026-09-17",
+      "size": 28580639,
+      "sha256": "ed972cc1cec3456a11992435a3fcf132d1311f1e8dfd27758265122fbc206ce0",
+      "signers": [
+        "a038a055bf43b2659cbaf862808afd5e447d4d0e2749a10391910009cbd8dcfa"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/tasks/tasks",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 34,
+      "trackers": [
+        "OpenTelemetry (OpenCensus, OpenTracing)"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Telegram X",
+      "package": "org.thunderdog.challegram",
+      "page": "https://h5.2113.net/apps/telegram-x.html",
+      "category": "Productivity",
+      "version": "0.29.1.1817-universal",
+      "versionCode": 1817300,
+      "released": "2026-10-11",
+      "size": 47891189,
+      "sha256": "28b0cf4008329355f271e4780cbabde30b41938d97df800f1cd0c62226c4f56c",
+      "signers": [
+        "eb801a303294ba02a84d030ebb1216c438ac985ad4b89208e32d7a7190dcdd33"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/TGX-Android/Telegram-X/releases/tag/v0.29.1.1817",
+      "sourceCode": "https://github.com/TGX-Android/Telegram-X",
+      "license": "GPL-3.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "permissions": 59,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Tux Paint",
       "package": "org.tuxpaint",
       "page": "https://h5.2113.net/apps/tux-paint.html",
@@ -6987,9 +7294,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-11",
-      "size": 28989306,
-      "sha256": "e8189ef0dd59d38187e4b8a85bd861984d2fca24e426cc93c68757f6dcdeada6",
+      "released": "2026-10-12",
+      "size": 28999134,
+      "sha256": "4a67a4410ae6a7601fa08e65b7292a8d7ee6b0e982d8b2af32d74bc8915007bf",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -7289,6 +7596,35 @@
         "arm64-v8a"
       ],
       "permissions": 15,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "DSU Sideloader",
+      "package": "vegabobo.dsusideloader",
+      "page": "https://h5.2113.net/apps/dsu-sideloader.html",
+      "category": "System Tools",
+      "version": "2.03",
+      "versionCode": 8,
+      "released": "2023-07-10",
+      "size": 5127190,
+      "sha256": "a7ea60d6a8ff0755a0b02ac4d5ce3b80aad41b0627f6c0962421f2a0cafc3160",
+      "signers": [
+        "e51ce87e2b9b71282e9cc76881a996a2bfb42ebeb61f3e444026fd79bc971290"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/VegaBobo/DSU-Sideloader",
+      "license": "Apache-2.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 33,
+      "abis": [],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []

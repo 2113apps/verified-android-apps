@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-207 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+217 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -12,11 +12,11 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (10)
 - [Network & Privacy](#network--privacy) (34)
-- [Media](#media) (38)
-- [System Tools](#system-tools) (44)
+- [Media](#media) (39)
+- [System Tools](#system-tools) (48)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (5)
-- [Productivity](#productivity) (16)
-- [Reading & Maps](#reading--maps) (6)
+- [Productivity](#productivity) (19)
+- [Reading & Maps](#reading--maps) (7)
 - [Games: Strategy Games](#games-strategy-games) (8)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
 - [Games: Adventure & RPG](#games-adventure--rpg) (6)
@@ -24,7 +24,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
 - [Games: Puzzle & Arcade](#games-puzzle--arcade) (6)
-- [Games: PC Emulators](#games-pc-emulators) (1)
+- [Games: PC Emulators](#games-pc-emulators) (2)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (8)
 - [Games: Game Streaming](#games-game-streaming) (1)
@@ -67,6 +67,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [App Not Installed as Package Conflicts: How to Fix](https://h5.2113.net/guides/package-conflicts.html): What Android’s “package conflicts with an existing package” error means: a different signing key, a copy kept for another user, or a clash with another app, and each fix.
 - [PojavLauncher Is Discontinued: What to Use Instead](https://h5.2113.net/guides/pojavlauncher-discontinued.html): PojavLauncher stopped in 2025 and its last APK can’t run newer Minecraft. Which launcher to use instead, and how to bring your worlds and controls along.
 - [How to Remove Bloatware Without Root (Shizuku, Canta)](https://h5.2113.net/guides/remove-bloatware-without-root.html): Remove preinstalled apps without root using Shizuku and Canta: what it really does, which apps are risky, how to bring one back, and what changes in Android 17.
+- [Termux Commands: The Basics, With Examples](https://h5.2113.net/guides/termux-commands.html): The Termux commands to know first: pkg for packages, termux-setup-storage, SSH on port 8022, Termux:API, volume-key shortcuts, and what to run when something fails.
 - [How to Update Apps You Installed From an APK](https://h5.2113.net/guides/update-sideloaded-apps.html): Why an APK update installs or fails, and four ways to keep sideloaded apps updated: a store app, Obtainium, the app’s own update check, or by hand.
 - [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
 - [Set Up a Work Profile on Android Without an Employer](https://h5.2113.net/guides/work-profile-without-employer.html): A work profile keeps a second set of apps and data apart on one phone. How to create one yourself with Test DPC or OwnDroid, what it separates, and how to remove it.
@@ -204,6 +205,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 8.0+ · no account · no known trackers found · Apache-2.0 · [source](https://github.com/Dimowner/AudioRecorder)
 - **[Auxio](https://h5.2113.net/apps/auxio.html)**: A music player for your own files that reads tags properly, plays albums without gaps and evens out the volume between them. It has no internet access at all.  
   Android 7.0+ · music files on your phone · no known trackers found · GPL-3.0-only · [source](https://github.com/OxygenCobalt/Auxio)
+- **[Aves Libre](https://h5.2113.net/apps/aves.html)**: A gallery for the photos and videos on your phone that also shows and edits their metadata, finds motion photos and panoramas, and maps where your pictures were taken.  
+  No root · Android 7.0+ · 64-bit ARM · no known trackers found · BSD-3-Clause · [source](https://github.com/deckerst/aves)
 - **[Bloomee](https://h5.2113.net/apps/bloomee.html)**: A music player that plays your local files and online streams side by side. Its online sources come from a plugin system, and it adds synced lyrics, an equalizer and Last.fm scrobbling.  
   No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
 - **[Flow](https://h5.2113.net/apps/flow.html)**: Watch YouTube and play music from it without signing in, with recommendations worked out on your phone. An unofficial, open-source client; it isn't made by or connected with YouTube.  
@@ -301,6 +304,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · usage access · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/codehasan/Current-Activity)
 - **[Droid-ify](https://h5.2113.net/apps/droid-ify.html)**: A tidier way to use F-Droid: browse and install from F-Droid, IzzyOnDroid and your own repositories, keep apps updated in the background, and install without prompts through Shizuku or root.  
   No root needed · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Droid-ify/client)
+- **[DSU Sideloader](https://h5.2113.net/apps/dsu-sideloader.html)**: A front end for Android’s Dynamic System Updates: pick a GSI file and boot it as a temporary guest system next to your own, then reboot back to your phone’s system.  
+  Android 10+ · unlocked bootloader for most GSIs · no known trackers found · Apache-2.0 · [source](https://github.com/VegaBobo/DSU-Sideloader)
 - **[Edge Seek](https://h5.2113.net/apps/edge-seek.html)**: Turns the edges of your screen into sliders for volume and brightness, with a dimmer below the minimum brightness.  
   No root · no known trackers found · Apache-2.0 · [source](https://github.com/LSafer/edgeseek)
 - **[F-Droid Basic](https://h5.2113.net/apps/f-droid.html)**: The official app for F-Droid, the catalogue of free and open-source Android apps. Version 2.0 is a full redesign that updates your apps in the background.  
@@ -319,6 +324,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
 - **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
   No root · accessibility service · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/keymapperorg/KeyMapper)
+- **[Klick’r](https://h5.2113.net/apps/klickr-auto-clicker.html)**: An open-source auto clicker that repeats taps and swipes, or reacts to the screen: when an image, a colour, a number or some text appears, it acts.  
+  No root · Android 7.0+ · accessibility service · no known trackers found · GPL-3.0 · [source](https://github.com/Nain57/Smart-AutoClicker)
 - **[LibreTorrent](https://h5.2113.net/apps/libretorrent.html)**: A torrent client without ads or a search engine: open .torrent files, magnet links or your own RSS feeds, pick the files you want, stream while downloading, and limit it to Wi-Fi or charging.  
   No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/proninyaroslav/libretorrent)
 - **[LocalSend](https://h5.2113.net/apps/localsend.html)**: An open-source AirDrop alternative that works across Android, Windows, macOS, Linux and iOS: pick a nearby device on the same network and send files or text directly.  
@@ -339,6 +346,10 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no known trackers found · GPL-3.0-only · [source](https://github.com/Raival-e/Prism-File-Explorer)
 - **[RustDesk](https://h5.2113.net/apps/rustdesk.html)**: Control a computer or another phone remotely, or let someone help you with yours. RustDesk is open source and can run entirely on a server you host yourself.  
   No root · Android 5.1+ · 6.0+ to share the screen · no known trackers found · GPL-3.0-only · [source](https://github.com/rustdesk/rustdesk)
+- **[SAI (Split APKs Installer)](https://h5.2113.net/apps/sai.html)**: An installer for apps that come as several APK files, such as .apks, .xapk and .apkm downloads, with optional root or Shizuku installs and APK backups of installed apps.  
+  No root · Android 5.0+ · root or Shizuku optional · no known trackers found · GPL-3.0-only · [source](https://github.com/Aefyr/SAI)
+- **[Shelter](https://h5.2113.net/apps/shelter.html)**: Creates a work profile on your phone and manages it: install apps inside to keep them apart from your main apps, freeze them when you’re not using them, or run two copies of one app.  
+  No root · Android 7.0+ · no other work profile · no known trackers found · GPL-3.0-only · [source](https://gitea.angry.im/PeterCxy/Shelter)
 - **[Shizuku](https://h5.2113.net/apps/shizuku.html)**: Lets other apps use Android’s system APIs with the same rights as ADB. You start it with wireless debugging on Android 11+, from a computer with ADB, or with root.  
   Android 7+ · wireless debugging, a PC with ADB, or root · no known trackers found · Apache-2.0 · [source](https://github.com/RikkaApps/Shizuku)
 - **[Termux](https://h5.2113.net/apps/termux.html)**: A terminal emulator and Linux environment for Android. Install packages with pkg or apt, then run shells, scripting languages, SSH, Git and much more, without root.  
@@ -407,6 +418,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 8.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/jitsi/jitsi-meet)
 - **[Loop Habit Tracker](https://h5.2113.net/apps/loop-habit-tracker.html)**: Track the habits you want to build, from a daily walk to a number of pages read, and watch a strength score that forgives the odd missed day. Everything stays on your phone.  
   Android 9+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/iSoron/uhabits)
+- **[Session](https://h5.2113.net/apps/session.html)**: An end-to-end encrypted messenger without a phone number or email: you get an Account ID, and messages travel through a network of nodes that hides your IP address.  
+  No root · Android 8.0+ · no phone number · no known trackers found · GPL-3.0 · [source](https://github.com/session-foundation/session-android)
+- **[Tasks.org](https://h5.2113.net/apps/tasks-org.html)**: A to-do list app with nested subtasks, repeating tasks, start dates and reminders by time or place. It works offline, or syncs with your own CalDAV server and other services.  
+  No root · Android 8.0+ · no account needed · tracker code found: OpenTelemetry (OpenCensus, OpenTracing) · GPL-3.0-only · [source](https://github.com/tasks/tasks)
+- **[Telegram X](https://h5.2113.net/apps/telegram-x.html)**: A second official Telegram app for Android, written from scratch on Telegram’s TDLib library, with its own interface and features. It uses your normal Telegram account and chats.  
+  No root · Android 7.0+ · a Telegram account · no known trackers found · GPL-3.0 · [source](https://github.com/TGX-Android/Telegram-X)
 - **[Tomato](https://h5.2113.net/apps/tomato.html)**: A minimalist Pomodoro timer: focus for 25 minutes, take a short break, and follow your focus time in daily, weekly, monthly and yearly statistics. It never goes online.  
   Android 8.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/nsh07/Tomato)
 - **[Unexpected Keyboard](https://h5.2113.net/apps/unexpected-keyboard.html)**: A small on-screen keyboard where you swipe a key toward one of its corners to type the symbol printed there, so more characters fit on one page. Designed for programmers using Termux.  
@@ -422,6 +439,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/foobnix/LibreraReader)
 - **[Mihon](https://h5.2113.net/apps/mihon.html)**: An open-source reader for manga, webtoons and comics, carrying on from Tachiyomi. It keeps a library, reads your own files and records your progress on tracking sites.  
   Android 8.0+ · your own comics or content · tracker code found: Google CrashLytics, Google Firebase Analytics · Apache-2.0 · [source](https://github.com/mihonapp/mihon)
+- **[Organic Maps](https://h5.2113.net/apps/organic-maps.html)**: Offline maps from OpenStreetMap with turn-by-turn navigation for driving, cycling and walking, hiking routes, contour lines and Wikipedia articles, all usable offline once downloaded.  
+  No root · Android 5.0+ · maps downloaded once · no known trackers found · Apache-2.0 · [source](https://github.com/organicmaps/organicmaps)
 - **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
 - **[Wikipedia](https://h5.2113.net/apps/wikipedia.html)**: The Wikimedia Foundation’s own Wikipedia app: search and read articles, save them for reading offline, and edit. This copy is F-Droid’s build, without Google’s services.  
@@ -506,6 +525,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: PC Emulators
 
+- **[Limbo PC Emulator](https://h5.2113.net/games/limbo-pc-emulator.html)**: A QEMU-based emulator that runs a whole x86 PC inside your phone: boot FreeDOS, small Linux distributions or other systems from ISO and disk images you bring.  
+  No root · Android 5.0+ · ARM phone · your own OS images · no known trackers found · GPL-2.0-or-later · [source](https://github.com/limboemu/limbo)
 - **[Winlator](https://h5.2113.net/games/winlator.html)**: Runs Windows (x86-64) games and programs on an Android phone, using Wine to handle Windows and Box64 to translate the x86 code.  
   64-bit ARM phone · Android 8+ · no root · no known trackers found · LGPL-2.1 · [source](https://github.com/brunodev85/winlator)
 
