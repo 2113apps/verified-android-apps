@@ -11,9 +11,9 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (10)
-- [Network & Privacy](#network--privacy) (35)
+- [Network & Privacy](#network--privacy) (34)
 - [Media](#media) (38)
-- [System Tools](#system-tools) (43)
+- [System Tools](#system-tools) (44)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (5)
 - [Productivity](#productivity) (16)
 - [Reading & Maps](#reading--maps) (6)
@@ -155,8 +155,6 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 4.4+ (passkeys: Android 14+) · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kunzisoft/KeePassDX)
 - **[Kizzy](https://h5.2113.net/apps/kizzy.html)**: Shows Discord Rich Presence from your Android phone, with presets and custom statuses.  
   A Discord account · no known trackers found · GPL-3.0-only · [source](https://github.com/dead8309/Kizzy)
-- **[LibreTorrent](https://h5.2113.net/apps/libretorrent.html)**: A torrent client without ads or a search engine: open .torrent files, magnet links or your own RSS feeds, pick the files you want, stream while downloading, and limit it to Wi-Fi or charging.  
-  No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/proninyaroslav/libretorrent)
 - **[Meshtastic](https://h5.2113.net/apps/meshtastic.html)**: The official app for Meshtastic, the open-source off-grid radio project: pair your phone with a small LoRa radio and message others on the mesh, with no mobile network or internet.  
   A Meshtastic radio · 64-bit phone · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meshtastic/Meshtastic-Android)
 - **[Mousedroid](https://h5.2113.net/apps/mousedroid.html)**: Turns your phone into a touchpad, keyboard and numpad for a Windows or Linux PC, over USB or Wi-Fi.  
@@ -202,7 +200,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/AntennaPod/AntennaPod)
 - **[ArchiveTune](https://h5.2113.net/apps/archivetune.html)**: A YouTube Music player built on Metrolist’s framework, with quick switching between accounts, local files alongside streaming, podcasts, and detailed audio and lyrics options.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rukamori/ArchiveTune)
-- **[Audio Recorder](https://h5.2113.net/apps/audio-recorder.html)**: Record voice notes, lectures or meetings in M4A, WAV or 3GP, see the waveform as you go, and since version 2.5.0 record what other apps are playing. Works fully offline.  
+- **[Audio Recorder](https://h5.2113.net/apps/audio-recorder.html)**: Dmytro Ponomarenko’s open-source recorder: voice notes, lectures or meetings in M4A, WAV or 3GP with a live waveform, and on Android 10 and later what other apps are playing. Fully offline.  
   Android 8.0+ · no account · no known trackers found · Apache-2.0 · [source](https://github.com/Dimowner/AudioRecorder)
 - **[Auxio](https://h5.2113.net/apps/auxio.html)**: A music player for your own files that reads tags properly, plays albums without gaps and evens out the volume between them. It has no internet access at all.  
   Android 7.0+ · music files on your phone · no known trackers found · GPL-3.0-only · [source](https://github.com/OxygenCobalt/Auxio)
@@ -321,6 +319,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
 - **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
   No root · accessibility service · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/keymapperorg/KeyMapper)
+- **[LibreTorrent](https://h5.2113.net/apps/libretorrent.html)**: A torrent client without ads or a search engine: open .torrent files, magnet links or your own RSS feeds, pick the files you want, stream while downloading, and limit it to Wi-Fi or charging.  
+  No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/proninyaroslav/libretorrent)
 - **[LocalSend](https://h5.2113.net/apps/localsend.html)**: An open-source AirDrop alternative that works across Android, Windows, macOS, Linux and iOS: pick a nearby device on the same network and send files or text directly.  
   No root · same local network · Android 7.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/localsend/localsend)
 - **[Material Files](https://h5.2113.net/apps/material-files.html)**: A clean, open-source file manager in Material Design: open and create archives, browse network shares, and reach files ordinary apps can’t, with root or, since version 1.7.5, Shizuku.  
