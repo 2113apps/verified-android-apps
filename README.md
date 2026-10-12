@@ -210,7 +210,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Bloomee](https://h5.2113.net/apps/bloomee.html)**: A music player that plays your local files and online streams side by side. Its online sources come from a plugin system, and it adds synced lyrics, an equalizer and Last.fm scrobbling.  
   No root · 64-bit phone · no known trackers found · GPL-2.0-only · [source](https://github.com/HemantKArya/BloomeeTunes)
 - **[Flow](https://h5.2113.net/apps/flow.html)**: Watch YouTube and play music from it without signing in, with recommendations worked out on your phone. An unofficial, open-source client; it isn't made by or connected with YouTube.  
-  Android 8.0+ · 64-bit ARM · no known trackers found · GPL-3.0-only · [source](https://github.com/A-EDev/Flow)
+  Android 8.0+ · 64-bit ARM · no known trackers found · GPL-3.0-only · [source](https://github.com/Flow-Tube/Flow)
 - **[Fossify Gallery](https://h5.2113.net/apps/fossify-gallery.html)**: A photo and video gallery that stays offline: browse, edit, hide and lock your pictures, restore deleted ones from a recycle bin, and strip location data before you share.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Gallery)
 - **[Fossify Music Player](https://h5.2113.net/apps/fossify-music-player.html)**: A player for the music files on your phone that carries on from Simple Music Player: browse by album, artist, genre or folder, with playlists, an equalizer and a sleep timer.  
