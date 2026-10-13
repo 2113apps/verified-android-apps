@@ -1568,6 +1568,42 @@
       "olderVersions": []
     },
     {
+      "name": "AVNC",
+      "package": "com.gaurav.avnc",
+      "page": "https://h5.2113.net/apps/avnc.html",
+      "category": "System Tools",
+      "version": "3.3.1",
+      "versionCode": 53,
+      "released": "2026-08-10",
+      "size": 7330062,
+      "sha256": "9f06fbf28707f6dfdb8e02e49549a727720930e8cd83df54d0baee2f8e894972",
+      "signers": [
+        "e509b18797b5175d41fe8c8c556d2448cb38b36409f3967ef11a400d563cc414"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/gujjwal00/avnc",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Meshtastic",
       "package": "com.geeksville.mesh",
       "page": "https://h5.2113.net/apps/meshtastic.html",
@@ -2122,6 +2158,42 @@
         "x86_64"
       ],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Logseq",
+      "package": "com.logseq.app",
+      "page": "https://h5.2113.net/apps/logseq.html",
+      "category": "Productivity",
+      "version": "0.10.15",
+      "versionCode": 90,
+      "released": "2025-12-18",
+      "size": 34527012,
+      "sha256": "9cb9834d1da46447dc69f9517fb9cbcad06d5f67852c0a217274d40f862d7be1",
+      "signers": [
+        "1b7b2d3526212c0876aa8af54401c73896ada970278962cc60816de002a3e103"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/logseq/logseq",
+      "license": "AGPL-3.0-only",
+      "minSdk": 22,
+      "minAndroid": "Android 5.1",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4043,6 +4115,42 @@
       "olderVersions": []
     },
     {
+      "name": "SD Maid SE",
+      "package": "eu.darken.sdmse",
+      "page": "https://h5.2113.net/apps/sd-maid-se.html",
+      "category": "System Tools",
+      "version": "2.2.1-rc0",
+      "versionCode": 20201000,
+      "released": "2026-10-07",
+      "size": 18079991,
+      "sha256": "5eca1e036951741f9ed32d8594399f167091d6ea2a10a38680d3ce0debd235b0",
+      "signers": [
+        "f490032be5383f55900495fa7fc207ece2e786a5c2c6cc52027b99548a9ce938"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/d4rken-org/sdmaid-se",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 22,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeAssets"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "FairEmail",
       "package": "eu.faircode.email",
       "page": "https://h5.2113.net/apps/fairemail.html",
@@ -4116,6 +4224,38 @@
         "NonFreeComp",
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Conversations",
+      "package": "eu.siacs.conversations",
+      "page": "https://h5.2113.net/apps/conversations.html",
+      "category": "Productivity",
+      "version": "2.20.4+free",
+      "versionCode": 4218104,
+      "released": "2026-09-29",
+      "size": 30749589,
+      "sha256": "3fae646e33b59b95f049ce9bd828022e2edbb374fa82e517bd782aced71ba980",
+      "signers": [
+        "9c2e57c85c279e5e1a427f6e87927fc1e2278f62d61d7fcefde9346e568ccf86"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://codeberg.org/iNPUTmice/Conversations",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 51,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -4213,6 +4353,42 @@
         "x86_64"
       ],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Molly",
+      "package": "im.molly.app",
+      "page": "https://h5.2113.net/apps/molly.html",
+      "category": "Productivity",
+      "version": "v8.19.2-4",
+      "versionCode": 171904,
+      "released": "2026-07-31",
+      "size": 96755948,
+      "sha256": "f1c6fd929f9047809a7a9bb4e663d1ec1ec4d9f33d9794799c8e2f8e1663ec11",
+      "signers": [
+        "6aa80fdf4a8cc13737cfb434fc0cde486f09cf8fcda21a67bea5ee1ca2700886"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/mollyim/mollyim-android/releases/tag/v8.19.2-4",
+      "sourceCode": "https://github.com/mollyim/mollyim-android",
+      "license": "AGPL-3.0",
+      "minSdk": 27,
+      "minAndroid": "Android 8.1",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 73,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4513,6 +4689,37 @@
       "targetSdk": 36,
       "abis": [],
       "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Open Patience",
+      "package": "io.github.d_rk.openpatience",
+      "page": "https://h5.2113.net/games/open-patience.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.1.2",
+      "versionCode": 122,
+      "released": "2026-10-12",
+      "size": 20768713,
+      "sha256": "79dd0ef6dd0b0925af96aac46f1199e281478a3a56055acc9852748144bd89d8",
+      "signers": [
+        "8df8a6e8bcac974b85e666eccb799963bc02c1ca6d0aa83d82f7ac6e20fec423"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/d-rk/open-patience",
+      "license": "AGPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5172,6 +5379,37 @@
       "olderVersions": []
     },
     {
+      "name": "Breakout 71",
+      "package": "me.lecaro.breakout",
+      "page": "https://h5.2113.net/games/breakout-71.html",
+      "category": "Puzzle & Arcade",
+      "version": "29856652",
+      "versionCode": 29856652,
+      "released": "2026-10-12",
+      "size": 553155,
+      "sha256": "40c19ffaa16ea090cd095dc5ec1f239bc7f75609027f74a9aeff9b705666897c",
+      "signers": [
+        "9eb80ba15da34194493f169377b2600e61a9faba0fe75b2ff36cc552a8d17ef6"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/lecarore/breakout71",
+      "license": "AGPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "melonDS",
       "package": "me.magnum.melonds",
       "page": "https://h5.2113.net/games/melonds.html",
@@ -5543,6 +5781,42 @@
         "x86_64"
       ],
       "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Joplin",
+      "package": "net.cozic.joplin",
+      "page": "https://h5.2113.net/apps/joplin.html",
+      "category": "Productivity",
+      "version": "3.7.8",
+      "versionCode": 2097817,
+      "released": "2026-09-11",
+      "size": 154987817,
+      "sha256": "79acd24866ef5c3f8779fcdf926dd6e0d6e242ccffda8581c556f2a80f4b2782",
+      "signers": [
+        "48a1cf9201b9079a6e0d5b33693e496db3c5cbec64a85afccd75e16d7a6cd54d"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/laurent22/joplin",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 19,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -6045,11 +6319,11 @@
       "package": "org.connectbot",
       "page": "https://h5.2113.net/apps/connectbot.html",
       "category": "System Tools",
-      "version": "v1.11.0",
-      "versionCode": 11100000,
-      "released": "2026-10-07",
-      "size": 12907938,
-      "sha256": "09cceb9df8c6b6ea9f1435bc172ae2abcd6180c2164648b90f97c4528831e887",
+      "version": "v1.11.1",
+      "versionCode": 11101000,
+      "released": "2026-10-13",
+      "size": 13092258,
+      "sha256": "9e07972f3b03bc572a14845055c6e8048bcca19c8c40bf5e74b90effd9c1da55",
       "signers": [
         "aa43746a46127842169f8176412a1f4b1b1e2f8ad9e15aba217c3822dbeb2d5f"
       ],
@@ -6060,7 +6334,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/connectbot/connectbot/releases/tag/v1.11.0",
+      "sourceRelease": "https://github.com/connectbot/connectbot/releases/tag/v1.11.1",
       "sourceCode": "https://github.com/connectbot/connectbot",
       "license": "Apache-2.0",
       "minSdk": 24,
@@ -6179,6 +6453,39 @@
         "x86_64"
       ],
       "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "LibreOffice",
+      "package": "org.documentfoundation.libreoffice",
+      "page": "https://h5.2113.net/apps/libreoffice.html",
+      "category": "Productivity",
+      "version": "26.2.6.3",
+      "versionCode": 131,
+      "released": "2026-09-07",
+      "size": 87682841,
+      "sha256": "751ac3836890b79a56801bf6d9a2788cda3761ab5131a4f0b6abfbad822bb475",
+      "signers": [
+        "af71ba344cab259fa625f079ff520f511d17a372bb2e8fa27532791bd5fea8cb"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://git.libreoffice.org/core",
+      "license": "MPL-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7873,6 +8180,37 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Ruffle",
+      "package": "rs.ruffle",
+      "page": "https://h5.2113.net/games/ruffle.html",
+      "category": "PC Emulators",
+      "version": "0.260928",
+      "versionCode": 2609282,
+      "released": "2026-10-01",
+      "size": 32896926,
+      "sha256": "26751ba727c135a17be741e1cf074a7a745e546dd71968b12878de59b1729a29",
+      "signers": [
+        "294d74ce86d1f72038f9c4530dd2776b547f47272ca761805f996b088c626fc6"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ruffle-rs/ruffle-android",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {

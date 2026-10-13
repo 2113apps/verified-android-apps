@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up it is matched to the hash in the signed repository index or on the project’s GitHub release, its signing key is checked, and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-227 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+237 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -13,9 +13,9 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Customization](#customization) (10)
 - [Network & Privacy](#network--privacy) (36)
 - [Media](#media) (41)
-- [System Tools](#system-tools) (49)
+- [System Tools](#system-tools) (51)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (22)
+- [Productivity](#productivity) (27)
 - [Reading & Maps](#reading--maps) (8)
 - [Games: Strategy Games](#games-strategy-games) (8)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
@@ -23,8 +23,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (3)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (6)
-- [Games: PC Emulators](#games-pc-emulators) (2)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (8)
+- [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
 - [Games: Console Emulators](#games-console-emulators) (8)
 - [Games: Game Streaming](#games-game-streaming) (1)
@@ -68,6 +68,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [App Not Installed as Package Conflicts: How to Fix](https://h5.2113.net/guides/package-conflicts.html): What Android’s “package conflicts with an existing package” error means: a different signing key, a copy kept for another user, or a clash with another app, and each fix.
 - [PojavLauncher Is Discontinued: What to Use Instead](https://h5.2113.net/guides/pojavlauncher-discontinued.html): PojavLauncher stopped in 2025 and its last APK can’t run newer Minecraft. Which launcher to use instead, and how to bring your worlds and controls along.
 - [How to Remove Bloatware Without Root (Shizuku, Canta)](https://h5.2113.net/guides/remove-bloatware-without-root.html): Remove preinstalled apps without root using Shizuku and Canta: what it really does, which apps are risky, how to bring one back, and what changes in Android 17.
+- [RetroArch Cores on Android: Which Core to Use](https://h5.2113.net/guides/retroarch-cores-android.html): Which RetroArch core to use for each console on Android, how to download and update cores, where they are stored, which need BIOS files, and why some don’t show up.
 - [Termux Commands: The Basics, With Examples](https://h5.2113.net/guides/termux-commands.html): The Termux commands to know first: pkg for packages, termux-setup-storage, SSH on port 8022, Termux:API, volume-key shortcuts, and what to run when something fails.
 - [How to Update Apps You Installed From an APK](https://h5.2113.net/guides/update-sideloaded-apps.html): Why an APK update installs or fails, and four ways to keep sideloaded apps updated: a store app, Obtainium, the app’s own update check, or by hand.
 - [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
@@ -305,6 +306,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Shizuku or root · Android 9+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/DP-Hridayan/aShellYou)
 - **[Aurora Store](https://h5.2113.net/apps/aurora-store.html)**: An open-source client for Google Play: search, download and update free apps from Play without the Play Store app, signed in anonymously or with your own account.  
   No root · no Google services needed · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/AuroraOSS/AuroraStore)
+- **[AVNC](https://h5.2113.net/apps/avnc.html)**: Control a computer from your phone: AVNC connects to any VNC server, on your network or through an SSH tunnel, with touch gestures, a bar of extra keys and clipboard sync.  
+  No root · Android 5.0+ · a VNC server · no known trackers found · GPL-3.0-or-later · [source](https://github.com/gujjwal00/avnc)
 - **[Canta](https://h5.2113.net/apps/canta.html)**: Remove the apps your phone maker pre-installed, without root. Canta works through Shizuku, marks which apps are risky to remove, and can put system apps back.  
   Shizuku · Android 9+ · no known trackers found · LGPL-3.0-or-later · [source](https://github.com/samolego/Canta)
 - **[ConnectBot](https://h5.2113.net/apps/connectbot.html)**: Log in to your servers from the phone: SSH with keys or passwords, Mosh for flaky connections, port forwarding and jump hosts. This is the open-source build, which needs no Google Play services.  
@@ -359,6 +362,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.1+ · 6.0+ to share the screen · no known trackers found · GPL-3.0-only · [source](https://github.com/rustdesk/rustdesk)
 - **[SAI (Split APKs Installer)](https://h5.2113.net/apps/sai.html)**: An installer for apps that come as several APK files, such as .apks, .xapk and .apkm downloads, with optional root or Shizuku installs and APK backups of installed apps.  
   No root · Android 5.0+ · root or Shizuku optional · no known trackers found · GPL-3.0-only · [source](https://github.com/Aefyr/SAI)
+- **[SD Maid SE](https://h5.2113.net/apps/sd-maid-se.html)**: Finds what uninstalled apps left behind, system junk, app caches and duplicate files, and lists all of it before anything is deleted. Scanning is free; some cleaning needs the upgrade.  
+  No root · Android 8.0+ · root or Shizuku optional · no known trackers found · GPL-3.0-only · [source](https://github.com/d4rken-org/sdmaid-se)
 - **[Shelter](https://h5.2113.net/apps/shelter.html)**: Creates a work profile on your phone and manages it: install apps inside to keep them apart from your main apps, freeze them when you’re not using them, or run two copies of one app.  
   No root · Android 7.0+ · no other work profile · no known trackers found · GPL-3.0-only · [source](https://gitea.angry.im/PeterCxy/Shelter)
 - **[Shizuku](https://h5.2113.net/apps/shizuku.html)**: Lets other apps use Android’s system APIs with the same rights as ADB. You start it with wireless debugging on Android 11+, from a computer with ADB, or with root.  
@@ -409,6 +414,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 6.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
 - **[Breezy Weather](https://h5.2113.net/apps/breezy-weather.html)**: A weather app that lets you choose the source: forecasts from more than 50 weather services, with rain in the next hour, severe weather alerts, air quality, pollen and widgets.  
   No root · Android 6.0+ · no known trackers found · LGPL-3.0-only · [source](https://github.com/breezy-weather/breezy-weather)
+- **[Conversations](https://h5.2113.net/apps/conversations.html)**: A messenger for the open XMPP network, also known as Jabber: pick any server, or run your own, then chat, call and share files with end-to-end encryption switched on by default.  
+  No root · Android 6.0+ · an XMPP account · no known trackers found · GPL-3.0-only · [source](https://codeberg.org/iNPUTmice/Conversations)
 - **[Element X](https://h5.2113.net/apps/element-x.html)**: The new app from Element for Matrix, the open network for encrypted chat. It replaces Element Classic, which Element is retiring at the end of 2026.  
   Android 7.0+ · 64-bit ARM · a Matrix account · tracker code found: Sentry · AGPL-3.0-or-later · [source](https://github.com/element-hq/element-x-android)
 - **[FairEmail](https://h5.2113.net/apps/fairemail.html)**: A full email app for any IMAP or POP3 account, including Gmail and Outlook, that asks before loading images or opening links and supports PGP and S/MIME. This is the developer’s GitHub build.  
@@ -433,8 +440,16 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/HeliBorg/HeliBoard)
 - **[Jitsi Meet](https://h5.2113.net/apps/jitsi-meet.html)**: Open-source video meetings: join from a link or a room name, on the public meet.jit.si service or on any Jitsi server. This build leaves out Google’s libraries and the analytics.  
   Android 8.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/jitsi/jitsi-meet)
+- **[Joplin](https://h5.2113.net/apps/joplin.html)**: Notes and to-do lists in notebooks, written in Markdown or a rich-text editor, synced between phone and computer through a service you choose, with end-to-end encryption if you turn it on.  
+  No root · Android 7.0+ · no known trackers found · MIT · [source](https://github.com/laurent22/joplin)
+- **[LibreOffice](https://h5.2113.net/apps/libreoffice.html)**: The Document Foundation’s Android app for reading office documents: Word, Excel and PowerPoint files, OpenDocument and more, rendered by LibreOffice itself, with an optional experimental editing mode.  
+  No root · Android 5.0+ · 64-bit ARM · no known trackers found · MPL-2.0 · [source](https://git.libreoffice.org/core)
+- **[Logseq](https://h5.2113.net/apps/logseq.html)**: An outliner that keeps every note as a plain Markdown file in a folder on your phone, with links between pages, tasks and flashcards. This is the file-based app, now called Logseq OG.  
+  No root · Android 5.1+ · All files access · no known trackers found · AGPL-3.0-only · [source](https://github.com/logseq/logseq)
 - **[Loop Habit Tracker](https://h5.2113.net/apps/loop-habit-tracker.html)**: Track the habits you want to build, from a daily walk to a number of pages read, and watch a strength score that forgives the odd missed day. Everything stays on your phone.  
   Android 9+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/iSoron/uhabits)
+- **[Molly](https://h5.2113.net/apps/molly.html)**: A hardened version of Signal that uses Signal’s servers, so you chat with your Signal contacts as usual, and adds a passphrase that encrypts the app’s data and a memory wipe when it locks.  
+  No root · Android 8.1+ · a phone number · no known trackers found · AGPL-3.0 · [source](https://github.com/mollyim/mollyim-android)
 - **[Session](https://h5.2113.net/apps/session.html)**: An end-to-end encrypted messenger without a phone number or email: you get an Account ID, and messages travel through a network of nodes that hides your IP address.  
   No root · Android 8.0+ · no phone number · no known trackers found · GPL-3.0 · [source](https://github.com/session-foundation/session-android)
 - **[Tasks.org](https://h5.2113.net/apps/tasks-org.html)**: A to-do list app with nested subtasks, repeating tasks, start dates and reminders by time or place. It works offline, or syncs with your own CalDAV server and other services.  
@@ -533,10 +548,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[AAAAXY](https://h5.2113.net/games/aaaaxy.html)**: A retro-looking platformer where rooms loop back on themselves and corridors are longer inside than out. Explore one big, non-linear map at your own pace; no lives, no ads, no internet.  
   64-bit ARM · Android 6.0+ · 4–6 hours to the end · no known trackers found · Apache-2.0 · [source](https://github.com/divVerent/aaaaxy)
+- **[Breakout 71](https://h5.2113.net/games/breakout-71.html)**: A brick breaker built for short runs: clear seven levels, catch the coins that broken bricks drop to build your combo, and pick an upgrade after every level. Small, offline and without ads.  
+  No root · Android 6.0+ · no known trackers found · AGPL-3.0-only · [source](https://gitlab.com/lecarore/breakout71)
 - **[Gauguin](https://h5.2113.net/games/gauguin.html)**: A Sudoku-like puzzle where every group of cells must reach its target by adding, subtracting, multiplying or dividing. Endless grids from 3×3 to 11×11, with no ads and no internet.  
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meikpiep/gauguin)
 - **[LibreSudoku](https://h5.2113.net/games/libresudoku.html)**: Classic and Killer Sudoku in three sizes and four difficulties, generated on your phone, with notes, hints, statistics and your own puzzle collections. Free, ad-free and offline.  
   Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/kaajjo/LibreSudoku)
+- **[Open Patience](https://h5.2113.net/games/open-patience.html)**: Klondike and FreeCell solitaire without ads or tracking: undo and redo, a one-tap finish once a game can be completed, and a list of your fastest wins, in an app that asks for no permissions.  
+  No root · Android 7.0+ · 64-bit ARM · no known trackers found · AGPL-3.0-only · [source](https://github.com/d-rk/open-patience)
 - **[Open Surge: retro game engine](https://h5.2113.net/games/open-surge.html)**: A fast 16-bit-style platformer starring Surge the Rabbit, and the open-source engine it runs on: play the demo levels, change them on your phone, or load games other people made.  
   No root · ARM phone or TV · Android 5.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/alemart/opensurge)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
@@ -548,6 +567,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Limbo PC Emulator](https://h5.2113.net/games/limbo-pc-emulator.html)**: A QEMU-based emulator that runs a whole x86 PC inside your phone: boot FreeDOS, small Linux distributions or other systems from ISO and disk images you bring.  
   No root · Android 5.0+ · ARM phone · your own OS images · no known trackers found · GPL-2.0-or-later · [source](https://github.com/limboemu/limbo)
+- **[Ruffle](https://h5.2113.net/games/ruffle.html)**: The Ruffle project’s own Android app: it plays games and animations made for Adobe Flash Player from a SWF file or a web address, with an on-screen keyboard for games that need keys.  
+  No root · Android 8.0+ · 64-bit ARM · no known trackers found · MIT · [source](https://github.com/ruffle-rs/ruffle-android)
 - **[Winlator](https://h5.2113.net/games/winlator.html)**: Runs Windows (x86-64) games and programs on an Android phone, using Wine to handle Windows and Box64 to translate the x86 code.  
   64-bit ARM phone · Android 8+ · no root · no known trackers found · LGPL-2.1 · [source](https://github.com/brunodev85/winlator)
 
