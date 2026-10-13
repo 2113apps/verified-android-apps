@@ -181,11 +181,11 @@
       "package": "app.mihon",
       "page": "https://h5.2113.net/apps/mihon.html",
       "category": "Reading & Maps",
-      "version": "0.21.1",
-      "versionCode": 37,
-      "released": "2026-10-12",
-      "size": 68091064,
-      "sha256": "3dfcecbe27e934bb71645563abeb1c306338c2daf017436be64a750c90b98944",
+      "version": "0.21.2",
+      "versionCode": 38,
+      "released": "2026-10-13",
+      "size": 68091068,
+      "sha256": "9160532adc69723e525d7276b22f856953ac4b1dbd081438281e42eaeabe1ef4",
       "signers": [
         "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2"
       ],
@@ -194,7 +194,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.1",
+      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.2",
       "sourceCode": "https://github.com/mihonapp/mihon",
       "license": "Apache-2.0",
       "minSdk": 26,
@@ -316,6 +316,40 @@
       "olderVersions": []
     },
     {
+      "name": "DAVx⁵",
+      "package": "at.bitfire.davdroid",
+      "page": "https://h5.2113.net/apps/davx5.html",
+      "category": "Cloud & Self-Hosted",
+      "version": "4.5.20-ose",
+      "versionCode": 405200005,
+      "released": "2026-09-27",
+      "size": 17651508,
+      "sha256": "33d4b21c85169bbe2b22b7efc17aa17a685b295e28810cfdf063402a60ae064c",
+      "signers": [
+        "b39e7b77ec853483646b21b4a3e3ca540ba094ef8daa18e87e0be1fa4638d321"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/bitfireAT/davx5-ose",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 25,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "VPN Hotspot",
       "package": "be.mygod.vpnhotspot",
       "page": "https://h5.2113.net/apps/vpn-hotspot.html",
@@ -424,6 +458,37 @@
         "TetheredNet",
         "Tracking"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "FakeTraveler",
+      "package": "cl.coders.faketraveler",
+      "page": "https://h5.2113.net/apps/faketraveler.html",
+      "category": "System Tools",
+      "version": "2.3.2",
+      "versionCode": 232,
+      "released": "2026-05-07",
+      "size": 5535272,
+      "sha256": "ef0e17396f31773571f930901d8fc319840549f18a54d4bd0d0fb0313ececc6b",
+      "signers": [
+        "fa1b47d62ebece2130e33a22186c622bcfe2f2b9a3d5c14438ad94078093682c"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/mcastillof/FakeTraveler",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -699,6 +764,41 @@
         "NonFreeNet",
         "Tracking"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "MuPDF viewer",
+      "package": "com.artifex.mupdf.viewer.app",
+      "page": "https://h5.2113.net/apps/mupdf-viewer.html",
+      "category": "Reading & Maps",
+      "version": "1.28.5a",
+      "versionCode": 270,
+      "released": "2026-09-27",
+      "size": 17128961,
+      "sha256": "18c1f0b47d89870ddbf3b93d4f4d444e479c686377c696ef54dbe0e73a7b0a0e",
+      "signers": [
+        "f7de6763f66a3c6e7b0c8b78e528cb1c1f5dd3b3b0e2859e36e49988d7fadcce"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ArtifexSoftware/mupdf-android-viewer",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -2377,6 +2477,42 @@
       "olderVersions": []
     },
     {
+      "name": "Open Recorder",
+      "package": "com.openrecorder.app",
+      "page": "https://h5.2113.net/apps/open-recorder.html",
+      "category": "Media",
+      "version": "1.0.1",
+      "versionCode": 10001,
+      "released": "2026-09-27",
+      "size": 2667401,
+      "sha256": "d2cc8c623d6cd03a4a25ca61597fd31a73cd14cd48804698a4d736fa4c0959b8",
+      "signers": [
+        "f03d10ba67605894e8ee3ae6da3a4eb7b500e3a48fae50929059fe646efc2ef6"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/NoneBaiano/OpenRecorder",
+      "license": "GPL-3.0-only",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "PhotonCamera",
       "package": "com.particlesdevs.photoncamera",
       "page": "https://h5.2113.net/apps/photoncamera.html",
@@ -3668,6 +3804,47 @@
       "olderVersions": []
     },
     {
+      "name": "Tuta Mail",
+      "package": "de.tutao.tutanota",
+      "page": "https://h5.2113.net/apps/tuta-mail.html",
+      "category": "Productivity",
+      "version": "360.260922.0",
+      "versionCode": 396715,
+      "released": "2026-09-26",
+      "size": 77273530,
+      "sha256": "b586325e6bc80ab3e6e2815ba05019b23d7ef53ee69f4dadfc23fceec5834df7",
+      "signers": [
+        "fc1932e08464aefcae82597dc0fc9d04c08b24aa09d1f950df20ea81234f30cb"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/tutao/tutanota",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "mips",
+        "mips64",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 20,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Aves Libre",
       "package": "deckers.thibault.aves.libre",
       "page": "https://h5.2113.net/apps/aves.html",
@@ -3831,6 +4008,37 @@
       "trackers": [
         "Bugsnag"
       ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "personalDNSfilter",
+      "package": "dnsfilter.android",
+      "page": "https://h5.2113.net/apps/personaldnsfilter.html",
+      "category": "Network & Privacy",
+      "version": "1.50.61.3",
+      "versionCode": 1506103,
+      "released": "2026-09-28",
+      "size": 641769,
+      "sha256": "3ddd0db322d1ca5fe950ea29dc1788af6e6581bb5f34694085fb4aa2e77b68ad",
+      "signers": [
+        "d7d98dc22da624e1bb36815b3c426d3555c23c53acd3e6585ab383de874c9f35"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/IngoZenz/personaldnsfilter",
+      "license": "GPL-2.0-only",
+      "minSdk": 17,
+      "minAndroid": "Android 4.2",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 11,
+      "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -4550,6 +4758,40 @@
         "x86_64"
       ],
       "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "sing-box",
+      "package": "io.nekohasekai.sfa",
+      "page": "https://h5.2113.net/apps/sing-box.html",
+      "category": "Network & Privacy",
+      "version": "1.14.3",
+      "versionCode": 743,
+      "released": "2026-10-12",
+      "size": 127173836,
+      "sha256": "159ec32088af0acba27dd1a58e99569faf7a95b751fdd2281ead5db0b2409e0d",
+      "signers": [
+        "32250a4b5f3a6733df57a3b9ec16c38d2c7fc5f2f693a9636f8f7b3be3549641"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/SagerNet/sing-box",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 22,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5656,6 +5898,41 @@
       "olderVersions": []
     },
     {
+      "name": "Gramophone",
+      "package": "org.akanework.gramophone",
+      "page": "https://h5.2113.net/apps/gramophone.html",
+      "category": "Media",
+      "version": "1.1.2",
+      "versionCode": 24,
+      "released": "2026-08-20",
+      "size": 12542978,
+      "sha256": "fe36158a4ba3829f74aa43c50f3048c26f0a9e15635460b9d823cf01dbff034c",
+      "signers": [
+        "f451197ad7b80bd1bc981ba38a2c49d471856fb38bcc333676d6e8f8f3ce5d6e"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/FoedusProgramme/Gramophone",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Amethyst Launcher",
       "package": "org.angelauramc.amethyst",
       "page": "https://h5.2113.net/games/amethyst-launcher.html",
@@ -6014,6 +6291,38 @@
       "olderVersions": []
     },
     {
+      "name": "Fcitx5 for Android",
+      "package": "org.fcitx.fcitx5.android",
+      "page": "https://h5.2113.net/apps/fcitx5.html",
+      "category": "Productivity",
+      "version": "0.1.3-0-g048f581c",
+      "versionCode": 112,
+      "released": "2026-07-29",
+      "size": 45935104,
+      "sha256": "8e5de1036aea1f55895b39b4fc25a2d563e7b0663fa2708c86598f81768b106d",
+      "signers": [
+        "e4db1e9edff13629d07de4bbf8165fe9bd8557ab55092672da8e40dbe484ecd7"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/fcitx5-android/fcitx5-android",
+      "license": "LGPL-2.1-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "F-Droid Basic",
       "package": "org.fdroid.basic",
       "page": "https://h5.2113.net/apps/f-droid.html",
@@ -6357,6 +6666,40 @@
         "x86_64"
       ],
       "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Fossify Messages",
+      "package": "org.fossify.messages",
+      "page": "https://h5.2113.net/apps/fossify-messages.html",
+      "category": "Productivity",
+      "version": "1.10.1",
+      "versionCode": 25,
+      "released": "2026-10-11",
+      "size": 6735987,
+      "sha256": "af81e85e0e5442cf22d9669f43ecc42e39737389cff8fe91fd0ef58dab59703d",
+      "signers": [
+        "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/FossifyOrg/Messages",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 16,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7294,9 +7637,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-12",
-      "size": 28999134,
-      "sha256": "4a67a4410ae6a7601fa08e65b7292a8d7ee6b0e982d8b2af32d74bc8915007bf",
+      "released": "2026-10-13",
+      "size": 29009222,
+      "sha256": "a8f8f518d406bcc75a23bff15c0305338e98159e544f6d4a4c4062d0e2486a55",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
