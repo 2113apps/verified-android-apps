@@ -5448,11 +5448,11 @@
       "package": "me.weishu.kernelsu",
       "page": "https://h5.2113.net/apps/kernelsu.html",
       "category": "Root & Mods",
-      "version": "v3.3.0",
-      "versionCode": 32601,
-      "released": "2026-08-28",
-      "size": 10777987,
-      "sha256": "c197060ecb89702e7d54a4c95e29cf5e8d97369bbbb436979ab7fd6bcde7b077",
+      "version": "v3.3.1",
+      "versionCode": 32680,
+      "released": "2026-10-13",
+      "size": 13637206,
+      "sha256": "b4a059ace71de2fa65cc7f12b1c58d55fc23ab25e057ee4230ce779742abe450",
       "signers": [
         "c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6"
       ],
@@ -5468,6 +5468,7 @@
       "targetSdk": 37,
       "abis": [
         "arm64-v8a",
+        "riscv64",
         "x86_64"
       ],
       "permissions": 7,
@@ -5475,18 +5476,18 @@
       "antiFeatures": [],
       "olderVersions": [
         {
+          "version": "v3.3.0",
+          "versionCode": 32601,
+          "released": "2026-08-28",
+          "size": 10777987,
+          "sha256": "c197060ecb89702e7d54a4c95e29cf5e8d97369bbbb436979ab7fd6bcde7b077"
+        },
+        {
           "version": "v3.2.5",
           "versionCode": 32525,
           "released": "2026-06-23",
           "size": 9083665,
           "sha256": "1417081413bf7ab1de8e440ecbcb62685037c8f28f048f0f8b79e305b31ab916"
-        },
-        {
-          "version": "v3.2.4",
-          "versionCode": 32457,
-          "released": "2026-04-06",
-          "size": 8776001,
-          "sha256": "f0951351291494e0c309267b375cf5bfbdb5eca6df0ec18f6fb7df8b3dea990b"
         }
       ]
     },
@@ -7945,8 +7946,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-10-13",
-      "size": 29009222,
-      "sha256": "a8f8f518d406bcc75a23bff15c0305338e98159e544f6d4a4c4062d0e2486a55",
+      "size": 29009218,
+      "sha256": "89b0e8824a1061639b66940d65bcc57d98f0ccee69371a8a68147adfbfc6cdb7",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
