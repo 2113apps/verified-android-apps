@@ -320,11 +320,11 @@
       "package": "at.bitfire.davdroid",
       "page": "https://h5.2113.net/apps/davx5.html",
       "category": "Cloud & Self-Hosted",
-      "version": "4.5.20-ose",
-      "versionCode": 405200005,
-      "released": "2026-09-27",
-      "size": 17651508,
-      "sha256": "33d4b21c85169bbe2b22b7efc17aa17a685b295e28810cfdf063402a60ae064c",
+      "version": "4.5.21-ose",
+      "versionCode": 405210002,
+      "released": "2026-10-15",
+      "size": 17706717,
+      "sha256": "8a41ae9d76484b86ce326e2002bae5ad5609aa5c4ea2179037287af676fd1b41",
       "signers": [
         "b39e7b77ec853483646b21b4a3e3ca540ba094ef8daa18e87e0be1fa4638d321"
       ],
@@ -337,14 +337,14 @@
       "license": "GPL-3.0-only",
       "minSdk": 24,
       "minAndroid": "Android 7.0",
-      "targetSdk": 36,
+      "targetSdk": 37,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
         "x86",
         "x86_64"
       ],
-      "permissions": 25,
+      "permissions": 26,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -629,11 +629,11 @@
       "package": "com.amaze.filemanager",
       "page": "https://h5.2113.net/apps/amaze-file-manager.html",
       "category": "System Tools",
-      "version": "3.11.3",
-      "versionCode": 125,
-      "released": "2026-07-30",
-      "size": 12311594,
-      "sha256": "864bcec7c1e69bd5a4a6f8613a4ac047e748a598e5a9948f28fba3f3e709d203",
+      "version": "3.11.4",
+      "versionCode": 126,
+      "released": "2026-10-15",
+      "size": 11996072,
+      "sha256": "2462dc19c75db5eae0629ac40a5f11baecb84afde1565602de5712f6260577e5",
       "signers": [
         "aff656d7ca84d71254d272c55fb420edf172b2549de14f5ccefd5a82528df554"
       ],
@@ -645,9 +645,9 @@
       "source": "izzy",
       "sourceCode": "https://github.com/TeamAmaze/AmazeFileManager",
       "license": "GPL-3.0-only",
-      "minSdk": 21,
-      "minAndroid": "Android 5.0",
-      "targetSdk": 35,
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -1950,11 +1950,11 @@
       "package": "com.ichi2.anki",
       "page": "https://h5.2113.net/apps/ankidroid.html",
       "category": "Productivity",
-      "version": "2.25.1",
-      "versionCode": 22501300,
-      "released": "2026-10-08",
+      "version": "2.25.2",
+      "versionCode": 22502300,
+      "released": "2026-10-15",
       "size": 111923795,
-      "sha256": "5938d29a46c6848223382ab3a0291b213de86bf6562eb5d89662820f40ad04b4",
+      "sha256": "3fa58d26deb530341899dbbd31ba61a4cea41845de7f441692a57637b78b57bc",
       "signers": [
         "24a3d4756c62dd69c86df69aa7fa327b2a6bf55f55c4a1749f99bd1da75906bb"
       ],
@@ -3474,11 +3474,11 @@
       "package": "com.unciv.app",
       "page": "https://h5.2113.net/games/unciv.html",
       "category": "Strategy Games",
-      "version": "4.22.8",
-      "versionCode": 1269,
-      "released": "2026-10-12",
+      "version": "4.22.10",
+      "versionCode": 1271,
+      "released": "2026-10-15",
       "size": 27531553,
-      "sha256": "b9da7fe1d0c17460bbbdcae7320ffe00f8c3fde9eea0aa9a80faf0774f41ab23",
+      "sha256": "caddedb60a6dcaf0199950251e027cefe363b7d2388cbc4c5d4587edaa1de9f2",
       "signers": [
         "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
       ],
@@ -3809,11 +3809,11 @@
       "package": "de.danoeh.antennapod",
       "page": "https://h5.2113.net/apps/antennapod.html",
       "category": "Media",
-      "version": "3.12.2",
-      "versionCode": 3120295,
-      "released": "2026-09-20",
-      "size": 17749828,
-      "sha256": "3f43a4337a693cdb49141afe06cb596e88c796009ed77bff51e9444ce2d1ebfc",
+      "version": "3.12.3",
+      "versionCode": 3120395,
+      "released": "2026-10-15",
+      "size": 17758020,
+      "sha256": "6e79f28f69cef1a8b2e4f5f88c9c3cf3c3d7c51356f01394ac23b0dc5d56a00b",
       "signers": [
         "179430565a4a04bfe7827483243099bd10870410800cd7c4c7b48d8d3226df55"
       ],
@@ -6069,11 +6069,11 @@
       "package": "net.osmand.plus",
       "page": "https://h5.2113.net/apps/osmand.html",
       "category": "Reading & Maps",
-      "version": "5.3.10",
-      "versionCode": 531003,
-      "released": "2026-05-11",
-      "size": 162183115,
-      "sha256": "27f1eb82d288a9939b7c0bdd0fb94f78749824ffc753d32d421e01cbe487e5e0",
+      "version": "5.4.10",
+      "versionCode": 541003,
+      "released": "2026-10-12",
+      "size": 161855613,
+      "sha256": "ca05d8f4ec364f84bde1946738e898abfb392234905eef1dc0ec597d4580b112",
       "signers": [
         "38294eaac95c3bb5a994692cd7758f8bcdbffb40819af6e806eb7fe482324dcd"
       ],
@@ -6088,7 +6088,7 @@
       "license": "GPL-3.0-only",
       "minSdk": 24,
       "minAndroid": "Android 7.0",
-      "targetSdk": 35,
+      "targetSdk": 36,
       "abis": [
         "arm64-v8a"
       ],
@@ -6665,11 +6665,11 @@
       "package": "org.emunix.unipatcher",
       "page": "https://h5.2113.net/games/unipatcher.html",
       "category": "Console Emulators",
-      "version": "0.18",
-      "versionCode": 180000,
-      "released": "2026-09-17",
-      "size": 3123273,
-      "sha256": "7eabc31a9e5da3c69c2d14f77f1a5ee4fbfd96daae62c2a4636f13d988d20c9a",
+      "version": "0.19",
+      "versionCode": 190000,
+      "released": "2026-10-15",
+      "size": 8314258,
+      "sha256": "12b83efacee7c522ac583e0894d1a2108bedb10e85a57d525784abc8b6956e89",
       "signers": [
         "febcbed69a1f017f79a17a1c1fe30a46ba4f9f9e0a91d6b5be2e2c2cd8695bf6"
       ],
@@ -6687,6 +6687,7 @@
       "targetSdk": 36,
       "abis": [
         "arm64-v8a",
+        "armeabi-v7a",
         "x86_64"
       ],
       "permissions": 2,
@@ -7353,11 +7354,11 @@
       "package": "org.kde.kdeconnect_tp",
       "page": "https://h5.2113.net/apps/kde-connect.html",
       "category": "Network & Privacy",
-      "version": "1.35.17",
-      "versionCode": 13517,
-      "released": "2026-09-27",
-      "size": 6810668,
-      "sha256": "081f95a9f54a2113f65ef5cb81d79cab42cabe815aad6052e3f0ef1000929dad",
+      "version": "1.36.0",
+      "versionCode": 13600,
+      "released": "2026-10-15",
+      "size": 7138562,
+      "sha256": "ab8f655b3f3a4a9dacace69cfea4d062fe115f7910c33f14802b589e17bd8b37",
       "signers": [
         "79b50031486746dffbc746f48fb0eb62fc7bb0ae7b976e7d6507b2c078840d92"
       ],
@@ -8224,8 +8225,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-10-15",
-      "size": 29088814,
-      "sha256": "0f86cd01f42d8b163d0e022ab3ec92ec9131296168efb25f2d5bd2b25af7b8eb",
+      "size": 29068522,
+      "sha256": "84b6f51126ec399bca93ae7d5b35fdfc16a7d2e793b1061b2fd4bb5e2d17ba74",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
