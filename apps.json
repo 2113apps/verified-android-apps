@@ -802,6 +802,38 @@
       "olderVersions": []
     },
     {
+      "name": "Audiobookshelf",
+      "package": "com.audiobookshelf.app",
+      "page": "https://h5.2113.net/apps/audiobookshelf.html",
+      "category": "Media",
+      "version": "0.14.2-beta",
+      "versionCode": 121,
+      "released": "2026-09-28",
+      "size": 14851426,
+      "sha256": "eb19d37c060a40e32329f7e51e4d5c9c1c269432c14cae68575a09d822b163d1",
+      "signers": [
+        "3648292656966c63d1b57d93ea00e35c7d97511e1f5b0678a717dae773793956"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/advplyr/audiobookshelf-app",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeComp",
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Aurora Store",
       "package": "com.aurora.store",
       "page": "https://h5.2113.net/apps/aurora-store.html",
@@ -1112,6 +1144,39 @@
         "arm64-v8a"
       ],
       "permissions": 21,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Cataclysm: Dark Days Ahead",
+      "package": "com.cleverraven.cataclysmdda.experimental",
+      "page": "https://h5.2113.net/games/cataclysm-dda.html",
+      "category": "Adventure & RPG",
+      "version": "7b2efa5",
+      "versionCode": 33672,
+      "released": "2026-09-20",
+      "size": 168521503,
+      "sha256": "945a054530ccb910f4dfd50806e13eb825ea86f0a13e9246187d77451e6c5d91",
+      "signers": [
+        "6568fce80add6c9e59662816ba164c1cebab351ab6c7271af1c8514a6b3fe48c"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/CleverRaven/Cataclysm-DDA/releases/tag/0.I-1",
+      "sourceCode": "https://github.com/CleverRaven/Cataclysm-DDA",
+      "license": "CC-BY-SA-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 2,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3373,20 +3438,21 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.3.9",
-      "versionCode": 1339,
-      "released": "2026-10-10",
-      "size": 330291439,
-      "sha256": "49f3d63d93c0a72750cc0f7c60462f284b38505448b917b592f8e528fb2d31d5",
+      "version": "1.3.4.0",
+      "versionCode": 1340,
+      "released": "2026-10-15",
+      "size": 330320216,
+      "sha256": "782f51209ade876d19429ea982b974ccc9142a7fbef34e982ce249343d053cbd",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
       "signedBy": "developer",
       "signatureSchemes": [
-        "v2"
+        "v2",
+        "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.3.9",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.0",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -3467,6 +3533,40 @@
         "arm64-v8a"
       ],
       "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "APK Extractor",
+      "package": "com.vadhod.apkextractor",
+      "page": "https://h5.2113.net/apps/apk-extractor.html",
+      "category": "System Tools",
+      "version": "1.0.2",
+      "versionCode": 5,
+      "released": "2026-08-27",
+      "size": 3174012,
+      "sha256": "5cd3211e0c0ba57a329bd89cfbfc5b1351eeda7300cd22b59661b131647ddf55",
+      "signers": [
+        "9a7ae254b76d1d77aa91a14b144bfb49ce7ae6734bd3ff64d63296a6c04d918d"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/pgxor/com.vadhod.apkextractor",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5145,11 +5245,11 @@
       "package": "keepass2android.keepass2android",
       "page": "https://h5.2113.net/apps/keepass2android.html",
       "category": "Network & Privacy",
-      "version": "1.15-r5",
-      "versionCode": 253,
-      "released": "2026-10-08",
-      "size": 73134286,
-      "sha256": "fddab42ceca03767fbfc830bd2840749e587b61639a0a3e305190ea5d55ce41e",
+      "version": "1.15-r6",
+      "versionCode": 254,
+      "released": "2026-10-15",
+      "size": 73146574,
+      "sha256": "c43668f11ef3f031437a7448e539770c597341cd99e9cebba5445197ab511145",
       "signers": [
         "0bf8056d3a394ed7c77173c4b42c800565b4f0a42977569cf3472c271c562939"
       ],
@@ -5160,7 +5260,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/PhilippC/keepass2android/releases/tag/v1.15-r5",
+      "sourceRelease": "https://github.com/PhilippC/keepass2android/releases/tag/v1.15-r6",
       "sourceCode": "https://github.com/PhilippC/keepass2android",
       "license": "GPL-3.0",
       "minSdk": 21,
@@ -5807,7 +5907,7 @@
       ],
       "source": "fdroid",
       "sourceCode": "https://github.com/laurent22/joplin",
-      "license": "MIT",
+      "license": "AGPL-3.0-or-later",
       "minSdk": 24,
       "minAndroid": "Android 7.0",
       "targetSdk": 36,
@@ -6521,6 +6621,41 @@
         "x86_64"
       ],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "EasyRPG Player",
+      "package": "org.easyrpg.player",
+      "page": "https://h5.2113.net/games/easyrpg-player.html",
+      "category": "Adventure & RPG",
+      "version": "0.8.1.1",
+      "versionCode": 9777,
+      "released": "2025-06-02",
+      "size": 31760040,
+      "sha256": "06fae3b0bb39e3efd11c624c16fff343fa192741329444d037a38fbcfa1c2cd6",
+      "signers": [
+        "eb2ee78f21a1a754def46db977cf1c97ad9c93df57798da930675546b493f95c"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "direct",
+      "sourceCode": "https://github.com/EasyRPG/Player",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 4,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7839,6 +7974,79 @@
       "olderVersions": []
     },
     {
+      "name": "Telegram",
+      "package": "org.telegram.messenger.web",
+      "page": "https://h5.2113.net/apps/telegram.html",
+      "category": "Productivity",
+      "version": "13.0.2",
+      "versionCode": 71759,
+      "released": "2026-10-15",
+      "size": 70358849,
+      "sha256": "a995a057e655be77907f9ceec52953edd213c05050102e2924f29bf903e91e64",
+      "signers": [
+        "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "direct",
+      "sourceCode": "https://github.com/DrKLO/Telegram",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 74,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Signal",
+      "package": "org.thoughtcrime.securesms",
+      "page": "https://h5.2113.net/apps/signal.html",
+      "category": "Productivity",
+      "version": "8.30.3",
+      "versionCode": 176301,
+      "released": "2026-10-09",
+      "size": 114101939,
+      "sha256": "fc57af9d545c232e583d106d56181250342479635d693cae86a1c2751244cd63",
+      "signers": [
+        "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26",
+        "4be4f6cd5be844083e900279dc822af65a547fecc26aba7ff1f5203a45518cd8"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3.1",
+        "v3"
+      ],
+      "source": "direct",
+      "sourceCode": "https://github.com/signalapp/Signal-Android",
+      "license": "AGPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 77,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Telegram X",
       "package": "org.thunderdog.challegram",
       "page": "https://h5.2113.net/apps/telegram-x.html",
@@ -7870,6 +8078,76 @@
       "permissions": 59,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Orbot",
+      "package": "org.torproject.android",
+      "page": "https://h5.2113.net/apps/orbot.html",
+      "category": "Network & Privacy",
+      "version": "17.9.7-RC-1-tor-0.4.9.14-1-g0ea112a4d",
+      "versionCode": 1797300102,
+      "released": "2026-10-09",
+      "size": 35860127,
+      "sha256": "97d3a0a5181394e99fbabdda9fefb73027657cac4c7400c64ebf146a7778860b",
+      "signers": [
+        "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/guardianproject/orbot-android/releases/tag/17.9.7-RC-1-tor-0.4.9.14",
+      "sourceCode": "https://github.com/guardianproject/orbot-android",
+      "license": "BSD-3-Clause",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 16,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Tor Browser",
+      "package": "org.torproject.torbrowser",
+      "page": "https://h5.2113.net/apps/tor-browser.html",
+      "category": "Network & Privacy",
+      "version": "15.0.25 (140.17.0esr)",
+      "versionCode": 2016189938,
+      "released": "2026-10-13",
+      "size": 111122155,
+      "sha256": "43b13364a9adc9b139f7c44279e552b7fdea07aef09a553310c7a8e5743c28b8",
+      "signers": [
+        "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "repo",
+      "sourceCode": "https://gitlab.torproject.org/tpo/applications/tor-browser.git",
+      "license": "MPL-2.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 31,
+      "trackers": [
+        "Mozilla Telemetry",
+        "Sentry"
+      ],
+      "antiFeatures": [
+        "NonFreeComp"
+      ],
       "olderVersions": []
     },
     {
@@ -7945,9 +8223,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-14",
-      "size": 29061402,
-      "sha256": "735ca3e50ecea02048702a791dc71551f672c6bd1a934788995c326600d07c14",
+      "released": "2026-10-15",
+      "size": 29088814,
+      "sha256": "0f86cd01f42d8b163d0e022ab3ec92ec9131296168efb25f2d5bd2b25af7b8eb",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -8279,6 +8557,44 @@
       ],
       "permissions": 15,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "osu!",
+      "package": "sh.ppy.osulazer",
+      "page": "https://h5.2113.net/games/osu.html",
+      "category": "Puzzle & Arcade",
+      "version": "2026.1005.0-lazer",
+      "versionCode": 202610050,
+      "released": "2026-10-05",
+      "size": 513213609,
+      "sha256": "ccfe65b2881fb503bef1221ddbd8f566a1a79ecaff6a235e69f9a3ca425d10a1",
+      "signers": [
+        "f11271ddf9d9a0f46652c4574a8ba783b732cd22ba2eb62a609e0180c39dba70"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/ppy/osu/releases/tag/2026.1005.0-lazer",
+      "sourceCode": "https://github.com/ppy/osu",
+      "license": "MIT",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ],
+      "permissions": 5,
+      "trackers": [
+        "Sentry"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },

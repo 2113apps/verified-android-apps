@@ -16,10 +16,10 @@
 | `signers` | array of strings (hex) | SHA-256 fingerprints of the signing certificates. |
 | `signedBy` | "developer" or "fdroid" | Who signed the file: the developer, or F-Droid with its own key. |
 | `signatureSchemes` | array of "v1", "v2", "v3" | APK signature schemes present in the file. |
-| `source` | "izzy", "fdroid" or "github" | Where the file comes from: IzzyOnDroid, F-Droid’s main repository or the project’s GitHub releases. |
+| `source` | "izzy", "fdroid", "github", "repo" or "direct" | Where the file comes from: IzzyOnDroid, F-Droid’s main repository, the project’s GitHub releases, the developer’s own F-Droid repository, or the developer’s website. |
 | `sourceRelease` | string (URL) | The GitHub release the file was taken from. Only present when `source` is "github". |
 | `sourceCode` | string (URL) or null | Source code repository; null when the listing doesn’t give one. |
-| `license` | string (SPDX) or null | The app’s licence; null when the listing doesn’t give one. |
+| `license` | string (SPDX) or null | The app’s licence, as an SPDX identifier, or its name when it has none; null when the listing doesn’t give one. |
 | `minSdk` | integer | Minimum API level declared in the APK’s manifest. When an app needs a higher level in practice, its page on the site says so. |
 | `minAndroid` | string | `minSdk` as an Android version. |
 | `targetSdk` | integer | Target API level. |

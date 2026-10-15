@@ -52,7 +52,7 @@ A matching hash and signer show that your file is identical to the published rel
 | `version`, `versionCode`, `released` | The hosted version and when it was released |
 | `size`, `sha256` | File size in bytes and SHA-256 of the APK |
 | `signers`, `signedBy` | SHA-256 of the signing certificate(s), and whose key it is |
-| `source`, `sourceRelease` | Where the file came from: `izzy` (IzzyOnDroid), `fdroid` (F-Droid) or `github`, with the GitHub release for the latter |
+| `source`, `sourceRelease` | Where the file came from: `izzy` (IzzyOnDroid), `fdroid` (F-Droid), `github`, with the GitHub release for the latter, `repo` (the developer’s own F-Droid repository) or `direct` (a download on the developer’s website) |
 | `sourceCode`, `license` | The project’s source code and its licence |
 | `minSdk`, `minAndroid`, `targetSdk` | Minimum Android API level as declared in the APK’s manifest, and target API level. A few apps need a higher level in practice; their pages on the site say so |
 | `abis` | CPU types with native code in the APK; empty means none is needed |
