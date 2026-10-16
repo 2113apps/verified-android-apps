@@ -983,11 +983,11 @@
       "package": "com.brave.browser",
       "page": "https://h5.2113.net/apps/brave.html",
       "category": "Network & Privacy",
-      "version": "1.97.57",
-      "versionCode": 429705704,
-      "released": "2026-10-14",
+      "version": "1.97.59",
+      "versionCode": 429705904,
+      "released": "2026-10-16",
       "size": 211105220,
-      "sha256": "25c9cadd5f79425af16a2d1b89b7b93e09b1f727431f9c049c907c1872ca8f53",
+      "sha256": "2bced6611f96b4f3fd715819d0a2e16a088ea4780d2fb579d9c93e659799c0eb",
       "signers": [
         "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
       ],
@@ -998,7 +998,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.97.57",
+      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.97.59",
       "sourceCode": "https://github.com/brave/brave-browser",
       "license": "MPL-2.0",
       "minSdk": 29,
@@ -7979,11 +7979,11 @@
       "package": "org.telegram.messenger.web",
       "page": "https://h5.2113.net/apps/telegram.html",
       "category": "Productivity",
-      "version": "13.0.2",
-      "versionCode": 71759,
-      "released": "2026-10-15",
-      "size": 70358849,
-      "sha256": "a995a057e655be77907f9ceec52953edd213c05050102e2924f29bf903e91e64",
+      "version": "13.0.3",
+      "versionCode": 71839,
+      "released": "2026-10-16",
+      "size": 70395155,
+      "sha256": "8f8c6cd824eb47cd23b30e97468ed2a2ab2134130f50362f548bf0da0faf4d0a",
       "signers": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
@@ -8224,9 +8224,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-15",
-      "size": 29068522,
-      "sha256": "84b6f51126ec399bca93ae7d5b35fdfc16a7d2e793b1061b2fd4bb5e2d17ba74",
+      "released": "2026-10-16",
+      "size": 29079486,
+      "sha256": "c2950b07a05c1df4df989cc4640de01ebf4b9f42a1b7b561e527cd57fdc655c8",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
