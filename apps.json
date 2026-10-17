@@ -4,6 +4,41 @@
   "version": "1.0",
   "apps": [
     {
+      "name": "Accrescent",
+      "package": "app.accrescent.client",
+      "page": "https://h5.2113.net/apps/accrescent.html",
+      "category": "System Tools",
+      "version": "0.28.1",
+      "versionCode": 55,
+      "released": "2025-11-10",
+      "size": 6954309,
+      "sha256": "40f97ac3ee659d8b1f91dba8b84449fe3c14e05c1e82754375252d8746e6b1f5",
+      "signers": [
+        "067a40c4193aad51ac87f9ddfdebb15e24a1850babfa4821c28c5c25c3fdc071"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/accrescent/accrescent/releases/tag/0.28.1",
+      "sourceCode": "https://github.com/accrescent/accrescent",
+      "license": "Apache-2.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Immich",
       "package": "app.alextran.immich",
       "page": "https://h5.2113.net/apps/immich.html",
@@ -1206,6 +1241,40 @@
       "targetSdk": 34,
       "abis": [],
       "permissions": 8,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Mobile Maia",
+      "package": "com.dash1971.maia_chess",
+      "page": "https://h5.2113.net/games/mobile-maia.html",
+      "category": "Strategy Games",
+      "version": "2.3.0",
+      "versionCode": 80,
+      "released": "2026-10-12",
+      "size": 458456491,
+      "sha256": "25a593f4815650e40e1370e805cc2dbc8a5dce2624e7e74d89b577587f0b5c5a",
+      "signers": [
+        "cd6c07c4efacf52bcccb83009b522c1dcad4a171197505a486f0a58edb6f172e"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Dash1971/maia-chess-android",
+      "license": "AGPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 6,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2928,6 +2997,39 @@
       "olderVersions": []
     },
     {
+      "name": "MAME4droid",
+      "package": "com.seleuco.mame4d2024",
+      "page": "https://h5.2113.net/games/mame4droid.html",
+      "category": "Console Emulators",
+      "version": "1.41.2",
+      "versionCode": 145,
+      "released": "2026-09-16",
+      "size": 169562047,
+      "sha256": "b2e05497f4c7b8b0d5ac84a4755569050f60a4c9c69c7e219f6783bd9c5bb2ad",
+      "signers": [
+        "218b28a42dba410d29adfd2233041032f521fbfb44b3d075dce406b135ab3077"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/seleuco/MAME4droid-Current/releases/tag/v1.41.2",
+      "sourceCode": "https://github.com/seleuco/MAME4droid-Current",
+      "license": "GPL-2.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Shattered Pixel Dungeon",
       "package": "com.shatteredpixel.shatteredpixeldungeon",
       "page": "https://h5.2113.net/games/shattered-pixel-dungeon.html",
@@ -3510,11 +3612,11 @@
       "package": "com.v2ray.ang",
       "page": "https://h5.2113.net/apps/v2rayng.html",
       "category": "Network & Privacy",
-      "version": "2.2.6",
-      "versionCode": 4000736,
-      "released": "2026-07-05",
-      "size": 28651812,
-      "sha256": "62b0675c0986a8613f1bb67f1a68c366c6357e04a68687a3bd907170594c437d",
+      "version": "2.3.11",
+      "versionCode": 4000751,
+      "released": "2026-10-11",
+      "size": 33535156,
+      "sha256": "b9aed943bdace5531b2268eb57479db769fffa5463adecb1559c8c62d5864b6f",
       "signers": [
         "b7dc883e7678d6c618569e48a1c8c267a134a75f8bcb763510c8bffb3b90b077"
       ],
@@ -3523,7 +3625,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/2dust/v2rayNG/releases/tag/2.2.6",
+      "sourceRelease": "https://github.com/2dust/v2rayNG/releases/tag/2.3.11",
       "sourceCode": "https://github.com/2dust/v2rayNG",
       "license": "GPL-3.0",
       "minSdk": 24,
@@ -3675,6 +3777,42 @@
         "arm64-v8a"
       ],
       "permissions": 11,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "WireGuard",
+      "package": "com.wireguard.android",
+      "page": "https://h5.2113.net/apps/wireguard.html",
+      "category": "Network & Privacy",
+      "version": "1.0.20260315",
+      "versionCode": 519,
+      "released": "2026-03-15",
+      "size": 16943472,
+      "sha256": "f92971bc804f4c448e8845ae97e426095eab06ec09a2473a3fa2cfe7288e3298",
+      "signers": [
+        "84a13fa2c4e0064b0c11654b8a86574b7a9b9352a3834cee32455b061c3d4127"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "direct",
+      "sourceCode": "https://git.zx2c4.com/wireguard-android/",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7251,6 +7389,41 @@
       "olderVersions": []
     },
     {
+      "name": "IronFox",
+      "package": "org.ironfoxoss.ironfox",
+      "page": "https://h5.2113.net/apps/ironfox.html",
+      "category": "Network & Privacy",
+      "version": "158.0",
+      "versionCode": 2016190530,
+      "released": "2026-10-15",
+      "size": 168071121,
+      "sha256": "1dbb89284150145626653684d5d782b9992a261e2c1b35f5036b75b424adca68",
+      "signers": [
+        "c5e291b5a571f9c8cd9a9799c2c94e02ec9703948893f2ca756d67b94204f904"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "repo",
+      "sourceCode": "https://gitlab.com/ironfox-oss/IronFox",
+      "license": "MPL-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 30,
+      "trackers": [
+        "Mozilla Telemetry"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Loop Habit Tracker",
       "package": "org.isoron.uhabits",
       "page": "https://h5.2113.net/apps/loop-habit-tracker.html",
@@ -7865,6 +8038,39 @@
       ]
     },
     {
+      "name": "ScummVM",
+      "package": "org.scummvm.scummvm",
+      "page": "https://h5.2113.net/games/scummvm.html",
+      "category": "Adventure & RPG",
+      "version": "2026.3.0",
+      "versionCode": 26030002,
+      "released": "2026-06-21",
+      "size": 129838851,
+      "sha256": "26e25a59496eb94a4dc76f282bb3234d6d36f7f393c3e699e0a62e1a5c3e412b",
+      "signers": [
+        "c59c0677e9835b720812c08ccec8d4c65c4b4718ffc9109a8d9d058d7223f995"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "direct",
+      "sourceCode": "https://github.com/scummvm/scummvm",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 16,
+      "minAndroid": "Android 4.1",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "SmartTube",
       "package": "org.smarttube.stable",
       "page": "https://h5.2113.net/apps/smarttube.html",
@@ -8014,11 +8220,11 @@
       "package": "org.thoughtcrime.securesms",
       "page": "https://h5.2113.net/apps/signal.html",
       "category": "Productivity",
-      "version": "8.30.3",
-      "versionCode": 176301,
-      "released": "2026-10-09",
-      "size": 114101939,
-      "sha256": "fc57af9d545c232e583d106d56181250342479635d693cae86a1c2751244cd63",
+      "version": "8.31.2",
+      "versionCode": 176601,
+      "released": "2026-10-16",
+      "size": 114794220,
+      "sha256": "c3e51db54b2af9f4a8a2d0ce3b469ef67d56a13a433208325bcb981e1ca3a536",
       "signers": [
         "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26",
         "4be4f6cd5be844083e900279dc822af65a547fecc26aba7ff1f5203a45518cd8"
@@ -8185,6 +8391,40 @@
       "olderVersions": []
     },
     {
+      "name": "Ungoogled Chromium",
+      "package": "org.ungoogled.chromium.stable",
+      "page": "https://h5.2113.net/apps/ungoogled-chromium.html",
+      "category": "Network & Privacy",
+      "version": "155.0.8059.39",
+      "versionCode": 805903904,
+      "released": "2026-10-15",
+      "size": 364938292,
+      "sha256": "44e0f664d80bf3b1c390f8030ff9a260aab06f137d17f2aa0e3816cc2bd61aee",
+      "signers": [
+        "08b8740845f4354ddca77e5b31fe40dbd69645575b77deef2344d064c61d2f87"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/ungoogled-software/ungoogled-chromium-android/releases/tag/155.0.8059.39-1",
+      "sourceCode": "https://github.com/ungoogled-software/ungoogled-chromium-android",
+      "license": "GPL-3.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 55,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "VLC",
       "package": "org.videolan.vlc",
       "page": "https://h5.2113.net/apps/vlc.html",
@@ -8224,9 +8464,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-16",
-      "size": 29079486,
-      "sha256": "c2950b07a05c1df4df989cc4640de01ebf4b9f42a1b7b561e527cd57fdc655c8",
+      "released": "2026-10-17",
+      "size": 29079602,
+      "sha256": "81c767656dd1bda66227c5a5b877e99026263ef399f77c975ef6be49d977713c",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -8463,6 +8703,44 @@
       "olderVersions": []
     },
     {
+      "name": "Proton Pass",
+      "package": "proton.android.pass.fdroid",
+      "page": "https://h5.2113.net/apps/proton-pass.html",
+      "category": "Network & Privacy",
+      "version": "1.41.3",
+      "versionCode": 14103000,
+      "released": "2026-10-15",
+      "size": 105133865,
+      "sha256": "611269a313ece17f4816ea6e06f2f9000c42ecbf521d01d889ea83873b3a5c72",
+      "signers": [
+        "572c25048e6e6229bc0393619f7c640f8cbccf11d2ebf8b2fa7bc9a76363b812"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/protonpass/android-pass",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 27,
+      "minAndroid": "Android 8.1",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 14,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet",
+        "TetheredNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Ruffle",
       "package": "rs.ruffle",
       "page": "https://h5.2113.net/games/ruffle.html",
@@ -8594,6 +8872,45 @@
       ],
       "permissions": 5,
       "trackers": [
+        "Sentry"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Nekogram",
+      "package": "tw.nekomimi.nekogram",
+      "page": "https://h5.2113.net/apps/nekogram.html",
+      "category": "Productivity",
+      "version": "13.0.2",
+      "versionCode": 71750,
+      "released": "2026-10-14",
+      "size": 73211975,
+      "sha256": "e122ce993b26cfc940cb5745da1df842dbd034121fb862053f9f5dc0b8492937",
+      "signers": [
+        "5ce932b970199fbda2aae7bf21e1ad9e70b0809a7b1ac94c0699f5d5ada83313"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/Nekogram/Nekogram/releases/tag/v13.0.2",
+      "sourceCode": "https://github.com/Nekogram/Nekogram",
+      "license": "GPL-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 71,
+      "trackers": [
+        "Google Firebase Analytics",
         "Sentry"
       ],
       "antiFeatures": [],
