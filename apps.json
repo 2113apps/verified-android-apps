@@ -43,11 +43,11 @@
       "package": "app.alextran.immich",
       "page": "https://h5.2113.net/apps/immich.html",
       "category": "Cloud & Self-Hosted",
-      "version": "3.3.1",
-      "versionCode": 3030199,
-      "released": "2026-10-12",
+      "version": "3.3.3",
+      "versionCode": 3030399,
+      "released": "2026-10-16",
       "size": 180368496,
-      "sha256": "cefcbe9a2c16523c973c62cff417b898e4315c81ca4210b785b808b9a98b2959",
+      "sha256": "b481d498c209cbbb90fc912482c48cfbf0b58d90eb1927cb2d3a4218728550ae",
       "signers": [
         "fa8b4395f4a64771a053d1c757735fa2301374f53d580dd175aaf7a135729cbf"
       ],
@@ -455,11 +455,11 @@
       "package": "ch.protonvpn.android",
       "page": "https://h5.2113.net/apps/proton-vpn.html",
       "category": "Network & Privacy",
-      "version": "5.20.57.0",
-      "versionCode": 605205700,
-      "released": "2026-10-02",
-      "size": 64226504,
-      "sha256": "0043ee9033d0227c98168f41bfc21bde19fab58232749db6311650533598c3b9",
+      "version": "5.20.74.0",
+      "versionCode": 605207400,
+      "released": "2026-10-16",
+      "size": 61062826,
+      "sha256": "268bc404ed0dfa135af2e975b197e8fbd238a27df5b5922e96cbc02aeddf2ddd",
       "signers": [
         "950ee2d4d0a43ffba7ee1da9541c4a13defe81eb697ba7d24c17f6f886e32124"
       ],
@@ -582,6 +582,41 @@
       "targetSdk": 34,
       "abis": [],
       "permissions": 41,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Burger Party",
+      "package": "com.agateau.burgerparty",
+      "page": "https://h5.2113.net/games/burger-party.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.4.6",
+      "versionCode": 36,
+      "released": "2026-03-08",
+      "size": 8771081,
+      "sha256": "e934cc28018e5ce52d5d0ed3304fed8d28585dafe1cc377e84ba8ee856a08df4",
+      "signers": [
+        "8a8ff484fdd780b3fbdb14183a5373dbe11b026edd3e6fec297e5f10aa3f32f1"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/agateau/burgerparty",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 9,
+      "minAndroid": "Android 2.3",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 0,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1085,11 +1120,11 @@
       "package": "com.buzbuz.smartautoclicker",
       "page": "https://h5.2113.net/apps/klickr-auto-clicker.html",
       "category": "System Tools",
-      "version": "4.0.5",
-      "versionCode": 1000000,
-      "released": "2026-09-09",
-      "size": 53127777,
-      "sha256": "b2ade9b2c3ef6b02ad36508a8c65604e4f328be968164c3ef657d987f43205c2",
+      "version": "4.1.0",
+      "versionCode": 1020000,
+      "released": "2026-10-17",
+      "size": 53459200,
+      "sha256": "62ec831f04c0c9a847e2941c2eba73404433845658db937d1f69568c8fa26ae0",
       "signers": [
         "286873f2e082b8de9c68eaa68b9dfab04b208ec5513b6cd6202c9fc3cd05c3e3"
       ],
@@ -1098,7 +1133,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/Nain57/Smart-AutoClicker/releases/tag/4.0.5",
+      "sourceRelease": "https://github.com/Nain57/Smart-AutoClicker/releases/tag/4.1.0",
       "sourceCode": "https://github.com/Nain57/Smart-AutoClicker",
       "license": "GPL-3.0",
       "minSdk": 24,
@@ -1155,11 +1190,11 @@
       "package": "com.celzero.bravedns",
       "page": "https://h5.2113.net/apps/rethink-dns.html",
       "category": "Network & Privacy",
-      "version": "v0.5.7",
-      "versionCode": 693,
-      "released": "2026-09-22",
-      "size": 30844329,
-      "sha256": "268c58bb3b9a6a0bdbf0006a8317483aff3cbf6e49d4f47b180395f1501348cd",
+      "version": "v0.5.8",
+      "versionCode": 703,
+      "released": "2026-10-16",
+      "size": 30930684,
+      "sha256": "f2685bc66ba3b1537c8bb2e04644360f9a8b307ed6de618c393cade12a2651ae",
       "signers": [
         "abc6766ba34e027dc7dfa29b1c2b5b1d1dc14f7ba637895a81dfb68e40bc1579"
       ],
@@ -1872,6 +1907,42 @@
       "olderVersions": []
     },
     {
+      "name": "Augustus",
+      "package": "com.github.Keriew.augustus",
+      "page": "https://h5.2113.net/games/augustus.html",
+      "category": "Simulation Games",
+      "version": "4.0.0",
+      "versionCode": 40000000,
+      "released": "2023-12-28",
+      "size": 23630654,
+      "sha256": "934b6580b7e4d1063c95bbb11c642f7bde3839076e5594f14e68729f0ea8b8d2",
+      "signers": [
+        "b8b8895dfad50947593c1ca3423aa53cdb6b62958c0f31d395157bd75cb7c326"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/Keriew/augustus/releases/tag/v4.0.0",
+      "sourceCode": "https://github.com/Keriew/augustus",
+      "license": "AGPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "LibreTube",
       "package": "com.github.libretube",
       "page": "https://h5.2113.net/apps/libretube.html",
@@ -2011,6 +2082,37 @@
         "Google Firebase Analytics",
         "Google AdMob"
       ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Andor’s Trail",
+      "package": "com.gpl.rpg.AndorsTrail",
+      "page": "https://h5.2113.net/games/andors-trail.html",
+      "category": "Adventure & RPG",
+      "version": "0.8.18",
+      "versionCode": 89,
+      "released": "2026-09-13",
+      "size": 39287819,
+      "sha256": "22e0b8523958b9f20f14df8d05306aba354d859a7305016a5448abd43c21b830",
+      "signers": [
+        "35125157cf7929b43b9c05e54837c83b45d3ca3742c8b5f40c302fd5f5abfe5f"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/AndorsTrailRelease/andors-trail/releases/tag/v0.8.18",
+      "sourceCode": "https://github.com/AndorsTrailRelease/andors-trail",
+      "license": null,
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 2,
+      "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -3849,6 +3951,43 @@
       "olderVersions": []
     },
     {
+      "name": "Rat King Pixel Dungeon 2",
+      "package": "com.zrp200.rkpd2",
+      "page": "https://h5.2113.net/games/rkpd2.html",
+      "category": "Adventure & RPG",
+      "version": "3.0.1",
+      "versionCode": 840,
+      "released": "2025-06-01",
+      "size": 30209897,
+      "sha256": "5bd84f086454ddcf882a92b15fadf932eeb6e1023360e79256a62d4d2888dc78",
+      "signers": [
+        "56cb86d157ab904bc53f1b894b30764b8c3ca66e944673e44ca506ea16ec3daf"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/Zrp200/rkpd2/releases/tag/v3.0.0",
+      "sourceCode": "https://github.com/Zrp200/rkpd2",
+      "license": "GPL-3.0",
+      "minSdk": 14,
+      "minAndroid": "Android 4.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Free Notifications",
       "package": "de.binarynoise.freeNotifications",
       "page": "https://h5.2113.net/apps/free-notifications.html",
@@ -4044,6 +4183,42 @@
         "NonFreeDep",
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Freebloks",
+      "package": "de.saschahlusiak.freebloks",
+      "page": "https://h5.2113.net/games/freebloks.html",
+      "category": "Strategy Games",
+      "version": "1.8.4",
+      "versionCode": 184,
+      "released": "2026-09-14",
+      "size": 5999178,
+      "sha256": "11908519d6b8eddea3183d3807d8e85f5efed0d0e3ae97d316d4be9674a2707e",
+      "signers": [
+        "b84ad1afd452a019934fbe6a6b8417d8a278373917b738a6776f4db30214d470"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/shlusiak/Freebloks-Android",
+      "license": "GPL-2.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -4248,6 +4423,44 @@
       ],
       "permissions": 18,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Antimine",
+      "package": "dev.lucanlm.antimine",
+      "page": "https://h5.2113.net/games/antimine.html",
+      "category": "Puzzle & Arcade",
+      "version": "17.6.3 F",
+      "versionCode": 1706031,
+      "released": "2023-12-08",
+      "size": 9417318,
+      "sha256": "e7b635b6629bc5b0f59c2700a82079386a90f3a04b39e92e0cf0bb090979e974",
+      "signers": [
+        "5b7e1417bf2bbea68064a0a18df604d4712fd6be048ce66a6f7897376fc1699e"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/lucasnlm/antimine-android",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [
+        "ACRA"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -7829,6 +8042,42 @@
       "olderVersions": []
     },
     {
+      "name": "DroidFish",
+      "package": "org.petero.droidfish",
+      "page": "https://h5.2113.net/games/droidfish.html",
+      "category": "Strategy Games",
+      "version": "1.90",
+      "versionCode": 100,
+      "released": "2024-03-05",
+      "size": 65756441,
+      "sha256": "7c07233fe461a56dbfa6bc83b2c0d0d7cd3cd45a285db6563829d3ceecaa5aa9",
+      "signers": [
+        "667627ffe56b46d76ecc5fa2264ca5747373c7fb93d5d4f199302f521b4aeabc"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/peterosterlund2/droidfish",
+      "license": "GPL-3.0-only",
+      "minSdk": 16,
+      "minAndroid": "Android 4.1",
+      "targetSdk": 28,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Gauguin",
       "package": "org.piepmeyer.gauguin",
       "page": "https://h5.2113.net/games/gauguin.html",
@@ -8103,6 +8352,40 @@
       "trackers": [
         "Google CrashLytics"
       ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "SuperTux",
+      "package": "org.supertux.supertux2",
+      "page": "https://h5.2113.net/games/supertux.html",
+      "category": "Puzzle & Arcade",
+      "version": "0.7.0",
+      "versionCode": 7,
+      "released": "2026-03-15",
+      "size": 296024021,
+      "sha256": "7dd41db4c38862a22625ca0cb66f382d2c30653254a7a2807887cedde4b8f0f9",
+      "signers": [
+        "bc1ac64e45435b9d69beaf4a77cb02c3e9e36bb6dc0d85ceb33665b9f85e1b94"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/SuperTux/supertux/releases/tag/v0.7.0",
+      "sourceCode": "https://github.com/SuperTux/supertux",
+      "license": "GPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 2,
+      "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -8429,11 +8712,11 @@
       "package": "org.videolan.vlc",
       "page": "https://h5.2113.net/apps/vlc.html",
       "category": "Media",
-      "version": "3.7.1",
-      "versionCode": 13070106,
-      "released": "2026-05-10",
-      "size": 47990842,
-      "sha256": "355ff246a0348c094a256926ea31cbec92701a2faca3d41d49170798c550ee3b",
+      "version": "3.7.2",
+      "versionCode": 13070206,
+      "released": "2026-10-16",
+      "size": 49645764,
+      "sha256": "e748c3e0bb9ec447f3e49f71d5c73e0b48c2c0309faa7fb79806d3afb5601b66",
       "signers": [
         "80535be61eedb9a03b0476a6f493d496c3498770404339ea7a8000f5e61d22c0"
       ],
@@ -8452,7 +8735,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "permissions": 30,
+      "permissions": 31,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -8465,8 +8748,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-10-17",
-      "size": 29079602,
-      "sha256": "81c767656dd1bda66227c5a5b877e99026263ef399f77c975ef6be49d977713c",
+      "size": 29080990,
+      "sha256": "451dd1a23016a246cf691bd2c49248d8d2e2e598c827ab60f42dd80fe6a36d52",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -8745,11 +9028,11 @@
       "package": "rs.ruffle",
       "page": "https://h5.2113.net/games/ruffle.html",
       "category": "PC Emulators",
-      "version": "0.260928",
-      "versionCode": 2609282,
-      "released": "2026-10-01",
-      "size": 32896926,
-      "sha256": "26751ba727c135a17be741e1cf074a7a745e546dd71968b12878de59b1729a29",
+      "version": "0.261014",
+      "versionCode": 2610142,
+      "released": "2026-10-16",
+      "size": 32946210,
+      "sha256": "d2b54d84a8108bf254d49547adf2d2c319345431ff59244b261938f4a51e78e6",
       "signers": [
         "294d74ce86d1f72038f9c4530dd2776b547f47272ca761805f996b088c626fc6"
       ],
@@ -8802,6 +9085,44 @@
       ],
       "permissions": 3,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "J2ME Loader",
+      "package": "ru.playsoftware.j2meloader",
+      "page": "https://h5.2113.net/games/j2me-loader.html",
+      "category": "Console Emulators",
+      "version": "1.8.2",
+      "versionCode": 101,
+      "released": "2024-08-12",
+      "size": 8462737,
+      "sha256": "723133c8a3737e397b3257a9d05f95e7a6fb98db22c8e421138183c60eeb310c",
+      "signers": [
+        "e50809b534faee8d6d8a4eff20a298a5e51347a39d1d46413dc8b66e764661b4"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/nikita36078/J2ME-Loader",
+      "license": "Apache-2.0",
+      "minSdk": 14,
+      "minAndroid": "Android 4.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
+      "trackers": [
+        "ACRA"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },

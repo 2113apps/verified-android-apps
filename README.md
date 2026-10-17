@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-255 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+264 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -17,16 +17,16 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
 - [Productivity](#productivity) (30)
 - [Reading & Maps](#reading--maps) (8)
-- [Games: Strategy Games](#games-strategy-games) (9)
+- [Games: Strategy Games](#games-strategy-games) (11)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
-- [Games: Adventure & RPG](#games-adventure--rpg) (9)
-- [Games: Simulation Games](#games-simulation-games) (3)
+- [Games: Adventure & RPG](#games-adventure--rpg) (11)
+- [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (9)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (12)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
-- [Games: Console Emulators](#games-console-emulators) (9)
+- [Games: Console Emulators](#games-console-emulators) (10)
 - [Games: Game Streaming](#games-game-streaming) (1)
 
 ## Topics and comparisons
@@ -66,11 +66,13 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
 - [How to Install XAPK, APKS and APKM Files on Android](https://h5.2113.net/guides/install-xapk-apks-apkm.html): XAPK, APKS and APKM files hold one app split into several APKs. What is in each, how to install them with App Manager or adb, and why “App not installed” appears.
 - [KernelSU LKM vs GKI: Why LKM, and How to Install It](https://h5.2113.net/guides/kernelsu-lkm-vs-gki.html): Since v3.0, KernelSU officially supports only LKM mode. What LKM and GKI mean, how to check support and match your KMI, and how to install KernelSU with the manager.
+- [Mindustry Review: Is It Worth Playing on Android?](https://h5.2113.net/guides/mindustry-review.html): We haven’t played it ourselves: what Steam and Google Play players, the press and the developer say about Mindustry, and what that means on an Android phone.
 - [How to Play Minecraft Java Edition on Android](https://h5.2113.net/guides/minecraft-java-on-android.html): Open-source launchers run Minecraft Java Edition on Android. What you need (you must own the game), which Java each version needs, and the first launch, step by step.
 - [App Not Installed as Package Conflicts: How to Fix](https://h5.2113.net/guides/package-conflicts.html): What Android’s “package conflicts with an existing package” error means: a different signing key, a copy kept for another user, or a clash with another app, and each fix.
 - [PojavLauncher Is Discontinued: What to Use Instead](https://h5.2113.net/guides/pojavlauncher-discontinued.html): PojavLauncher stopped in 2025 and its last APK can’t run newer Minecraft. Which launcher to use instead, and how to bring your worlds and controls along.
 - [How to Remove Bloatware Without Root (Shizuku, Canta)](https://h5.2113.net/guides/remove-bloatware-without-root.html): Remove preinstalled apps without root using Shizuku and Canta: what it really does, which apps are risky, how to bring one back, and what changes in Android 17.
 - [RetroArch Cores on Android: Which Core to Use](https://h5.2113.net/guides/retroarch-cores-android.html): Which RetroArch core to use for each console on Android, how to download and update cores, where they are stored, which need BIOS files, and why some don’t show up.
+- [Shattered Pixel Dungeon Review: Worth It on Android?](https://h5.2113.net/guides/shattered-pixel-dungeon-review.html): We haven’t played it ourselves: what Google Play and Steam players, the press and the developer say about Shattered Pixel Dungeon, and who the free roguelike suits.
 - [Termux Commands: The Basics, With Examples](https://h5.2113.net/guides/termux-commands.html): The Termux commands to know first: pkg for packages, termux-setup-storage, SSH on port 8022, Termux:API, volume-key shortcuts, and what to run when something fails.
 - [How to Update Apps You Installed From an APK](https://h5.2113.net/guides/update-sideloaded-apps.html): Why an APK update installs or fails, and four ways to keep sideloaded apps updated: a store app, Obtainium, the app’s own update check, or by hand.
 - [How to Verify an APK’s Signature and SHA-256](https://h5.2113.net/guides/verify-apk-signature.html): Check a downloaded APK in two steps: its SHA-256 hash, then its signing certificate with apksigner, keytool or App Manager. Commands, real output, and what a match means.
@@ -512,10 +514,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Anuto TD](https://h5.2113.net/games/anuto-td.html)**: A classic endless tower defense with hand-drawn graphics: build and upgrade towers along a path, survive as many waves as you can, and chase the high score. No ads, no purchases, no permissions.  
   Android 6.0+ · portrait · no known trackers found · GPL-2.0-only · [source](https://github.com/mjaun/android-anuto)
+- **[DroidFish](https://h5.2113.net/games/droidfish.html)**: Analyse chess positions with Stockfish 16.1, play against it or a friend on the same phone, and keep your games in PGN files. No longer on Google Play; this is F-Droid’s build.  
+  Android 4.1+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/peterosterlund2/droidfish)
 - **[Feudal Tactics](https://h5.2113.net/games/feudal-tactics.html)**: Conquer a randomly generated island of hexagons, one kingdom at a time: buy peasants, merge them into knights, build castles, and keep enough coins to pay everyone. Short games, no internet.  
   Android 7.0+ · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Sesu8642/FeudalTactics)
 - **[fheroes2](https://h5.2113.net/games/fheroes2.html)**: Play Heroes of Might and Magic II on your phone with an engine rewritten from scratch. Bring the original game’s files or try the free demo; this is the project’s own APK.  
   Heroes II files or demo · Android 5.1+ · no known trackers found · GPL-2.0 · [source](https://github.com/ihhub/fheroes2)
+- **[Freebloks](https://h5.2113.net/games/freebloks.html)**: Fit your pieces onto the board so each one touches your others only at the corners, and squeeze your opponents out. Play the computer, people on the same phone, online or over Bluetooth.  
+  Android 7.0+ · no account · no known trackers found · GPL-2.0-only · [source](https://github.com/shlusiak/Freebloks-Android)
 - **[Lichess](https://h5.2113.net/games/lichess.html)**: The official app of Lichess, the free and open-source chess site: play people online, play the computer offline, solve puzzles and analyse your games.  
   Android 8.0+ · 64-bit ARM · account optional · no known trackers found · GPL-3.0-or-later · [source](https://github.com/lichess-org/mobile)
 - **[Mindustry](https://h5.2113.net/games/mindustry.html)**: Build drills, conveyor belts and factories that feed your turrets and units, and defend your core through campaigns on two planets. Free and open source; this is F-Droid’s build.  
@@ -538,6 +544,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Adventure & RPG
 
+- **[Andor’s Trail](https://h5.2113.net/games/andors-trail.html)**: Search for your missing brother across a large fantasy world: talk to villagers, take on quests, fight turn-based battles and improve your gear. Free and offline, with no ads or purchases.  
+  Android 5.0+ · offline · no account · no known trackers found · [source](https://github.com/AndorsTrailRelease/andors-trail)
 - **[Brogue CE Android](https://h5.2113.net/games/brogue-ce.html)**: Fight your way down a randomly generated dungeon to retrieve the Amulet of Yendor from its 26th level. A personal, unofficial port of Brogue: Community Edition to Android.  
   Android 7.0+ · no account · offline · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/tyrannotorus/c-brogue-ce-android)
 - **[Cataclysm: Dark Days Ahead](https://h5.2113.net/games/cataclysm-dda.html)**: Survive in a generated world overrun by zombies and stranger things: scavenge, craft, build vehicles and bases, and keep your character fed, healthy and sane. Turn-based, deep and unforgiving.  
@@ -552,6 +560,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Game data (free download) · Android 4.1+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/flareteam/flare-engine)
 - **[HyperRogue](https://h5.2113.net/games/hyperrogue.html)**: A turn-based roguelike on a hyperbolic plane: hunt for treasure through dozens of lands in a world where you almost never pass the same place twice. This is the free GPL build, not HyperRogue Gold.  
   Android 5.0+ · works offline · no known trackers found · GPL-2.0-only · [source](https://github.com/zenorogue/hyperrogue)
+- **[Rat King Pixel Dungeon 2](https://h5.2113.net/games/rkpd2.html)**: Shattered Pixel Dungeon with every hero made stronger, and a new one: the Rat King, who has the main abilities of every class. A fan-made fork that installs next to the original.  
+  Android 4.0+ · offline · English only · no known trackers found · GPL-3.0 · [source](https://github.com/Zrp200/rkpd2)
 - **[ScummVM](https://h5.2113.net/games/scummvm.html)**: Play the adventure games of the 1980s and 1990s on your phone: ScummVM replaces the games’ original programs, so their data files run on Android with touch controls. Games are not included.  
   No root · Android 5.0+ · your own game files · no known trackers found · GPL-3.0-or-later · [source](https://github.com/scummvm/scummvm)
 - **[Shattered Pixel Dungeon](https://h5.2113.net/games/shattered-pixel-dungeon.html)**: Pick a hero, go down, and try to survive: every run has new levels, enemies and loot, and dying means starting over. Free and open source, from a single developer.  
@@ -559,6 +569,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Simulation Games
 
+- **[Augustus](https://h5.2113.net/games/augustus.html)**: Caesar III with new rules and buildings: roadblocks, highways, new goods and monuments, on top of Julius’s widescreen and touch support. It runs on your own copy of the 1998 game.  
+  Caesar III game files · Android 5.0+ · no known trackers found · AGPL-3.0 · [source](https://github.com/Keriew/augustus)
 - **[Julius](https://h5.2113.net/games/julius.html)**: Play the 1998 city builder Caesar III on a phone or tablet with game files you own. Julius rebuilds the engine with the same rules and save files, plus widescreen and touch controls.  
   Caesar III game files · Android 5.0+ · no known trackers found · AGPL-3.0 · [source](https://github.com/bvschaik/julius)
 - **[OpenRCT2](https://h5.2113.net/games/openrct2.html)**: Build and run theme parks from RollerCoaster Tycoon 2 on Android, with an open-source re-implementation of the game. You copy over files from a desktop copy of the game; the rest is included.  
@@ -582,8 +594,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[AAAAXY](https://h5.2113.net/games/aaaaxy.html)**: A retro-looking platformer where rooms loop back on themselves and corridors are longer inside than out. Explore one big, non-linear map at your own pace; no lives, no ads, no internet.  
   64-bit ARM · Android 6.0+ · 4–6 hours to the end · no known trackers found · Apache-2.0 · [source](https://github.com/divVerent/aaaaxy)
+- **[Antimine](https://h5.2113.net/games/antimine.html)**: Clear minefields without setting one off, on boards built so you shouldn’t have to guess, from 9×9 up to 100×100. Offline, without ads in this build, and translated into Brazilian Portuguese.  
+  Android 5.0+ · offline · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/lucasnlm/antimine-android)
 - **[Breakout 71](https://h5.2113.net/games/breakout-71.html)**: A brick breaker built for short runs: clear seven levels, catch the coins that broken bricks drop to build your combo, and pick an upgrade after every level. Small, offline and without ads.  
   No root · Android 6.0+ · no known trackers found · AGPL-3.0-only · [source](https://gitlab.com/lecarore/breakout71)
+- **[Burger Party](https://h5.2113.net/games/burger-party.html)**: Stack buns, meat, cheese and salad in the order each customer asks for, before the clock runs out, in the United States, on a pirate ship and in Japan. No ads and no purchases.  
+  No root · no account · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/agateau/burgerparty)
 - **[Gauguin](https://h5.2113.net/games/gauguin.html)**: A Sudoku-like puzzle where every group of cells must reach its target by adding, subtracting, multiplying or dividing. Endless grids from 3×3 to 11×11, with no ads and no internet.  
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meikpiep/gauguin)
 - **[LibreSudoku](https://h5.2113.net/games/libresudoku.html)**: Classic and Killer Sudoku in three sizes and four difficulties, generated on your phone, with notes, hints, statistics and your own puzzle collections. Free, ad-free and offline.  
@@ -596,6 +612,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.0+ · free osu! account for online play · tracker code found: Sentry · MIT · [source](https://github.com/ppy/osu)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
   Android 5.0+ · no known trackers found · MIT · [source](https://github.com/chrisboyle/sgtpuzzles)
+- **[SuperTux](https://h5.2113.net/games/supertux.html)**: Run, jump and stomp through snowy and forest worlds as Tux on his way to rescue Penny. A complete game made by volunteers, with no ads; this is the team’s own Android build.  
+  Android 9+ · 64-bit ARM · no account · no known trackers found · GPL-3.0 · [source](https://github.com/SuperTux/supertux)
 - **[Vector Pinball](https://h5.2113.net/games/vector-pinball.html)**: Pinball drawn with lines and circles, where the physics matter more than the graphics: nine tables, multiball, local high scores, and not a single permission requested.  
   Android 4.4+ · no known trackers found · GPL-3.0-only · [source](https://github.com/dozingcat/Vector-Pinball)
 
@@ -623,6 +641,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Your own games · 64-bit phone · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/dolphin-emu/dolphin)
 - **[Flycast](https://h5.2113.net/games/flycast.html)**: Play Dreamcast discs and Naomi and Atomiswave arcade games you own on Android, with upscaling, controller support and the online modes of some Dreamcast games. A Dreamcast BIOS is optional.  
   Your own games · Android 5.0+ · OpenGL ES 2.0 · no known trackers found · GPL-2.0 · [source](https://github.com/flyinghead/flycast)
+- **[J2ME Loader](https://h5.2113.net/games/j2me-loader.html)**: Play the Java games of 2000s Nokia and Sony Ericsson phones on Android: J2ME Loader runs .jar games with a virtual keypad, per-game settings and scaling. You bring the games.  
+  Android 4.0+ · your own .jar or .jad files · tracker code found: ACRA · Apache-2.0 · [source](https://github.com/nikita36078/J2ME-Loader)
 - **[Lemuroid](https://h5.2113.net/games/lemuroid.html)**: One app for many retro consoles, built on libretro: it finds the games on your phone, saves your progress automatically and works with touch controls or a gamepad. Games are not included.  
   Your own games · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Swordfish90/Lemuroid)
 - **[MAME4droid](https://h5.2113.net/games/mame4droid.html)**: The MAME arcade emulator on Android, kept up to date with MAME itself: thousands of arcade boards and old computers, touch or Bluetooth controls, and online play with a friend. No games included.  
