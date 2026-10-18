@@ -78,11 +78,11 @@
       "package": "app.flicky",
       "page": "https://h5.2113.net/apps/flicky.html",
       "category": "System Tools",
-      "version": "4.5.4",
-      "versionCode": 991,
-      "released": "2026-10-08",
-      "size": 4349037,
-      "sha256": "2d7786bef304d5d1cd702affd0db699460dd122050d083d6b2b5a1fd88e5c033",
+      "version": "4.5.5",
+      "versionCode": 1001,
+      "released": "2026-10-18",
+      "size": 4351114,
+      "sha256": "86bf07c6fdb81b2b759356d62531d66cb680fc0fdab2b9dac5741c59a08f2021",
       "signers": [
         "4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f"
       ],
@@ -1355,11 +1355,11 @@
       "package": "com.deniscerri.ytdl",
       "page": "https://h5.2113.net/apps/ytdlnis.html",
       "category": "Media",
-      "version": "1.9.0",
-      "versionCode": 109000004,
-      "released": "2026-09-07",
-      "size": 49829505,
-      "sha256": "e6d5935056e007ec172c03e5d993fcdce634372d15e0cdc75fb7e294dc469151",
+      "version": "1.9.1",
+      "versionCode": 109010004,
+      "released": "2026-10-18",
+      "size": 50182606,
+      "sha256": "839d1b2a14c00863438063f032b6e1f6825f619f1d41c861ad96d3878d822c03",
       "signers": [
         "263645cb5272eb290759fe1f59149ae24df6ce171e9f6666eead981d3fc64c95"
       ],
@@ -2226,11 +2226,11 @@
       "package": "com.jvdegithub.aiscatcher",
       "page": "https://h5.2113.net/apps/ais-catcher.html",
       "category": "Network & Privacy",
-      "version": "1.21",
-      "versionCode": 121,
-      "released": "2026-08-20",
-      "size": 32496633,
-      "sha256": "a84c8023e55f6d8a77ed125bdc2ab1a2a18a1a3aba4469902f8fb96b5afcedfe",
+      "version": "1.24",
+      "versionCode": 124,
+      "released": "2026-10-18",
+      "size": 16326040,
+      "sha256": "8bc9ec788a4e0e25a3842d8f9f0366c92ea475a16b45e1316086d81dec3c4dba",
       "signers": [
         "51e66fe88c480297b545d44c0b91edb33390bf875c92ba2f526c74cc4757fed2"
       ],
@@ -2298,11 +2298,11 @@
       "package": "com.kunzisoft.keepass.libre",
       "page": "https://h5.2113.net/apps/keepassdx.html",
       "category": "Network & Privacy",
-      "version": "4.5.5",
-      "versionCode": 45500,
-      "released": "2026-09-25",
-      "size": 16746852,
-      "sha256": "99dccd0c350be4a97dc7b90ccd3c83dfa41f8179f5db1a7c071c17cc0278cc3a",
+      "version": "4.5.6",
+      "versionCode": 45600,
+      "released": "2026-10-18",
+      "size": 16771674,
+      "sha256": "a77b42f52de4adf2e74e88b0948ef2a681a064a3dbab24e5ff0869a091dbe581",
       "signers": [
         "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
       ],
@@ -5087,11 +5087,11 @@
       "package": "io.github.aedev.flow",
       "page": "https://h5.2113.net/apps/flow.html",
       "category": "Media",
-      "version": "2.2.1",
-      "versionCode": 18,
-      "released": "2026-08-28",
-      "size": 17021803,
-      "sha256": "2e70e8df44a0975e39f1fd3959926578b2b92c604b714b97e5e0b6d7ef69eaeb",
+      "version": "3.0.0",
+      "versionCode": 19,
+      "released": "2026-10-18",
+      "size": 20715715,
+      "sha256": "fedcfdeefce84ac43b776ca0ad7bae8e89aa717f187dc23dfbffefa0ceb3a53d",
       "signers": [
         "4322294ed4caa2d4294140095818080ffe8acc1fbe3cdc76107df45c5286be40"
       ],
@@ -5108,7 +5108,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "permissions": 21,
+      "permissions": 22,
       "trackers": [],
       "antiFeatures": [
         "NonFreeNet"
