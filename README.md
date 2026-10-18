@@ -63,7 +63,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [How to Unlock the Bootloader on Android, by Brand](https://h5.2113.net/guides/how-to-unlock-bootloader.html): Unlocking an Android bootloader the official way, brand by brand: OEM unlocking, fastboot, Xiaomi’s HyperOS application, Motorola and Sony codes, and what you lose.
 - [How to Install APKs on Android TV and TV Boxes](https://h5.2113.net/guides/install-apk-android-tv.html): Allow unknown apps, get the file onto the TV by browser, USB or adb, and fix the two classic problems: 32-bit TV boxes and apps missing from the home screen.
 - [How to Install an APK on Android, Step by Step](https://h5.2113.net/guides/install-apk-android.html): Install an APK on Android: allow the app that opens it, tap Install, and fix the usual errors. Covers Play Protect, Samsung Auto Blocker, adb and older Android.
-- [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): The original LSPosed stopped at Android 14; its maintained fork Vector runs on 8.1 to 17. Which to install, the Zygisk setup you need, and how to enable modules.
+- [How to Install LSPosed (Vector) and Enable Modules](https://h5.2113.net/guides/install-lsposed.html): Three things are called LSPosed now: the old 1.9.2, the closed-source LSPosed 2.x and the open-source fork Vector. Which to install, Zygisk, modules and fixes.
 - [How to Install XAPK, APKS and APKM Files on Android](https://h5.2113.net/guides/install-xapk-apks-apkm.html): XAPK, APKS and APKM files hold one app split into several APKs. What is in each, how to install them with App Manager or adb, and why “App not installed” appears.
 - [KernelSU LKM vs GKI: Why LKM, and How to Install It](https://h5.2113.net/guides/kernelsu-lkm-vs-gki.html): Since v3.0, KernelSU officially supports only LKM mode. What LKM and GKI mean, how to check support and match your KMI, and how to install KernelSU with the manager.
 - [Mindustry Review: Is It Worth Playing on Android?](https://h5.2113.net/guides/mindustry-review.html): We haven’t played it ourselves: what Steam and Google Play players, the press and the developer say about Mindustry, and what that means on an Android phone.
@@ -105,7 +105,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[NoStorageRestrict](https://h5.2113.net/apps/nostoragerestrict.html)**: Lets apps pick the Download and Android folders through the system folder picker again, which Android 11 blocked.  
   Root + LSPosed · Android 11+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict)
 - **[Pengeek](https://h5.2113.net/apps/pengeek.html)**: A large set of system tweaks for Xiaomi phones on HyperOS, and the successor to CustoMIUIzer.  
-  HyperOS · Android 15+ · root + LSPosed · no known trackers found · GPL-3.0-only · [source](https://github.com/MonwF/customiuizer)
+  HyperOS · Android 15+ · root + Vector or LSPosed 2 · no known trackers found · GPL-3.0 · [source](https://github.com/MonwF/customiuizer)
 
 ## Customization
 

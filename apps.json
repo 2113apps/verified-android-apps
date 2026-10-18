@@ -2652,11 +2652,11 @@
       "package": "com.movtery.zalithlauncher.v2",
       "page": "https://h5.2113.net/games/zalith-launcher-2.html",
       "category": "Minecraft Launchers",
-      "version": "2.7",
-      "versionCode": 200044,
-      "released": "2026-10-11",
-      "size": 353908894,
-      "sha256": "0d8ea16f415103b5677b937cb0565d621ba27ad2160f14cf74dc04831c58d5b4",
+      "version": "2.7.1",
+      "versionCode": 200045,
+      "released": "2026-10-18",
+      "size": 353927710,
+      "sha256": "423f25320b797834de72a5b911a585db33e71f1cb978cd815a0e59befa4c5191",
       "signers": [
         "851381b5eb6f169a2da6e323ff674accc835c6fc47b15bbfd7920578e97b0689"
       ],
@@ -2665,7 +2665,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.7",
+      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.7.1",
       "sourceCode": "https://github.com/ZalithLauncher/ZalithLauncher2",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -6178,8 +6178,8 @@
       "version": "25.09.25",
       "versionCode": 75,
       "released": "2025-09-25",
-      "size": 2723112,
-      "sha256": "98c48d2edadef6d8428b7b3b16ad19b0ff75f222820a28628e8edb4138bade24",
+      "size": 2807820,
+      "sha256": "a4101b8c2cf06925d58e9e5a9c39c6780763fb066fe8d1ed8f5a9a26994a4267",
       "signers": [
         "0bec108ccfabd380753d2ed68090398ddfe436d47d67bdb0bb50c969b80fc6a1"
       ],
@@ -6187,9 +6187,10 @@
       "signatureSchemes": [
         "v2"
       ],
-      "source": "izzy",
+      "source": "github",
+      "sourceRelease": "https://github.com/MonwF/customiuizer/releases/tag/v25.09.25",
       "sourceCode": "https://github.com/MonwF/customiuizer",
-      "license": "GPL-3.0-only",
+      "license": "GPL-3.0",
       "minSdk": 35,
       "minAndroid": "Android 15",
       "targetSdk": 35,
@@ -8747,9 +8748,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-17",
-      "size": 29080990,
-      "sha256": "451dd1a23016a246cf691bd2c49248d8d2e2e598c827ab60f42dd80fe6a36d52",
+      "released": "2026-10-18",
+      "size": 29153982,
+      "sha256": "dcd4fe47d1b5f3284e8e0bf5dddf18b11ee99dbcb7abb8b1924080f1ed428a2a",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
