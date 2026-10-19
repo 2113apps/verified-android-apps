@@ -321,11 +321,11 @@
       "package": "app.pwhs.universalinstaller",
       "page": "https://h5.2113.net/apps/universal-installer.html",
       "category": "System Tools",
-      "version": "1.18.0",
-      "versionCode": 42,
-      "released": "2026-09-16",
-      "size": 6543222,
-      "sha256": "01d3b7eb76b1c0c221502004506e5f9eef670157a6d07306661e75271e905840",
+      "version": "1.19.0",
+      "versionCode": 43,
+      "released": "2026-10-19",
+      "size": 6888535,
+      "sha256": "880c85548c075601279d6aea83f23d707029338c38cd71c99755092324edfd4b",
       "signers": [
         "40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de"
       ],
@@ -345,7 +345,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 22,
+      "permissions": 23,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1120,11 +1120,11 @@
       "package": "com.buzbuz.smartautoclicker",
       "page": "https://h5.2113.net/apps/klickr-auto-clicker.html",
       "category": "System Tools",
-      "version": "4.1.0",
-      "versionCode": 1020000,
-      "released": "2026-10-17",
-      "size": 53459200,
-      "sha256": "62ec831f04c0c9a847e2941c2eba73404433845658db937d1f69568c8fa26ae0",
+      "version": "4.1.1",
+      "versionCode": 1030000,
+      "released": "2026-10-19",
+      "size": 53466896,
+      "sha256": "80fbb66f1742e256636fe34aa16dabfe560d63978f593e07e9b69700b71652f6",
       "signers": [
         "286873f2e082b8de9c68eaa68b9dfab04b208ec5513b6cd6202c9fc3cd05c3e3"
       ],
@@ -1133,7 +1133,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/Nain57/Smart-AutoClicker/releases/tag/4.1.0",
+      "sourceRelease": "https://github.com/Nain57/Smart-AutoClicker/releases/tag/4.1.1",
       "sourceCode": "https://github.com/Nain57/Smart-AutoClicker",
       "license": "GPL-3.0",
       "minSdk": 24,
@@ -1355,11 +1355,11 @@
       "package": "com.deniscerri.ytdl",
       "page": "https://h5.2113.net/apps/ytdlnis.html",
       "category": "Media",
-      "version": "1.9.1",
-      "versionCode": 109010004,
-      "released": "2026-10-18",
-      "size": 50182606,
-      "sha256": "839d1b2a14c00863438063f032b6e1f6825f619f1d41c861ad96d3878d822c03",
+      "version": "1.9.1.1",
+      "versionCode": 109010104,
+      "released": "2026-10-19",
+      "size": 50184658,
+      "sha256": "6758d147f4d29d3a56d354d8a6d71f98d0b0530d46b67af4a5b961c0424195a5",
       "signers": [
         "263645cb5272eb290759fe1f59149ae24df6ce171e9f6666eead981d3fc64c95"
       ],
@@ -3780,11 +3780,11 @@
       "package": "com.vivi.vivimusic",
       "page": "https://h5.2113.net/apps/vivi.html",
       "category": "Media",
-      "version": "6.0.8",
-      "versionCode": 77,
-      "released": "2026-09-25",
-      "size": 29694136,
-      "sha256": "042f4bb4f3587a224451d7ab143cb4e86b7a74c8065703fc2f1a86729e66d09c",
+      "version": "6.0.9",
+      "versionCode": 78,
+      "released": "2026-10-19",
+      "size": 29841760,
+      "sha256": "e1358f711462cbfde20dda96c17a6130589e3cf5d5d2d389991a90cc415f2b7a",
       "signers": [
         "e0581bab0b930b179396e13008aa08509cdcd1ee38f7ae54102fc3cf93256a9d"
       ],
@@ -3806,7 +3806,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 15,
+      "permissions": 16,
       "trackers": [],
       "antiFeatures": [
         "NonFreeNet"
@@ -3924,11 +3924,11 @@
       "package": "com.zaneschepke.wireguardautotunnel",
       "page": "https://h5.2113.net/apps/wg-tunnel.html",
       "category": "Network & Privacy",
-      "version": "5.8.1",
-      "versionCode": 50801,
-      "released": "2026-10-12",
-      "size": 18715468,
-      "sha256": "d49311b6da383598b7c37852dafe0698b12d400864246026175cf683001e951f",
+      "version": "5.8.2",
+      "versionCode": 50802,
+      "released": "2026-10-19",
+      "size": 18766837,
+      "sha256": "0920451ed36f64cad9afd3f41d4677799c3e69401b4575a549238258f8a654a2",
       "signers": [
         "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
       ],
@@ -4334,11 +4334,11 @@
       "package": "deckers.thibault.aves.libre",
       "page": "https://h5.2113.net/apps/aves.html",
       "category": "Media",
-      "version": "1.15.5",
-      "versionCode": 17902,
-      "released": "2026-10-04",
-      "size": 62740343,
-      "sha256": "6a43f71a5064daba4e8fc4dcaf01f55d8c4e29bd71f5dd34140ab85bf1a66167",
+      "version": "1.15.6",
+      "versionCode": 18002,
+      "released": "2026-10-18",
+      "size": 63018871,
+      "sha256": "b2f860819bf307dbe9fcecb0cee2d592f7930f776c7759567e07e69228bb775a",
       "signers": [
         "e4378c86e5df4c401b0c9c4ca800d335c8b0750467eae61386a803089ee9972e"
       ],
@@ -8748,9 +8748,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-18",
-      "size": 29153982,
-      "sha256": "dcd4fe47d1b5f3284e8e0bf5dddf18b11ee99dbcb7abb8b1924080f1ed428a2a",
+      "released": "2026-10-19",
+      "size": 29266958,
+      "sha256": "71d233cbaa6e8fbb2adb486df63e0ae89182e5daac9941bce1ce6fe4fc4ada44",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -8812,11 +8812,11 @@
       "package": "org.wikipedia",
       "page": "https://h5.2113.net/apps/wikipedia.html",
       "category": "Reading & Maps",
-      "version": "r/50610-r-2026-10-06",
-      "versionCode": 50610,
-      "released": "2026-10-08",
-      "size": 83177256,
-      "sha256": "4602977099bff12bf24afbbe5a516c0979cb6e5122a4fbbf21569c3fe46a7040",
+      "version": "r/50611-r-2026-10-07",
+      "versionCode": 50611,
+      "released": "2026-10-18",
+      "size": 83369768,
+      "sha256": "1f2b88d42f28280b4c707cee41d6035c8dcd4f226b1628bb9fb1ea6fce0460f6",
       "signers": [
         "1c3ddb0e8f3258b0ff3b7b6a608d19e7cdeed38a5897bbda23bac155923b1267"
       ],
@@ -8991,11 +8991,11 @@
       "package": "proton.android.pass.fdroid",
       "page": "https://h5.2113.net/apps/proton-pass.html",
       "category": "Network & Privacy",
-      "version": "1.41.3",
-      "versionCode": 14103000,
-      "released": "2026-10-15",
+      "version": "1.41.4",
+      "versionCode": 14104000,
+      "released": "2026-10-18",
       "size": 105133865,
-      "sha256": "611269a313ece17f4816ea6e06f2f9000c42ecbf521d01d889ea83873b3a5c72",
+      "sha256": "b51b9db6236bc9f6d65cef2230bf6f20f90e89ed87565f8cab97c83b2d9a0be6",
       "signers": [
         "572c25048e6e6229bc0393619f7c640f8cbccf11d2ebf8b2fa7bc9a76363b812"
       ],
