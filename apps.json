@@ -8325,11 +8325,11 @@
       "package": "org.smarttube.stable",
       "page": "https://h5.2113.net/apps/smarttube.html",
       "category": "Media",
-      "version": "32.56",
-      "versionCode": 2446,
-      "released": "2026-09-23",
-      "size": 34922752,
-      "sha256": "4a35b90940612e048e4e9cb9e10379f7db1e84f30375994129f10a571ee04ce5",
+      "version": "32.68",
+      "versionCode": 2458,
+      "released": "2026-10-20",
+      "size": 35011082,
+      "sha256": "45a36e62110bcb866527ba8e9ab876f4122e1143647bbd0a97362d13803f6b94",
       "signers": [
         "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a"
       ],
@@ -8339,7 +8339,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/yuliskov/SmartTube/releases/tag/32.56s",
+      "sourceRelease": "https://github.com/yuliskov/SmartTube/releases/tag/32.68s",
       "sourceCode": "https://github.com/yuliskov/SmartTube",
       "license": "MIT",
       "minSdk": 17,
@@ -8748,9 +8748,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-20",
-      "size": 29265482,
-      "sha256": "c69e0fc1978547cc684474f7c3ad5338efb3bfdef308a9e7cd70bd771412589f",
+      "released": "2026-10-21",
+      "size": 29266078,
+      "sha256": "5eb57c7f27bb5f0d66563f91bc36a39b23d936baf21d9c6b99aab392e9696ff2",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],

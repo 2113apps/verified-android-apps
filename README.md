@@ -360,7 +360,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
 - **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
   No root · accessibility service · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/keymapperorg/KeyMapper)
-- **[Klick’r](https://h5.2113.net/apps/klickr-auto-clicker.html)**: An open-source auto clicker that repeats taps and swipes, or reacts to the screen: when an image, a colour, a number or some text appears, it acts.  
+- **[Klick’r](https://h5.2113.net/apps/klickr-auto-clicker.html)**: An open-source auto clicker that repeats taps and gestures, or reacts to the screen: when an image, a colour, a number or some text appears, it acts.  
   No root · Android 7.0+ · accessibility service · no known trackers found · GPL-3.0 · [source](https://github.com/Nain57/Smart-AutoClicker)
 - **[LibreTorrent](https://h5.2113.net/apps/libretorrent.html)**: A torrent client without ads or a search engine: open .torrent files, magnet links or your own RSS feeds, pick the files you want, stream while downloading, and limit it to Wi-Fi or charging.  
   No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/proninyaroslav/libretorrent)
