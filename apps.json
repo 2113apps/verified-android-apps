@@ -1017,11 +1017,11 @@
       "package": "com.bithack.principia",
       "page": "https://h5.2113.net/games/principia.html",
       "category": "Sandbox Games",
-      "version": "2026.09.19",
-      "versionCode": 45,
-      "released": "2026-09-19",
-      "size": 30117266,
-      "sha256": "bbcae1d1d366140ee872d702bfaba2b9973747695645d3d7a5df32b9933fb5c3",
+      "version": "2026.10.22",
+      "versionCode": 46,
+      "released": "2026-10-22",
+      "size": 30141842,
+      "sha256": "5056a1f4ed2f5354468b69117fcf5af64f49f33e48e99a80c517e733704f9ca3",
       "signers": [
         "45637639a699f6fcafb8eff94ccd4544471467bbd94e77096185ce738fc1fc93"
       ],
@@ -1032,7 +1032,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/Bithack/principia/releases/tag/2026.09.19",
+      "sourceRelease": "https://github.com/Bithack/principia/releases/tag/2026.10.22",
       "sourceCode": "https://github.com/Bithack/principia",
       "license": null,
       "minSdk": 21,
@@ -1049,15 +1049,51 @@
       "olderVersions": []
     },
     {
+      "name": "Translate You",
+      "package": "com.bnyro.translate",
+      "page": "https://h5.2113.net/apps/translate-you.html",
+      "category": "Productivity",
+      "version": "19.0",
+      "versionCode": 56,
+      "released": "2026-07-04",
+      "size": 35511128,
+      "sha256": "789b002940339eb61e785f5d0086a0c1b25e7ae6606919b7f338a596dac3cbd2",
+      "signers": [
+        "b3bc73b117df5dfe38130c6c2b946852ae7088557fe8e433f0d9983a6b55cc95"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/you-apps/TranslateYou",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Brave",
       "package": "com.brave.browser",
       "page": "https://h5.2113.net/apps/brave.html",
       "category": "Network & Privacy",
-      "version": "1.97.59",
-      "versionCode": 429705904,
-      "released": "2026-10-16",
-      "size": 211105220,
-      "sha256": "2bced6611f96b4f3fd715819d0a2e16a088ea4780d2fb579d9c93e659799c0eb",
+      "version": "1.98.60",
+      "versionCode": 429806004,
+      "released": "2026-10-21",
+      "size": 211048197,
+      "sha256": "f2c87912404bfd7d357c4b7ab4b21a17107b888fe64d45164a23ace988edfa14",
       "signers": [
         "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
       ],
@@ -1068,7 +1104,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.97.59",
+      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.98.60",
       "sourceCode": "https://github.com/brave/brave-browser",
       "license": "MPL-2.0",
       "minSdk": 29,
@@ -1414,6 +1450,41 @@
         "x86_64"
       ],
       "permissions": 15,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Thumb-Key",
+      "package": "com.dessalines.thumbkey",
+      "page": "https://h5.2113.net/apps/thumb-key.html",
+      "category": "Productivity",
+      "version": "5.1.18",
+      "versionCode": 188,
+      "released": "2026-10-06",
+      "size": 9578416,
+      "sha256": "40cc6b1e47a2a97267d8f6c4327c9d44d70af44fff592f9cf51c22c2ed5ebba9",
+      "signers": [
+        "ea7195cfce638ae6b1a8002ddc0d4863366095ea5b8d95c1cd5e25db0fe2e7c3"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/dessalines/thumb-key",
+      "license": "AGPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4465,6 +4536,77 @@
       "olderVersions": []
     },
     {
+      "name": "QUIK",
+      "package": "dev.octoshrimpy.quik.fdroid",
+      "page": "https://h5.2113.net/apps/quik-sms.html",
+      "category": "Productivity",
+      "version": "4.3.7",
+      "versionCode": 2239,
+      "released": "2026-09-23",
+      "size": 51798595,
+      "sha256": "2eb1a967585b98ed3c77d012a644cd8d3859b43bf1f29ca84d5e154bcaaaf860",
+      "signers": [
+        "528b89a67e258635be2129a74e2744f9020b0b122708f8091b5fd3ca0c1d2ddf"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/quik-sms/quik",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 38,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "FlorisBoard",
+      "package": "dev.patrickgold.florisboard",
+      "page": "https://h5.2113.net/apps/florisboard.html",
+      "category": "Productivity",
+      "version": "0.5.2",
+      "versionCode": 117,
+      "released": "2025-11-28",
+      "size": 14757790,
+      "sha256": "139624e579018e7fb28fc946cd7740096d964d4b97d88f65ffd37e1b23d20de0",
+      "signers": [
+        "0b807164508eafeb1fbb815be7a23c77fe689d94b14375c99bdaa9b6577fd6d6"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/florisboard/florisboard",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "App Lock",
       "package": "dev.pranav.applock",
       "page": "https://h5.2113.net/apps/app-lock.html",
@@ -5890,6 +6032,42 @@
         "x86_64"
       ],
       "permissions": 16,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "RootlessJamesDSP",
+      "package": "me.timschneeberger.rootlessjamesdsp",
+      "page": "https://h5.2113.net/apps/rootlessjamesdsp.html",
+      "category": "Media",
+      "version": "1.6.14",
+      "versionCode": 51,
+      "released": "2025-05-06",
+      "size": 38647450,
+      "sha256": "4cdd6cbc57abb00b1ce28668dc29c021640bae8c4521ec592efc58c4239d83a1",
+      "signers": [
+        "950bc20f057acbb2c4cad75f08c725c972dbb673b7b0785d9fda88c2f51df373"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ThePBone/RootlessJamesDSP",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 15,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7607,11 +7785,11 @@
       "package": "org.ironfoxoss.ironfox",
       "page": "https://h5.2113.net/apps/ironfox.html",
       "category": "Network & Privacy",
-      "version": "158.0.1",
-      "versionCode": 2016191578,
-      "released": "2026-10-21",
+      "version": "158.0.2",
+      "versionCode": 2016191778,
+      "released": "2026-10-22",
       "size": 168103945,
-      "sha256": "8ba9a61a68b1db27e9fa59dd9f439c88d18eab36833ebb3f10efafad9c5b79d3",
+      "sha256": "d4243c5a2097560b4934c08460e9fef421a39746ce978d94c9610c6648a2a7f9",
       "signers": [
         "c5e291b5a571f9c8cd9a9799c2c94e02ec9703948893f2ca756d67b94204f904"
       ],
@@ -7898,6 +8076,42 @@
         "arm64-v8a"
       ],
       "permissions": 19,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Mupen64Plus AE",
+      "package": "org.mupen64plusae.v3.alpha",
+      "page": "https://h5.2113.net/games/mupen64plus-ae.html",
+      "category": "Console Emulators",
+      "version": "3.0.246 (beta)",
+      "versionCode": 246,
+      "released": "2020-11-28",
+      "size": 19120004,
+      "sha256": "735117dc6590f8f6beb8ba153f194ee49cba3cb935bafbd9c49c661e7d6c14d5",
+      "signers": [
+        "9bfb670556f10106701e9b627f1a174cd38461d19a99f46777537bc496199044"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/mupen64plus-ae/mupen64plus-ae",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 30,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 8,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -8608,11 +8822,11 @@
       "package": "org.torproject.torbrowser",
       "page": "https://h5.2113.net/apps/tor-browser.html",
       "category": "Network & Privacy",
-      "version": "15.0.25 (140.17.0esr)",
-      "versionCode": 2016189938,
-      "released": "2026-10-13",
-      "size": 111122155,
-      "sha256": "43b13364a9adc9b139f7c44279e552b7fdea07aef09a553310c7a8e5743c28b8",
+      "version": "15.0.26 (140.17.0esr)",
+      "versionCode": 2016191530,
+      "released": "2026-10-22",
+      "size": 111118059,
+      "sha256": "76cab5bed1def6289eacc6a6acad62156d5aae74669e69af5eb63ae76692b306",
       "signers": [
         "20061f045e737c67375c17794cfedb436a03cec6bacb7cb9f96642205ca2cec8"
       ],
@@ -8749,8 +8963,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-10-22",
-      "size": 29272450,
-      "sha256": "09bbcc41de1e047d5c960f575105399eeff5e54bedd71e4b8f49c186b0290b41",
+      "size": 29182170,
+      "sha256": "659997668ed5c634368ab6635a500f1f5655c722026ee1a2534272c0bd9f050e",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],

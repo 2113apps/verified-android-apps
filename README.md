@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-264 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+270 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -12,10 +12,10 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (10)
 - [Network & Privacy](#network--privacy) (42)
-- [Media](#media) (42)
+- [Media](#media) (43)
 - [System Tools](#system-tools) (53)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (30)
+- [Productivity](#productivity) (34)
 - [Reading & Maps](#reading--maps) (8)
 - [Games: Strategy Games](#games-strategy-games) (11)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
@@ -26,7 +26,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Puzzle & Arcade](#games-puzzle--arcade) (12)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
-- [Games: Console Emulators](#games-console-emulators) (10)
+- [Games: Console Emulators](#games-console-emulators) (11)
 - [Games: Game Streaming](#games-game-streaming) (1)
 
 ## Topics and comparisons
@@ -279,6 +279,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   ARM64 · beta · no known trackers found · GPL-3.0-or-later · [source](https://github.com/eszdman/PhotonCamera)
 - **[PipePipe](https://h5.2113.net/apps/pipepipe.html)**: A fork of NewPipe with more of everything: SponsorBlock and Return YouTube Dislike, filters that hide Shorts and paid videos, gestures, a sleep timer and BiliBili support.  
   No root · 64-bit phone · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/InfinityLoop1308/PipePipe)
+- **[RootlessJamesDSP](https://h5.2113.net/apps/rootlessjamesdsp.html)**: A system-wide sound processor for phones without root: it captures what other apps play, runs it through the JamesDSP engine for EQ, bass, reverb or your own impulse responses, and plays it back.  
+  No root · Shizuku or ADB once · Android 10+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/ThePBone/RootlessJamesDSP)
 - **[Seal](https://h5.2113.net/apps/seal.html)**: A friendly Android front end for yt-dlp: share or paste a link from a supported site, pick video or audio, and Seal handles the download, whole playlists included.  
   No root · 64-bit phone · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/JunkFood02/Seal)
 - **[SimpMusic](https://h5.2113.net/apps/simpmusic.html)**: An open-source YouTube Music player for Android and desktop, with synced lyrics from several sources, a ten-band equalizer, Android Auto and offline downloads. No account needed.  
@@ -444,6 +446,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 6.0+ · works without Google services · no known trackers found · GPL-3.0-or-later · [source](https://github.com/M66B/FairEmail)
 - **[Fcitx5 for Android](https://h5.2113.net/apps/fcitx5.html)**: The Fcitx 5 input method framework from Linux desktops, as an Android keyboard: Chinese Pinyin, Shuangpin and Wubi built in, Japanese, Korean, Vietnamese, Rime and others as plugins.  
   No root · Android 6.0+ · 64-bit ARM · no known trackers found · LGPL-2.1-only · [source](https://github.com/fcitx5-android/fcitx5-android)
+- **[FlorisBoard](https://h5.2113.net/apps/florisboard.html)**: A customisable on-screen keyboard that never goes online: a theme editor, clipboard history, emoji and extensions for layouts and themes, in an open-source app.  
+  No root · Android 8.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/florisboard/florisboard)
 - **[Fossify Calendar](https://h5.2113.net/apps/fossify-calendar.html)**: An open-source calendar that works offline: day, week, month and year views, recurring events, reminders, built-in public holidays for 207 countries and territories, and home screen widgets.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Calendar)
 - **[Fossify Clock](https://h5.2113.net/apps/fossify-clock.html)**: An open-source clock app that carries on from Simple Clock: alarms with gradual volume and an adjustable snooze, a world clock, timers, a stopwatch and widgets.  
@@ -474,6 +478,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.1+ · a phone number · no known trackers found · AGPL-3.0 · [source](https://github.com/mollyim/mollyim-android)
 - **[Nekogram](https://h5.2113.net/apps/nekogram.html)**: Telegram with a few more switches: hide parts of the interface you don’t use, translate messages and whole chats with the engine you choose, and see details such as chat IDs. Uses your account.  
   No root · Android 6.0+ · a Telegram account · tracker code found: Google Firebase Analytics, Sentry · GPL-2.0 · [source](https://github.com/Nekogram/Nekogram)
+- **[QUIK](https://h5.2113.net/apps/quik-sms.html)**: The continuation of QKSMS, the popular open-source texting app that stopped in 2023: SMS and MMS with scheduled and delayed sending, blocking, voice messages and backups, and no internet access.  
+  No root · Android 6.0+ · default SMS app · no known trackers found · GPL-3.0-only · [source](https://github.com/quik-sms/quik)
 - **[Session](https://h5.2113.net/apps/session.html)**: An end-to-end encrypted messenger without a phone number or email: you get an Account ID, and messages travel through a network of nodes that hides your IP address.  
   No root · Android 8.0+ · no phone number · no known trackers found · GPL-3.0 · [source](https://github.com/session-foundation/session-android)
 - **[Signal](https://h5.2113.net/apps/signal.html)**: The Signal messenger in the version Signal offers on its website for phones without Google Play: one file for every device, which checks Signal’s server for updates every six hours.  
@@ -484,8 +490,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 6.0+ · a phone number · no known trackers found · GPL-2.0-or-later · [source](https://github.com/DrKLO/Telegram)
 - **[Telegram X](https://h5.2113.net/apps/telegram-x.html)**: A second official Telegram app for Android, written from scratch on Telegram’s TDLib library, with its own interface and features. It uses your normal Telegram account and chats.  
   No root · Android 7.0+ · a Telegram account · no known trackers found · GPL-3.0 · [source](https://github.com/TGX-Android/Telegram-X)
+- **[Thumb-Key](https://h5.2113.net/apps/thumb-key.html)**: A keyboard made for two thumbs: nine big keys in a 3×3 grid, the commonest letters on taps and the rest on swipes, so you learn where letters are instead of relying on word prediction.  
+  No root · Android 7.0+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/dessalines/thumb-key)
 - **[Tomato](https://h5.2113.net/apps/tomato.html)**: A minimalist Pomodoro timer: focus for 25 minutes, take a short break, and follow your focus time in daily, weekly, monthly and yearly statistics. It never goes online.  
   Android 8.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/nsh07/Tomato)
+- **[Translate You](https://h5.2113.net/apps/translate-you.html)**: One translation app for many services: Mozhi, LibreTranslate, DeepL, Yandex and more, or your own server if you run one, with text from photos read on the phone.  
+  No root · Android 6.0+ · internet for translating · no known trackers found · GPL-3.0-only · [source](https://github.com/you-apps/TranslateYou)
 - **[Tuta Mail](https://h5.2113.net/apps/tuta-mail.html)**: The Android app for Tuta, formerly Tutanota: encrypted email, contacts and calendar from a German provider, with notifications that work without Google Play services.  
   No root · Android 8.0+ · a Tuta account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/tutao/tutanota)
 - **[Unexpected Keyboard](https://h5.2113.net/apps/unexpected-keyboard.html)**: A small on-screen keyboard where you swipe a key toward one of its corners to type the symbol printed there, so more characters fit on one page. Designed for programmers using Termux.  
@@ -649,6 +659,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 10+ · 64-bit ARM · your own ROM files · no known trackers found · GPL-2.0 · [source](https://github.com/seleuco/MAME4droid-Current)
 - **[melonDS](https://h5.2113.net/games/melonds.html)**: An emulator for Nintendo DS and DSi games. DS games need no BIOS files, thanks to a built-in open-source replacement; the games themselves are not included.  
   Your own DS games · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rafaelvcaetano/melonDS-android)
+- **[Mupen64Plus AE](https://h5.2113.net/games/mupen64plus-ae.html)**: An N64 emulator that comes with every core and plugin it needs: choose a video plugin per game, play with touch controls or a gamepad, and bring your own game files.  
+  No root · Android 5.0+ · your own game files · no known trackers found · GPL-3.0-or-later · [source](https://github.com/mupen64plus-ae/mupen64plus-ae)
 - **[PPSSPP](https://h5.2113.net/games/ppsspp.html)**: A PSP emulator that needs no BIOS file, adds sharper graphics and save states, and works with touch controls, gamepads or a keyboard. Games are not included.  
   Your own PSP games · OpenGL ES 2.0 · Android 4.1+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/hrydgard/ppsspp)
 - **[RetroArch](https://h5.2113.net/games/retroarch.html)**: One frontend for many emulators: RetroArch runs emulator cores for many consoles and computers under a single interface, with its core downloader built in. Games are not included.  
