@@ -78,11 +78,11 @@
       "package": "app.flicky",
       "page": "https://h5.2113.net/apps/flicky.html",
       "category": "System Tools",
-      "version": "4.5.5",
-      "versionCode": 1001,
-      "released": "2026-10-18",
-      "size": 4351114,
-      "sha256": "86bf07c6fdb81b2b759356d62531d66cb680fc0fdab2b9dac5741c59a08f2021",
+      "version": "4.6.1",
+      "versionCode": 1021,
+      "released": "2026-10-22",
+      "size": 4479817,
+      "sha256": "adb4c192814bdd26970ee542c00a74f90083b2147a5c8a60333b8945ae08c940",
       "signers": [
         "4aed2f691df64a7b0fea25a6b8c80183c6dc520e049dac0178defa1d6472228f"
       ],
@@ -103,7 +103,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 15,
+      "permissions": 16,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2929,11 +2929,11 @@
       "package": "com.pcapdroid.mitm",
       "page": "https://h5.2113.net/apps/pcapdroid-mitm.html",
       "category": "Network & Privacy",
-      "version": "2.4",
-      "versionCode": 26,
-      "released": "2026-08-24",
-      "size": 28020180,
-      "sha256": "8268c55ddf1a63bd6c718bb57c34623228fccecafa0b77a6a974896339c93fe5",
+      "version": "2.5",
+      "versionCode": 27,
+      "released": "2026-10-22",
+      "size": 28453397,
+      "sha256": "aaf15242d03b8cff974a1ebf2a2dff2eb5c8aa246cfced897bc3cea660e187d9",
       "signers": [
         "ac701125e653189b2bbaa78fba60c1136b88b8780078db0dc4257f019c81c9fe"
       ],
@@ -5807,11 +5807,11 @@
       "package": "ls.bloomee.musicplayer",
       "page": "https://h5.2113.net/apps/bloomee.html",
       "category": "Media",
-      "version": "3.0.4",
-      "versionCode": 2202,
-      "released": "2026-05-29",
-      "size": 24426451,
-      "sha256": "472081c0bcd1c94a41eb563e4a3505d7ae96e6eefa046060406a99f0c2052fec",
+      "version": "3.1.0",
+      "versionCode": 2207,
+      "released": "2026-10-22",
+      "size": 24962839,
+      "sha256": "516cad2401556cd4f2e794222faa3740474099bafb1b19bf7eeda51253ebcf11",
       "signers": [
         "7df992b9643abd442ad5eac0417503e0d8c4275104a0a66d8cf43df69611a47e"
       ],
