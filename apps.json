@@ -496,6 +496,39 @@
       "olderVersions": []
     },
     {
+      "name": "SimpleX Chat",
+      "package": "chat.simplex.app",
+      "page": "https://h5.2113.net/apps/simplex-chat.html",
+      "category": "Productivity",
+      "version": "7.0.4",
+      "versionCode": 384,
+      "released": "2026-10-03",
+      "size": 87523844,
+      "sha256": "17966066a1e4369ebc8c569baec9607213b510a53b328279eb516facb3e7db29",
+      "signers": [
+        "3c52c4fd3cad1c07c9b00a7080e358fab9fefcb8af5aec147765f16d0f21ad85"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "repo",
+      "sourceCode": "https://github.com/simplex-chat/simplex-chat",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 21,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "FakeTraveler",
       "package": "cl.coders.faketraveler",
       "page": "https://h5.2113.net/apps/faketraveler.html",
@@ -524,6 +557,39 @@
       "permissions": 5,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Retro Music",
+      "package": "code.name.monkey.retromusic",
+      "page": "https://h5.2113.net/apps/retro-music.html",
+      "category": "Media",
+      "version": "7.0.3",
+      "versionCode": 10703,
+      "released": "2026-08-16",
+      "size": 9031762,
+      "sha256": "ef8c6012f821c92f7987f5f2a8165a5ea230fb4a86a599d051430fbdc3057fc7",
+      "signers": [
+        "a4bd9da9516b3c9f49b52419c6e3d21da3754d67f488269c3b05bf75df731ccf"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 18,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -3713,11 +3779,11 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.4.1",
-      "versionCode": 1341,
-      "released": "2026-10-20",
-      "size": 330321872,
-      "sha256": "e2406bca8cade81a2e2724540b16144757edc0213354ef503a7e370fb6a20b1b",
+      "version": "1.3.4.2",
+      "versionCode": 1342,
+      "released": "2026-10-25",
+      "size": 330420611,
+      "sha256": "e2973625216a7866c614be8c43b1af1ff2e0c4c065292bc50996953fd6aa8c64",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
@@ -3727,7 +3793,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.1",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.2",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -3842,6 +3908,42 @@
         "x86_64"
       ],
       "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Play!",
+      "package": "com.virtualapplications.play",
+      "page": "https://h5.2113.net/games/play-emulator.html",
+      "category": "Console Emulators",
+      "version": "0.72",
+      "versionCode": 148,
+      "released": "2026-01-23",
+      "size": 13752783,
+      "sha256": "571aa713aef3f981d23dee85033a21afa6a6167d7822f8fbedf409f8c7110be8",
+      "signers": [
+        "ff1dc76a400a540493d6583dd7854c5ca5d4e7ec012410b40a2049c04e76cb94"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "direct",
+      "sourceCode": "https://github.com/jpd002/Play-",
+      "license": "BSD-2-Clause",
+      "minSdk": 19,
+      "minAndroid": "Android 4.4",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 6,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4215,6 +4317,42 @@
       "targetSdk": 36,
       "abis": [],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Binary Eye",
+      "package": "de.markusfisch.android.binaryeye",
+      "page": "https://h5.2113.net/apps/binary-eye.html",
+      "category": "System Tools",
+      "version": "1.75.5",
+      "versionCode": 180,
+      "released": "2026-10-12",
+      "size": 8676688,
+      "sha256": "568cec6598dbf42fbde9071af8747071ffea798473016a3d77b6ddb3bff944f1",
+      "signers": [
+        "9ecdbf0677dd50609c76c2ba05dbe362232327b10a1c37cd58722993d9fe5d57"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/markusfisch/BinaryEye",
+      "license": "MIT",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4913,6 +5051,42 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "MojoLauncher",
+      "package": "git.artdeell.mjlaunch",
+      "page": "https://h5.2113.net/games/mojolauncher.html",
+      "category": "Minecraft Launchers",
+      "version": "justicia-20261019-[29c2ccc]-v3_openjdk",
+      "versionCode": 502,
+      "released": "2026-10-19",
+      "size": 91475343,
+      "sha256": "a2381ca9cc8067d269985ace4cd85e62f9e3a8e50d17bb559f2a451e7923f4fd",
+      "signers": [
+        "2937fb5a2216a788ba44f769eb5fee01c902f92dbf68069d44f9ca0ace087091"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/MojoLauncher/MojoLauncher/releases/tag/justicia",
+      "sourceCode": "https://github.com/MojoLauncher/MojoLauncher",
+      "license": "LGPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -6908,6 +7082,41 @@
         "x86_64"
       ],
       "permissions": 18,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Briar",
+      "package": "org.briarproject.briar.android",
+      "page": "https://h5.2113.net/apps/briar.html",
+      "category": "Productivity",
+      "version": "1.5.22",
+      "versionCode": 10522,
+      "released": "2026-10-15",
+      "size": 50648430,
+      "sha256": "7dfd9ab3a76fc690dcc5097fa5086ad1ebc7c9d748031a827bc54555c4181649",
+      "signers": [
+        "501ddf14a6ecf904fb20285c56a565cb987a867f91572ee33c2d43771cca4e37"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://code.briarproject.org/briar/briar",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 23,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -8962,9 +9171,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-24",
-      "size": 29215178,
-      "sha256": "7d6fe3b3267e9e848713aacf8a5ebf0e50430f9e4527c54ca4c406906260964f",
+      "released": "2026-10-25",
+      "size": 29215050,
+      "sha256": "f83795d292987125052fa598c3446cdce9fb7510511e0614fc2f3fcdc299b57b",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -9477,6 +9686,37 @@
       "targetSdk": 33,
       "abis": [],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Etar",
+      "package": "ws.xsoh.etar",
+      "page": "https://h5.2113.net/apps/etar.html",
+      "category": "Productivity",
+      "version": "1.0.57",
+      "versionCode": 57,
+      "released": "2026-07-31",
+      "size": 9226697,
+      "sha256": "dae01d93c8920aa63845868db2190bcc4aa6ff8410b1289de1ce27b1bb89c599",
+      "signers": [
+        "3f3176c3ce189c98054ff9e1d32daecf00a41572f4c7bd2b2f80607252ddb06e"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Etar-Group/Etar-Calendar",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 15,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []

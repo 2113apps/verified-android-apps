@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-270 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+277 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -12,10 +12,10 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (10)
 - [Network & Privacy](#network--privacy) (42)
-- [Media](#media) (43)
-- [System Tools](#system-tools) (53)
+- [Media](#media) (44)
+- [System Tools](#system-tools) (54)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (34)
+- [Productivity](#productivity) (37)
 - [Reading & Maps](#reading--maps) (8)
 - [Games: Strategy Games](#games-strategy-games) (11)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
@@ -25,8 +25,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Educational Games](#games-educational-games) (1)
 - [Games: Puzzle & Arcade](#games-puzzle--arcade) (12)
 - [Games: PC Emulators](#games-pc-emulators) (3)
-- [Games: Minecraft Launchers](#games-minecraft-launchers) (3)
-- [Games: Console Emulators](#games-console-emulators) (11)
+- [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
+- [Games: Console Emulators](#games-console-emulators) (12)
 - [Games: Game Streaming](#games-game-streaming) (1)
 
 ## Topics and comparisons
@@ -37,7 +37,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Fossify Apps: Simple Mobile Tools Alternatives](https://h5.2113.net/topics/fossify-apps/): The Fossify apps that carry on Simple Mobile Tools, from gallery, dialer and SMS to keyboard and launcher. None requests internet access; all eleven share one key.
 - [Android Games With No Ads: 15 Open-Source Picks](https://h5.2113.net/topics/games-without-ads/): Fifteen open-source Android games, from strategy and roguelikes to puzzles, pinball and racing, whose files contain no ad libraries, no billing code and no trackers.
 - [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from fixing old app installs to icon packs and freezing background apps. Xposed API confirmed in every APK, no trackers.
-- [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Three open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2 and Fold Craft Launcher, compared on versions, mods and devices.
+- [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Four open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2, FCL and MojoLauncher, compared on versions, mods and devices.
 - [NewPipe Alternatives: Open-Source YouTube Apps](https://h5.2113.net/topics/newpipe-alternatives/): NewPipe, PipePipe, LibreTube, FreeTube Android, SkyTube and Tubular compared on features, how they reach YouTube, upkeep and devices. Every APK checked.
 - [Open-Source Roguelikes for Android](https://h5.2113.net/topics/open-source-roguelikes/): Shattered Pixel Dungeon, Dungeon Crawl Stone Soup and Brogue CE compared on controls, depth, online features and who makes each Android version. All free, no ads.
 - [Open-Source Strategy Games for Android](https://h5.2113.net/topics/open-source-strategy-games/): Mindustry, Unciv and The Battle for Wesnoth compared on pace, online play, data downloads, controllers and Android support. Every APK signature-checked.
@@ -279,6 +279,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   ARM64 · beta · no known trackers found · GPL-3.0-or-later · [source](https://github.com/eszdman/PhotonCamera)
 - **[PipePipe](https://h5.2113.net/apps/pipepipe.html)**: A fork of NewPipe with more of everything: SponsorBlock and Return YouTube Dislike, filters that hide Shorts and paid videos, gestures, a sleep timer and BiliBili support.  
   No root · 64-bit phone · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/InfinityLoop1308/PipePipe)
+- **[Retro Music](https://h5.2113.net/apps/retro-music.html)**: A player for the music files on your phone, with a choice of 17 now-playing screens, crossfade, a sleep timer, a tag editor and synced lyrics from your own files, all unlocked.  
+  No root · Android 7.0+ · your own music files · no known trackers found · GPL-3.0-only · [source](https://github.com/RetroMusicPlayer/RetroMusicPlayer)
 - **[RootlessJamesDSP](https://h5.2113.net/apps/rootlessjamesdsp.html)**: A system-wide sound processor for phones without root: it captures what other apps play, runs it through the JamesDSP engine for EQ, bass, reverb or your own impulse responses, and plays it back.  
   No root · Shizuku or ADB once · Android 10+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/ThePBone/RootlessJamesDSP)
 - **[Seal](https://h5.2113.net/apps/seal.html)**: A friendly Android front end for yt-dlp: share or paste a link from a supported site, pick video or audio, and Seal handles the download, whole playlists included.  
@@ -332,6 +334,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no Google services needed · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/AuroraOSS/AuroraStore)
 - **[AVNC](https://h5.2113.net/apps/avnc.html)**: Control a computer from your phone: AVNC connects to any VNC server, on your network or through an SSH tunnel, with touch gestures, a bar of extra keys and clipboard sync.  
   No root · Android 5.0+ · a VNC server · no known trackers found · GPL-3.0-or-later · [source](https://github.com/gujjwal00/avnc)
+- **[Binary Eye](https://h5.2113.net/apps/binary-eye.html)**: A barcode scanner without ads: point the camera at a QR code, barcode or Data Matrix, see exactly what it contains, then open, copy or act on it, or create codes of your own.  
+  No root · Android 5.0+ · a camera · no known trackers found · MIT · [source](https://github.com/markusfisch/BinaryEye)
 - **[Canta](https://h5.2113.net/apps/canta.html)**: Remove the apps your phone maker pre-installed, without root. Canta works through Shizuku, marks which apps are risky to remove, and can put system apps back.  
   Shizuku · Android 9+ · no known trackers found · LGPL-3.0-or-later · [source](https://github.com/samolego/Canta)
 - **[ConnectBot](https://h5.2113.net/apps/connectbot.html)**: Log in to your servers from the phone: SSH with keys or passwords, Mosh for flaky connections, port forwarding and jump hosts. This is the open-source build, which needs no Google Play services.  
@@ -438,10 +442,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 6.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
 - **[Breezy Weather](https://h5.2113.net/apps/breezy-weather.html)**: A weather app that lets you choose the source: forecasts from more than 50 weather services, with rain in the next hour, severe weather alerts, air quality, pollen and widgets.  
   No root · Android 6.0+ · no known trackers found · LGPL-3.0-only · [source](https://github.com/breezy-weather/breezy-weather)
+- **[Briar](https://h5.2113.net/apps/briar.html)**: A messenger without a central server: messages travel directly between phones, over Tor when there is internet, or over the same Wi-Fi network, Bluetooth or a USB stick when there isn’t.  
+  No root · Android 5.0+ · no phone number · no known trackers found · GPL-3.0-or-later · [source](https://code.briarproject.org/briar/briar)
 - **[Conversations](https://h5.2113.net/apps/conversations.html)**: A messenger for the open XMPP network, also known as Jabber: pick any server, or run your own, then chat, call and share files with end-to-end encryption switched on by default.  
   No root · Android 6.0+ · an XMPP account · no known trackers found · GPL-3.0-only · [source](https://codeberg.org/iNPUTmice/Conversations)
 - **[Element X](https://h5.2113.net/apps/element-x.html)**: The new app from Element for Matrix, the open network for encrypted chat. It replaces Element Classic, which Element is retiring at the end of 2026.  
   Android 7.0+ · 64-bit ARM · a Matrix account · tracker code found: Sentry · AGPL-3.0-or-later · [source](https://github.com/element-hq/element-x-android)
+- **[Etar](https://h5.2113.net/apps/etar.html)**: A calendar app that shows whatever calendars your phone already has, Google, CalDAV or offline ones kept only on the phone, in month, week, day and agenda views, without ever going online itself.  
+  No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Etar-Group/Etar-Calendar)
 - **[FairEmail](https://h5.2113.net/apps/fairemail.html)**: A full email app for any IMAP or POP3 account, including Gmail and Outlook, that asks before loading images or opening links and supports PGP and S/MIME. This is the developer’s GitHub build.  
   Android 6.0+ · works without Google services · no known trackers found · GPL-3.0-or-later · [source](https://github.com/M66B/FairEmail)
 - **[Fcitx5 for Android](https://h5.2113.net/apps/fcitx5.html)**: The Fcitx 5 input method framework from Linux desktops, as an Android keyboard: Chinese Pinyin, Shuangpin and Wubi built in, Japanese, Korean, Vietnamese, Rime and others as plugins.  
@@ -484,6 +492,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no phone number · no known trackers found · GPL-3.0 · [source](https://github.com/session-foundation/session-android)
 - **[Signal](https://h5.2113.net/apps/signal.html)**: The Signal messenger in the version Signal offers on its website for phones without Google Play: one file for every device, which checks Signal’s server for updates every six hours.  
   No root · Android 6.0+ · a phone number · no known trackers found · AGPL-3.0-only · [source](https://github.com/signalapp/Signal-Android)
+- **[SimpleX Chat](https://h5.2113.net/apps/simplex-chat.html)**: A messenger without accounts: you connect to people through one-time links or QR codes, messages are end-to-end encrypted and relayed through servers you can swap for your own.  
+  No root · Android 8.0+ · 64-bit ARM phone · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/simplex-chat/simplex-chat)
 - **[Tasks.org](https://h5.2113.net/apps/tasks-org.html)**: A to-do list app with nested subtasks, repeating tasks, start dates and reminders by time or place. It works offline, or syncs with your own CalDAV server and other services.  
   No root · Android 8.0+ · no account needed · tracker code found: OpenTelemetry (OpenCensus, OpenTracing) · GPL-3.0-only · [source](https://github.com/tasks/tasks)
 - **[Telegram](https://h5.2113.net/apps/telegram.html)**: The Telegram messenger as Telegram publishes it on its website: the same chats, channels, groups and calls as the Google Play app, installed as a separate app that checks for its own updates.  
@@ -642,6 +652,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5+ · Microsoft account with Minecraft Java · no known trackers found · LGPL-3.0 · [source](https://github.com/AngelAuraMC/Amethyst-Android)
 - **[Fold Craft Launcher](https://h5.2113.net/games/fold-craft-launcher.html)**: A Minecraft Java Edition launcher for Android that combines HMCL’s version and mod management with the Amethyst engine.  
   Android 8.0+ · Minecraft: Java Edition, sold by Mojang · no known trackers found · GPL-3.0 · [source](https://github.com/FCL-Team/FoldCraftLauncher)
+- **[MojoLauncher](https://h5.2113.net/games/mojolauncher.html)**: A Minecraft Java Edition launcher from one of PojavLauncher’s developers: install vanilla or modded versions, pick a graphics renderer for your phone, and play with touch controls or a gamepad.  
+  No root · Android 5.0+ · Minecraft: Java Edition · no known trackers found · LGPL-3.0 · [source](https://github.com/MojoLauncher/MojoLauncher)
 - **[Zalith Launcher 2](https://h5.2113.net/games/zalith-launcher-2.html)**: A newly designed Minecraft Java Edition launcher for Android. It uses the PojavLauncher engine under a modern Material Design 3 interface.  
   Android 8+ · Minecraft: Java Edition · no known trackers found · GPL-3.0 · [source](https://github.com/ZalithLauncher/ZalithLauncher2)
 
@@ -661,6 +673,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Your own DS games · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rafaelvcaetano/melonDS-android)
 - **[Mupen64Plus AE](https://h5.2113.net/games/mupen64plus-ae.html)**: An N64 emulator that comes with every core and plugin it needs: choose a video plugin per game, play with touch controls or a gamepad, and bring your own game files.  
   No root · Android 5.0+ · your own game files · no known trackers found · GPL-3.0-or-later · [source](https://github.com/mupen64plus-ae/mupen64plus-ae)
+- **[Play!](https://h5.2113.net/games/play-emulator.html)**: A PlayStation 2 emulator that doesn’t need a BIOS: it re-creates the console’s system software itself, so you only bring your own game discs as image files.  
+  No root · Android 4.4+ · your own PS2 game images · no known trackers found · BSD-2-Clause · [source](https://github.com/jpd002/Play-)
 - **[PPSSPP](https://h5.2113.net/games/ppsspp.html)**: A PSP emulator that needs no BIOS file, adds sharper graphics and save states, and works with touch controls, gamepads or a keyboard. Games are not included.  
   Your own PSP games · OpenGL ES 2.0 · Android 4.1+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/hrydgard/ppsspp)
 - **[RetroArch](https://h5.2113.net/games/retroarch.html)**: One frontend for many emulators: RetroArch runs emulator cores for many consoles and computers under a single interface, with its core downloader built in. Games are not included.  
