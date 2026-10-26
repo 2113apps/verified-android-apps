@@ -216,11 +216,11 @@
       "package": "app.mihon",
       "page": "https://h5.2113.net/apps/mihon.html",
       "category": "Reading & Maps",
-      "version": "0.21.2",
-      "versionCode": 38,
-      "released": "2026-10-13",
-      "size": 68091068,
-      "sha256": "9160532adc69723e525d7276b22f856953ac4b1dbd081438281e42eaeabe1ef4",
+      "version": "0.21.3",
+      "versionCode": 39,
+      "released": "2026-10-25",
+      "size": 68195386,
+      "sha256": "b499552614bec398b0687c77ffe973942282c29ca74e631a6b70ecbabff1782e",
       "signers": [
         "9add655a78e96c4ec7a53ef89dccb557cb5d767489fac5e785d671a5a75d4da2"
       ],
@@ -229,7 +229,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.2",
+      "sourceRelease": "https://github.com/mihonapp/mihon/releases/tag/v0.21.3",
       "sourceCode": "https://github.com/mihonapp/mihon",
       "license": "Apache-2.0",
       "minSdk": 26,
@@ -1288,6 +1288,38 @@
       "olderVersions": []
     },
     {
+      "name": "Cataclysm: Bright Nights",
+      "package": "com.cataclysmbnteam.cataclysmbn",
+      "page": "https://h5.2113.net/games/cataclysm-bn.html",
+      "category": "Adventure & RPG",
+      "version": "v0.13.0",
+      "versionCode": 1,
+      "released": "2026-09-25",
+      "size": 282787220,
+      "sha256": "1609732f4fe51a36baa7ebdeea0acbe71e728eaa55ded8ad3f560be7d8cf8490",
+      "signers": [
+        "b0d7645332eb0a2b940bf3a2c1386d04ddf9bb2f5c7f64a2a8fe11c46e47799c"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/cataclysmbn/Cataclysm-BN/releases/tag/v0.13.0",
+      "sourceCode": "https://github.com/cataclysmbn/Cataclysm-BN",
+      "license": "CC-BY-SA-3.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 33,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Rethink: DNS + Firewall + VPN",
       "package": "com.celzero.bravedns",
       "page": "https://h5.2113.net/apps/rethink-dns.html",
@@ -1587,6 +1619,36 @@
         "x86_64"
       ],
       "permissions": 14,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Arcticons",
+      "package": "com.donnnno.arcticons",
+      "page": "https://h5.2113.net/apps/arcticons.html",
+      "category": "Customization",
+      "version": "15.3.2",
+      "versionCode": 1570,
+      "released": "2026-09-21",
+      "size": 70647343,
+      "sha256": "653ea050715c4d40c15da7e6cefad17e389afcd6a518636f6115de2ae1310fc1",
+      "signers": [
+        "299bb9312e39130d0d33ed42bf98567f726ab11a04dc950c5b6c162e28c869c5"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Arcticons-Team/Arcticons",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 7,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2431,6 +2493,42 @@
       "olderVersions": []
     },
     {
+      "name": "Tusky",
+      "package": "com.keylesspalace.tusky",
+      "page": "https://h5.2113.net/apps/tusky.html",
+      "category": "Productivity",
+      "version": "33.1",
+      "versionCode": 145,
+      "released": "2026-10-12",
+      "size": 22491280,
+      "sha256": "8154cabe67374f2e1f477fc4de8a44bbefe3cafdfa1b05495a6a9f762c6efd7d",
+      "signers": [
+        "e946901f12bd49c64de702a532114e58c3ab2a6f18d1cd9b78632baad44454e3"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://codeberg.org/tusky/Tusky",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "KeePassDX",
       "package": "com.kunzisoft.keepass.libre",
       "page": "https://h5.2113.net/apps/keepassdx.html",
@@ -2531,6 +2629,42 @@
         "x86_64"
       ],
       "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Artemis",
+      "package": "com.limelight.noir",
+      "page": "https://h5.2113.net/games/artemis.html",
+      "category": "Game Streaming",
+      "version": "20.2.6",
+      "versionCode": 57,
+      "released": "2025-08-08",
+      "size": 12082799,
+      "sha256": "6735b5fdd790410ea726754235f49757fa594ef01da1e5acadf72690c9423f6c",
+      "signers": [
+        "d06f9a5fadeddef3910b1506e7a24d1c628ce42e72ba3660340dbb9f5dea81d6"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/ClassicOldSong/moonlight-android/releases/tag/v20.2.6",
+      "sourceCode": "https://github.com/ClassicOldSong/moonlight-android",
+      "license": "GPL-3.0",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3231,6 +3365,38 @@
         "x86_64"
       ],
       "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "InstallerX Revived",
+      "package": "com.rosan.installer.x.revived",
+      "page": "https://h5.2113.net/apps/installerx-revived.html",
+      "category": "System Tools",
+      "version": "26.09",
+      "versionCode": 1553,
+      "released": "2026-09-30",
+      "size": 6058248,
+      "sha256": "fe7ac4737885a0426042222e27ed0a637e481e72c742ebe09142fd51448ae85b",
+      "signers": [
+        "48260df784f9b4901a17a8a74aa676dcde3ba7a26bbb59f9832420cc8a6b3e8e"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/wxxsfxyzm/InstallerX-Revived/releases/tag/26.09",
+      "sourceCode": "https://github.com/wxxsfxyzm/InstallerX-Revived",
+      "license": "GPL-3.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 27,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -6660,6 +6826,37 @@
       "olderVersions": []
     },
     {
+      "name": "Markor",
+      "package": "net.gsantner.markor",
+      "page": "https://h5.2113.net/apps/markor.html",
+      "category": "Productivity",
+      "version": "2.16.1",
+      "versionCode": 163,
+      "released": "2026-03-20",
+      "size": 12054040,
+      "sha256": "3f9f260dc3e32a1281cb8803eea6f926eef897579f68a5d35f922523974b84b9",
+      "signers": [
+        "9c70033237dc46fe5052e420c665708de8b3105b89842843818981826b7eec9c"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/gsantner/markor",
+      "license": "Apache-2.0",
+      "minSdk": 18,
+      "minAndroid": "Android 4.3",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Luanti",
       "package": "net.minetest.minetest",
       "page": "https://h5.2113.net/games/luanti.html",
@@ -8287,6 +8484,44 @@
       "permissions": 19,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "GitNex",
+      "package": "org.mian.gitnex",
+      "page": "https://h5.2113.net/apps/gitnex.html",
+      "category": "System Tools",
+      "version": "15.0.0",
+      "versionCode": 1500,
+      "released": "2026-09-17",
+      "size": 18129666,
+      "sha256": "d962345574c4ed58f04b162ccb2549ca5b02b83786f3e7dd056d10d2894b2bce",
+      "signers": [
+        "c3896336d725985196865a9f80dda402c0c3656aa908aa37d5ca6e4158a18686"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://codeberg.org/gitnex/GitNex",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [
+        "ACRA"
+      ],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {

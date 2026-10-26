@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-277 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+284 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -10,16 +10,16 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
-- [Customization](#customization) (10)
+- [Customization](#customization) (11)
 - [Network & Privacy](#network--privacy) (42)
 - [Media](#media) (44)
-- [System Tools](#system-tools) (54)
+- [System Tools](#system-tools) (56)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (37)
+- [Productivity](#productivity) (39)
 - [Reading & Maps](#reading--maps) (8)
 - [Games: Strategy Games](#games-strategy-games) (11)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
-- [Games: Adventure & RPG](#games-adventure--rpg) (11)
+- [Games: Adventure & RPG](#games-adventure--rpg) (12)
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
@@ -27,7 +27,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
 - [Games: Console Emulators](#games-console-emulators) (12)
-- [Games: Game Streaming](#games-game-streaming) (1)
+- [Games: Game Streaming](#games-game-streaming) (2)
 
 ## Topics and comparisons
 
@@ -109,6 +109,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Customization
 
+- **[Arcticons](https://h5.2113.net/apps/arcticons.html)**: Over 15,000 hand-drawn, white line icons that restyle your home screen in one go, for launchers that accept icon packs, plus clock widgets and a wallpaper collection.  
+  No root · a launcher that supports icon packs · no known trackers found · GPL-3.0-only · [source](https://github.com/Arcticons-Team/Arcticons)
 - **[ColorBlendr](https://h5.2113.net/apps/colorblendr.html)**: Take over the Material You palette that Android 12 and later builds from your wallpaper: pick your own seed color, tune saturation and lightness, and override single shades.  
   Root, Shizuku or wireless ADB · Android 12+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Mahmud0808/ColorBlendr)
 - **[Fossify Launcher](https://h5.2113.net/apps/fossify-launcher.html)**: A plain home screen that carries on from Simple Launcher: icons, folders and widgets on a grid you size yourself, an app drawer with search, and no account or news feed.  
@@ -360,10 +362,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root needed · all files access · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/File-Manager)
 - **[Geto](https://h5.2113.net/apps/geto.html)**: Set system settings for one app: Geto applies them when it launches that app and restores them from a notification afterwards. Its author built it to switch developer options off for a banking app.  
   Android 7.0+ · adb to grant one permission · no known trackers found · GPL-3.0-only · [source](https://github.com/JackEblan/Geto)
+- **[GitNex](https://h5.2113.net/apps/gitnex.html)**: Manage your Forgejo or Gitea server from the phone: browse repositories and files, work through issues and pull requests, read diffs and get notifications, for Codeberg or your own instance.  
+  No root · a Forgejo or Gitea server · Android 8.0+ · tracker code found: ACRA · GPL-3.0-only · [source](https://codeberg.org/gitnex/GitNex)
 - **[Hail](https://h5.2113.net/apps/hail.html)**: Switch off the apps you rarely use instead of uninstalling them: Hail disables, hides or suspends them, and brings them back with a tap when you need them.  
   Shizuku, root or device owner · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/aistra0528/Hail)
 - **[Install with Options](https://h5.2113.net/apps/install-with-options.html)**: Installs APKs with options normally reserved for adb: test-only apps, downgrades, split APKs and Android 14’s blocked old apps.  
   Shizuku or root · tracker code found: Bugsnag · MIT · [source](https://github.com/zacharee/InstallWithOptions)
+- **[InstallerX Revived](https://h5.2113.net/apps/installerx-revived.html)**: A replacement for the system’s install screen that also opens split-APK bundles, installs silently when Shizuku, root or Dhizuku gives it the rights, and lets you set rules per source app.  
+  No root needed · Shizuku or root for more · Android 8.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/wxxsfxyzm/InstallerX-Revived)
 - **[Key Mapper](https://h5.2113.net/apps/key-mapper.html)**: Turn almost any button into a shortcut: volume and side keys, gamepads, keyboards and headset buttons can trigger more than 100 actions, even with the screen off in Expert Mode.  
   No root · accessibility service · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/keymapperorg/KeyMapper)
 - **[Klick’r](https://h5.2113.net/apps/klickr-auto-clicker.html)**: An open-source auto clicker that repeats taps and gestures, or reacts to the screen: when an image, a colour, a number or some text appears, it acts.  
@@ -482,6 +488,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.1+ · All files access · no known trackers found · AGPL-3.0-only · [source](https://github.com/logseq/logseq)
 - **[Loop Habit Tracker](https://h5.2113.net/apps/loop-habit-tracker.html)**: Track the habits you want to build, from a daily walk to a number of pages read, and watch a strength score that forgives the odd missed day. Everything stays on your phone.  
   Android 9+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/iSoron/uhabits)
+- **[Markor](https://h5.2113.net/apps/markor.html)**: Write notes, lists and documents as plain files in a folder of your own: Markdown with a live preview, todo.txt task lists, quick notes and formats from CSV to YAML, with no account.  
+  No root · Android 4.3+ · no known trackers found · Apache-2.0 · [source](https://github.com/gsantner/markor)
 - **[Molly](https://h5.2113.net/apps/molly.html)**: A hardened version of Signal that uses Signal’s servers, so you chat with your Signal contacts as usual, and adds a passphrase that encrypts the app’s data and a memory wipe when it locks.  
   No root · Android 8.1+ · a phone number · no known trackers found · AGPL-3.0 · [source](https://github.com/mollyim/mollyim-android)
 - **[Nekogram](https://h5.2113.net/apps/nekogram.html)**: Telegram with a few more switches: hide parts of the interface you don’t use, translate messages and whole chats with the engine you choose, and see details such as chat IDs. Uses your account.  
@@ -506,6 +514,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 8.0+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/nsh07/Tomato)
 - **[Translate You](https://h5.2113.net/apps/translate-you.html)**: One translation app for many services: Mozhi, LibreTranslate, DeepL, Yandex and more, or your own server if you run one, with text from photos read on the phone.  
   No root · Android 6.0+ · internet for translating · no known trackers found · GPL-3.0-only · [source](https://github.com/you-apps/TranslateYou)
+- **[Tusky](https://h5.2113.net/apps/tusky.html)**: A lightweight app for Mastodon and compatible fediverse servers: follow your timelines, post and save drafts, switch between accounts, and get notifications without Google’s push service.  
+  No root · a Mastodon-compatible account · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://codeberg.org/tusky/Tusky)
 - **[Tuta Mail](https://h5.2113.net/apps/tuta-mail.html)**: The Android app for Tuta, formerly Tutanota: encrypted email, contacts and calendar from a German provider, with notifications that work without Google Play services.  
   No root · Android 8.0+ · a Tuta account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/tutao/tutanota)
 - **[Unexpected Keyboard](https://h5.2113.net/apps/unexpected-keyboard.html)**: A small on-screen keyboard where you swipe a key toward one of its corners to type the symbol printed there, so more characters fit on one page. Designed for programmers using Termux.  
@@ -568,6 +578,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · offline · no account · no known trackers found · [source](https://github.com/AndorsTrailRelease/andors-trail)
 - **[Brogue CE Android](https://h5.2113.net/games/brogue-ce.html)**: Fight your way down a randomly generated dungeon to retrieve the Amulet of Yendor from its 26th level. A personal, unofficial port of Brogue: Community Edition to Android.  
   Android 7.0+ · no account · offline · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/tyrannotorus/c-brogue-ce-android)
+- **[Cataclysm: Bright Nights](https://h5.2113.net/games/cataclysm-bn.html)**: Survive a procedurally generated world after the Cataclysm: scavenge, build, drive and fight, in a fork of Cataclysm: Dark Days Ahead that went its own way in 2020, with Lua mods and a way to win.  
+  No root · Android 10+ · Vulkan 1.1 · 64-bit · no known trackers found · CC-BY-SA-3.0 · [source](https://github.com/cataclysmbn/Cataclysm-BN)
 - **[Cataclysm: Dark Days Ahead](https://h5.2113.net/games/cataclysm-dda.html)**: Survive in a generated world overrun by zombies and stranger things: scavenge, craft, build vehicles and bases, and keep your character fed, healthy and sane. Turn-based, deep and unforgiving.  
   No root · Android 5.0+ · 64-bit ARM phone · no known trackers found · CC-BY-SA-3.0 · [source](https://github.com/CleverRaven/Cataclysm-DDA)
 - **[Dungeon Crawl Stone Soup](https://h5.2113.net/games/dungeon-crawl-stone-soup.html)**: Pick a species and a background, then dive for the Orb of Zot through a dungeon full of monsters and fickle gods. A deep, free roguelike that runs entirely offline.  
@@ -686,6 +698,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Game Streaming
 
+- **[Artemis](https://h5.2113.net/games/artemis.html)**: Stream games and your desktop from a Windows PC to your phone or tablet: a fork of Moonlight with dozens of extra options, made to pair with the Apollo host for virtual displays and clipboard sync.  
+  No root · a PC running Apollo or Sunshine · Android 5.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/ClassicOldSong/moonlight-android)
 - **[Moonlight](https://h5.2113.net/games/moonlight.html)**: Plays the games on your own gaming PC on an Android phone, tablet or TV. The game runs on the PC, with Sunshine or NVIDIA GeForce Experience; Moonlight shows the picture and sends your controls back.  
   A gaming PC as the host · Android 5.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/moonlight-stream/moonlight-android)
 
