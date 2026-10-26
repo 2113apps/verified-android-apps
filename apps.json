@@ -2883,11 +2883,11 @@
       "package": "com.maxrave.simpmusic",
       "page": "https://h5.2113.net/apps/simpmusic.html",
       "category": "Media",
-      "version": "2.2.0",
-      "versionCode": 59,
-      "released": "2026-09-26",
-      "size": 27497350,
-      "sha256": "1b93a9cdc1bdee379f4089c0306fabcb45cc627b4146f53feff46be460926a72",
+      "version": "2.4.0",
+      "versionCode": 61,
+      "released": "2026-10-25",
+      "size": 28493168,
+      "sha256": "035cba472036633cf30257fa915579af45e387113bf8dce19c1a4c51b1b67764",
       "signers": [
         "76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1"
       ],
