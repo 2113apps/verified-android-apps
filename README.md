@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-284 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+291 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -10,20 +10,20 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
-- [Customization](#customization) (11)
+- [Customization](#customization) (12)
 - [Network & Privacy](#network--privacy) (42)
-- [Media](#media) (44)
+- [Media](#media) (45)
 - [System Tools](#system-tools) (56)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (39)
-- [Reading & Maps](#reading--maps) (8)
-- [Games: Strategy Games](#games-strategy-games) (11)
+- [Productivity](#productivity) (41)
+- [Reading & Maps](#reading--maps) (9)
+- [Games: Strategy Games](#games-strategy-games) (12)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
 - [Games: Adventure & RPG](#games-adventure--rpg) (12)
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (12)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (13)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
 - [Games: Console Emulators](#games-console-emulators) (12)
@@ -129,6 +129,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/tanujnotes/Olauncher)
 - **[Taskbar](https://h5.2113.net/apps/taskbar.html)**: A PC-style start menu and a bar of recent apps that sit on top of any screen, plus floating app windows and a desktop mode for when your phone drives an external display.  
   No root · overlay permission · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/farmerbb/Taskbar)
+- **[Video Live Wallpaper](https://h5.2113.net/apps/video-live-wallpaper.html)**: Turn a video or animated GIF already on your phone into a silent looping wallpaper, then choose its speed and whether to crop it to fill the screen or fit the whole frame.  
+  No root · Android 8.0+ · a local video or GIF · no known trackers found · Apache-2.0 · [source](https://github.com/codeg0blin/video-live-wallpaper)
 - **[µLauncher](https://h5.2113.net/apps/mulauncher.html)**: A home screen with just the date, the time and your wallpaper. Apps open with swipes, taps, drawn shapes or the volume keys, and everything else is a searchable list.  
   Android 5.0+ · no known trackers found · MIT · [source](https://github.com/jrpie/Launcher)
 
@@ -277,6 +279,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 10+ · no known trackers found · GPL-3.0-only · [source](https://github.com/NoneBaiano/OpenRecorder)
 - **[OuterTune](https://h5.2113.net/apps/outertune.html)**: A Material 3 music player that combines YouTube Music with your own music files. The version here is the last one with YouTube Music, which its maintainers no longer develop.  
   No root · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/OuterTune/OuterTune)
+- **[Photo Editor](https://h5.2113.net/apps/photo-editor.html)**: Open or take a photo, draw over it, place text, emoji and stickers, apply color effects, undo changes and save the result in the sample app for the PhotoEditor library.  
+  Android 5.0+ · network for stickers and UI font · no known trackers found · MIT · [source](https://github.com/burhanrashid52/PhotoEditor)
 - **[PhotonCamera](https://h5.2113.net/apps/photoncamera.html)**: An experimental camera that captures raw frames and stacks them for HDR, with manual controls.  
   ARM64 · beta · no known trackers found · GPL-3.0-or-later · [source](https://github.com/eszdman/PhotonCamera)
 - **[PipePipe](https://h5.2113.net/apps/pipepipe.html)**: A fork of NewPipe with more of everything: SponsorBlock and Return YouTube Dislike, filters that hide Shorts and paid videos, gestures, a sleep timer and BiliBili support.  
@@ -452,6 +456,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.0+ · no phone number · no known trackers found · GPL-3.0-or-later · [source](https://code.briarproject.org/briar/briar)
 - **[Conversations](https://h5.2113.net/apps/conversations.html)**: A messenger for the open XMPP network, also known as Jabber: pick any server, or run your own, then chat, call and share files with end-to-end encryption switched on by default.  
   No root · Android 6.0+ · an XMPP account · no known trackers found · GPL-3.0-only · [source](https://codeberg.org/iNPUTmice/Conversations)
+- **[Easy Notes](https://h5.2113.net/apps/easy-notes.html)**: Keep Markdown notes, pictures and home-screen widgets on the phone, with search, themes, an app lock and a separate encrypted vault—without an account or built-in sync.  
+  No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kin69/EasyNotes)
 - **[Element X](https://h5.2113.net/apps/element-x.html)**: The new app from Element for Matrix, the open network for encrypted chat. It replaces Element Classic, which Element is retiring at the end of 2026.  
   Android 7.0+ · 64-bit ARM · a Matrix account · tracker code found: Sentry · AGPL-3.0-or-later · [source](https://github.com/element-hq/element-x-android)
 - **[Etar](https://h5.2113.net/apps/etar.html)**: A calendar app that shows whatever calendars your phone already has, Google, CalDAV or offline ones kept only on the phone, in month, week, day and agenda views, without ever going online itself.  
@@ -468,7 +474,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Clock)
 - **[Fossify Contacts](https://h5.2113.net/apps/fossify-contacts.html)**: An open-source contacts app that carries on from Simple Contacts: groups and favourites, vCard import and export, and private contacts that other apps can’t read.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Contacts)
-- **[Fossify Keyboard](https://h5.2113.net/apps/fossify-keyboard.html)**: A plain on-screen keyboard that carries on from Simple Keyboard: 44 layouts, from Portuguese to Colemak, an emoji picker and a clipboard manager, but no word suggestions.  
+- **[Fossify Keyboard](https://h5.2113.net/apps/fossify-keyboard.html)**: The successor to Simple Mobile Tools’ Simple Keyboard has 44 layouts, from Portuguese to Colemak, an emoji picker and a clipboard manager, but no word suggestions.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Keyboard)
 - **[Fossify Messages](https://h5.2113.net/apps/fossify-messages.html)**: An SMS and MMS app that carries on from Simple SMS Messenger: group conversations, blocking by number or keyword, scheduled messages and JSON backups, without internet access.  
   No root · Android 8.0+ · default SMS app · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Messages)
@@ -500,6 +506,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no phone number · no known trackers found · GPL-3.0 · [source](https://github.com/session-foundation/session-android)
 - **[Signal](https://h5.2113.net/apps/signal.html)**: The Signal messenger in the version Signal offers on its website for phones without Google Play: one file for every device, which checks Signal’s server for updates every six hours.  
   No root · Android 6.0+ · a phone number · no known trackers found · AGPL-3.0-only · [source](https://github.com/signalapp/Signal-Android)
+- **[Simple Keyboard](https://h5.2113.net/apps/simple-keyboard.html)**: Raimondas Rimkus’s deliberately small keyboard gives you keys, layouts and a few optional gestures—not prediction, emoji, GIFs or a network connection.  
+  No root · Android 7.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/rkkr/simple-keyboard)
 - **[SimpleX Chat](https://h5.2113.net/apps/simplex-chat.html)**: A messenger without accounts: you connect to people through one-time links or QR codes, messages are end-to-end encrypted and relayed through servers you can swap for your own.  
   No root · Android 8.0+ · 64-bit ARM phone · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/simplex-chat/simplex-chat)
 - **[Tasks.org](https://h5.2113.net/apps/tasks-org.html)**: A to-do list app with nested subtasks, repeating tasks, start dates and reminders by time or place. It works offline, or syncs with your own CalDAV server and other services.  
@@ -523,6 +531,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Reading & Maps
 
+- **[EinkBro](https://h5.2113.net/apps/einkbro.html)**: Browse and read on an E-Ink tablet with high-contrast controls, edge taps or volume-key page turns, reader mode, vertical text and ways to save pages as EPUB or PDF.  
+  Android 7.0+ · WebView · internet access · no known trackers found · GPL-3.0-or-later · [source](https://github.com/plateaukao/einkbro)
 - **[Kiwix](https://h5.2113.net/apps/kiwix.html)**: Reads Wikipedia and other websites offline from downloaded ZIM archives. This is the full version, which can open ZIM files from any folder, unlike the Google Play version.  
   No root · 64-bit phone · Android 7.1+ · no known trackers found · GPL-3.0 · [source](https://github.com/kiwix/kiwix-android)
 - **[KOReader](https://h5.2113.net/apps/koreader.html)**: A document reader built first for e-ink readers such as Kindle and Kobo, and available on Android: EPUB, PDF, DjVu, comics and more, with dictionaries and Calibre built in.  
@@ -554,12 +564,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · no account · no known trackers found · GPL-2.0-only · [source](https://github.com/shlusiak/Freebloks-Android)
 - **[Lichess](https://h5.2113.net/games/lichess.html)**: The official app of Lichess, the free and open-source chess site: play people online, play the computer offline, solve puzzles and analyse your games.  
   Android 8.0+ · 64-bit ARM · account optional · no known trackers found · GPL-3.0-or-later · [source](https://github.com/lichess-org/mobile)
+- **[Ludo](https://h5.2113.net/games/ludo.html)**: Play Ludo entirely offline with two to four colors: pass one phone among up to four people, fill empty seats with bots, or mix both in the same match.  
+  Android 7.0+ · 64-bit ARM · one shared device · no known trackers found · GPL-3.0-only · [source](https://github.com/sidhant947/Ludo)
 - **[Mindustry](https://h5.2113.net/games/mindustry.html)**: Build drills, conveyor belts and factories that feed your turrets and units, and defend your core through campaigns on two planets. Free and open source; this is F-Droid’s build.  
   Android 5.0+ · no account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Anuken/Mindustry)
 - **[Mobile Maia](https://h5.2113.net/games/mobile-maia.html)**: Play chess against an engine that plays like a person at your level rather than like a perfect machine, then review the game with Stockfish, all offline. Mobile Maia brings Maia-3 to Android.  
   No root · Android 7.0+ · no account or internet · no known trackers found · AGPL-3.0-only · [source](https://github.com/Dash1971/maia-chess-android)
 - **[The Battle for Wesnoth](https://h5.2113.net/games/wesnoth.html)**: Lead fantasy armies through story campaigns or online battles, turn by turn on a hex map. On Android, only the 1.19 development branch exists, and the project calls it an alpha.  
-  Android 6.0+ · 64-bit ARM · 0.6 GB download · no known trackers found · GPL-2.0-or-later · [source](https://github.com/wesnoth/wesnoth)
+  Android 6.0+ · ARM64 · manual data ZIP currently required · no known trackers found · GPL-2.0-or-later · [source](https://github.com/wesnoth/wesnoth)
 - **[Unciv](https://h5.2113.net/games/unciv.html)**: Found cities, research technologies and grow an empire turn by turn, against the computer or friends. Small, free and open source, with mods; this is F-Droid’s build.  
   Android 5.0+ · no account · no known trackers found · MPL-2.0 · [source](https://github.com/yairm210/Unciv)
 - **[VCMI](https://h5.2113.net/games/vcmi.html)**: Play Heroes of Might and Magic III on your phone with a rebuilt, open-source engine. Bring the original game files (the GOG version works); VCMI supplies everything else.  
@@ -642,6 +654,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · ARM phone or TV · Android 5.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/alemart/opensurge)
 - **[osu!](https://h5.2113.net/games/osu.html)**: Tap circles, follow sliders and spin to the music in the free rhythm game, now on Android: the same osu!(lazer) as on computers, with all four game modes, online rankings and multiplayer.  
   No root · Android 5.0+ · free osu! account for online play · tracker code found: Sentry · MIT · [source](https://github.com/ppy/osu)
+- **[PySolFC](https://h5.2113.net/games/pysolfc.html)**: Choose from a very large offline collection of solitaire variants—not only Klondike and FreeCell, but Mahjongg, Shisen-Sho, memory and puzzle families—with hints and undo.  
+  Android 5.0+ · ARM phone or tablet · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shlomif/PySolFC)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
   Android 5.0+ · no known trackers found · MIT · [source](https://github.com/chrisboyle/sgtpuzzles)
 - **[SuperTux](https://h5.2113.net/games/supertux.html)**: Run, jump and stomp through snowy and forest worlds as Tux on his way to rescue Penny. A complete game made by volunteers, with no ads; this is the team’s own Android build.  

@@ -1218,6 +1218,39 @@
       "olderVersions": []
     },
     {
+      "name": "Photo Editor",
+      "package": "com.burhanrashid52.photoediting",
+      "page": "https://h5.2113.net/apps/photo-editor.html",
+      "category": "Media",
+      "version": "3.1.1",
+      "versionCode": 12,
+      "released": "2026-10-04",
+      "size": 11753687,
+      "sha256": "23c1ad5275a5d3b07b0c024b8931333367349bfbc8527ca1eaf11c492c63518f",
+      "signers": [
+        "124b62c501b71e3100f5fa7df0d4600dbfc7c7ec1b00af72b08c454ec3027eca"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/burhanrashid52/PhotoEditor",
+      "license": "MIT",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Klick’r",
       "package": "com.buzbuz.smartautoclicker",
       "page": "https://h5.2113.net/apps/klickr-auto-clicker.html",
@@ -2529,6 +2562,42 @@
       "olderVersions": []
     },
     {
+      "name": "Easy Notes",
+      "package": "com.kin.easynotes",
+      "page": "https://h5.2113.net/apps/easy-notes.html",
+      "category": "Productivity",
+      "version": "1.7-fdroid",
+      "versionCode": 14,
+      "released": "2026-05-18",
+      "size": 3878663,
+      "sha256": "6d652bdf7c72127fa651b5a83594ba2810edef3e08fbc62ddefe4a92b3de0fd1",
+      "signers": [
+        "fce87da97f791301df390bfa47e81685191167cab5dbd555db8287541f786e28"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Kin69/EasyNotes",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "KeePassDX",
       "package": "com.kunzisoft.keepass.libre",
       "page": "https://h5.2113.net/apps/keepassdx.html",
@@ -3500,6 +3569,39 @@
       "olderVersions": []
     },
     {
+      "name": "Ludo",
+      "package": "com.sidhant.ludo",
+      "page": "https://h5.2113.net/games/ludo.html",
+      "category": "Strategy Games",
+      "version": "1.0.2",
+      "versionCode": 32,
+      "released": "2026-10-25",
+      "size": 8499757,
+      "sha256": "064081eeaf72840388a14628a28802ba6a860d1aaf01ce001fb1aae9d458c7af",
+      "signers": [
+        "3de7c604eca0b74febb58bebdbfa86be30de7d83c3a1c9570944e600bcbb6926"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/sidhant947/Ludo",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Lemuroid",
       "package": "com.swordfish.lemuroid",
       "page": "https://h5.2113.net/games/lemuroid.html",
@@ -3880,11 +3982,11 @@
       "package": "com.topjohnwu.magisk",
       "page": "https://h5.2113.net/apps/magisk.html",
       "category": "Root & Mods",
-      "version": "30.7",
-      "versionCode": 30700,
-      "released": "2026-02-23",
-      "size": 11613864,
-      "sha256": "e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5",
+      "version": "31.1",
+      "versionCode": 31100,
+      "released": "2026-10-25",
+      "size": 10679283,
+      "sha256": "89cefac0a318afa39fb3880c45c87b036c05bc1ebf02a7a715b7f8d7c26ac6e7",
       "signers": [
         "b4cb83b4dad99f997dbe872f013aa16c14eec41d167021f371f7e1330f273ee6"
       ],
@@ -3894,12 +3996,12 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/topjohnwu/Magisk/releases/tag/v30.7",
+      "sourceRelease": "https://github.com/topjohnwu/Magisk/releases/tag/v31.1",
       "sourceCode": "https://github.com/topjohnwu/Magisk",
       "license": "GPL-3.0",
-      "minSdk": 23,
-      "minAndroid": "Android 6.0",
-      "targetSdk": 36,
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -3910,6 +4012,13 @@
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": [
+        {
+          "version": "30.7",
+          "versionCode": 30700,
+          "released": "2026-02-23",
+          "size": 11613864,
+          "sha256": "e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5"
+        },
         {
           "version": "30.6",
           "versionCode": 30600,
@@ -3930,13 +4039,6 @@
           "released": "2024-12-07",
           "size": 11716982,
           "sha256": "8bfd3346b3da5814f82eff6f1b1b5fedd0ad585f39a25709b23eb54aac45691d"
-        },
-        {
-          "version": "28.0",
-          "versionCode": 28000,
-          "released": "2024-10-10",
-          "size": 11212065,
-          "sha256": "1b1eebac29f8ab1a41e5f20bbdceefb3341e93bc3d55a0f995c902b0fe877fe2"
         }
       ]
     },
@@ -5426,6 +5528,42 @@
       "olderVersions": []
     },
     {
+      "name": "EinkBro",
+      "package": "info.plateaukao.einkbro",
+      "page": "https://h5.2113.net/apps/einkbro.html",
+      "category": "Reading & Maps",
+      "version": "16.7.1",
+      "versionCode": 160701,
+      "released": "2026-10-14",
+      "size": 4819292,
+      "sha256": "a4ca2948714fe2ea641aa33d258bdaf02d873840a30e20faa54dc9be2e6cac57",
+      "signers": [
+        "5ed1905785aef4e02bcaa99f26c76e8f6a78044a033efc3003549e747b6879c1"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/plateaukao/einkbro",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Mindustry",
       "package": "io.anuke.mindustry",
       "page": "https://h5.2113.net/games/mindustry.html",
@@ -5622,6 +5760,37 @@
       "targetSdk": 36,
       "abis": [],
       "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Video Live Wallpaper",
+      "package": "io.github.codeg0blin.videowallpaper",
+      "page": "https://h5.2113.net/apps/video-live-wallpaper.html",
+      "category": "Customization",
+      "version": "1.3.0",
+      "versionCode": 10,
+      "released": "2026-10-12",
+      "size": 5019152,
+      "sha256": "17747c6c76412c3b4bd4bb46cad1821db3301f1db740bd69ced9f065a1d96362",
+      "signers": [
+        "4de2f00e611deff44e22c66feced58a582d36f3bdb283d625e66b41469ee42f5"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/codeg0blin/video-live-wallpaper",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 3,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -8487,6 +8656,40 @@
       "olderVersions": []
     },
     {
+      "name": "PySolFC",
+      "package": "org.lufebe16.pysolfc",
+      "page": "https://h5.2113.net/games/pysolfc.html",
+      "category": "Puzzle & Arcade",
+      "version": "3.6.1",
+      "versionCode": 102130601,
+      "released": "2026-07-26",
+      "size": 74683707,
+      "sha256": "5b8ba9abc4c11ba0ebcc75d663f2b472704c00840ab564631feb0c84feb45664",
+      "signers": [
+        "82a05e2c0a0e16a3e21649b1aa95c33820bdc6621e9a9d7e6d6c6eb552d44b65"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/shlomif/PySolFC",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "GitNex",
       "package": "org.mian.gitnex",
       "page": "https://h5.2113.net/apps/gitnex.html",
@@ -9406,9 +9609,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-25",
-      "size": 29215050,
-      "sha256": "f83795d292987125052fa598c3446cdce9fb7510511e0614fc2f3fcdc299b57b",
+      "released": "2026-10-26",
+      "size": 29215586,
+      "sha256": "7e5ab0cc3ae49fbace2c77a30cd3616aceae393dcf3684d39507ac768a577c11",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -9680,6 +9883,37 @@
         "NonFreeNet",
         "TetheredNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Simple Keyboard",
+      "package": "rkr.simplekeyboard.inputmethod",
+      "page": "https://h5.2113.net/apps/simple-keyboard.html",
+      "category": "Productivity",
+      "version": "6.7",
+      "versionCode": 148,
+      "released": "2026-09-14",
+      "size": 666818,
+      "sha256": "b8affd986041afc9f47f59a3b5953b791a06401fb77682cff551ed4d68c32885",
+      "signers": [
+        "9bf99d5cbac7ae0169c8aae03e2b0979464a0787842e3e14d2b5e1fdf6c4680c"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/rkkr/simple-keyboard",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
