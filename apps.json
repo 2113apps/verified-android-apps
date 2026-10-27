@@ -420,6 +420,41 @@
       "olderVersions": []
     },
     {
+      "name": "Infra Arcana",
+      "package": "camp.werewolf.infraarcana",
+      "page": "https://h5.2113.net/games/infra-arcana.html",
+      "category": "Adventure & RPG",
+      "version": "23.0.0.9",
+      "versionCode": 23000009,
+      "released": "2026-09-15",
+      "size": 61229872,
+      "sha256": "cb3e90b0acaae5ac14a4ae05bd05a09aeed2e264fcdd2f37111b627a3eef1c4a",
+      "signers": [
+        "5d79afbc171dd61dfbd60ddb2a4d6b58b154692a35d41e0fedaf01c7d4e4762d"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/tyrannotorus/cpp-infra-arcana-android",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeAssets"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Anuto TD",
       "package": "ch.logixisland.anuto",
       "page": "https://h5.2113.net/games/anuto-td.html",
@@ -859,6 +894,35 @@
         "x86_64"
       ],
       "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "GPSTest",
+      "package": "com.android.gpstest.osmdroid",
+      "page": "https://h5.2113.net/apps/gpstest.html",
+      "category": "Reading & Maps",
+      "version": "3.10.6",
+      "versionCode": 24100,
+      "released": "2026-08-31",
+      "size": 3457918,
+      "sha256": "897b91fe6a1ea0c3a7f6e2b041d5ace0d582941f67cf454fb7778f031d89ce41",
+      "signers": [
+        "67e04383a96a83476426adcbdd95c4c75d78028a5c4ada75c00334b1c7a5d706"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/barbeau/gpstest",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2311,6 +2375,42 @@
       "olderVersions": []
     },
     {
+      "name": "Shadowsocks TV",
+      "package": "com.github.shadowsocks.tv",
+      "page": "https://h5.2113.net/apps/shadowsocks-tv.html",
+      "category": "Network & Privacy",
+      "version": "5.3.5-nightly",
+      "versionCode": 5030550,
+      "released": "2026-02-13",
+      "size": 14534626,
+      "sha256": "c73e90f4de597198d5e4e0ee41f3df001a48a9cf6bc18ffc093423cf82676f86",
+      "signers": [
+        "39af8d9cf522326b8710b7e685c70af0b8430cfda413d67c481f3f11c4fe86aa"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/shadowsocks/shadowsocks-android",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Endless Sky",
       "package": "com.github.thewierdnut.endless_mobile",
       "page": "https://h5.2113.net/games/endless-sky.html",
@@ -2341,6 +2441,41 @@
       ],
       "permissions": 0,
       "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "MJ PDF",
+      "package": "com.gitlab.mudlej.MjPdfReader",
+      "page": "https://h5.2113.net/apps/mj-pdf.html",
+      "category": "Reading & Maps",
+      "version": "3.1.0",
+      "versionCode": 2058,
+      "released": "2026-08-16",
+      "size": 8952640,
+      "sha256": "c095c1d339aa58eb9dddca701054419c373957941bd518df50eacca33737a5d2",
+      "signers": [
+        "af92a1a81b45b9d6a5d9f1637fd6be98fd889b48128c009da9afd7ba0fc2f089"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://gitlab.com/mudlej_android/mj_pdf_reader",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 9,
+      "trackers": [
+        "ACRA"
+      ],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -3192,6 +3327,42 @@
       "olderVersions": []
     },
     {
+      "name": "Feeder",
+      "package": "com.nononsenseapps.feeder",
+      "page": "https://h5.2113.net/apps/feeder.html",
+      "category": "Reading & Maps",
+      "version": "2.24.0",
+      "versionCode": 4158,
+      "released": "2026-10-14",
+      "size": 61140352,
+      "sha256": "4ca2efad9f0b2b275c215fab16cb9a94dd5d88e059e45ed244d4b429c845350e",
+      "signers": [
+        "a80df8170d6c891ec9a055211df640a855d451052307bf29cdce3fef9afa94fd"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/spacecowboy/Feeder",
+      "license": "GPL-3.0-only",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Open Recorder",
       "package": "com.openrecorder.app",
       "page": "https://h5.2113.net/apps/open-recorder.html",
@@ -3289,6 +3460,42 @@
       "permissions": 6,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Quran for Android",
+      "package": "com.quran.labs.androidquran",
+      "page": "https://h5.2113.net/apps/quran-for-android.html",
+      "category": "Reading & Maps",
+      "version": "3.6.5",
+      "versionCode": 3650,
+      "released": "2026-10-26",
+      "size": 8378706,
+      "sha256": "a6b468dc84a0f73581ff839348bfb5ed62d11e59c563e54bc06814b8ec74e08b",
+      "signers": [
+        "80773743b5ee06dadd54d64d660ab6f97812f81846e75525069e689cd9c3e99d"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/quran/quran_android",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeAssets"
+      ],
       "olderVersions": []
     },
     {
@@ -7764,11 +7971,11 @@
       "package": "org.courville.nova",
       "page": "https://h5.2113.net/apps/nova-video-player.html",
       "category": "Media",
-      "version": "6.5.5-20261009.2113",
-      "versionCode": 2672099,
-      "released": "2026-10-09",
-      "size": 84480195,
-      "sha256": "f252631680328916ed847c8c0d6711d6a9922373e54f939178c428a9b3c3e1a5",
+      "version": "6.6.2-20261027.1847",
+      "versionCode": 2673649,
+      "released": "2026-10-27",
+      "size": 93234228,
+      "sha256": "2ec057186f781bafde2d628edb09771994e2a0b15c6bff2661b5169ba24ca764",
       "signers": [
         "05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615"
       ],
@@ -7779,7 +7986,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.5.5",
+      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.6.2",
       "sourceCode": "https://github.com/nova-video-player/aos-AVP",
       "license": "Apache-2.0",
       "minSdk": 23,
@@ -7791,7 +7998,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 25,
+      "permissions": 24,
       "trackers": [
         "Sentry"
       ],
@@ -8927,6 +9134,39 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Open Sudoku",
+      "package": "org.moire.opensudoku",
+      "page": "https://h5.2113.net/games/open-sudoku.html",
+      "category": "Puzzle & Arcade",
+      "version": "4.11.3",
+      "versionCode": 20261008,
+      "released": "2026-10-12",
+      "size": 19398348,
+      "sha256": "ac4c6c8d0bc9058c1cc8d8f4570dc51977b3bc51577a82a12b94e6ec7714b9f0",
+      "signers": [
+        "a54ce29ebb02fcb9b478620572f7c4dd39b903736fe6199687471ba729f4613a"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/opensudoku/opensudoku",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {

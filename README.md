@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-298 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+305 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,19 +11,19 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (12)
-- [Network & Privacy](#network--privacy) (43)
+- [Network & Privacy](#network--privacy) (44)
 - [Media](#media) (45)
 - [System Tools](#system-tools) (58)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
 - [Productivity](#productivity) (42)
-- [Reading & Maps](#reading--maps) (10)
+- [Reading & Maps](#reading--maps) (14)
 - [Games: Strategy Games](#games-strategy-games) (13)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
-- [Games: Adventure & RPG](#games-adventure--rpg) (12)
+- [Games: Adventure & RPG](#games-adventure--rpg) (13)
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (14)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (15)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
 - [Games: Console Emulators](#games-console-emulators) (12)
@@ -204,6 +204,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 6.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/celzero/rethink-app)
 - **[Shadowsocks](https://h5.2113.net/apps/shadowsocks.html)**: The Shadowsocks project’s own Android client. Add your server or a subscription link, then send all apps, or only the ones you choose, through an encrypted proxy.  
   No root · a Shadowsocks server · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shadowsocks/shadowsocks-android)
+- **[Shadowsocks TV](https://h5.2113.net/apps/shadowsocks-tv.html)**: The Shadowsocks project’s separate television client. Bring a Shadowsocks server, import its profile from a JSON file and connect from an Android TV interface.  
+  Android TV 6.0+ · a Shadowsocks server · profile JSON · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shadowsocks/shadowsocks-android)
 - **[sing-box](https://h5.2113.net/apps/sing-box.html)**: The sing-box project’s own Android app: it runs a sing-box configuration you supply, from a file, a QR code or a web address, and routes your apps through it with Android’s VPN service.  
   No root · Android 7.0+ · your own sing-box config · no known trackers found · GPL-3.0-or-later · [source](https://github.com/SagerNet/sing-box)
 - **[Tailscale](https://h5.2113.net/apps/tailscale.html)**: Connect your phone, computers and servers into one private network, a tailnet, built on WireGuard. Once you sign in, your devices can reach each other wherever they are.  
@@ -543,6 +545,10 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · magnetic compass sensor · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kr0oked/Compass)
 - **[EinkBro](https://h5.2113.net/apps/einkbro.html)**: Browse and read on an E-Ink tablet with high-contrast controls, edge taps or volume-key page turns, reader mode, vertical text and ways to save pages as EPUB or PDF.  
   Android 7.0+ · WebView · internet access · no known trackers found · GPL-3.0-or-later · [source](https://github.com/plateaukao/einkbro)
+- **[Feeder](https://h5.2113.net/apps/feeder.html)**: Follow websites through RSS, Atom or JSON Feed, keep articles on the phone for offline reading, and move subscriptions with an OPML file. No account is required.  
+  Android 10+ · feed addresses · internet to refresh · no known trackers found · GPL-3.0-only · [source](https://github.com/spacecowboy/Feeder)
+- **[GPSTest](https://h5.2113.net/apps/gpstest.html)**: See which GPS, Galileo, GLONASS, BeiDou, QZSS, NavIC and SBAS signals your phone receives, how strong they are and whether Android uses them for a fix.  
+  Android 7.0+ · location permission · GNSS hardware · no known trackers found · Apache-2.0 · [source](https://github.com/barbeau/gpstest)
 - **[Kiwix](https://h5.2113.net/apps/kiwix.html)**: Reads Wikipedia and other websites offline from downloaded ZIM archives. This is the full version, which can open ZIM files from any folder, unlike the Google Play version.  
   No root · 64-bit phone · Android 7.1+ · no known trackers found · GPL-3.0 · [source](https://github.com/kiwix/kiwix-android)
 - **[KOReader](https://h5.2113.net/apps/koreader.html)**: A document reader built first for e-ink readers such as Kindle and Kobo, and available on Android: EPUB, PDF, DjVu, comics and more, with dictionaries and Calibre built in.  
@@ -551,12 +557,16 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/foobnix/LibreraReader)
 - **[Mihon](https://h5.2113.net/apps/mihon.html)**: An open-source reader for manga, webtoons and comics, carrying on from Tachiyomi. It keeps a library, reads your own files and records your progress on tracking sites.  
   Android 8.0+ · your own comics or content · tracker code found: Google CrashLytics, Google Firebase Analytics · Apache-2.0 · [source](https://github.com/mihonapp/mihon)
+- **[MJ PDF](https://h5.2113.net/apps/mj-pdf.html)**: A PDF library and reader with continuous, single- and dual-page layouts, text reflow, search, bookmarks, annotations, forms and signatures.  
+  Android 6.0+ · 64-bit ARM device · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/mudlej_android/mj_pdf_reader)
 - **[MuPDF viewer](https://h5.2113.net/apps/mupdf-viewer.html)**: Artifex’s own Android viewer for its MuPDF engine: it opens PDF, XPS, EPUB, MOBI, FB2 and CBZ comic files for reading, with search and a table of contents, and does little else.  
   No root · Android 5.0+ · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/ArtifexSoftware/mupdf-android-viewer)
 - **[Organic Maps](https://h5.2113.net/apps/organic-maps.html)**: Offline maps from OpenStreetMap with turn-by-turn navigation for driving, cycling and walking, hiking routes, contour lines and Wikipedia articles, all usable offline once downloaded.  
   No root · Android 5.0+ · maps downloaded once · no known trackers found · Apache-2.0 · [source](https://github.com/organicmaps/organicmaps)
 - **[OsmAnd~](https://h5.2113.net/apps/osmand.html)**: Offline maps and turn-by-turn navigation based on OpenStreetMap, for driving, cycling, hiking and boating. This is OsmAnd~, the build F-Droid makes from the source code.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/osmandapp/Osmand)
+- **[Quran for Android](https://h5.2113.net/apps/quran-for-android.html)**: A Madani-page Quran reader with ayah-level audio, translations, tafsir, search and tagged bookmarks. Download what you need, then keep reading and listening offline.  
+  Android 7.0+ · internet for content downloads · no known trackers found · GPL-3.0-only · [source](https://github.com/quran/quran_android)
 - **[Wikipedia](https://h5.2113.net/apps/wikipedia.html)**: The Wikimedia Foundation’s own Wikipedia app: search and read articles, save them for reading offline, and edit. This copy is F-Droid’s build, without Google’s services.  
   Android 7.0+ · account optional · no known trackers found · Apache-2.0 · [source](https://github.com/wikimedia/apps-android-wikipedia)
 
@@ -616,6 +626,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Game data (free download) · Android 4.1+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/flareteam/flare-engine)
 - **[HyperRogue](https://h5.2113.net/games/hyperrogue.html)**: A turn-based roguelike on a hyperbolic plane: hunt for treasure through dozens of lands in a world where you almost never pass the same place twice. This is the free GPL build, not HyperRogue Gold.  
   Android 5.0+ · works offline · no known trackers found · GPL-2.0-only · [source](https://github.com/zenorogue/hyperrogue)
+- **[Infra Arcana](https://h5.2113.net/games/infra-arcana.html)**: Enter the Church of Starry Wisdom in a turn-based horror roguelike where noise, shock, insanity and limited resources matter as much as fighting.  
+  Android 7.0+ · landscape screen · no account · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/tyrannotorus/cpp-infra-arcana-android)
 - **[Rat King Pixel Dungeon 2](https://h5.2113.net/games/rkpd2.html)**: Shattered Pixel Dungeon with every hero made stronger, and a new one: the Rat King, who has the main abilities of every class. A fan-made fork that installs next to the original.  
   Android 4.0+ · offline · English only · no known trackers found · GPL-3.0 · [source](https://github.com/Zrp200/rkpd2)
 - **[ScummVM](https://h5.2113.net/games/scummvm.html)**: Play the adventure games of the 1980s and 1990s on your phone: ScummVM replaces the games’ original programs, so their data files run on Android with touch controls. Games are not included.  
@@ -664,6 +676,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · works offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/john-athan/minesweeper)
 - **[Open Patience](https://h5.2113.net/games/open-patience.html)**: Klondike and FreeCell solitaire without ads or tracking: undo and redo, a one-tap finish once a game can be completed, and a list of your fastest wins, in an app that asks for no permissions.  
   No root · Android 7.0+ · 64-bit ARM · no known trackers found · AGPL-3.0-only · [source](https://github.com/d-rk/open-patience)
+- **[Open Sudoku](https://h5.2113.net/games/open-sudoku.html)**: Ninety built-in Sudoku puzzles in three difficulties, with pencil marks, undo, step-by-step hints and puzzle folders. It needs no internet permission.  
+  Android 8.0+ · 64-bit ARM device · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/opensudoku/opensudoku)
 - **[Open Surge: retro game engine](https://h5.2113.net/games/open-surge.html)**: A fast 16-bit-style platformer starring Surge the Rabbit, and the open-source engine it runs on: play the demo levels, change them on your phone, or load games other people made.  
   No root · ARM phone or TV · Android 5.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/alemart/opensurge)
 - **[osu!](https://h5.2113.net/games/osu.html)**: Tap circles, follow sliders and spin to the music in the free rhythm game, now on Android: the same osu!(lazer) as on computers, with all four game modes, online rankings and multiplayer.  
