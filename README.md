@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-291 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+298 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,19 +11,19 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (12)
-- [Network & Privacy](#network--privacy) (42)
+- [Network & Privacy](#network--privacy) (43)
 - [Media](#media) (45)
-- [System Tools](#system-tools) (56)
+- [System Tools](#system-tools) (58)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (41)
-- [Reading & Maps](#reading--maps) (9)
-- [Games: Strategy Games](#games-strategy-games) (12)
+- [Productivity](#productivity) (42)
+- [Reading & Maps](#reading--maps) (10)
+- [Games: Strategy Games](#games-strategy-games) (13)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
 - [Games: Adventure & RPG](#games-adventure--rpg) (12)
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (13)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (14)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
 - [Games: Console Emulators](#games-console-emulators) (12)
@@ -97,7 +97,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[KnoxPatch](https://h5.2113.net/apps/knoxpatch.html)**: Gets Samsung apps and features working again on a rooted Galaxy phone by hooking the checks that fail after rooting.  
   Samsung Galaxy · root + LSPosed · no known trackers found · GPL-3.0-or-later · [source](https://github.com/salvogiangri/KnoxPatch)
 - **[Magisk](https://h5.2113.net/apps/magisk.html)**: The best-known way to root Android: patch your phone’s boot image with the Magisk app, flash it, and get root access, modules and Zygisk without touching the system partition.  
-  Unlocked bootloader · fastboot · Android 6.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/topjohnwu/Magisk)
+  Unlocked bootloader · fastboot · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/topjohnwu/Magisk)
 - **[MMRL](https://h5.2113.net/apps/mmrl.html)**: A module manager for rooted phones: browse repositories, read what a module contains, and install, update or remove it through your root solution’s own installer.  
   Root with Magisk, KernelSU or APatch for installing · no known trackers found · GPL-3.0-only · [source](https://github.com/MMRLApp/MMRL)
 - **[Neo Backup](https://h5.2113.net/apps/neo-backup.html)**: Back up your apps together with their data on a rooted phone, and put them back later or on a fresh install: one app at a time, in batches or on schedules, encrypted if you want.  
@@ -194,6 +194,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 4.2+ · Private DNS off · no known trackers found · GPL-2.0-only · [source](https://github.com/IngoZenz/personaldnsfilter)
 - **[Private DNS Quick Toggle](https://h5.2113.net/apps/private-dns-quick-toggle.html)**: A Quick Settings tile that switches Android’s Private DNS between providers in one tap.  
   One-time grant via Shizuku or ADB · no known trackers found · MIT · [source](https://github.com/karasevm/PrivateDNSAndroid)
+- **[Proton Authenticator](https://h5.2113.net/apps/proton-authenticator.html)**: Generate two-factor codes without an account, keep automatic backups in a local folder, and sign in to Proton only for encrypted sync. This is the separate F-Droid package.  
+  Android 8.1+ · camera optional for QR codes · no known trackers found · GPL-3.0-or-later · [source](https://github.com/protonpass/android-authenticator)
 - **[Proton Pass](https://h5.2113.net/apps/proton-pass.html)**: Proton’s password manager, synced to your Proton account: logins, passkeys, notes and cards, autofill, and email aliases that hide your address. F-Droid builds it without the crash reporter.  
   No root · Android 8.1+ · a Proton account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/protonpass/android-pass)
 - **[Proton VPN](https://h5.2113.net/apps/proton-vpn.html)**: The Proton VPN app with its free plan: one device, servers in ten countries and no data cap. This copy is F-Droid’s build, without Google’s code, and it needs a Proton account.  
@@ -358,6 +360,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/fdroid/fdroidclient)
 - **[FakeTraveler](https://h5.2113.net/apps/faketraveler.html)**: Pick a point on a map and FakeTraveler reports it to your phone as its location, using Android’s own mock-location option, to test apps or keep your real position to yourself.  
   No root · Android 5.0+ · Developer options · no known trackers found · GPL-3.0-or-later · [source](https://github.com/mcastillof/FakeTraveler)
+- **[Files](https://h5.2113.net/apps/files-shortcut.html)**: Put Android’s built-in file browser in your launcher. This 0.2 MB shortcut opens DocumentsUI in browsing mode; it is not another file manager and never reads your files itself.  
+  Android 8.0+ · a working system DocumentsUI app · no known trackers found · Apache-2.0 · [source](https://github.com/surf5726/documentsui-shortcut)
 - **[Flicky](https://h5.2113.net/apps/flicky.html)**: An app store for open-source apps that you can use with a TV remote. It browses F-Droid, IzzyOnDroid and other repositories, and installs and updates apps on Android TV and Google TV.  
   No root · Android 6.0+ · made for TV · no known trackers found · GPL-3.0-only · [source](https://github.com/mlm-games/flicky)
 - **[Florid](https://h5.2113.net/apps/florid.html)**: A redesigned client for browsing, installing and updating apps from F-Droid and other repositories you add. It sends a daily usage ping, which you can switch off.  
@@ -400,6 +404,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 5.1+ · 6.0+ to share the screen · no known trackers found · GPL-3.0-only · [source](https://github.com/rustdesk/rustdesk)
 - **[SAI (Split APKs Installer)](https://h5.2113.net/apps/sai.html)**: An installer for apps that come as several APK files, such as .apks, .xapk and .apkm downloads, with optional root or Shizuku installs and APK backups of installed apps.  
   No root · Android 5.0+ · root or Shizuku optional · no known trackers found · GPL-3.0-only · [source](https://github.com/Aefyr/SAI)
+- **[Screen Lock](https://h5.2113.net/apps/screen-lock.html)**: A launcher icon that acts like one press of the power button. It uses Shizuku instead of Accessibility or device-admin access, and can be assigned to a launcher’s double-tap gesture.  
+  Android 7.0+ · Shizuku installed, running and authorized · no known trackers found · MIT · [source](https://github.com/tiendnm/zukulock)
 - **[SD Maid SE](https://h5.2113.net/apps/sd-maid-se.html)**: Finds what uninstalled apps left behind, system junk, app caches and duplicate files, and lists all of it before anything is deleted. Scanning is free; some cleaning needs the upgrade.  
   No root · Android 8.0+ · root or Shizuku optional · no known trackers found · GPL-3.0-only · [source](https://github.com/d4rken-org/sdmaid-se)
 - **[Shelter](https://h5.2113.net/apps/shelter.html)**: Creates a work profile on your phone and manages it: install apps inside to keep them apart from your main apps, freeze them when you’re not using them, or run two copies of one app.  
@@ -500,6 +506,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.1+ · a phone number · no known trackers found · AGPL-3.0 · [source](https://github.com/mollyim/mollyim-android)
 - **[Nekogram](https://h5.2113.net/apps/nekogram.html)**: Telegram with a few more switches: hide parts of the interface you don’t use, translate messages and whole chats with the engine you choose, and see details such as chat IDs. Uses your account.  
   No root · Android 6.0+ · a Telegram account · tracker code found: Google Firebase Analytics, Sentry · GPL-2.0 · [source](https://github.com/Nekogram/Nekogram)
+- **[Offline Translator](https://h5.2113.net/apps/offline-translator.html)**: Download language packs once, then translate text, photos and documents without sending their contents to a translation server. OCR, dictionaries and transliteration also run on the phone.  
+  Android 6.0+ · 64-bit ARM · internet once for language packs · no known trackers found · GPL-3.0-or-later · [source](https://github.com/DavidVentura/offline-translator)
 - **[QUIK](https://h5.2113.net/apps/quik-sms.html)**: The continuation of QKSMS, the popular open-source texting app that stopped in 2023: SMS and MMS with scheduled and delayed sending, blocking, voice messages and backups, and no internet access.  
   No root · Android 6.0+ · default SMS app · no known trackers found · GPL-3.0-only · [source](https://github.com/quik-sms/quik)
 - **[Session](https://h5.2113.net/apps/session.html)**: An end-to-end encrypted messenger without a phone number or email: you get an Account ID, and messages travel through a network of nodes that hides your IP address.  
@@ -531,6 +539,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Reading & Maps
 
+- **[Compass](https://h5.2113.net/apps/compass.html)**: A focused compass for phones with a magnetic sensor. Read exact bearings, switch between magnetic and true north, use sighting mode, and check whether nearby metal is disturbing the sensor.  
+  Android 7.0+ · magnetic compass sensor · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kr0oked/Compass)
 - **[EinkBro](https://h5.2113.net/apps/einkbro.html)**: Browse and read on an E-Ink tablet with high-contrast controls, edge taps or volume-key page turns, reader mode, vertical text and ways to save pages as EPUB or PDF.  
   Android 7.0+ · WebView · internet access · no known trackers found · GPL-3.0-or-later · [source](https://github.com/plateaukao/einkbro)
 - **[Kiwix](https://h5.2113.net/apps/kiwix.html)**: Reads Wikipedia and other websites offline from downloaded ZIM archives. This is the full version, which can open ZIM files from any folder, unlike the Google Play version.  
@@ -554,6 +564,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Anuto TD](https://h5.2113.net/games/anuto-td.html)**: A classic endless tower defense with hand-drawn graphics: build and upgrade towers along a path, survive as many waves as you can, and chase the high score. No ads, no purchases, no permissions.  
   Android 6.0+ · portrait · no known trackers found · GPL-2.0-only · [source](https://github.com/mjaun/android-anuto)
+- **[Chess for Android](https://h5.2113.net/games/chess-for-android.html)**: One chessboard for an offline engine, saved-game study, puzzles, Lichess and the old FICS server. Version 10.6.0 also adds a low-refresh e-ink theme and tap-to-move preset.  
+  Android 7.0+ · internet only for Lichess or FICS · no known trackers found · MIT · [source](https://github.com/jcarolus/android-chess)
 - **[DroidFish](https://h5.2113.net/games/droidfish.html)**: Analyse chess positions with Stockfish 16.1, play against it or a friend on the same phone, and keep your games in PGN files. No longer on Google Play; this is F-Droid’s build.  
   Android 4.1+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/peterosterlund2/droidfish)
 - **[Feudal Tactics](https://h5.2113.net/games/feudal-tactics.html)**: Conquer a randomly generated island of hexagons, one kingdom at a time: buy peasants, merge them into knights, build castles, and keep enough coins to pay everyone. Short games, no internet.  
@@ -648,6 +660,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meikpiep/gauguin)
 - **[LibreSudoku](https://h5.2113.net/games/libresudoku.html)**: Classic and Killer Sudoku in three sizes and four difficulties, generated on your phone, with notes, hints, statistics and your own puzzle collections. Free, ad-free and offline.  
   Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/kaajjo/LibreSudoku)
+- **[Minesweeper](https://h5.2113.net/games/minesweeper.html)**: This is john-athan’s open-source Minesweeper project: classic mine clearing plus timed Medium and memory-heavy Hard modes, custom boards, flag controls and local records.  
+  Android 5.0+ · works offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/john-athan/minesweeper)
 - **[Open Patience](https://h5.2113.net/games/open-patience.html)**: Klondike and FreeCell solitaire without ads or tracking: undo and redo, a one-tap finish once a game can be completed, and a list of your fastest wins, in an app that asks for no permissions.  
   No root · Android 7.0+ · 64-bit ARM · no known trackers found · AGPL-3.0-only · [source](https://github.com/d-rk/open-patience)
 - **[Open Surge: retro game engine](https://h5.2113.net/games/open-surge.html)**: A fast 16-bit-style platformer starring Surge the Rabbit, and the open-source engine it runs on: play the demo levels, change them on your phone, or load games other people made.  

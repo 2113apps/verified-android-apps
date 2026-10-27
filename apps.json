@@ -1151,6 +1151,42 @@
       "olderVersions": []
     },
     {
+      "name": "Compass",
+      "package": "com.bobek.compass",
+      "page": "https://h5.2113.net/apps/compass.html",
+      "category": "Reading & Maps",
+      "version": "2.2.0",
+      "versionCode": 36,
+      "released": "2026-10-04",
+      "size": 2907165,
+      "sha256": "0d6ef72a8cd6660f40a4c029fad08bc05572997c889fbec2eb41ab48eb2198a4",
+      "signers": [
+        "9dcaaa64a49d0c2a08139e31c72c38e1e9c6afdfae9bc4cc0fa698d5b9c2ccd7"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/Kr0oked/Compass",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Brave",
       "package": "com.brave.browser",
       "page": "https://h5.2113.net/apps/brave.html",
@@ -1652,6 +1688,37 @@
         "x86_64"
       ],
       "permissions": 14,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Files",
+      "package": "com.documentsui.shortcut",
+      "page": "https://h5.2113.net/apps/files-shortcut.html",
+      "category": "System Tools",
+      "version": "1.0.8",
+      "versionCode": 9,
+      "released": "2026-06-13",
+      "size": 152815,
+      "sha256": "585e5a7e80ec262d42b2836a2d78b1e3848521b74622a2ef210351e74105bc79",
+      "signers": [
+        "ec717ac97eeaed532d1271f2eecea9de35395543f301bbc8cd3cd88e6ef9bd41"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/surf5726/documentsui-shortcut",
+      "license": "Apache-2.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 0,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3978,6 +4045,35 @@
       "olderVersions": []
     },
     {
+      "name": "Screen Lock",
+      "package": "com.tiendnm.zukulock",
+      "page": "https://h5.2113.net/apps/screen-lock.html",
+      "category": "System Tools",
+      "version": "1.0.1",
+      "versionCode": 2,
+      "released": "2025-06-18",
+      "size": 672087,
+      "sha256": "3ecf57f7e61248e2448c8cc40b1811a8acb39edc432735e30618d3030883fbfc",
+      "signers": [
+        "99b0fb14ac8f4a0ee3c94e4283a7049c60e53ce247756183d4142ae03f1d0c8c"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/tiendnm/zukulock",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Magisk",
       "package": "com.topjohnwu.magisk",
       "page": "https://h5.2113.net/apps/magisk.html",
@@ -4866,6 +4962,40 @@
         "arm64-v8a"
       ],
       "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Offline Translator",
+      "package": "dev.davidv.translator",
+      "page": "https://h5.2113.net/apps/offline-translator.html",
+      "category": "Productivity",
+      "version": "0.8.7",
+      "versionCode": 322,
+      "released": "2026-10-26",
+      "size": 44880710,
+      "sha256": "e061cb1fa5ae1267f2f3bad83a569b31c5b7205728ac4c5e8611aeb2e687e476",
+      "signers": [
+        "2b3806e745d809018a51be58d0635ffc74cc9733439407ab1ed0424a4db3e1fb"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/DavidVentura/offline-translator/releases/tag/v0.8.7",
+      "sourceCode": "https://github.com/DavidVentura/offline-translator",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 34,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 14,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5860,6 +5990,42 @@
       "olderVersions": []
     },
     {
+      "name": "Minesweeper",
+      "package": "io.github.johnathan.minesweeper",
+      "page": "https://h5.2113.net/games/minesweeper.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.9",
+      "versionCode": 10,
+      "released": "2026-10-15",
+      "size": 981720,
+      "sha256": "753646b79529ef054765455eb043af5521371166612483e1c6cc15fd8a3d5f2d",
+      "signers": [
+        "651e44d8f60eef7be5cb650bf3f0a073ea59d26e6fc9291126fe369684e9c51f"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/john-athan/minesweeper",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "App Manager",
       "package": "io.github.muntashirakon.AppManager",
       "page": "https://h5.2113.net/apps/app-manager.html",
@@ -6238,6 +6404,42 @@
         "x86_64"
       ],
       "permissions": 5,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Chess for Android",
+      "package": "jwtc.android.chess",
+      "page": "https://h5.2113.net/games/chess-for-android.html",
+      "category": "Strategy Games",
+      "version": "10.6.0",
+      "versionCode": 298,
+      "released": "2026-09-22",
+      "size": 3557014,
+      "sha256": "3245b9ec35f6c1df771c418ac91ec792b5e056fb37e1d391e607b614f1a283b4",
+      "signers": [
+        "e0c0cbdeebe74a7bb65a409c509d248b875b84cad3bd59c1debf013f30037fba"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/jcarolus/android-chess",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -9609,9 +9811,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-26",
-      "size": 29215586,
-      "sha256": "7e5ab0cc3ae49fbace2c77a30cd3616aceae393dcf3684d39507ac768a577c11",
+      "released": "2026-10-27",
+      "size": 29209634,
+      "sha256": "8541fa2ecc113ed2003adb5d1b273caa4c7cd6abf5eb334173e2e95f97006cb1",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -9844,6 +10046,44 @@
       "trackers": [],
       "antiFeatures": [
         "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
+      "name": "Proton Authenticator",
+      "package": "proton.android.authenticator.fdroid",
+      "page": "https://h5.2113.net/apps/proton-authenticator.html",
+      "category": "Network & Privacy",
+      "version": "1.3.9",
+      "versionCode": 10309000,
+      "released": "2026-07-15",
+      "size": 93490403,
+      "sha256": "0cb40f2618f7ee2bedbfdee0fbd048f9df99ce042a510f344b759e2fb32d1e3d",
+      "signers": [
+        "bc606789f8023cfa3a677157796048e0f58fadd4b1a0598c999b2980eab7919d"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/protonpass/android-authenticator",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 27,
+      "minAndroid": "Android 8.1",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet",
+        "Tracking"
       ],
       "olderVersions": []
     },
