@@ -3436,11 +3436,11 @@
       "package": "com.pcapdroid.mitm",
       "page": "https://h5.2113.net/apps/pcapdroid-mitm.html",
       "category": "Network & Privacy",
-      "version": "2.5",
-      "versionCode": 27,
-      "released": "2026-10-22",
-      "size": 28453397,
-      "sha256": "aaf15242d03b8cff974a1ebf2a2dff2eb5c8aa246cfced897bc3cea660e187d9",
+      "version": "2.6",
+      "versionCode": 28,
+      "released": "2026-10-27",
+      "size": 28535965,
+      "sha256": "6af79dad56faa84e1ae80278c801adb4e4cbd9cffee73b93c986e78a4ac6af22",
       "signers": [
         "ac701125e653189b2bbaa78fba60c1136b88b8780078db0dc4257f019c81c9fe"
       ],
@@ -8010,11 +8010,11 @@
       "package": "org.cryptomator",
       "page": "https://h5.2113.net/apps/cryptomator.html",
       "category": "Cloud & Self-Hosted",
-      "version": "2.0.0",
-      "versionCode": 3128,
-      "released": "2026-06-26",
-      "size": 26403624,
-      "sha256": "0d443052f55794a5e0156bd3ffdc8f109a1150f6a009cd83d925690a78b89eb4",
+      "version": "2.1.0",
+      "versionCode": 3163,
+      "released": "2026-10-27",
+      "size": 27736318,
+      "sha256": "159c6c773243dea5bdf53dce7b362faa19eb291f2dc535c2f83504db76d4a7fc",
       "signers": [
         "f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd"
       ],
@@ -8027,9 +8027,9 @@
       "license": "GPL-3.0-only",
       "minSdk": 26,
       "minAndroid": "Android 8.0",
-      "targetSdk": 36,
+      "targetSdk": 37,
       "abis": [],
-      "permissions": 16,
+      "permissions": 17,
       "trackers": [],
       "antiFeatures": [
         "NonFreeNet"
