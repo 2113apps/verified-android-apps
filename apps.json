@@ -1255,11 +1255,11 @@
       "package": "com.brave.browser",
       "page": "https://h5.2113.net/apps/brave.html",
       "category": "Network & Privacy",
-      "version": "1.98.60",
-      "versionCode": 429806004,
-      "released": "2026-10-21",
-      "size": 211048197,
-      "sha256": "f2c87912404bfd7d357c4b7ab4b21a17107b888fe64d45164a23ace988edfa14",
+      "version": "1.98.62",
+      "versionCode": 429806204,
+      "released": "2026-10-28",
+      "size": 211080965,
+      "sha256": "5ff464f11be641858c1a7a1df652cf1099c1bd92f385dffb4f031b59bf1fa43b",
       "signers": [
         "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
       ],
@@ -1270,7 +1270,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.98.60",
+      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.98.62",
       "sourceCode": "https://github.com/brave/brave-browser",
       "license": "MPL-2.0",
       "minSdk": 29,
