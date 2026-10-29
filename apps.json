@@ -3613,11 +3613,11 @@
       "package": "com.richardluo.globalIconPack",
       "page": "https://h5.2113.net/apps/global-icon-pack.html",
       "category": "Customization",
-      "version": "0.6.1",
-      "versionCode": 601,
-      "released": "2026-09-21",
-      "size": 2160302,
-      "sha256": "53a9a2dfaa801ff045ba8bd8ee1d6714f59ce4228ee48e7234052fa99ff66f4c",
+      "version": "0.6.2",
+      "versionCode": 602,
+      "released": "2026-10-28",
+      "size": 2178590,
+      "sha256": "9b34043b101c2622534a89c942f0c21eb6f00235ac82e2b552f65b63871ec07b",
       "signers": [
         "4b285259d29e7fe0e5ac7ca0e0987445992d8feaa48e3054e579d97005d616b3"
       ],
@@ -5804,11 +5804,11 @@
       "package": "in.sunilpaulmathew.ashell",
       "page": "https://h5.2113.net/apps/ashell.html",
       "category": "System Tools",
-      "version": "v0.29",
-      "versionCode": 29,
-      "released": "2026-09-11",
-      "size": 2200008,
-      "sha256": "1a09be44bddf425e97f59d89b4096d59250d9e5b0083e25d8a56b02237e61064",
+      "version": "v0.30",
+      "versionCode": 30,
+      "released": "2026-10-28",
+      "size": 2330552,
+      "sha256": "0a412f9181ffe23e26ef5ec8c3d01cd13a619ac0f3510301c76137d9823393e4",
       "signers": [
         "b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424"
       ],
@@ -10051,9 +10051,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-27",
-      "size": 29209634,
-      "sha256": "8541fa2ecc113ed2003adb5d1b273caa4c7cd6abf5eb334173e2e95f97006cb1",
+      "released": "2026-10-29",
+      "size": 29210550,
+      "sha256": "0a592c8babef5476a2161b7c3c53104877801afc0723bf5125166259ca5a58ec",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
