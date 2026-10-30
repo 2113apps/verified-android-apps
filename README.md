@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-305 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+312 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -10,10 +10,10 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
-- [Customization](#customization) (12)
+- [Customization](#customization) (13)
 - [Network & Privacy](#network--privacy) (44)
 - [Media](#media) (45)
-- [System Tools](#system-tools) (58)
+- [System Tools](#system-tools) (62)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
 - [Productivity](#productivity) (42)
 - [Reading & Maps](#reading--maps) (14)
@@ -23,7 +23,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (15)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (17)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
 - [Games: Console Emulators](#games-console-emulators) (12)
@@ -129,6 +129,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/tanujnotes/Olauncher)
 - **[Taskbar](https://h5.2113.net/apps/taskbar.html)**: A PC-style start menu and a bar of recent apps that sit on top of any screen, plus floating app windows and a desktop mode for when your phone drives an external display.  
   No root · overlay permission · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/farmerbb/Taskbar)
+- **[TV Launcher](https://h5.2113.net/apps/tv-launcher.html)**: A deliberately small Android TV home screen with fourteen app positions, a searchable picker and none of the recommendations or account prompts of a streaming-service launcher.  
+  Android 5.0+ · Android TV or TV box · no known trackers found · GPL-3.0-or-later · [source](https://github.com/wiiguy/lightweight_androidtv_launcher)
 - **[Video Live Wallpaper](https://h5.2113.net/apps/video-live-wallpaper.html)**: Turn a video or animated GIF already on your phone into a silent looping wallpaper, then choose its speed and whether to crop it to fill the screen or fit the whole frame.  
   No root · Android 8.0+ · a local video or GIF · no known trackers found · Apache-2.0 · [source](https://github.com/codeg0blin/video-live-wallpaper)
 - **[µLauncher](https://h5.2113.net/apps/mulauncher.html)**: A home screen with just the date, the time and your wallpaper. Apps open with swipes, taps, drawn shapes or the volume keys, and everything else is a searchable list.  
@@ -344,6 +346,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no Google services needed · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/AuroraOSS/AuroraStore)
 - **[AVNC](https://h5.2113.net/apps/avnc.html)**: Control a computer from your phone: AVNC connects to any VNC server, on your network or through an SSH tunnel, with touch gestures, a bar of extra keys and clipboard sync.  
   No root · Android 5.0+ · a VNC server · no known trackers found · GPL-3.0-or-later · [source](https://github.com/gujjwal00/avnc)
+- **[Barcode Scanner](https://h5.2113.net/apps/barcode-scanner.html)**: Scan QR and common one-dimensional barcodes with the camera or an image, create your own codes, and keep an on-device history without an account.  
+  Android 6.0+ · camera for live scanning · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/Atharok/BarcodeScanner)
 - **[Binary Eye](https://h5.2113.net/apps/binary-eye.html)**: A barcode scanner without ads: point the camera at a QR code, barcode or Data Matrix, see exactly what it contains, then open, copy or act on it, or create codes of your own.  
   No root · Android 5.0+ · a camera · no known trackers found · MIT · [source](https://github.com/markusfisch/BinaryEye)
 - **[Canta](https://h5.2113.net/apps/canta.html)**: Remove the apps your phone maker pre-installed, without root. Canta works through Shizuku, marks which apps are risky to remove, and can put system apps back.  
@@ -384,6 +388,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · accessibility service · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/keymapperorg/KeyMapper)
 - **[Klick’r](https://h5.2113.net/apps/klickr-auto-clicker.html)**: An open-source auto clicker that repeats taps and gestures, or reacts to the screen: when an image, a colour, a number or some text appears, it acts.  
   No root · Android 7.0+ · accessibility service · no known trackers found · GPL-3.0 · [source](https://github.com/Nain57/Smart-AutoClicker)
+- **[LibChecker](https://h5.2113.net/apps/libchecker.html)**: Inspect the libraries, components, permissions, native files and other package details Android exposes for the apps installed on your device.  
+  Android 7.0+ · installed-app access · no known trackers found · Apache-2.0 · [source](https://github.com/LibChecker/LibChecker)
 - **[LibreTorrent](https://h5.2113.net/apps/libretorrent.html)**: A torrent client without ads or a search engine: open .torrent files, magnet links or your own RSS feeds, pick the files you want, stream while downloading, and limit it to Wi-Fi or charging.  
   No root · 64-bit phone · Android 7.0+ · tracker code found: ACRA · GPL-3.0-or-later · [source](https://gitlab.com/proninyaroslav/libretorrent)
 - **[LocalSend](https://h5.2113.net/apps/localsend.html)**: An open-source AirDrop alternative that works across Android, Windows, macOS, Linux and iOS: pick a nearby device on the same network and send files or text directly.  
@@ -392,12 +398,16 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root needed · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/zhanghai/MaterialFiles)
 - **[microG Services](https://h5.2113.net/apps/microg.html)**: An open-source stand-in for Google Play services, for custom ROMs without Google’s apps. It handles push notifications, location and Google sign-in for the apps that need them.  
   A custom ROM that supports microG · Android 4.4+ · tracker code found: Google Analytics, Google Firebase Analytics, Google AdMob · Apache-2.0 · [source](https://github.com/microg/GmsCore)
+- **[MIFARE Classic Tool](https://h5.2113.net/apps/mifare-classic-tool.html)**: Read, save, compare and write MIFARE Classic tag data with known keys, using compatible built-in NFC or a supported external reader path.  
+  Android 4.4+ · compatible NFC or USB-OTG reader · keys · no known trackers found · GPL-3.0-or-later · [source](https://github.com/ikarus23/MifareClassicTool)
 - **[Neo Store](https://h5.2113.net/apps/neo-store.html)**: An alternative app for browsing and installing open-source apps from F-Droid, IzzyOnDroid and other repositories, with filters, download statistics and silent updates through root or Shizuku.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://codeberg.org/NeoApplications/Neo-Store)
 - **[Obtainium](https://h5.2113.net/apps/obtainium.html)**: Installs and updates Android apps straight from where developers publish them, such as GitHub releases, and tells you when a new version is out.  
   No root · no known trackers found · GPL-3.0-only · [source](https://github.com/ImranR98/Obtainium)
 - **[OwnDroid](https://h5.2113.net/apps/owndroid.html)**: Puts Android’s device-owner and work-profile controls on your own phone: block uninstalls, disable the camera, manage users and more.  
   Shizuku, Dhizuku or ADB to activate · no known trackers found · GPL-3.0-or-later · [source](https://github.com/BinTianqi/OwnDroid)
+- **[Package Manager](https://h5.2113.net/apps/package-manager.html)**: Inspect package files, manifests and certificates, export installed apps, install split bundles, and unlock higher-risk package actions with root or Shizuku.  
+  Android 7.0+ · root or Shizuku for advanced actions · no known trackers found · GPL-3.0-or-later · [source](https://github.com/SmartPack/PackageManager)
 - **[Payload Dumper](https://h5.2113.net/apps/payload-dumper.html)**: Extracts boot.img and other partition images from an OTA zip or payload.bin on the phone, with hash verification.  
   No root · a full OTA package · no known trackers found · GPL-3.0-only · [source](https://github.com/rajmani7584/Payload-Dumper-Android)
 - **[Prism File Explorer](https://h5.2113.net/apps/prism-file-explorer.html)**: A Material 3 file manager with tabs, ZIP archives and built-in viewers for images, video, audio, PDF and code.  
@@ -666,8 +676,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · offline · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/lucasnlm/antimine-android)
 - **[Breakout 71](https://h5.2113.net/games/breakout-71.html)**: A brick breaker built for short runs: clear seven levels, catch the coins that broken bricks drop to build your combo, and pick an upgrade after every level. Small, offline and without ads.  
   No root · Android 6.0+ · no known trackers found · AGPL-3.0-only · [source](https://gitlab.com/lecarore/breakout71)
+- **[Bubble Shooter](https://h5.2113.net/games/bubble-shooter.html)**: Aim coloured bubbles, bounce shots off the walls and connect three or more, in generated campaign stages or a nearly endless Zen session.  
+  Android 7.0+ · 64-bit ARM device · works offline · no known trackers found · GPL-3.0-only · [source](https://github.com/sidhant947/BubbleShooter)
 - **[Burger Party](https://h5.2113.net/games/burger-party.html)**: Stack buns, meat, cheese and salad in the order each customer asks for, before the clock runs out, in the United States, on a pirate ship and in Japan. No ads and no purchases.  
   No root · no account · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/agateau/burgerparty)
+- **[Crossword](https://h5.2113.net/games/crossword.html)**: Find words from known letter positions, required letters and blanks, or rearrange a set of letters with the separate on-device anagram mode.  
+  Android 5.0+ · internet for Wiktionary definitions · no known trackers found · GPL-3.0-or-later · [source](https://github.com/billthefarmer/crossword)
 - **[Gauguin](https://h5.2113.net/games/gauguin.html)**: A Sudoku-like puzzle where every group of cells must reach its target by adding, subtracting, multiplying or dividing. Endless grids from 3×3 to 11×11, with no ads and no internet.  
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/meikpiep/gauguin)
 - **[LibreSudoku](https://h5.2113.net/games/libresudoku.html)**: Classic and Killer Sudoku in three sizes and four difficulties, generated on your phone, with notes, hints, statistics and your own puzzle collections. Free, ad-free and offline.  

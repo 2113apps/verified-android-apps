@@ -628,6 +628,39 @@
       "olderVersions": []
     },
     {
+      "name": "LibChecker",
+      "package": "com.absinthe.libchecker",
+      "page": "https://h5.2113.net/apps/libchecker.html",
+      "category": "System Tools",
+      "version": "2.5.4.5696014",
+      "versionCode": 2671,
+      "released": "2026-06-20",
+      "size": 4916265,
+      "sha256": "06b5cb36b5002bff55be2a1e9923504be866fc8821b28c1c74963c8a9f5be24e",
+      "signers": [
+        "47274114ab10ade16e41088a991be3ea4a621855f2487f1edc62187367f4a5c0"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/LibChecker/LibChecker",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [
+        "TetheredNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "SAI (Split APKs Installer)",
       "package": "com.aefyr.sai.fdroid",
       "page": "https://h5.2113.net/apps/sai.html",
@@ -997,6 +1030,42 @@
         "x86"
       ],
       "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Barcode Scanner",
+      "package": "com.atharok.barcodescanner",
+      "page": "https://h5.2113.net/apps/barcode-scanner.html",
+      "category": "System Tools",
+      "version": "1.26.3",
+      "versionCode": 52,
+      "released": "2026-07-10",
+      "size": 8308418,
+      "sha256": "f76c033c47bf2d79aa1b40aa8869e2d659b82d4ce41048e0a6b1c70c48309cb6",
+      "signers": [
+        "ebf167ed8846613e6bae943d63cb3deb3703307c682ebb47df4a3f4331af1876"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/Atharok/BarcodeScanner",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -3843,6 +3912,39 @@
       "olderVersions": []
     },
     {
+      "name": "Bubble Shooter",
+      "package": "com.sidhant.bubbleshooter",
+      "page": "https://h5.2113.net/games/bubble-shooter.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.0.1",
+      "versionCode": 22,
+      "released": "2026-09-15",
+      "size": 8256188,
+      "sha256": "34e37080a02d4043994973b7140136bcb8152b0654e02533a5e007742b0c56d6",
+      "signers": [
+        "9a9c1f19b050bffd3e860f414f640a11fa7c0803f4d25a42e7b1d50835ba8e41"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/sidhant947/BubbleShooter",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Ludo",
       "package": "com.sidhant.ludo",
       "page": "https://h5.2113.net/games/ludo.html",
@@ -3871,6 +3973,37 @@
         "arm64-v8a"
       ],
       "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Package Manager",
+      "package": "com.smartpack.packagemanager",
+      "page": "https://h5.2113.net/apps/package-manager.html",
+      "category": "System Tools",
+      "version": "v8.0",
+      "versionCode": 80,
+      "released": "2026-08-27",
+      "size": 2927293,
+      "sha256": "6e325c0137d7eecaf10c0f88b83691c3f2cccadeb208406cfc1abb7756b89013",
+      "signers": [
+        "ec59d0ae2fecc86d01160caea7fbca5b57cf4e0b2bc82b021fcbc0f94059f5a2"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/SmartPack/PackageManager",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 8,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4350,11 +4483,11 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.4.2",
-      "versionCode": 1342,
-      "released": "2026-10-25",
-      "size": 330420611,
-      "sha256": "e2973625216a7866c614be8c43b1af1ff2e0c4c065292bc50996953fd6aa8c64",
+      "version": "1.3.4.3",
+      "versionCode": 1343,
+      "released": "2026-10-30",
+      "size": 321887206,
+      "sha256": "aaf1fa37a29a552863c7663ab19827663b63aeeeb7bdef46bf91464b74f26384",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
@@ -4364,7 +4497,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.2",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.3",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -4379,6 +4512,39 @@
       "permissions": 22,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "TV Launcher",
+      "package": "com.tvlauncher",
+      "page": "https://h5.2113.net/apps/tv-launcher.html",
+      "category": "Customization",
+      "version": "1.6.2",
+      "versionCode": 10602,
+      "released": "2026-10-22",
+      "size": 1118486,
+      "sha256": "7afde83f96ccf30d1bc69ca06692d385800d2d9a14dd5f7d85fb4ad4f3c5c210",
+      "signers": [
+        "9e9f185a5b3cfb6ff65ac2907d3180c150483705ba129787c60667088647a767"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/wiiguy/lightweight_androidtv_launcher",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 34,
+      "abis": [],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -5033,6 +5199,37 @@
         "x86_64"
       ],
       "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "MIFARE Classic Tool",
+      "package": "de.syss.MifareClassicTool",
+      "page": "https://h5.2113.net/apps/mifare-classic-tool.html",
+      "category": "System Tools",
+      "version": "4.3.1",
+      "versionCode": 70,
+      "released": "2026-01-26",
+      "size": 4027988,
+      "sha256": "1e230b26d97d119c7f8034af082fbe6cc41b99a955b6d699d951c59c456a086c",
+      "signers": [
+        "37d940651520f32f66eeb60f1dc8d30afa00951304f9936d9ddd2ee1623512f8"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ikarus23/MifareClassicTool",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 19,
+      "minAndroid": "Android 4.4",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 2,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7821,6 +8018,37 @@
         "x86_64"
       ],
       "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Crossword",
+      "package": "org.billthefarmer.crossword",
+      "page": "https://h5.2113.net/games/crossword.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.26",
+      "versionCode": 126,
+      "released": "2026-02-15",
+      "size": 518368,
+      "sha256": "3f6c953a3113dc31f3f2f399f8b475513b9b0d7a7b992532bef91118ac1763e3",
+      "signers": [
+        "2d6faebf95d906eab05a9f598302d0ff4f3d0509ba5b223da3276b9c2d40fd8f"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/billthefarmer/crossword",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
