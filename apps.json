@@ -4588,11 +4588,11 @@
       "package": "com.v2ray.ang",
       "page": "https://h5.2113.net/apps/v2rayng.html",
       "category": "Network & Privacy",
-      "version": "2.3.11",
-      "versionCode": 4000751,
-      "released": "2026-10-11",
-      "size": 33535156,
-      "sha256": "b9aed943bdace5531b2268eb57479db769fffa5463adecb1559c8c62d5864b6f",
+      "version": "2.3.14",
+      "versionCode": 4000754,
+      "released": "2026-10-28",
+      "size": 32470932,
+      "sha256": "e574d20ae4f2962c225785c31480b1c82a2a0dae1b7fbda5bf7fb510d8c3a05b",
       "signers": [
         "b7dc883e7678d6c618569e48a1c8c267a134a75f8bcb763510c8bffb3b90b077"
       ],
@@ -4601,7 +4601,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/2dust/v2rayNG/releases/tag/2.3.11",
+      "sourceRelease": "https://github.com/2dust/v2rayNG/releases/tag/2.3.14",
       "sourceCode": "https://github.com/2dust/v2rayNG",
       "license": "GPL-3.0",
       "minSdk": 24,
@@ -10804,11 +10804,11 @@
       "package": "tw.nekomimi.nekogram",
       "page": "https://h5.2113.net/apps/nekogram.html",
       "category": "Productivity",
-      "version": "13.0.3",
-      "versionCode": 71830,
-      "released": "2026-10-24",
-      "size": 73456524,
-      "sha256": "55a06ea8bd69809136f94126e173f3aa1cdd6198d2604de79e1cf01be58441ff",
+      "version": "13.1.1",
+      "versionCode": 72370,
+      "released": "2026-10-30",
+      "size": 73948009,
+      "sha256": "53f23308e84e4331072416b198cc92eced1cb510694d73027bcc81b6c863767e",
       "signers": [
         "5ce932b970199fbda2aae7bf21e1ad9e70b0809a7b1ac94c0699f5d5ada83313"
       ],
@@ -10818,7 +10818,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/Nekogram/Nekogram/releases/tag/v13.0.3",
+      "sourceRelease": "https://github.com/Nekogram/Nekogram/releases/tag/v13.1.1",
       "sourceCode": "https://github.com/Nekogram/Nekogram",
       "license": "GPL-2.0",
       "minSdk": 23,

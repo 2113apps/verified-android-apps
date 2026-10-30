@@ -111,7 +111,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Arcticons](https://h5.2113.net/apps/arcticons.html)**: Over 15,000 hand-drawn, white line icons that restyle your home screen in one go, for launchers that accept icon packs, plus clock widgets and a wallpaper collection.  
   No root · a launcher that supports icon packs · no known trackers found · GPL-3.0-only · [source](https://github.com/Arcticons-Team/Arcticons)
-- **[ColorBlendr](https://h5.2113.net/apps/colorblendr.html)**: Take over the Material You palette that Android 12 and later builds from your wallpaper: pick your own seed color, tune saturation and lightness, and override single shades.  
+- **[ColorBlendr](https://h5.2113.net/apps/colorblendr.html)**: Choose the seed behind Android’s Material You colors through root, Shizuku or ADB. Root also unlocks palette tuning, token overrides and per-app themes.  
   Root, Shizuku or wireless ADB · Android 12+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Mahmud0808/ColorBlendr)
 - **[Fossify Launcher](https://h5.2113.net/apps/fossify-launcher.html)**: A plain home screen that carries on from Simple Launcher: icons, folders and widgets on a grid you size yourself, an app drawer with search, and no account or news feed.  
   Default home app · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/FossifyOrg/Launcher)
@@ -513,7 +513,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Loop Habit Tracker](https://h5.2113.net/apps/loop-habit-tracker.html)**: Track the habits you want to build, from a daily walk to a number of pages read, and watch a strength score that forgives the odd missed day. Everything stays on your phone.  
   Android 9+ · no account · no known trackers found · GPL-3.0-only · [source](https://github.com/iSoron/uhabits)
 - **[Markor](https://h5.2113.net/apps/markor.html)**: Write notes, lists and documents as plain files in a folder of your own: Markdown with a live preview, todo.txt task lists, quick notes and formats from CSV to YAML, with no account.  
-  No root · Android 4.3+ · no known trackers found · Apache-2.0 · [source](https://github.com/gsantner/markor)
+  No root · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/gsantner/markor)
 - **[Molly](https://h5.2113.net/apps/molly.html)**: A hardened version of Signal that uses Signal’s servers, so you chat with your Signal contacts as usual, and adds a passphrase that encrypts the app’s data and a memory wipe when it locks.  
   No root · Android 8.1+ · a phone number · no known trackers found · AGPL-3.0 · [source](https://github.com/mollyim/mollyim-android)
 - **[Nekogram](https://h5.2113.net/apps/nekogram.html)**: Telegram with a few more switches: hide parts of the interface you don’t use, translate messages and whole chats with the engine you choose, and see details such as chat IDs. Uses your account.  
