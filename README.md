@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-312 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+319 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -10,12 +10,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Topics and comparisons](#topics-and-comparisons)
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
-- [Customization](#customization) (13)
-- [Network & Privacy](#network--privacy) (44)
+- [Customization](#customization) (14)
+- [Network & Privacy](#network--privacy) (45)
 - [Media](#media) (45)
-- [System Tools](#system-tools) (62)
+- [System Tools](#system-tools) (64)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (42)
+- [Productivity](#productivity) (43)
 - [Reading & Maps](#reading--maps) (14)
 - [Games: Strategy Games](#games-strategy-games) (13)
 - [Games: Sandbox Games](#games-sandbox-games) (2)
@@ -23,7 +23,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (17)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (18)
+- [Games: Game Tools](#games-game-tools) (1)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
 - [Games: Console Emulators](#games-console-emulators) (12)
@@ -33,18 +34,18 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - [Obtainium Alternatives for Android](https://h5.2113.net/topics/app-updaters/): Four open-source alternatives to Obtainium for installing and updating Android apps outside Google Play. Sources, silent installs and tracking flags compared.
 - [Heroes 2 & 3, Caesar III, RCT2 and More on Android](https://h5.2113.net/topics/classic-pc-games-android/): fheroes2, VCMI, Julius, OpenRCT2 and OpenTTD rebuild five classic PC strategy and building games as open source for Android. What each needs, and how to set it up.
-- [Android Customization Apps: Open-Source Picks](https://h5.2113.net/topics/customization/): Six open-source apps to customize Android, from launchers and a desktop-style taskbar to system-wide icon packs and Quick Settings styling. What each needs.
+- [Android Customization Apps: 7 Open-Source Picks](https://h5.2113.net/topics/customization/): Seven open-source Android customization apps, from search and pie-menu launchers to a desktop taskbar, system-wide icon packs and Quick Settings styling.
 - [Fossify Apps: Simple Mobile Tools Alternatives](https://h5.2113.net/topics/fossify-apps/): The Fossify apps that carry on Simple Mobile Tools, from gallery, dialer and SMS to keyboard and launcher. None requests internet access; all eleven share one key.
 - [Android Games With No Ads: 15 Open-Source Picks](https://h5.2113.net/topics/games-without-ads/): Fifteen open-source Android games, from strategy and roguelikes to puzzles, pinball and racing, whose files contain no ad libraries, no billing code and no trackers.
-- [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from fixing old app installs to icon packs and freezing background apps. Xposed API confirmed in every APK, no trackers.
+- [LSPosed Modules List: 9 Open-Source Picks](https://h5.2113.net/topics/lsposed-modules/): Nine open-source LSPosed and Xposed modules, from old-app installs and hidden mock locations to icon packs and app freezing. Every APK checked.
 - [Minecraft Java Launchers for Android](https://h5.2113.net/topics/minecraft-java-launchers/): Four open-source launchers that run Minecraft Java Edition on Android, Amethyst, Zalith Launcher 2, FCL and MojoLauncher, compared on versions, mods and devices.
 - [NewPipe Alternatives: Open-Source YouTube Apps](https://h5.2113.net/topics/newpipe-alternatives/): NewPipe, PipePipe, LibreTube, FreeTube Android, SkyTube and Tubular compared on features, how they reach YouTube, upkeep and devices. Every APK checked.
 - [Open-Source Roguelikes for Android](https://h5.2113.net/topics/open-source-roguelikes/): Shattered Pixel Dungeon, Dungeon Crawl Stone Soup and Brogue CE compared on controls, depth, online features and who makes each Android version. All free, no ads.
 - [Open-Source Strategy Games for Android](https://h5.2113.net/topics/open-source-strategy-games/): Mindustry, Unciv and The Battle for Wesnoth compared on pace, online play, data downloads, controllers and Android support. Every APK signature-checked.
 - [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
-- [Best Shizuku Apps: 16 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Sixteen open-source Android apps that use Shizuku for ADB-level access without root. We confirmed the Shizuku API inside every APK and scanned each for trackers.
+- [Best Shizuku Apps: 18 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Eighteen open-source Android apps that use Shizuku for ADB-level access without root. Every APK checked for the API, permissions and tracker SDKs.
 - [Termux Plugins: All 7 Add-ons Explained](https://h5.2113.net/topics/termux-plugins/): What each Termux plugin adds, from Termux:API to Termux:GUI, how to set it up, and why plugins must come from the same source as Termux. All seven checked.
-- [Open-Source VPN Apps for Android: 7 Compared](https://h5.2113.net/topics/vpn-apps/): WG Tunnel, OpenVPN for Android, OpenConnect, Tailscale, Shadowsocks, NekoBox and Windscribe compared by protocol and what you need to connect. Every APK checked.
+- [Open-Source VPN Apps for Android: 8 Compared](https://h5.2113.net/topics/vpn-apps/): Outline, WG Tunnel, OpenVPN, OpenConnect, Tailscale, Shadowsocks, NekoBox and Windscribe compared by protocol, server and privacy details. Every APK checked.
 - [Open-Source YouTube Music Clients for Android](https://h5.2113.net/topics/youtube-music-clients/): Metrolist, ArchiveTune, Kreate, VIVI Music, Gyawun, SimpMusic, OuterTune and Bloomee compared on sources, accounts, lyrics and devices. Every APK signature-checked.
 
 ## Guides
@@ -127,6 +128,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no known trackers found · Apache-2.0 · [source](https://github.com/LawnchairLauncher/lawnchair)
 - **[Olauncher](https://h5.2113.net/apps/olauncher.html)**: A home screen with the time, the date and up to eight app names in plain text, and no icons. Swipe left or right to open two apps you pick; type to find the rest.  
   Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/tanujnotes/Olauncher)
+- **[Pie Launcher](https://h5.2113.net/apps/pie-launcher.html)**: Hold and swipe through a radial menu for your usual apps; tap once and type a letter or two when you need anything else. Edge-ignore settings keep accidental gestures away from screen borders.  
+  Android 2.3+ · set as the default home app · no known trackers found · MIT · [source](https://github.com/markusfisch/PieLauncher)
 - **[Taskbar](https://h5.2113.net/apps/taskbar.html)**: A PC-style start menu and a bar of recent apps that sit on top of any screen, plus floating app windows and a desktop mode for when your phone drives an external display.  
   No root · overlay permission · Android 5.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/farmerbb/Taskbar)
 - **[TV Launcher](https://h5.2113.net/apps/tv-launcher.html)**: A deliberately small Android TV home screen with fourteen app positions, a searchable picker and none of the recommendations or account prompts of a streaming-service launcher.  
@@ -188,6 +191,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · an OpenVPN profile · Android 6.0+ · no known trackers found · GPL-2.0-only · [source](https://github.com/schwabe/ics-openvpn)
 - **[Orbot](https://h5.2113.net/apps/orbot.html)**: Route the apps on your phone through Tor, all of them or only the ones you pick, with bridges for places where Tor is blocked. Orbot can also host onion services and help others reach Tor.  
   No root · Android 7.0+ · 64-bit ARM phone · no known trackers found · BSD-3-Clause · [source](https://github.com/guardianproject/orbot-android)
+- **[Outline](https://h5.2113.net/apps/outline.html)**: Connect Android through an Outline server or a supported AEAD Shadowsocks key. This is the official sideloaded client, not a VPN service or a server subscription.  
+  Android 10+ · Outline or Shadowsocks access key · tracker code found: Sentry · Apache-2.0 · [source](https://github.com/OutlineFoundation/outline-apps)
 - **[PCAPdroid](https://h5.2113.net/apps/pcapdroid.html)**: See every connection your apps make, without root. PCAPdroid captures traffic through a local VPN on the phone, lets you inspect and export it, and can decrypt HTTPS.  
   No root · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/emanuele-f/PCAPdroid)
 - **[PCAPdroid mitm](https://h5.2113.net/apps/pcapdroid-mitm.html)**: An add-on that lets PCAPdroid decrypt HTTPS traffic on the phone, using mitmproxy.  
@@ -326,6 +331,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 10+ · no account · no known trackers found · Apache-2.0 · [source](https://github.com/accrescent/accrescent)
 - **[Activity Launcher](https://h5.2113.net/apps/activity-launcher.html)**: Open the screens apps don’t show you: hidden settings pages and other activities, launched directly or pinned to your home screen as shortcuts.  
   No root · Android 4.1+ · no known trackers found · ISC · [source](https://github.com/butzist/ActivityLauncher)
+- **[Activity Manager](https://h5.2113.net/apps/activity-manager.html)**: Inspect every activity an installed app declares, launch exported screens, build custom intents and use root or Shizuku when a non-exported screen really is required.  
+  Android 6.0+ · root or Shizuku 7.0+ for restricted screens · no known trackers found · Apache-2.0 · [source](https://github.com/sdex/ActivityManager)
 - **[Amaze File Manager](https://h5.2113.net/apps/amaze-file-manager.html)**: An open-source Material Design file manager with tabs, a root explorer, AES file encryption, an app manager that backs up APKs, network shares and a built-in FTP server.  
   No root needed · Android 6.0+ · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/TeamAmaze/AmazeFileManager)
 - **[Androoster](https://h5.2113.net/apps/androoster.html)**: A toolbox of on/off root tweaks for CPU, memory, kernel, I/O and network settings.  
@@ -410,6 +417,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · root or Shizuku for advanced actions · no known trackers found · GPL-3.0-or-later · [source](https://github.com/SmartPack/PackageManager)
 - **[Payload Dumper](https://h5.2113.net/apps/payload-dumper.html)**: Extracts boot.img and other partition images from an OTA zip or payload.bin on the phone, with hash verification.  
   No root · a full OTA package · no known trackers found · GPL-3.0-only · [source](https://github.com/rajmani7584/Payload-Dumper-Android)
+- **[Permission Manager X](https://h5.2113.net/apps/permission-manager-x.html)**: Review every installed app’s manifest permissions and AppOps on one screen, mark the state you expect and use root or ADB when you need to grant, revoke or restore it.  
+  Android 7.0+ · root or network ADB for full control · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/mirfatif/PermissionManagerX)
 - **[Prism File Explorer](https://h5.2113.net/apps/prism-file-explorer.html)**: A Material 3 file manager with tabs, ZIP archives and built-in viewers for images, video, audio, PDF and code.  
   No root · no known trackers found · GPL-3.0-only · [source](https://github.com/Raival-e/Prism-File-Explorer)
 - **[RustDesk](https://h5.2113.net/apps/rustdesk.html)**: Control a computer or another phone remotely, or let someone help you with yours. RustDesk is open source and can run entirely on a server you host yourself.  
@@ -526,6 +535,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.0+ · no phone number · no known trackers found · GPL-3.0 · [source](https://github.com/session-foundation/session-android)
 - **[Signal](https://h5.2113.net/apps/signal.html)**: The Signal messenger in the version Signal offers on its website for phones without Google Play: one file for every device, which checks Signal’s server for updates every six hours.  
   No root · Android 6.0+ · a phone number · no known trackers found · AGPL-3.0-only · [source](https://github.com/signalapp/Signal-Android)
+- **[Simple Calculator](https://h5.2113.net/apps/simple-calculator.html)**: Calculate with adjustable decimal precision, degree or radian trigonometry and an in-memory history, then convert physical and storage units without going online.  
+  Android 7.0+ · works offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/hobby-projects-lab/simple-calculator)
 - **[Simple Keyboard](https://h5.2113.net/apps/simple-keyboard.html)**: Raimondas Rimkus’s deliberately small keyboard gives you keys, layouts and a few optional gestures—not prediction, emoji, GIFs or a network connection.  
   No root · Android 7.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/rkkr/simple-keyboard)
 - **[SimpleX Chat](https://h5.2113.net/apps/simplex-chat.html)**: A messenger without accounts: you connect to people through one-time links or QR codes, messages are end-to-end encrypted and relayed through servers you can swap for your own.  
@@ -700,10 +711,17 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · ARM phone or tablet · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shlomif/PySolFC)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
   Android 5.0+ · no known trackers found · MIT · [source](https://github.com/chrisboyle/sgtpuzzles)
+- **[Sudoku](https://h5.2113.net/games/sudoku.html)**: Play locally generated 9×9 Sudoku at four difficulties, with pencil marks, auto-notes, undo, validation and separate assisted and unassisted local top-ten boards.  
+  Android 7.0+ · 64-bit ARM · works offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/likhithpraveenk/sudoku)
 - **[SuperTux](https://h5.2113.net/games/supertux.html)**: Run, jump and stomp through snowy and forest worlds as Tux on his way to rescue Penny. A complete game made by volunteers, with no ads; this is the team’s own Android build.  
   Android 9+ · 64-bit ARM · no account · no known trackers found · GPL-3.0 · [source](https://github.com/SuperTux/supertux)
 - **[Vector Pinball](https://h5.2113.net/games/vector-pinball.html)**: Pinball drawn with lines and circles, where the physics matter more than the graphics: nine tables, multiball, local high scores, and not a single permission requested.  
   Android 4.4+ · no known trackers found · GPL-3.0-only · [source](https://github.com/dozingcat/Vector-Pinball)
+
+## Games: Game Tools
+
+- **[FPS Meter](https://h5.2113.net/games/fps-meter.html)**: Overlay frame pace, temperatures, memory and battery data on a game, and use Shizuku when you need SurfaceFlinger compositor timing instead of display-vsync pace.  
+  Android 8.0+ · overlay access · Shizuku for real game FPS · no known trackers found · MIT · [source](https://github.com/rdevz-ph/FPS-Meter-Android)
 
 ## Games: PC Emulators
 

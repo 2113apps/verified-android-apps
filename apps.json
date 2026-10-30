@@ -661,6 +661,42 @@
       "olderVersions": []
     },
     {
+      "name": "Activity Manager",
+      "package": "com.activitymanager",
+      "page": "https://h5.2113.net/apps/activity-manager.html",
+      "category": "System Tools",
+      "version": "5.5.3",
+      "versionCode": 567,
+      "released": "2026-10-14",
+      "size": 5291724,
+      "sha256": "fb5c15c994239cae33c501338f9f865240cf41ca550ee0273401da7566f0c633",
+      "signers": [
+        "2ca62fd35eb47e4a59c62c5f7d705f967057d55190088aa51d46b5983df8200e"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/sdex/ActivityManager",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "SAI (Split APKs Installer)",
       "package": "com.aefyr.sai.fdroid",
       "page": "https://h5.2113.net/apps/sai.html",
@@ -2904,6 +2940,37 @@
       "olderVersions": []
     },
     {
+      "name": "Sudoku",
+      "package": "com.likhithpraveenk.sudoku",
+      "page": "https://h5.2113.net/games/sudoku.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.2.0",
+      "versionCode": 72,
+      "released": "2026-10-22",
+      "size": 18794616,
+      "sha256": "9acb68c5b541d6972a269a13a3c01d38fcd5ef174cf8de58e9952be67e35a60d",
+      "signers": [
+        "9fd6a34c963e04a05fa29e262c56a6e5956c3a109cd78d5f2137e0c272553a74"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/likhithpraveenk/sudoku",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Limbo PC Emulator",
       "package": "com.limbo.emu.main",
       "page": "https://h5.2113.net/games/limbo-pc-emulator.html",
@@ -3256,6 +3323,42 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Permission Manager X",
+      "package": "com.mirfatif.permissionmanagerx",
+      "page": "https://h5.2113.net/apps/permission-manager-x.html",
+      "category": "System Tools",
+      "version": "v1.30-foss",
+      "versionCode": 130,
+      "released": "2025-11-14",
+      "size": 3011440,
+      "sha256": "59f0f881ab03a82a9c3d97fef6a20ba08657089d4a3f134143b8a10374bca2e3",
+      "signers": [
+        "a7b13d3c2b9e0f52f87a21b9706d35fedad0500ec61809055ed76bf6fd8c042a"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/mirfatif/PermissionManagerX",
+      "license": "AGPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -3635,6 +3738,42 @@
         "x86_64"
       ],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "FPS Meter",
+      "package": "com.rdevzph.fpsmeter",
+      "page": "https://h5.2113.net/games/fps-meter.html",
+      "category": "Game Tools",
+      "version": "3.0",
+      "versionCode": 22,
+      "released": "2026-10-22",
+      "size": 1836060,
+      "sha256": "54f4be6d08dce30249686e51f60a74c1f8c2920a0c1965cef67780805d34337d",
+      "signers": [
+        "a7eb48222821c4074908d289c46e9737b0942148a686076b1549da0f6ed48006"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/rdevz-ph/FPS-Meter-Android",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5095,6 +5234,37 @@
       "olderVersions": []
     },
     {
+      "name": "Pie Launcher",
+      "package": "de.markusfisch.android.pielauncher",
+      "page": "https://h5.2113.net/apps/pie-launcher.html",
+      "category": "Customization",
+      "version": "1.28.0",
+      "versionCode": 75,
+      "released": "2026-07-18",
+      "size": 337194,
+      "sha256": "3acf1417b4cfa73b253782f75b77d3753de4c2b5186154dfc1bff3e59b3ec440",
+      "signers": [
+        "2385e49ff072d90dcef9db2890b330533ce472efeb7901994e0d222d5200978b"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/markusfisch/PieLauncher",
+      "license": "MIT",
+      "minSdk": 9,
+      "minAndroid": "Android 2.3",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 4,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Kvaesitso",
       "package": "de.mm20.launcher2.release",
       "page": "https://h5.2113.net/apps/kvaesitso.html",
@@ -5922,6 +6092,41 @@
         "x86_64"
       ],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Simple Calculator",
+      "package": "hpl.apps.android.math",
+      "page": "https://h5.2113.net/apps/simple-calculator.html",
+      "category": "Productivity",
+      "version": "1.0.2",
+      "versionCode": 2,
+      "released": "2026-10-25",
+      "size": 2227036,
+      "sha256": "2bc08df01ac6fb3ff482db03fd0db79dd868924d4456e8774b3f4929186a67d1",
+      "signers": [
+        "2e3a19a3d2898fde513535a0018f33821ad81015ff7c0d17767e707ea5cee00f"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/hobby-projects-lab/simple-calculator",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -9538,6 +9743,43 @@
       "olderVersions": []
     },
     {
+      "name": "Outline",
+      "package": "org.outline.android.client",
+      "page": "https://h5.2113.net/apps/outline.html",
+      "category": "Network & Privacy",
+      "version": "1.22.0",
+      "versionCode": 497726,
+      "released": "2026-10-13",
+      "size": 45310306,
+      "sha256": "61486b7979a172a64e06d439b69483e7009ff83a2bf8dea53d972f30b0d38ff4",
+      "signers": [
+        "f7868b842694a793d2afe471ce1079773c9c7c528a5185cb415c8dccbf1b784d"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2",
+        "v3"
+      ],
+      "source": "direct",
+      "sourceCode": "https://github.com/OutlineFoundation/outline-apps",
+      "license": "Apache-2.0",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [
+        "Sentry"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Auxio",
       "package": "org.oxycblt.auxio",
       "page": "https://h5.2113.net/apps/auxio.html",
@@ -10279,9 +10521,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-29",
-      "size": 29211262,
-      "sha256": "6cdba7acb92f865d0c28451f6616e435ff8e2a1c88870583a2915f1e41b35efe",
+      "released": "2026-10-30",
+      "size": 29213262,
+      "sha256": "72728508769b9c71179774c217c6194f005fcef2e869d11529b467e8894cff47",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
