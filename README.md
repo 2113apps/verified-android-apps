@@ -477,7 +477,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Immich](https://h5.2113.net/apps/immich.html)**: The mobile app for Immich, a self-hosted photo and video library: back up the camera roll to a server you run, then browse, search and share it from the phone.  
   Your own Immich server · Android 8.0+ · no known trackers found · AGPL-3.0-only · [source](https://github.com/immich-app/immich)
 - **[Nextcloud](https://h5.2113.net/apps/nextcloud.html)**: The official Android app for Nextcloud Files: reach the files on your own Nextcloud server, or an account with a provider, upload photos automatically and keep chosen folders synced.  
-  A Nextcloud server · 64-bit phone · Android 9+ · no known trackers found · GPL-2.0-only · [source](https://github.com/nextcloud/android)
+  A Nextcloud server · Android 9+ · no known trackers found · GPL-2.0-only · [source](https://github.com/nextcloud/android)
 - **[Syncthing-Fork](https://h5.2113.net/apps/syncthing-fork.html)**: The community-maintained Android app for Syncthing: choose folders on your phone and keep them in sync with your computer or other phones, device to device, and decide when it’s allowed to run.  
   Android 6.0+ · Syncthing on your other devices · no known trackers found · MPL-2.0 · [source](https://github.com/researchxxl/syncthing-android)
 
@@ -624,7 +624,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[fheroes2](https://h5.2113.net/games/fheroes2.html)**: Play Heroes of Might and Magic II on your phone with an engine rewritten from scratch. Bring the original game’s files or try the free demo; this is the project’s own APK.  
   Heroes II files or demo · Android 5.1+ · no known trackers found · GPL-2.0 · [source](https://github.com/ihhub/fheroes2)
 - **[Freebloks](https://h5.2113.net/games/freebloks.html)**: Fit your pieces onto the board so each one touches your others only at the corners, and squeeze your opponents out. Play the computer, people on the same phone, online or over Bluetooth.  
-  Android 7.0+ · no account · no known trackers found · GPL-2.0-only · [source](https://github.com/shlusiak/Freebloks-Android)
+  Android 8.0+ · no account · no known trackers found · GPL-2.0-only · [source](https://github.com/shlusiak/Freebloks-Android)
 - **[Lichess](https://h5.2113.net/games/lichess.html)**: The official app of Lichess, the free and open-source chess site: play people online, play the computer offline, solve puzzles and analyse your games.  
   Android 8.0+ · 64-bit ARM · account optional · no known trackers found · GPL-3.0-or-later · [source](https://github.com/lichess-org/mobile)
 - **[Ludo](https://h5.2113.net/games/ludo.html)**: Play Ludo entirely offline with two to four colors: pass one phone among up to four people, fill empty seats with bots, or mix both in the same match.  
