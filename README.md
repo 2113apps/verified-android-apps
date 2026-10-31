@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-326 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+333 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,11 +11,11 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (14)
-- [Network & Privacy](#network--privacy) (45)
+- [Network & Privacy](#network--privacy) (46)
 - [Media](#media) (46)
-- [System Tools](#system-tools) (66)
+- [System Tools](#system-tools) (67)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (45)
+- [Productivity](#productivity) (48)
 - [Reading & Maps](#reading--maps) (14)
 - [Games: Strategy Games](#games-strategy-games) (13)
 - [Games: Sandbox Games](#games-sandbox-games) (3)
@@ -23,7 +23,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (18)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (20)
 - [Games: Game Tools](#games-game-tools) (1)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
@@ -157,6 +157,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · internet · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Exodus-Privacy/exodus-android-app)
 - **[FireWall Blocks](https://h5.2113.net/apps/firewall-blocks.html)**: Blocks Wi-Fi or mobile data per app without root, through Shizuku or a local VPN.  
   Shizuku, or nothing in VPN mode · no known trackers found · MIT · [source](https://github.com/shynoiddev/FireWall-Blocks)
+- **[FOSS Browser](https://h5.2113.net/apps/foss-browser.html)**: A compact browser around Android System WebView, with per-profile controls, host-file blocking and cookie-banner denial. JavaScript, cookies and local history start enabled.  
+  Android 10+ · an up-to-date Android System WebView · no known trackers found · GPL-3.0-or-later · [source](https://codeberg.org/Gaukler_Faun/FOSS_Browser)
 - **[Gadgetbridge](https://h5.2113.net/apps/gadgetbridge.html)**: Use a smartwatch, fitness band, earbuds or scale without the maker’s app and account: notifications on your wrist, activity and sleep data, music controls and more, all kept on your phone.  
   No root · Android 6.0+ · a supported gadget · no known trackers found · AGPL-3.0-only · [source](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 - **[Intra](https://h5.2113.net/apps/intra.html)**: A one-switch app that protects your DNS lookups from tampering: it sends them encrypted over HTTPS, which gets around blocking that works by faking DNS answers.  
@@ -457,6 +459,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Termux from F-Droid · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/termux/termux-widget)
 - **[Test DPC](https://h5.2113.net/apps/test-dpc.html)**: Google's sample app for Android Enterprise: create a work profile on your own phone, or make a spare device fully managed, and try the policies Android offers. Built for testing, not daily use.  
   Android 5.0+ · adb for device owner · no known trackers found · Apache-2.0 · [source](https://github.com/googlesamples/android-testdpc)
+- **[Transfer](https://h5.2113.net/apps/transfer.html)**: Choose a folder, start an HTTP server on port 8000, and upload, download or delete its files from another device on the same local network.  
+  Android 10+ · two devices on the same local network · no known trackers found · MIT · [source](https://github.com/matan-h/Transfer)
 - **[Universal Installer](https://h5.2113.net/apps/universal-installer.html)**: An open-source installer for APK files and split-APK bundles, with optional silent installs through Shizuku or root, OBB game data placement, and an update tracker for apps from GitHub and F-Droid.  
   Android 7.0+ · Shizuku or root optional · no known trackers found · GPL-3.0-only · [source](https://github.com/pass-with-high-score/universal-installer)
 - **[USB HID Client](https://h5.2113.net/apps/usb-hid-client.html)**: Makes your phone act as a real USB keyboard and mouse, with no software on the computer, even in BIOS.  
@@ -487,8 +491,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 6.0+ · no known trackers found · LGPL-3.0-only · [source](https://github.com/breezy-weather/breezy-weather)
 - **[Briar](https://h5.2113.net/apps/briar.html)**: A messenger without a central server: messages travel directly between phones, over Tor when there is internet, or over the same Wi-Fi network, Bluetooth or a USB stick when there isn’t.  
   No root · Android 5.0+ · no phone number · no known trackers found · GPL-3.0-or-later · [source](https://code.briarproject.org/briar/briar)
+- **[Clock](https://h5.2113.net/apps/clock.html)**: Set alarms for a date or time zone, dismiss them with buttons, motion or a math task, and keep timers, a stopwatch, world clocks and widgets in one offline app.  
+  Android 6.0+ · notification, battery and full-screen access · no known trackers found · Apache-2.0 · [source](https://github.com/BlackyHawky/Clock)
 - **[Conversations](https://h5.2113.net/apps/conversations.html)**: A messenger for the open XMPP network, also known as Jabber: pick any server, or run your own, then chat, call and share files with end-to-end encryption switched on by default.  
   No root · Android 6.0+ · an XMPP account · no known trackers found · GPL-3.0-only · [source](https://codeberg.org/iNPUTmice/Conversations)
+- **[Delta Chat](https://h5.2113.net/apps/delta-chat.html)**: Message through interoperable chatmail relays without a phone number, scan an invite QR code to add contacts, and run small WebXDC apps inside chats.  
+  Android 5.0+ · 64-bit ARM · chatmail or e-mail account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/deltachat/deltachat-android)
 - **[Easy Notes](https://h5.2113.net/apps/easy-notes.html)**: Keep Markdown notes, pictures and home-screen widgets on the phone, with search, themes, an app lock and a separate encrypted vault—without an account or built-in sync.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kin69/EasyNotes)
 - **[Element X](https://h5.2113.net/apps/element-x.html)**: The new app from Element for Matrix, the open network for encrypted chat. It replaces Element Classic, which Element is retiring at the end of 2026.  
@@ -535,6 +543,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.1+ · a phone number · no known trackers found · AGPL-3.0 · [source](https://github.com/mollyim/mollyim-android)
 - **[Nekogram](https://h5.2113.net/apps/nekogram.html)**: Telegram with a few more switches: hide parts of the interface you don’t use, translate messages and whole chats with the engine you choose, and see details such as chat IDs. Uses your account.  
   No root · Android 6.0+ · a Telegram account · tracker code found: Google Firebase Analytics, Sentry · GPL-2.0 · [source](https://github.com/Nekogram/Nekogram)
+- **[OCR](https://h5.2113.net/apps/ocr.html)**: Pick an image or share one into the app, download the language data you need once, and run Tesseract recognition on the phone. The APK does not include the models.  
+  Android 6.0+ · internet once for each language model · no known trackers found · Apache-2.0 · [source](https://github.com/SubhamTyagi/android-ocr)
 - **[Offline Translator](https://h5.2113.net/apps/offline-translator.html)**: Download language packs once, then translate text, photos and documents without sending their contents to a translation server. OCR, dictionaries and transliteration also run on the phone.  
   Android 6.0+ · 64-bit ARM · internet once for language packs · no known trackers found · GPL-3.0-or-later · [source](https://github.com/DavidVentura/offline-translator)
 - **[QUIK](https://h5.2113.net/apps/quik-sms.html)**: The continuation of QKSMS, the popular open-source texting app that stopped in 2023: SMS and MMS with scheduled and delayed sending, blocking, voice messages and backups, and no internet access.  
@@ -705,6 +715,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · 64-bit ARM device · works offline · no known trackers found · GPL-3.0-only · [source](https://github.com/sidhant947/BubbleShooter)
 - **[Burger Party](https://h5.2113.net/games/burger-party.html)**: Stack buns, meat, cheese and salad in the order each customer asks for, before the clock runs out, in the United States, on a pirate ship and in Japan. No ads and no purchases.  
   No root · no account · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/agateau/burgerparty)
+- **[Chess Puzzles](https://h5.2113.net/games/chess-puzzles.html)**: Solve 9,000 selected Lichess tactics and study 20 openings with no account or network connection. Progress, hints and streaks stay on the phone.  
+  Android 7.0+ · no account or internet · no known trackers found · Apache-2.0 · [source](https://github.com/cocodedk/chess-puzzles)
 - **[Crossword](https://h5.2113.net/games/crossword.html)**: Find words from known letter positions, required letters and blanks, or rearrange a set of letters with the separate on-device anagram mode.  
   Android 5.0+ · internet for Wiktionary definitions · no known trackers found · GPL-3.0-or-later · [source](https://github.com/billthefarmer/crossword)
 - **[Gauguin](https://h5.2113.net/games/gauguin.html)**: A Sudoku-like puzzle where every group of cells must reach its target by adding, subtracting, multiplying or dividing. Endless grids from 3×3 to 11×11, with no ads and no internet.  
@@ -725,6 +737,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · ARM phone or tablet · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shlomif/PySolFC)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
   Android 5.0+ · no known trackers found · MIT · [source](https://github.com/chrisboyle/sgtpuzzles)
+- **[Sopa de Letras](https://h5.2113.net/games/sopa-de-letras.html)**: Use a European Portuguese interface to find words from Portuguese or English dictionaries across a 300-level campaign, daily board, timed mode and mystery puzzles.  
+  Android 8.0+ · no account or internet · no known trackers found · MIT · [source](https://github.com/SyscallBrain/SopaDeLetras)
 - **[Sudoku](https://h5.2113.net/games/sudoku.html)**: Play locally generated 9×9 Sudoku at four difficulties, with pencil marks, auto-notes, undo, validation and separate assisted and unassisted local top-ten boards.  
   Android 7.0+ · 64-bit ARM · works offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/likhithpraveenk/sudoku)
 - **[SuperTux](https://h5.2113.net/games/supertux.html)**: Run, jump and stomp through snowy and forest worlds as Tux on his way to rescue Penny. A complete game made by volunteers, with no ads; this is the team’s own Android build.  

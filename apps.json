@@ -351,6 +351,40 @@
       "olderVersions": []
     },
     {
+      "name": "Sopa de Letras",
+      "package": "app.sopadeletras",
+      "page": "https://h5.2113.net/games/sopa-de-letras.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.0.5",
+      "versionCode": 24,
+      "released": "2026-10-16",
+      "size": 2465049,
+      "sha256": "f6d08daf6d030372d10b2fa6d2ace4c1f9ede337edc2b395282d1cfd90c2e0e4",
+      "signers": [
+        "315a9140a3ad2e6822f0da3476e1f1009de62d32546c7025b5a21faa2b6a06ee"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/SyscallBrain/SopaDeLetras",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "DAVx⁵",
       "package": "at.bitfire.davdroid",
       "page": "https://h5.2113.net/apps/davx5.html",
@@ -1178,6 +1212,39 @@
       "olderVersions": []
     },
     {
+      "name": "Delta Chat",
+      "package": "com.b44t.messenger",
+      "page": "https://h5.2113.net/apps/delta-chat.html",
+      "category": "Productivity",
+      "version": "2.64.0",
+      "versionCode": 7592,
+      "released": "2026-10-31",
+      "size": 27043733,
+      "sha256": "1445e1a97e808f4bb0f8581adb77ba4c7c424a686e2fa1f729db5c8144c0122e",
+      "signers": [
+        "9db6678ed74c88124b825e8f90502b76cd97c5eccc9aa92f4033027102d9aa9d"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/deltachat/deltachat-android",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 36,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Aegis Authenticator",
       "package": "com.beemdevelopment.aegis",
       "page": "https://h5.2113.net/apps/aegis-authenticator.html",
@@ -1208,6 +1275,37 @@
         "x86_64"
       ],
       "permissions": 6,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Clock",
+      "package": "com.best.deskclock",
+      "page": "https://h5.2113.net/apps/clock.html",
+      "category": "Productivity",
+      "version": "2.34",
+      "versionCode": 2038,
+      "released": "2026-10-22",
+      "size": 7285551,
+      "sha256": "631e4bbfd28225da87c768dfb2062a0b3efc717e1e132d60a1e0408da308f7ff",
+      "signers": [
+        "91aec64808918f21cfec27339cc5bd3f529759fc79ac32ba4379531595bd375c"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/BlackyHawky/Clock",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 16,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1657,11 +1755,11 @@
       "package": "com.dash1971.maia_chess",
       "page": "https://h5.2113.net/games/mobile-maia.html",
       "category": "Strategy Games",
-      "version": "2.4.0",
-      "versionCode": 81,
-      "released": "2026-10-22",
-      "size": 459947435,
-      "sha256": "a1df8b82969ab2ad9a1045c6a094b7b2bcc3cc316369ce75754887ae9a281577",
+      "version": "2.5.1",
+      "versionCode": 83,
+      "released": "2026-10-31",
+      "size": 455440608,
+      "sha256": "59f730e806b6ead163714c46bf93f163309f8e6fb50295fe943112367be25f80",
       "signers": [
         "cd6c07c4efacf52bcccb83009b522c1dcad4a171197505a486f0a58edb6f172e"
       ],
@@ -2173,11 +2271,11 @@
       "package": "com.foobnix.pro.pdf.reader",
       "page": "https://h5.2113.net/apps/librera-reader.html",
       "category": "Reading & Maps",
-      "version": "10.0.7-fdroid",
-      "versionCode": 7475,
-      "released": "2026-10-27",
-      "size": 126199719,
-      "sha256": "c198d6cadbb57a5b0adf52588945b3547789e7902db118fdabc2c02214c0965b",
+      "version": "10.0.19-fdroid",
+      "versionCode": 7523,
+      "released": "2026-10-31",
+      "size": 125439421,
+      "sha256": "d545b6119b29fc0830d656980401be4c7de9a02b0012dcc3475db236f78d8b95",
       "signers": [
         "ea0d90df4dde7b9a9e8eaebe2e8aa47ed13f4df9d77aa64bc99c7ed309d2a84d"
       ],
@@ -3253,6 +3351,35 @@
       "olderVersions": []
     },
     {
+      "name": "Transfer",
+      "package": "com.matanh.transfer",
+      "page": "https://h5.2113.net/apps/transfer.html",
+      "category": "System Tools",
+      "version": "0.6.1",
+      "versionCode": 601,
+      "released": "2026-01-30",
+      "size": 4999614,
+      "sha256": "9718d502c295211a43e3295740fde35bd83381668e81a74dd54c524930308306",
+      "signers": [
+        "c437518abbc8f2a36fb3804c5b0656f2d4069ce7d4b337bc38f6337310193306"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/matan-h/Transfer",
+      "license": "MIT",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 35,
+      "abis": [],
+      "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "SimpMusic",
       "package": "com.maxrave.simpmusic",
       "page": "https://h5.2113.net/apps/simpmusic.html",
@@ -3505,11 +3632,11 @@
       "package": "com.nextcloud.client",
       "page": "https://h5.2113.net/apps/nextcloud.html",
       "category": "Cloud & Self-Hosted",
-      "version": "35.0.1",
-      "versionCode": 350000190,
-      "released": "2026-10-06",
-      "size": 96757432,
-      "sha256": "8fd4d86de9497d3afecc0bad201b177c8f413c0e2e3e152cbc80f48d6e9b481f",
+      "version": "35.0.2",
+      "versionCode": 350000290,
+      "released": "2026-10-31",
+      "size": 112503320,
+      "sha256": "c9ba2e85b13fee457238f959d367223834db44ec14531ec93abb2be97ab3fcff",
       "signers": [
         "5709576f9d6c6a7687dd5d56b269d1fa5e379702b91bc83f39fd7b7c597c1b83"
       ],
@@ -3527,6 +3654,8 @@
       "targetSdk": 36,
       "abis": [
         "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
         "x86_64"
       ],
       "permissions": 33,
@@ -4124,11 +4253,11 @@
       "package": "com.sidhant.ludo",
       "page": "https://h5.2113.net/games/ludo.html",
       "category": "Strategy Games",
-      "version": "1.0.2",
-      "versionCode": 32,
-      "released": "2026-10-25",
-      "size": 8499757,
-      "sha256": "064081eeaf72840388a14628a28802ba6a860d1aaf01ce001fb1aae9d458c7af",
+      "version": "1.0.3",
+      "versionCode": 42,
+      "released": "2026-10-31",
+      "size": 8557101,
+      "sha256": "a7b4282f3eb6a8fea40e75cace7ed5de4fe1a58a45789e9ef8f32b6eb38cb041",
       "signers": [
         "3de7c604eca0b74febb58bebdbfa86be30de7d83c3a1c9570944e600bcbb6926"
       ],
@@ -4227,11 +4356,11 @@
       "package": "com.tailscale.ipn",
       "page": "https://h5.2113.net/apps/tailscale.html",
       "category": "Network & Privacy",
-      "version": "1.104.2-tc3430f0d2-gb01fa89d5",
-      "versionCode": 298753170,
-      "released": "2026-10-25",
-      "size": 105596516,
-      "sha256": "ae2d682ad77a19d517a07c065789bad2ce506e0c34515f463f305311f2e9966d",
+      "version": "1.104.4-t938213198-gb9d487fe6",
+      "versionCode": 298857390,
+      "released": "2026-10-31",
+      "size": 105711204,
+      "sha256": "cce193c14cbbfcc7820a978691d2428676b52635cf435e7e2cf20b3725daaeb8",
       "signers": [
         "3705f184cb67d683e76ecc203cc9cc357e6448c50e59002419085b4c286df0e8"
       ],
@@ -4761,11 +4890,11 @@
       "package": "com.unciv.app",
       "page": "https://h5.2113.net/games/unciv.html",
       "category": "Strategy Games",
-      "version": "4.22.14-patch1",
-      "versionCode": 1278,
-      "released": "2026-10-29",
-      "size": 27556129,
-      "sha256": "c3aab1c5a322f95a39eaf072b04e23399bac3e6a0eeeccea0aa695b74c66a38e",
+      "version": "4.22.15",
+      "versionCode": 1279,
+      "released": "2026-10-31",
+      "size": 27584801,
+      "sha256": "3492f6bef94d8ed3a4ea082bb6f934e570768301b505d32deaab75334bf92a44",
       "signers": [
         "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
       ],
@@ -5107,6 +5236,37 @@
       "olderVersions": []
     },
     {
+      "name": "FOSS Browser",
+      "package": "de.baumann.browser",
+      "page": "https://h5.2113.net/apps/foss-browser.html",
+      "category": "Network & Privacy",
+      "version": "24",
+      "versionCode": 159,
+      "released": "2026-09-15",
+      "size": 3526260,
+      "sha256": "3cb274f869f777c8b420fd55a822eca72e11e22906161b07accd19b5c8be7b36",
+      "signers": [
+        "35a797633636202b998a085a21bf272ab0a44fa7ab7fbb30ab800961a6b659e7"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://codeberg.org/Gaukler_Faun/FOSS_Browser",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 29,
+      "minAndroid": "Android 10",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 8,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Free Notifications",
       "package": "de.binarynoise.freeNotifications",
       "page": "https://h5.2113.net/apps/free-notifications.html",
@@ -5272,11 +5432,11 @@
       "package": "de.markusfisch.android.binaryeye",
       "page": "https://h5.2113.net/apps/binary-eye.html",
       "category": "System Tools",
-      "version": "1.75.5",
-      "versionCode": 180,
-      "released": "2026-10-12",
-      "size": 8676688,
-      "sha256": "568cec6598dbf42fbde9071af8747071ffea798473016a3d77b6ddb3bff944f1",
+      "version": "1.75.6",
+      "versionCode": 181,
+      "released": "2026-10-31",
+      "size": 7517176,
+      "sha256": "fd1e1e5ab753063e0b7f44774cf2d6d3893980ddd9e5bebfecbacdbf669fc2ce",
       "signers": [
         "9ecdbf0677dd50609c76c2ba05dbe362232327b10a1c37cd58722993d9fe5d57"
       ],
@@ -5298,7 +5458,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 11,
+      "permissions": 12,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5413,11 +5573,11 @@
       "package": "de.saschahlusiak.freebloks",
       "page": "https://h5.2113.net/games/freebloks.html",
       "category": "Strategy Games",
-      "version": "1.8.4",
-      "versionCode": 184,
-      "released": "2026-09-14",
-      "size": 5999178,
-      "sha256": "11908519d6b8eddea3183d3807d8e85f5efed0d0e3ae97d316d4be9674a2707e",
+      "version": "1.8.6",
+      "versionCode": 186,
+      "released": "2026-10-31",
+      "size": 5831028,
+      "sha256": "831e8d5d5fc34900e43986436b60c80cc7d8e7cf36c879fa08cd1f718428bb1a",
       "signers": [
         "b84ad1afd452a019934fbe6a6b8417d8a278373917b738a6776f4db30214d470"
       ],
@@ -5430,8 +5590,8 @@
       "source": "fdroid",
       "sourceCode": "https://github.com/shlusiak/Freebloks-Android",
       "license": "GPL-2.0-only",
-      "minSdk": 24,
-      "minAndroid": "Android 7.0",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
       "targetSdk": 37,
       "abis": [
         "arm64-v8a",
@@ -5890,6 +6050,40 @@
       "trackers": [
         "Bugsnag"
       ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Chess Puzzles",
+      "package": "dk.cocode.chess",
+      "page": "https://h5.2113.net/games/chess-puzzles.html",
+      "category": "Puzzle & Arcade",
+      "version": "0.5.21",
+      "versionCode": 5021,
+      "released": "2026-10-25",
+      "size": 1849442,
+      "sha256": "155a4d4f448ed9f440151e0040f1e798eb9efd5bf292872fef522ef02cbe678f",
+      "signers": [
+        "d905d23c91db64e2507be7a3354ae0605d8f97525ce6b95fdb07109ce6c11967"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/cocodedk/chess-puzzles",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -6879,6 +7073,42 @@
       "antiFeatures": [
         "Ads"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "OCR",
+      "package": "io.github.subhamtyagi.ocr",
+      "page": "https://h5.2113.net/apps/ocr.html",
+      "category": "Productivity",
+      "version": "6.1",
+      "versionCode": 61,
+      "released": "2026-08-10",
+      "size": 34954598,
+      "sha256": "8fe496fbd91ad57bba697027f86f942d217687f98df63a20d3f3be8ff5aba79c",
+      "signers": [
+        "d9fffd0d32f4055d1088fe300cae79fc27c48ba05985e3d315a332232e87a51c"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/SubhamTyagi/android-ocr",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -8441,11 +8671,11 @@
       "package": "org.briarproject.briar.android",
       "page": "https://h5.2113.net/apps/briar.html",
       "category": "Productivity",
-      "version": "1.5.22",
-      "versionCode": 10522,
-      "released": "2026-10-15",
-      "size": 50648430,
-      "sha256": "7dfd9ab3a76fc690dcc5097fa5086ad1ebc7c9d748031a827bc54555c4181649",
+      "version": "1.5.23",
+      "versionCode": 10523,
+      "released": "2026-10-31",
+      "size": 50681641,
+      "sha256": "7c9376f5246e7f68e601966cb53b44b9715db320637e86b22257e269535e0819",
       "signers": [
         "501ddf14a6ecf904fb20285c56a565cb987a867f91572ee33c2d43771cca4e37"
       ],
@@ -8970,11 +9200,11 @@
       "package": "org.forkgram.messenger",
       "page": "https://h5.2113.net/apps/forkgram.html",
       "category": "Productivity",
-      "version": "13.0.2.0",
-      "versionCode": 717508,
-      "released": "2026-10-16",
-      "size": 39543981,
-      "sha256": "befd4ecd587bf24dafbd5dd00780e5391a35dcdd5147abe6d0e39d8f60caac43",
+      "version": "13.1.1.0",
+      "versionCode": 723708,
+      "released": "2026-10-31",
+      "size": 40192527,
+      "sha256": "447b43f6c8cbea0e57839beafeb67a136d649fe6929ff7752853d38732e9d27e",
       "signers": [
         "00aa6a469b9439426d491b27f1fc46077694c41d973551b05b0c0594d33f77d7"
       ],
@@ -10070,11 +10300,11 @@
       "package": "org.piepmeyer.gauguin",
       "page": "https://h5.2113.net/games/gauguin.html",
       "category": "Puzzle & Arcade",
-      "version": "0.53.1",
-      "versionCode": 78,
-      "released": "2026-10-27",
-      "size": 13147087,
-      "sha256": "83034a5526642e2dea7a202934b61375b5ce9655ddcd0e944db7d6dbf2391806",
+      "version": "0.53.3",
+      "versionCode": 80,
+      "released": "2026-10-31",
+      "size": 13190345,
+      "sha256": "93ca194009d9f899c576ace38cca3d5b41c69b009f818a6e01ee782842b14041",
       "signers": [
         "e3b52addda7ef701e1a42e0bc3b8b4443a5eb29cbf62a47492b9ee697438da62"
       ],
@@ -10735,9 +10965,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-30",
-      "size": 29213262,
-      "sha256": "b3714e780a99303380730bbd1dd52f92dc1c77811f3adb56aa0ef9770b2efe27",
+      "released": "2026-10-31",
+      "size": 29222726,
+      "sha256": "3ed3afb9f37362eb910801558e9111e202f5de2b2e3f099e458dcb52990225c1",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
