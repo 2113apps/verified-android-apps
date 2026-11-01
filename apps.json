@@ -321,11 +321,11 @@
       "package": "app.pwhs.universalinstaller",
       "page": "https://h5.2113.net/apps/universal-installer.html",
       "category": "System Tools",
-      "version": "1.20.0",
-      "versionCode": 44,
-      "released": "2026-10-25",
-      "size": 6960579,
-      "sha256": "8c980e3595a188200ccb9e3ec220c43993fd314a1e5cc162c4d2eaa014df8a2c",
+      "version": "1.21.0",
+      "versionCode": 45,
+      "released": "2026-11-01",
+      "size": 7279841,
+      "sha256": "172ae8d1d84fee46cb0993257a950657c5ddadb2e9a8a2e0410aabf349c42a07",
       "signers": [
         "40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de"
       ],
@@ -2061,11 +2061,11 @@
       "package": "com.drdisagree.colorblendr",
       "page": "https://h5.2113.net/apps/colorblendr.html",
       "category": "Customization",
-      "version": "v3.1.1",
-      "versionCode": 44,
-      "released": "2026-10-31",
-      "size": 7130093,
-      "sha256": "e5831b4e4a26a84e8f6bf8738f4a08a2f22216fec78654f0c581210de53fc3f8",
+      "version": "v3.1.2",
+      "versionCode": 45,
+      "released": "2026-11-01",
+      "size": 7131617,
+      "sha256": "37bee43eb98ceed4b574f46de5628909c3059f7d0a232bf74ad78353ac2880bc",
       "signers": [
         "4af4ffa12ce90815a1775c4604ea16c19f5bed2a6e09ae7c3c92815982af052e"
       ],
@@ -3043,11 +3043,11 @@
       "package": "com.kunzisoft.keepass.libre",
       "page": "https://h5.2113.net/apps/keepassdx.html",
       "category": "Network & Privacy",
-      "version": "4.5.7",
-      "versionCode": 45700,
-      "released": "2026-10-31",
-      "size": 12793058,
-      "sha256": "d14725b706c5cefd4e05a164c0c78b7bb8c3b17562184714a62c7a3ce8948016",
+      "version": "4.5.8",
+      "versionCode": 45800,
+      "released": "2026-11-01",
+      "size": 16786874,
+      "sha256": "8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
       "signers": [
         "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
       ],
@@ -3384,11 +3384,11 @@
       "package": "com.maxrave.simpmusic",
       "page": "https://h5.2113.net/apps/simpmusic.html",
       "category": "Media",
-      "version": "2.4.0",
-      "versionCode": 61,
-      "released": "2026-10-25",
-      "size": 28493168,
-      "sha256": "035cba472036633cf30257fa915579af45e387113bf8dce19c1a4c51b1b67764",
+      "version": "2.5.0",
+      "versionCode": 62,
+      "released": "2026-11-01",
+      "size": 28452264,
+      "sha256": "45ede665cc1b0ee8787dbc020a05183e72c2d3d963c62b05005d41a37e25d76b",
       "signers": [
         "76c53bd813ae8f1ce2778f7814b515785719bf9a82c6bee03b8b2dfd706055a1"
       ],
@@ -3407,7 +3407,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "permissions": 14,
+      "permissions": 15,
       "trackers": [],
       "antiFeatures": [
         "NonFreeNet"
@@ -7222,11 +7222,11 @@
       "package": "io.openrct2",
       "page": "https://h5.2113.net/games/openrct2.html",
       "category": "Simulation Games",
-      "version": "0.5.6",
-      "versionCode": 26,
-      "released": "2026-10-10",
-      "size": 217138729,
-      "sha256": "49705d0c3f89fd729254edeece0e43c620396ee0ddbfd50eb59a4ae4ea6df5db",
+      "version": "0.5.7",
+      "versionCode": 27,
+      "released": "2026-11-01",
+      "size": 217172013,
+      "sha256": "3cc3b3078a120ae5a65b259c21bc989765a7008883f3298604976c607032cb0d",
       "signers": [
         "f22b57042c6d4114b40ce559216ac049cdae9b34b830f7b0f018bca090ef99a9"
       ],
@@ -7235,7 +7235,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.6",
+      "sourceRelease": "https://github.com/OpenRCT2/OpenRCT2/releases/tag/v0.5.7",
       "sourceCode": "https://github.com/OpenRCT2/OpenRCT2",
       "license": "GPL-3.0",
       "minSdk": 24,
@@ -8776,11 +8776,11 @@
       "package": "org.courville.nova",
       "page": "https://h5.2113.net/apps/nova-video-player.html",
       "category": "Media",
-      "version": "6.6.2-20261027.1847",
-      "versionCode": 2673649,
-      "released": "2026-10-27",
-      "size": 93234228,
-      "sha256": "2ec057186f781bafde2d628edb09771994e2a0b15c6bff2661b5169ba24ca764",
+      "version": "6.6.3-20261101.1547",
+      "versionCode": 2674070,
+      "released": "2026-11-01",
+      "size": 93112017,
+      "sha256": "8815af74683e7bc2f73d722d8c19e3dc362be0ad207e72cfdaa558ee79cccad7",
       "signers": [
         "05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615"
       ],
@@ -8791,7 +8791,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.6.2",
+      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.6.3",
       "sourceCode": "https://github.com/nova-video-player/aos-AVP",
       "license": "Apache-2.0",
       "minSdk": 23,
@@ -10686,11 +10686,11 @@
       "package": "org.telegram.messenger.web",
       "page": "https://h5.2113.net/apps/telegram.html",
       "category": "Productivity",
-      "version": "13.1.0",
-      "versionCode": 72299,
-      "released": "2026-10-20",
-      "size": 70867407,
-      "sha256": "4c122bca5edb997e38fc65360c33e6e726e6f1b31ba23987df0adad0e323a9d8",
+      "version": "13.1.1",
+      "versionCode": 72379,
+      "released": "2026-11-01",
+      "size": 70874473,
+      "sha256": "148f1aa51b0a76c8168e4ad0eb121a66b78c2b8f50e4dc44e7a667668cf8823b",
       "signers": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
@@ -10965,9 +10965,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-10-31",
-      "size": 29222726,
-      "sha256": "3ed3afb9f37362eb910801558e9111e202f5de2b2e3f099e458dcb52990225c1",
+      "released": "2026-11-01",
+      "size": 29214674,
+      "sha256": "a82425092ec25033096f81a9f54234b1100b598805383aa3e1e2549af7e182a5",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
