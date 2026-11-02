@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-333 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+340 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,8 +11,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (14)
-- [Network & Privacy](#network--privacy) (46)
-- [Media](#media) (46)
+- [Network & Privacy](#network--privacy) (48)
+- [Media](#media) (49)
 - [System Tools](#system-tools) (67)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
 - [Productivity](#productivity) (48)
@@ -23,7 +23,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (20)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (22)
 - [Games: Game Tools](#games-game-tools) (1)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
@@ -45,7 +45,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
 - [Best Shizuku Apps: 18 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Eighteen open-source Android apps that use Shizuku for ADB-level access without root. Every APK checked for the API, permissions and tracker SDKs.
 - [Termux Plugins: All 7 Add-ons Explained](https://h5.2113.net/topics/termux-plugins/): What each Termux plugin adds, from Termux:API to Termux:GUI, how to set it up, and why plugins must come from the same source as Termux. All seven checked.
-- [Open-Source VPN Apps for Android: 8 Compared](https://h5.2113.net/topics/vpn-apps/): Outline, WG Tunnel, OpenVPN, OpenConnect, Tailscale, Shadowsocks, NekoBox and Windscribe compared by protocol, server and privacy details. Every APK checked.
+- [Open-Source VPN Apps for Android: 10 Compared](https://h5.2113.net/topics/vpn-apps/): Ten Android VPN and proxy apps compared: provider services, WireGuard, OpenVPN, enterprise SSL VPN, Shadowsocks, sing-box and Mihomo clients. Every APK checked.
 - [Open-Source YouTube Music Clients for Android](https://h5.2113.net/topics/youtube-music-clients/): Metrolist, ArchiveTune, Kreate, VIVI Music, Gyawun, SimpMusic, OuterTune and Bloomee compared on sources, accounts, lyrics and devices. Every APK signature-checked.
 
 ## Guides
@@ -149,6 +149,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   RTL-SDR dongle · USB OTG · no known trackers found · GPL-3.0-only · [source](https://github.com/jvde-github/AIS-catcher-for-Android)
 - **[Brave](https://h5.2113.net/apps/brave.html)**: A Chromium-based web browser that blocks most ads and trackers out of the box, with its own search engine, optional rewards, a crypto wallet and a paid VPN.  
   Android 10+ · 64-bit ARM phone · no known trackers found · MPL-2.0 · [source](https://github.com/brave/brave-browser)
+- **[Clash Meta for Android](https://h5.2113.net/apps/clash-meta-for-android.html)**: Run a Mihomo/Clash.Meta profile through Android’s VPN interface, route traffic by domain, IP, process or app, and update remote providers. You must bring a server or subscription.  
+  A compatible profile, server or subscription · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - **[DuckDuckGo](https://h5.2113.net/apps/duckduckgo.html)**: DuckDuckGo’s web browser for Android: its private search, tracker blocking, a Fire Button that clears your data, and optional tracker blocking for your other apps.  
   Android 9+ · no known trackers found · Apache-2.0 · [source](https://github.com/duckduckgo/Android)
 - **[Ente Auth](https://h5.2113.net/apps/ente-auth.html)**: An open-source authenticator for two-factor codes. Use it offline with no account, or with an Ente account so the codes sync, end-to-end encrypted, to your other phones, computers and the web.  
@@ -203,6 +205,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 4.2+ · Private DNS off · no known trackers found · GPL-2.0-only · [source](https://github.com/IngoZenz/personaldnsfilter)
 - **[Private DNS Quick Toggle](https://h5.2113.net/apps/private-dns-quick-toggle.html)**: A Quick Settings tile that switches Android’s Private DNS between providers in one tap.  
   One-time grant via Shizuku or ADB · no known trackers found · MIT · [source](https://github.com/karasevm/PrivateDNSAndroid)
+- **[Private Internet Access VPN](https://h5.2113.net/apps/private-internet-access.html)**: The open-source Android client for Private Internet Access: choose a PIA region and connect in Automatic mode or select WireGuard, OpenVPN or AmneziaWG.  
+  Paid PIA subscription · Android 7.0+ · no known trackers found · MIT · [source](https://github.com/pia-foss/mobile-android)
 - **[Proton Authenticator](https://h5.2113.net/apps/proton-authenticator.html)**: Generate two-factor codes without an account, keep automatic backups in a local folder, and sign in to Proton only for encrypted sync. This is the separate F-Droid package.  
   Android 8.1+ · camera optional for QR codes · no known trackers found · GPL-3.0-or-later · [source](https://github.com/protonpass/android-authenticator)
 - **[Proton Pass](https://h5.2113.net/apps/proton-pass.html)**: Proton’s password manager, synced to your Proton account: logins, passkeys, notes and cards, autofill, and email aliases that hide your address. F-Droid builds it without the crash reporter.  
@@ -266,6 +270,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/T8RIN/ImageToolbox)
 - **[Jellyfin](https://h5.2113.net/apps/jellyfin.html)**: The official Android app for Jellyfin, the free media server: stream your own films, series, music and audiobooks from a server you run, or download them to the phone.  
   Your own Jellyfin server · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-android)
+- **[Jellyfin for Android TV](https://h5.2113.net/apps/jellyfin-android-tv.html)**: Browse and play films, series, music, live TV and recordings from a Jellyfin server on Android TV, Nvidia Shield or Fire TV. This is the official remote-friendly TV client.  
+  Your own Jellyfin server · Android 5.0+ · TV interface · tracker code found: ACRA · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-androidtv)
 - **[Just Player](https://h5.2113.net/apps/just-player.html)**: A plain video player with no library and no ads: open a file or a streaming link and it plays, with swipe gestures, picture-in-picture, subtitle choice and audio sync for Bluetooth earphones.  
   No root · 64-bit phone · Android 6.0+ · no known trackers found · Unlicense · [source](https://github.com/moneytoo/Player)
 - **[Kodi](https://h5.2113.net/apps/kodi.html)**: A media center designed for the TV screen and a remote control: organise and play your own videos, music and photos from local storage and network shares.  
@@ -288,6 +294,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · internet · 64-bit ARM device · no known trackers found · AGPL-3.0-only · [source](https://github.com/nonbili/NouTube)
 - **[Nova Video Player](https://h5.2113.net/apps/nova-video-player.html)**: An open-source video player for phones, tablets and Android TV: it plays files from the device and from network shares, and builds a library with posters and descriptions.  
   No root · Android 6.0+ · 32- or 64-bit · tracker code found: Sentry · Apache-2.0 · [source](https://github.com/nova-video-player/aos-AVP)
+- **[One Player](https://h5.2113.net/apps/one-player.html)**: Play local music and video in one Material interface, with playlists, bookmarks, subtitle and audio-track selection, gestures, background playback and a sleep timer.  
+  Android 9.0+ · storage access for a full media scan · no known trackers found · Apache-2.0 · [source](https://github.com/googol-apps/OnePlayer)
 - **[Open Camera](https://h5.2113.net/apps/open-camera.html)**: A full-featured open-source camera: manual focus and exposure, RAW photos, HDR and exposure bracketing, a night mode, and date, location or text stamps on your photos.  
   No root · Android 6.0+ · no known trackers found · GPL-3.0-or-later · [source](https://sourceforge.net/p/opencamera/code)
 - **[Open Recorder](https://h5.2113.net/apps/open-recorder.html)**: A screen recorder for Android 10 and later that can record the sound of other apps, your microphone or both, saves MP4 files on the phone, and has no way to go online.  
@@ -306,6 +314,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Shizuku or ADB once · Android 10+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/ThePBone/RootlessJamesDSP)
 - **[Seal](https://h5.2113.net/apps/seal.html)**: A friendly Android front end for yt-dlp: share or paste a link from a supported site, pick video or audio, and Seal handles the download, whole playlists included.  
   No root · 64-bit phone · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/JunkFood02/Seal)
+- **[Seeker](https://h5.2113.net/apps/seeker.html)**: Search and download through the Soulseek network from Android, with wishlists, user browsing, messages and optional uploads. Seeker is unofficial and includes no media catalogue of its own.  
+  Soulseek username and password · Android 6.0+ · 64-bit ARM · no known trackers found · GPL-3.0-only · [source](https://github.com/jackBonadies/SeekerAndroid)
 - **[SimpMusic](https://h5.2113.net/apps/simpmusic.html)**: An open-source YouTube Music player for Android and desktop, with synced lyrics from several sources, a ten-band equalizer, Android Auto and offline downloads. No account needed.  
   No root · 64-bit phone · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/maxrave-dev/SimpMusic)
 - **[SkyTube](https://h5.2113.net/apps/skytube.html)**: A YouTube client that lets you filter what you see: block channels, hide low-view videos, keep bookmarks and subscriptions on your phone, and download videos.  
@@ -705,10 +715,14 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 ## Games: Puzzle & Arcade
 
+- **[2048 Open Fun Game](https://h5.2113.net/games/2048-open-fun-game.html)**: Play 2048 offline with more than the classic board: choose sizes from 3×3 to 8×8, compare AI strategies, undo and redo moves, bookmark positions and replay full games.  
+  Android 7.0+ · no account or internet · no known trackers found · Apache-2.0 · [source](https://github.com/andstatus/game2048)
 - **[AAAAXY](https://h5.2113.net/games/aaaaxy.html)**: A retro-looking platformer where rooms loop back on themselves and corridors are longer inside than out. Explore one big, non-linear map at your own pace; no lives, no ads, no internet.  
   64-bit ARM · Android 6.0+ · 4–6 hours to the end · no known trackers found · Apache-2.0 · [source](https://github.com/divVerent/aaaaxy)
 - **[Antimine](https://h5.2113.net/games/antimine.html)**: Clear minefields without setting one off, on boards built so you shouldn’t have to guess, from 9×9 up to 100×100. Offline, without ads in this build, and translated into Brazilian Portuguese.  
   Android 5.0+ · offline · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/lucasnlm/antimine-android)
+- **[Battleship](https://h5.2113.net/games/battleship.html)**: Place a five-ship fleet on a 10×10 board and fight a local AI opponent. Sunk ships unlock super weapons, while career statistics, medals and ranks persist between games.  
+  Android 7.0+ · one player against AI · no internet · no known trackers found · Apache-2.0 · [source](https://github.com/cocodedk/Battleship)
 - **[Breakout 71](https://h5.2113.net/games/breakout-71.html)**: A brick breaker built for short runs: clear seven levels, catch the coins that broken bricks drop to build your combo, and pick an upgrade after every level. Small, offline and without ads.  
   No root · Android 6.0+ · no known trackers found · AGPL-3.0-only · [source](https://gitlab.com/lecarore/breakout71)
 - **[Bubble Shooter](https://h5.2113.net/games/bubble-shooter.html)**: Aim coloured bubbles, bounce shots off the walls and connect three or more, in generated campaign stages or a nearly endless Zen session.  

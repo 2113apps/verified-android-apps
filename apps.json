@@ -1722,6 +1722,75 @@
       "olderVersions": []
     },
     {
+      "name": "Battleship",
+      "package": "com.cocode.battleship",
+      "page": "https://h5.2113.net/games/battleship.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.0.13",
+      "versionCode": 1000013,
+      "released": "2026-09-23",
+      "size": 1296838,
+      "sha256": "59055d1dd83f08d3d0914754eb2d47b7565a1c2eec6e43d5a4ae23920b584798",
+      "signers": [
+        "6120b56d569c8ccb013f5fa08dd08790194ba2c390fa97e12e0eb36ef1599e21"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/cocodedk/Battleship",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 2,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Seeker",
+      "package": "com.companyname.andriodapp1",
+      "page": "https://h5.2113.net/apps/seeker.html",
+      "category": "Media",
+      "version": "3.12.0",
+      "versionCode": 146,
+      "released": "2026-10-30",
+      "size": 16802917,
+      "sha256": "25abe7d825916c2e7a832265b690d7eaab5f0a84062d7655a52053ee06bb237b",
+      "signers": [
+        "73345e7d43feb55939450de4497d64c001d2ae764265b69c2cbf3ea03677a8a2"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/jackBonadies/SeekerAndroid",
+      "license": "GPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Mousedroid",
       "package": "com.darusc.mousedroid",
       "page": "https://h5.2113.net/apps/mousedroid.html",
@@ -2130,11 +2199,11 @@
       "package": "com.duckduckgo.mobile.android",
       "page": "https://h5.2113.net/apps/duckduckgo.html",
       "category": "Network & Privacy",
-      "version": "5.298.1",
-      "versionCode": 52981000,
-      "released": "2026-10-27",
-      "size": 136967770,
-      "sha256": "a7385bba48b339022ec610623d3b4aa2f6051ba6b415659c37636352895cc01d",
+      "version": "5.299.0",
+      "versionCode": 52990000,
+      "released": "2026-11-01",
+      "size": 97367536,
+      "sha256": "6bee18a1b385f954ba9fc88960ec0b81dcebca045c40fc5e0a4e9b797f5171ba",
       "signers": [
         "f0707d021c0bf3e6f8dcc11ba3f5700425d597dca301a31e210556934ebb1b0a"
       ],
@@ -2542,6 +2611,42 @@
       "olderVersions": []
     },
     {
+      "name": "Clash Meta for Android",
+      "package": "com.github.metacubex.clash.meta",
+      "page": "https://h5.2113.net/apps/clash-meta-for-android.html",
+      "category": "Network & Privacy",
+      "version": "2.11.35.Meta",
+      "versionCode": 211035,
+      "released": "2026-10-25",
+      "size": 112070589,
+      "sha256": "b9dd093ec4e3440da53a369d8a594cbc431128876545eec13ceec6656637504a",
+      "signers": [
+        "b3910843cf3c4514715d8e86737c3bb64bedd132e0d4d05118623e7bdc541a51"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+      "license": "GPL-3.0-only",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 12,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Shadowsocks",
       "package": "com.github.shadowsocks",
       "page": "https://h5.2113.net/apps/shadowsocks.html",
@@ -2719,6 +2824,42 @@
         "Google Firebase Analytics",
         "Google AdMob"
       ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "One Player",
+      "package": "com.googol.android.apps.oneplayer",
+      "page": "https://h5.2113.net/apps/one-player.html",
+      "category": "Media",
+      "version": "1.7.7-foss",
+      "versionCode": 47,
+      "released": "2026-11-01",
+      "size": 11271696,
+      "sha256": "f22bc5bb8d4f157aa781a76d07c6189d32e9a6d279a7d2f9154440a58801c3d1",
+      "signers": [
+        "0c2d5027e33cd5db94b8f2ad564778e239c82892b05167d031b8ae8668d80466"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/googol-apps/OnePlayer",
+      "license": "Apache-2.0",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
     },
@@ -3529,11 +3670,11 @@
       "package": "com.movtery.zalithlauncher.v2",
       "page": "https://h5.2113.net/games/zalith-launcher-2.html",
       "category": "Minecraft Launchers",
-      "version": "2.7.2",
-      "versionCode": 200046,
-      "released": "2026-10-20",
-      "size": 353930174,
-      "sha256": "caad0b94ef9863ca4a3f13148109dde6c86e7d78c306115228160e4ec9b4e55c",
+      "version": "2.8",
+      "versionCode": 200047,
+      "released": "2026-11-01",
+      "size": 372752801,
+      "sha256": "af5b840ea15006716de12859c689488483734fe57c38e8d2af84021d1630b9d0",
       "signers": [
         "851381b5eb6f169a2da6e323ff674accc835c6fc47b15bbfd7920578e97b0689"
       ],
@@ -3542,7 +3683,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.7.2",
+      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.8",
       "sourceCode": "https://github.com/ZalithLauncher/ZalithLauncher2",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -3797,6 +3938,44 @@
       "permissions": 6,
       "trackers": [],
       "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Private Internet Access VPN",
+      "package": "com.privateinternetaccess.android",
+      "page": "https://h5.2113.net/apps/private-internet-access.html",
+      "category": "Network & Privacy",
+      "version": "4.1.5",
+      "versionCode": 10718,
+      "released": "2026-10-25",
+      "size": 40700714,
+      "sha256": "777f0d538d406162dc732c07496fef43a5f15099a3da1afe149c5c612a2c1022",
+      "signers": [
+        "8b6ae2b9b06f4d1817fd3f846f88e440dd431a3f46620bdd4a152b70fc9089a2"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/pia-foss/mobile-android",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 13,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
       "olderVersions": []
     },
     {
@@ -4821,11 +5000,11 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.4.3",
-      "versionCode": 1343,
-      "released": "2026-10-30",
-      "size": 321887206,
-      "sha256": "aaf1fa37a29a552863c7663ab19827663b63aeeeb7bdef46bf91464b74f26384",
+      "version": "1.3.4.4",
+      "versionCode": 1344,
+      "released": "2026-11-02",
+      "size": 322113223,
+      "sha256": "7807570e1528d9ee47a51670ac81ada3210da81cfd36fc2a50c5322023a09840",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
@@ -4835,7 +5014,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.3",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.4",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -6298,11 +6477,11 @@
       "package": "free.rm.skytube.oss",
       "page": "https://h5.2113.net/apps/skytube.html",
       "category": "Media",
-      "version": "3.001",
-      "versionCode": 61,
-      "released": "2026-10-29",
-      "size": 10159667,
-      "sha256": "ba303638f2b0ad25982deb1e9b66dc655a257b2bc6b94a2ff435e4f68fb04138",
+      "version": "3.003",
+      "versionCode": 63,
+      "released": "2026-11-01",
+      "size": 10110515,
+      "sha256": "87519cf2fd08b8d5d0b7b18efc9499cbaefd3345f479d56ce227afc6537d5780",
       "signers": [
         "435adf83d60ff5a9ccdcab9971865dca86f5086f615e83369aa6bbce26f5a830"
       ],
@@ -8561,6 +8740,42 @@
       "olderVersions": []
     },
     {
+      "name": "2048 Open Fun Game",
+      "package": "org.andstatus.game2048",
+      "page": "https://h5.2113.net/games/2048-open-fun-game.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.16.2",
+      "versionCode": 47,
+      "released": "2026-07-21",
+      "size": 1359982,
+      "sha256": "2d6707624623fe8857da271dcc19511ab52472ce1fee6ac23bc7f2ecf2e7eea9",
+      "signers": [
+        "71d6c438cf63f3515407aa5b36f9c6e859a25ce8b981a01f879290cf5f412113"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/andstatus/game2048",
+      "license": "Apache-2.0",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Amethyst Launcher",
       "package": "org.angelauramc.amethyst",
       "page": "https://h5.2113.net/games/amethyst-launcher.html",
@@ -9708,6 +9923,43 @@
       "olderVersions": []
     },
     {
+      "name": "Jellyfin for Android TV",
+      "package": "org.jellyfin.androidtv",
+      "page": "https://h5.2113.net/apps/jellyfin-android-tv.html",
+      "category": "Media",
+      "version": "0.19.10",
+      "versionCode": 191099,
+      "released": "2026-08-19",
+      "size": 21950619,
+      "sha256": "8510a517c99927076082917f41bf306dd7a2546c59d492dd11bde18d6e2e4628",
+      "signers": [
+        "d881796ed2a67ff6ef9f676828723c6b1fa18e09388962cba4abc4a594a69131"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/jellyfin/jellyfin-androidtv",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 11,
+      "trackers": [
+        "ACRA"
+      ],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Jellyfin",
       "package": "org.jellyfin.mobile",
       "page": "https://h5.2113.net/apps/jellyfin.html",
@@ -10191,11 +10443,11 @@
       "package": "org.outline.android.client",
       "page": "https://h5.2113.net/apps/outline.html",
       "category": "Network & Privacy",
-      "version": "1.22.0",
-      "versionCode": 497726,
-      "released": "2026-10-13",
-      "size": 45310306,
-      "sha256": "61486b7979a172a64e06d439b69483e7009ff83a2bf8dea53d972f30b0d38ff4",
+      "version": "1.22.5",
+      "versionCode": 498232,
+      "released": "2026-11-02",
+      "size": 41988644,
+      "sha256": "7cff6c4ce6ad3911bd5e40f4d07b024113383b559834511ff979a05386bf7b6c",
       "signers": [
         "f7868b842694a793d2afe471ce1079773c9c7c528a5185cb415c8dccbf1b784d"
       ],
@@ -10965,9 +11217,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-11-01",
-      "size": 29214674,
-      "sha256": "a82425092ec25033096f81a9f54234b1100b598805383aa3e1e2549af7e182a5",
+      "released": "2026-11-02",
+      "size": 29227150,
+      "sha256": "4826232ac12c2a03550400fd5d6be5abbba194bb8fc18df119b12f0ef7a3be71",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
