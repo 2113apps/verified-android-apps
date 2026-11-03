@@ -2830,11 +2830,11 @@
       "package": "com.googol.android.apps.oneplayer",
       "page": "https://h5.2113.net/apps/one-player.html",
       "category": "Media",
-      "version": "1.7.7-foss",
-      "versionCode": 47,
-      "released": "2026-11-01",
+      "version": "1.7.8-foss",
+      "versionCode": 48,
+      "released": "2026-11-03",
       "size": 11271696,
-      "sha256": "f22bc5bb8d4f157aa781a76d07c6189d32e9a6d279a7d2f9154440a58801c3d1",
+      "sha256": "3758d8120012dad8847200663ac038bbf29693969390e674c7ef90af2993a1af",
       "signers": [
         "0c2d5027e33cd5db94b8f2ad564778e239c82892b05167d031b8ae8668d80466"
       ],
@@ -6684,11 +6684,11 @@
       "package": "in.sunilpaulmathew.ashell",
       "page": "https://h5.2113.net/apps/ashell.html",
       "category": "System Tools",
-      "version": "v0.30",
-      "versionCode": 30,
-      "released": "2026-10-28",
-      "size": 2330552,
-      "sha256": "0a412f9181ffe23e26ef5ec8c3d01cd13a619ac0f3510301c76137d9823393e4",
+      "version": "v0.31",
+      "versionCode": 31,
+      "released": "2026-11-03",
+      "size": 2380109,
+      "sha256": "53423904b7aef55a545a807d47d2ce1d44ac1f263ab97c9f876f18489ff0fc3d",
       "signers": [
         "b427a24788ce5c44243284a64ff629c5bb72ac309356a1f1ee7d2413339fe424"
       ],
@@ -8633,11 +8633,11 @@
       "package": "nodomain.freeyourgadget.gadgetbridge",
       "page": "https://h5.2113.net/apps/gadgetbridge.html",
       "category": "Network & Privacy",
-      "version": "0.95.1",
-      "versionCode": 255,
-      "released": "2026-10-09",
-      "size": 22030483,
-      "sha256": "187ce6606ad5fc8372e3f6da14686f6b3500dbab81a503f7be5afbda876e4050",
+      "version": "2026.11.0",
+      "versionCode": 256,
+      "released": "2026-11-03",
+      "size": 23920259,
+      "sha256": "e424a72ea554fd48115157bd1bc62475ac3b98fb9181678508b3be6a7d688b12",
       "signers": [
         "01cce9316fcb77ea02c6dea81fde9f3176469202c0cea0514c0e03cb969bc7be"
       ],
@@ -8659,7 +8659,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 74,
+      "permissions": 75,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
