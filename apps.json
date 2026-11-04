@@ -569,11 +569,11 @@
       "package": "chat.simplex.app",
       "page": "https://h5.2113.net/apps/simplex-chat.html",
       "category": "Productivity",
-      "version": "7.0.4",
-      "versionCode": 384,
-      "released": "2026-10-03",
-      "size": 87523844,
-      "sha256": "17966066a1e4369ebc8c569baec9607213b510a53b328279eb516facb3e7db29",
+      "version": "7.1",
+      "versionCode": 391,
+      "released": "2026-11-04",
+      "size": 93312512,
+      "sha256": "5fa06aaa2dbbd0a18fec11625177db2b793ee8689069b056d456bac743e04e11",
       "signers": [
         "3c52c4fd3cad1c07c9b00a7080e358fab9fefcb8af5aec147765f16d0f21ad85"
       ],
@@ -588,7 +588,7 @@
       "license": "AGPL-3.0-or-later",
       "minSdk": 26,
       "minAndroid": "Android 8.0",
-      "targetSdk": 35,
+      "targetSdk": 36,
       "abis": [
         "arm64-v8a"
       ],
@@ -2830,11 +2830,11 @@
       "package": "com.googol.android.apps.oneplayer",
       "page": "https://h5.2113.net/apps/one-player.html",
       "category": "Media",
-      "version": "1.7.8-foss",
-      "versionCode": 48,
-      "released": "2026-11-03",
-      "size": 11271696,
-      "sha256": "3758d8120012dad8847200663ac038bbf29693969390e674c7ef90af2993a1af",
+      "version": "1.7.9-foss",
+      "versionCode": 49,
+      "released": "2026-11-04",
+      "size": 11275848,
+      "sha256": "37abe43394a3cfcbd6a0581e39570dfb64a618398c5b7d97fb95ba764df7ad57",
       "signers": [
         "0c2d5027e33cd5db94b8f2ad564778e239c82892b05167d031b8ae8668d80466"
       ],
@@ -10971,11 +10971,11 @@
       "package": "org.thoughtcrime.securesms",
       "page": "https://h5.2113.net/apps/signal.html",
       "category": "Productivity",
-      "version": "8.33.2",
-      "versionCode": 177201,
-      "released": "2026-10-28",
-      "size": 115038476,
-      "sha256": "5e2efd0bb9f937e2cd3c7c912e8069ba7fa8aac220a64b180b10f0982157b512",
+      "version": "8.34.2",
+      "versionCode": 177501,
+      "released": "2026-11-04",
+      "size": 115258247,
+      "sha256": "ca516bdc9cda4a9eef95ad772c2f73311922ff791b58c90a76d68033f20bfef6",
       "signers": [
         "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26",
         "4be4f6cd5be844083e900279dc822af65a547fecc26aba7ff1f5203a45518cd8"
