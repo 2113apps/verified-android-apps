@@ -8989,11 +8989,11 @@
       "package": "org.courville.nova",
       "page": "https://h5.2113.net/apps/nova-video-player.html",
       "category": "Media",
-      "version": "6.6.3-20261101.1547",
-      "versionCode": 2674070,
-      "released": "2026-11-01",
-      "size": 93112017,
-      "sha256": "8815af74683e7bc2f73d722d8c19e3dc362be0ad207e72cfdaa558ee79cccad7",
+      "version": "6.6.4-20261104.0822",
+      "versionCode": 2674303,
+      "released": "2026-11-04",
+      "size": 93122538,
+      "sha256": "1aa2068ffec42a86efe4cee790a3f03e61194a01261405baff73ecdef1ca9ee4",
       "signers": [
         "05af6804bcad9e7e6d22d2ffc39fca1857a4aeb4385097cad91b11e5bac1f615"
       ],
@@ -9004,7 +9004,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.6.3",
+      "sourceRelease": "https://github.com/nova-video-player/aos-AVP/releases/tag/v6.6.4",
       "sourceCode": "https://github.com/nova-video-player/aos-AVP",
       "license": "Apache-2.0",
       "minSdk": 23,
