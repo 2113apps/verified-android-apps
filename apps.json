@@ -8,11 +8,11 @@
       "package": "app.accrescent.client",
       "page": "https://h5.2113.net/apps/accrescent.html",
       "category": "System Tools",
-      "version": "0.28.1",
-      "versionCode": 55,
-      "released": "2025-11-10",
-      "size": 6954309,
-      "sha256": "40f97ac3ee659d8b1f91dba8b84449fe3c14e05c1e82754375252d8746e6b1f5",
+      "version": "0.29.1",
+      "versionCode": 57,
+      "released": "2026-11-04",
+      "size": 7574636,
+      "sha256": "1c86c5af1e247eefbe6d5ee6d1114b1aa1d76f23c03ac00cc435e89c95cb947e",
       "signers": [
         "067a40c4193aad51ac87f9ddfdebb15e24a1850babfa4821c28c5c25c3fdc071"
       ],
@@ -21,12 +21,12 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/accrescent/accrescent/releases/tag/0.28.1",
+      "sourceRelease": "https://github.com/accrescent/accrescent/releases/tag/0.29.1",
       "sourceCode": "https://github.com/accrescent/accrescent",
       "license": "Apache-2.0",
       "minSdk": 29,
       "minAndroid": "Android 10",
-      "targetSdk": 36,
+      "targetSdk": 37,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -10936,11 +10936,11 @@
       "package": "org.telegram.messenger.web",
       "page": "https://h5.2113.net/apps/telegram.html",
       "category": "Productivity",
-      "version": "13.1.1",
-      "versionCode": 72379,
-      "released": "2026-11-01",
-      "size": 70874473,
-      "sha256": "148f1aa51b0a76c8168e4ad0eb121a66b78c2b8f50e4dc44e7a667668cf8823b",
+      "version": "13.2.0",
+      "versionCode": 72809,
+      "released": "2026-11-05",
+      "size": 79364058,
+      "sha256": "2d1fe6650578aa4e3437c9e775a7e849837f604a7294c6bd66f971d6ba13470e",
       "signers": [
         "49c1522548ebacd46ce322b6fd47f6092bb745d0f88082145caf35e14dcc38e1"
       ],
@@ -10961,7 +10961,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 74,
+      "permissions": 73,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -11215,9 +11215,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-11-04",
-      "size": 29279498,
-      "sha256": "ccb2ee79e34530d471fe9093c4db71b2d3850bbcc6a689fb18dbe99613726f53",
+      "released": "2026-11-05",
+      "size": 29283574,
+      "sha256": "55ef9bbc5706212d5417d423acad418e3dfe22c641ad80b21153eb2f354a310a",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
