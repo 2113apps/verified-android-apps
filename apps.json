@@ -1456,11 +1456,11 @@
       "package": "com.brave.browser",
       "page": "https://h5.2113.net/apps/brave.html",
       "category": "Network & Privacy",
-      "version": "1.98.63",
-      "versionCode": 429806304,
-      "released": "2026-10-30",
-      "size": 211048197,
-      "sha256": "e8aa128c52ab7b92c4efc57519935763a8ccefb77800bd240ca5684dbe6368a0",
+      "version": "1.99.55",
+      "versionCode": 429905504,
+      "released": "2026-11-04",
+      "size": 212548128,
+      "sha256": "c4ff5faf1c3828e6b438d10ca76b49be605604c4ebe055b2ebcc612106f0b997",
       "signers": [
         "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
       ],
@@ -1471,16 +1471,16 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.98.63",
+      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.99.55",
       "sourceCode": "https://github.com/brave/brave-browser",
       "license": "MPL-2.0",
       "minSdk": 29,
       "minAndroid": "Android 10",
-      "targetSdk": 37,
+      "targetSdk": 36,
       "abis": [
         "arm64-v8a"
       ],
-      "permissions": 53,
+      "permissions": 52,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -2410,11 +2410,11 @@
       "package": "com.geeksville.mesh",
       "page": "https://h5.2113.net/apps/meshtastic.html",
       "category": "Network & Privacy",
-      "version": "2.8.3 (29322724) fdroid",
-      "versionCode": 29322724,
-      "released": "2026-10-20",
-      "size": 34065044,
-      "sha256": "8c96da24f37231b7b52f407cb258a548e31cc4bdab666955769c782b89e252fc",
+      "version": "2.8.4 (29322943) fdroid",
+      "versionCode": 29322943,
+      "released": "2026-11-05",
+      "size": 48417736,
+      "sha256": "6f6786e3d3bc8848e79df8fa655aacb2c2cae8bab1335914b3f81966fc3f36d9",
       "signers": [
         "a93b456568c175db0800a09f06777f892d812432adb8a3df73bc3e7f06c80c6d"
       ],
