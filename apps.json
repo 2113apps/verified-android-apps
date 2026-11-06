@@ -3668,11 +3668,11 @@
       "package": "com.movtery.zalithlauncher.v2",
       "page": "https://h5.2113.net/games/zalith-launcher-2.html",
       "category": "Minecraft Launchers",
-      "version": "2.8.1",
-      "versionCode": 200048,
-      "released": "2026-11-03",
-      "size": 372766263,
-      "sha256": "43874ef7bb3325b0f4a777c78ab55cc823de2ad849f04bf21281ea2c4cfed2be",
+      "version": "2.8.2",
+      "versionCode": 200049,
+      "released": "2026-11-06",
+      "size": 372798571,
+      "sha256": "230d60a3576a20b60a3205a42412b4da9d9f073ca17b08f350b919f39c00d905",
       "signers": [
         "851381b5eb6f169a2da6e323ff674accc835c6fc47b15bbfd7920578e97b0689"
       ],
@@ -3681,7 +3681,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.8.1",
+      "sourceRelease": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/tag/2.8.2",
       "sourceCode": "https://github.com/ZalithLauncher/ZalithLauncher2",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -8598,11 +8598,11 @@
       "package": "network.loki.messenger",
       "page": "https://h5.2113.net/apps/session.html",
       "category": "Productivity",
-      "version": "1.33.7",
-      "versionCode": 4555,
-      "released": "2026-10-14",
-      "size": 125015926,
-      "sha256": "0da67765e9aef9dd8762b9eb2f84f414bb5224685de9c221f0b0d3a04ca590f8",
+      "version": "1.33.8",
+      "versionCode": 4565,
+      "released": "2026-11-05",
+      "size": 125015218,
+      "sha256": "5ea34c8ed244b19c0cecd5e77dae740e011c46865c96cd1dd7a925e792499cf2",
       "signers": [
         "f2a0ecf70686447d1d6c6cbbf58c42890500ccf41af372ae2099303980824edd"
       ],
@@ -8611,7 +8611,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/session-foundation/session-android/releases/tag/1.33.7",
+      "sourceRelease": "https://github.com/session-foundation/session-android/releases/tag/1.33.8",
       "sourceCode": "https://github.com/session-foundation/session-android",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -10792,11 +10792,11 @@
       "package": "org.smarttube.stable",
       "page": "https://h5.2113.net/apps/smarttube.html",
       "category": "Media",
-      "version": "32.68",
-      "versionCode": 2458,
-      "released": "2026-10-20",
-      "size": 35011082,
-      "sha256": "45a36e62110bcb866527ba8e9ab876f4122e1143647bbd0a97362d13803f6b94",
+      "version": "32.71",
+      "versionCode": 2461,
+      "released": "2026-11-06",
+      "size": 35393792,
+      "sha256": "6d1819b88ed7b03a61fac0b58d3e14197fab9eb7d42905bd93913da58f1adc2b",
       "signers": [
         "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a"
       ],
@@ -10806,7 +10806,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/yuliskov/SmartTube/releases/tag/32.68s",
+      "sourceRelease": "https://github.com/yuliskov/SmartTube/releases/tag/32.71s",
       "sourceCode": "https://github.com/yuliskov/SmartTube",
       "license": "MIT",
       "minSdk": 17,
@@ -10816,7 +10816,7 @@
         "arm64-v8a",
         "armeabi-v7a"
       ],
-      "permissions": 20,
+      "permissions": 21,
       "trackers": [
         "Google CrashLytics"
       ],
@@ -11215,9 +11215,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-11-05",
-      "size": 29283574,
-      "sha256": "55ef9bbc5706212d5417d423acad418e3dfe22c641ad80b21153eb2f354a310a",
+      "released": "2026-11-06",
+      "size": 29294058,
+      "sha256": "75d2f4fc7261c99979060944c8775cd2ad361a2bbe8ac31d92a6e8df6dd84976",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
