@@ -1216,11 +1216,11 @@
       "package": "com.b44t.messenger",
       "page": "https://h5.2113.net/apps/delta-chat.html",
       "category": "Productivity",
-      "version": "2.64.0",
-      "versionCode": 7592,
-      "released": "2026-10-31",
-      "size": 27043733,
-      "sha256": "1445e1a97e808f4bb0f8581adb77ba4c7c424a686e2fa1f729db5c8144c0122e",
+      "version": "2.67.0",
+      "versionCode": 7602,
+      "released": "2026-11-06",
+      "size": 26986389,
+      "sha256": "7e46f5bf4a752e7e178779e66cb1cc70f404742a5b9519bf305d0068457bd4e2",
       "signers": [
         "9db6678ed74c88124b825e8f90502b76cd97c5eccc9aa92f4033027102d9aa9d"
       ],
@@ -4533,11 +4533,11 @@
       "package": "com.tailscale.ipn",
       "page": "https://h5.2113.net/apps/tailscale.html",
       "category": "Network & Privacy",
-      "version": "1.104.4-t938213198-gb9d487fe6",
-      "versionCode": 298857390,
-      "released": "2026-10-31",
+      "version": "1.104.5-t788384763-gd8673104f",
+      "versionCode": 298943510,
+      "released": "2026-11-06",
       "size": 105711204,
-      "sha256": "cce193c14cbbfcc7820a978691d2428676b52635cf435e7e2cf20b3725daaeb8",
+      "sha256": "b12e8b7d8bc7ac6710d6eccfe842ad7b79a4d7144bbde2baf551ae8b668eb727",
       "signers": [
         "3705f184cb67d683e76ecc203cc9cc357e6448c50e59002419085b4c286df0e8"
       ],
@@ -5067,11 +5067,11 @@
       "package": "com.unciv.app",
       "page": "https://h5.2113.net/games/unciv.html",
       "category": "Strategy Games",
-      "version": "4.22.16",
-      "versionCode": 1280,
-      "released": "2026-11-04",
-      "size": 27588897,
-      "sha256": "9a2d3586bdb4d7ecafaa606824259221e44683474c3e0f40ed2db4ae639c5a3a",
+      "version": "4.22.17",
+      "versionCode": 1281,
+      "released": "2026-11-06",
+      "size": 27601185,
+      "sha256": "b6668bb4e30419584552c6573fcb93a335094c06cdd2a7aff915e958a744c574",
       "signers": [
         "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
       ],
@@ -5884,11 +5884,11 @@
       "package": "de.tutao.tutanota",
       "page": "https://h5.2113.net/apps/tuta-mail.html",
       "category": "Productivity",
-      "version": "360.260922.0",
-      "versionCode": 396715,
-      "released": "2026-09-26",
-      "size": 77273530,
-      "sha256": "b586325e6bc80ab3e6e2815ba05019b23d7ef53ee69f4dadfc23fceec5834df7",
+      "version": "365.261030.0",
+      "versionCode": 396734,
+      "released": "2026-11-06",
+      "size": 78492221,
+      "sha256": "0a4dc7886db02c69f9c9193e24a20fef5abe53aaa06a08a3e1eafac5df0a3d10",
       "signers": [
         "fc1932e08464aefcae82597dc0fc9d04c08b24aa09d1f950df20ea81234f30cb"
       ],
@@ -7293,11 +7293,11 @@
       "package": "io.homeassistant.companion.android.minimal",
       "page": "https://h5.2113.net/apps/home-assistant.html",
       "category": "Cloud & Self-Hosted",
-      "version": "2026.10.1-minimal",
-      "versionCode": 24906,
-      "released": "2026-10-29",
-      "size": 54640069,
-      "sha256": "33faf1dc44b4d4601323828bdd8a7737a4b614a9c3b8b9b73024e0adce896f30",
+      "version": "2026.11.1-minimal",
+      "versionCode": 25506,
+      "released": "2026-11-06",
+      "size": 55029282,
+      "sha256": "61d96f4bcfb1f890aa10dd66dbeba55ffcdea8d98be56989360dbbffd0e81f49",
       "signers": [
         "17485250a03a0f2b3f292a054f595a9e794beef80cf910f7b3bbb8098abf6d50"
       ],
@@ -7319,7 +7319,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 70,
+      "permissions": 71,
       "trackers": [
         "AltBeacon"
       ],
@@ -7808,11 +7808,11 @@
       "package": "me.knighthat.kreate",
       "page": "https://h5.2113.net/apps/kreate.html",
       "category": "Media",
-      "version": "2.2.4-izzy",
-      "versionCode": 142,
-      "released": "2026-10-24",
-      "size": 21665963,
-      "sha256": "6fc6c44652e07b5636b15c5e5b35fe14e6231def7faa0f67117b299981bb87fc",
+      "version": "2.2.5-izzy",
+      "versionCode": 143,
+      "released": "2026-11-06",
+      "size": 21649503,
+      "sha256": "ab3aa3d20f23699f17b992e43b7cc67e50a92eb0993da51c4ff301947107621f",
       "signers": [
         "1bd03a8de5df4dbd7faddb81b9f2aaf55681a584a93d6fb47e9a5ccc736ef7ac"
       ],
@@ -7826,7 +7826,7 @@
       "license": "GPL-3.0-only",
       "minSdk": 23,
       "minAndroid": "Android 6.0",
-      "targetSdk": 37,
+      "targetSdk": 36,
       "abis": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -9303,11 +9303,11 @@
       "package": "org.fdroid.basic",
       "page": "https://h5.2113.net/apps/f-droid.html",
       "category": "System Tools",
-      "version": "2.0.2",
-      "versionCode": 2000052,
-      "released": "2026-10-12",
-      "size": 8753583,
-      "sha256": "bbc4a34a7f65b200f9e40c4c74af4745de5cdbff45752ac0172916deb9f3c97d",
+      "version": "2.0.3",
+      "versionCode": 2000053,
+      "released": "2026-11-06",
+      "size": 8954287,
+      "sha256": "59c65a93d5ac09256e7cbfbe268676367ad7c5d65acc9255ac1c53f7bdb0ce2d",
       "signers": [
         "ef7f822b7653e2011cb8c5a7fc99e8d2ade1717e539ca56d6456295e3bc07312"
       ],
@@ -11424,11 +11424,11 @@
       "package": "pan.alexander.tordnscrypt.stable",
       "page": "https://h5.2113.net/apps/invizible-pro.html",
       "category": "Network & Privacy",
-      "version": "7.5.0",
-      "versionCode": 27203,
-      "released": "2026-07-15",
-      "size": 45134579,
-      "sha256": "463dbcb3f55820db3ffd3aa28f9fc756729676a7238583d83cd1b0e863ba3a12",
+      "version": "7.6.0",
+      "versionCode": 27603,
+      "released": "2026-11-06",
+      "size": 45886193,
+      "sha256": "fe82b8ea1aa2a2a3402de739a0a22f0a98e18265426cd08005dbac103d636481",
       "signers": [
         "977d4ca02ca0b94948c58be87bc34bbdd58e12350de078e28b17fcda176b3141"
       ],
@@ -11601,11 +11601,11 @@
       "package": "rs.ruffle",
       "page": "https://h5.2113.net/games/ruffle.html",
       "category": "PC Emulators",
-      "version": "0.261026",
-      "versionCode": 2610262,
-      "released": "2026-10-29",
-      "size": 33054498,
-      "sha256": "a8b22107a65bc3eacec70b1039415d567d571e8f4f22d24b317c0649402933bd",
+      "version": "0.261103",
+      "versionCode": 2611032,
+      "released": "2026-11-06",
+      "size": 33050931,
+      "sha256": "7bed975f2d04ad648ef288183ad679f3ca012915b7b3d124ca157ad89c51db68",
       "signers": [
         "294d74ce86d1f72038f9c4530dd2776b547f47272ca761805f996b088c626fc6"
       ],
@@ -11618,7 +11618,7 @@
       "license": "MIT",
       "minSdk": 26,
       "minAndroid": "Android 8.0",
-      "targetSdk": 35,
+      "targetSdk": 37,
       "abis": [
         "arm64-v8a"
       ],
