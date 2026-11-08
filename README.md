@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-340 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+347 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,11 +11,11 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (14)
-- [Network & Privacy](#network--privacy) (48)
-- [Media](#media) (49)
+- [Network & Privacy](#network--privacy) (50)
+- [Media](#media) (50)
 - [System Tools](#system-tools) (67)
 - [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (48)
+- [Productivity](#productivity) (50)
 - [Reading & Maps](#reading--maps) (14)
 - [Games: Strategy Games](#games-strategy-games) (13)
 - [Games: Sandbox Games](#games-sandbox-games) (3)
@@ -23,7 +23,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (22)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (24)
 - [Games: Game Tools](#games-game-tools) (1)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
@@ -45,7 +45,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [KernelSU vs APatch vs Magisk Compared](https://h5.2113.net/topics/root-solutions/): KernelSU and APatch root Android from the kernel; Magisk patches the boot image. Kernel support, modules and requirements compared, with APKs checked.
 - [Best Shizuku Apps: 18 Open-Source Picks](https://h5.2113.net/topics/shizuku-apps/): Eighteen open-source Android apps that use Shizuku for ADB-level access without root. Every APK checked for the API, permissions and tracker SDKs.
 - [Termux Plugins: All 7 Add-ons Explained](https://h5.2113.net/topics/termux-plugins/): What each Termux plugin adds, from Termux:API to Termux:GUI, how to set it up, and why plugins must come from the same source as Termux. All seven checked.
-- [Open-Source VPN Apps for Android: 10 Compared](https://h5.2113.net/topics/vpn-apps/): Ten Android VPN and proxy apps compared: provider services, WireGuard, OpenVPN, enterprise SSL VPN, Shadowsocks, sing-box and Mihomo clients. Every APK checked.
+- [Open-Source VPN Apps for Android: 11 Compared](https://h5.2113.net/topics/vpn-apps/): Eleven Android VPN and proxy apps compared: provider services, WireGuard, OpenVPN, IKEv2/IPsec, enterprise SSL VPN, Shadowsocks, sing-box and Mihomo clients.
 - [Open-Source YouTube Music Clients for Android](https://h5.2113.net/topics/youtube-music-clients/): Metrolist, ArchiveTune, Kreate, VIVI Music, Gyawun, SimpMusic, OuterTune and Bloomee compared on sources, accounts, lyrics and devices. Every APK signature-checked.
 
 ## Guides
@@ -161,6 +161,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Shizuku, or nothing in VPN mode · no known trackers found · MIT · [source](https://github.com/shynoiddev/FireWall-Blocks)
 - **[FOSS Browser](https://h5.2113.net/apps/foss-browser.html)**: A compact browser around Android System WebView, with per-profile controls, host-file blocking and cookie-banner denial. JavaScript, cookies and local history start enabled.  
   Android 10+ · an up-to-date Android System WebView · no known trackers found · GPL-3.0-or-later · [source](https://codeberg.org/Gaukler_Faun/FOSS_Browser)
+- **[FreeOTP](https://h5.2113.net/apps/freeotp.html)**: Generate standard two-factor login codes on the phone, add accounts by QR or secret, and make an encrypted backup without signing up for a service.  
+  Android 6.0+ · a service that supports TOTP or HOTP · no known trackers found · Apache-2.0 · [source](https://github.com/freeotp/freeotp-android)
 - **[Gadgetbridge](https://h5.2113.net/apps/gadgetbridge.html)**: Use a smartwatch, fitness band, earbuds or scale without the maker’s app and account: notifications on your wrist, activity and sleep data, music controls and more, all kept on your phone.  
   No root · Android 6.0+ · a supported gadget · no known trackers found · AGPL-3.0-only · [source](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 - **[Intra](https://h5.2113.net/apps/intra.html)**: A one-switch app that protects your DNS lookups from tampering: it sends them encrypted over HTTPS, which gets around blocking that works by faking DNS answers.  
@@ -221,6 +223,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android TV 6.0+ · a Shadowsocks server · profile JSON · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shadowsocks/shadowsocks-android)
 - **[sing-box](https://h5.2113.net/apps/sing-box.html)**: The sing-box project’s own Android app: it runs a sing-box configuration you supply, from a file, a QR code or a web address, and routes your apps through it with Android’s VPN service.  
   No root · Android 7.0+ · your own sing-box config · no known trackers found · GPL-3.0-or-later · [source](https://github.com/SagerNet/sing-box)
+- **[strongSwan VPN Client](https://h5.2113.net/apps/strongswan-vpn-client.html)**: Connect to a company, provider or self-hosted IKEv2/IPsec gateway with passwords, certificates, custom proposals and per-app split tunnelling.  
+  Android 6.0+ · an IKEv2/IPsec VPN profile · no known trackers found · GPL-2.0-or-later · [source](https://github.com/strongswan/strongswan)
 - **[Tailscale](https://h5.2113.net/apps/tailscale.html)**: Connect your phone, computers and servers into one private network, a tailnet, built on WireGuard. Once you sign in, your devices can reach each other wherever they are.  
   No root · an account or Headscale · Android 8.0+ · no known trackers found · BSD-3-Clause · [source](https://github.com/tailscale/tailscale-android)
 - **[Tor Browser](https://h5.2113.net/apps/tor-browser.html)**: Browse privately through the Tor network: Tor Browser hides your location from the sites you visit, clears everything when you close it, and connects through bridges where Tor is blocked.  
@@ -334,6 +338,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · no known trackers found · GPL-3.0-only · [source](https://github.com/vivizzz007/vivi-music)
 - **[VLC](https://h5.2113.net/apps/vlc.html)**: The open-source player that plays almost anything: video and audio files in nearly every format, network streams, DVD images and the shared folders on your network.  
   No root · 64-bit phone · Android 4.2+ · no known trackers found · GPL-3.0-only · [source](https://code.videolan.org/videolan/vlc-android)
+- **[Voice Audiobook Player](https://h5.2113.net/apps/voice-audiobook-player.html)**: Play audiobook files already on your phone, resume each book where you stopped, and use bookmarks, speed controls and a sleep timer without creating an account.  
+  Android 9.0+ · audiobook files on your phone · no known trackers found · GPL-3.0 · [source](https://github.com/PaulWoitaschek/Voice)
 - **[Volume Manager](https://h5.2113.net/apps/volume-manager.html)**: Gives each app its own volume, from its own screen or a replacement volume popup.  
   Shizuku · Android 13+ · no known trackers found · GPL-2.0-only · [source](https://github.com/yume-chan/VolumeManager)
 - **[YTDLnis](https://h5.2113.net/apps/ytdlnis.html)**: A full-featured Android front end for yt-dlp: queue and schedule downloads, trim by timestamp or chapter, embed subtitles and metadata, or run your own yt-dlp commands.  
@@ -510,7 +516,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Easy Notes](https://h5.2113.net/apps/easy-notes.html)**: Keep Markdown notes, pictures and home-screen widgets on the phone, with search, themes, an app lock and a separate encrypted vault—without an account or built-in sync.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/Kin69/EasyNotes)
 - **[Element X](https://h5.2113.net/apps/element-x.html)**: The new app from Element for Matrix, the open network for encrypted chat. It replaces Element Classic, which Element is retiring at the end of 2026.  
-  Android 7.0+ · 64-bit ARM · a Matrix account · tracker code found: Sentry · AGPL-3.0-or-later · [source](https://github.com/element-hq/element-x-android)
+  Android 7.0+ · 64-bit ARM · a Matrix account · tracker code found: Sentry, PostHog · AGPL-3.0-or-later · [source](https://github.com/element-hq/element-x-android)
 - **[Etar](https://h5.2113.net/apps/etar.html)**: A calendar app that shows whatever calendars your phone already has, Google, CalDAV or offline ones kept only on the phone, in month, week, day and agenda views, without ever going online itself.  
   No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/Etar-Group/Etar-Calendar)
 - **[FairEmail](https://h5.2113.net/apps/fairemail.html)**: A full email app for any IMAP or POP3 account, including Gmail and Outlook, that asks before loading images or opening links and supports PGP and S/MIME. This is the developer’s GitHub build.  
@@ -541,6 +547,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 8.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/jitsi/jitsi-meet)
 - **[Joplin](https://h5.2113.net/apps/joplin.html)**: Notes and to-do lists in notebooks, written in Markdown or a rich-text editor, synced between phone and computer through a service you choose, with end-to-end encryption if you turn it on.  
   No root · Android 7.0+ · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/laurent22/joplin)
+- **[K-9 Mail](https://h5.2113.net/apps/k-9-mail.html)**: Use several existing email accounts from one open-source client, with a unified inbox, background sync, search and optional OpenPGP encryption.  
+  Android 6.0+ · an existing email account · no known trackers found · Apache-2.0 · [source](https://github.com/thunderbird/thunderbird-android)
 - **[LibreOffice](https://h5.2113.net/apps/libreoffice.html)**: The Document Foundation’s Android app for reading office documents: Word, Excel and PowerPoint files, OpenDocument and more, rendered by LibreOffice itself, with an optional experimental editing mode.  
   No root · Android 5.0+ · 64-bit ARM · no known trackers found · MPL-2.0 · [source](https://git.libreoffice.org/core)
 - **[Logseq](https://h5.2113.net/apps/logseq.html)**: An outliner that keeps every note as a plain Markdown file in a folder on your phone, with links between pages, tasks and flashcards. This is the file-based app, now called Logseq OG.  
@@ -557,6 +565,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 6.0+ · internet once for each language model · no known trackers found · Apache-2.0 · [source](https://github.com/SubhamTyagi/android-ocr)
 - **[Offline Translator](https://h5.2113.net/apps/offline-translator.html)**: Download language packs once, then translate text, photos and documents without sending their contents to a translation server. OCR, dictionaries and transliteration also run on the phone.  
   Android 6.0+ · 64-bit ARM · internet once for language packs · no known trackers found · GPL-3.0-or-later · [source](https://github.com/DavidVentura/offline-translator)
+- **[OSS Document Scanner](https://h5.2113.net/apps/oss-document-scanner.html)**: Turn photos into cropped, filtered documents, recognise text locally, and export searchable PDFs without sending every scan through a document-scanning service.  
+  Android 7.0+ · 64-bit ARM device · camera optional · no known trackers found · MIT · [source](https://github.com/ossappscollective/OSS-DocumentScanner)
 - **[QUIK](https://h5.2113.net/apps/quik-sms.html)**: The continuation of QKSMS, the popular open-source texting app that stopped in 2023: SMS and MMS with scheduled and delayed sending, blocking, voice messages and backups, and no internet access.  
   No root · Android 6.0+ · default SMS app · no known trackers found · GPL-3.0-only · [source](https://github.com/quik-sms/quik)
 - **[Session](https://h5.2113.net/apps/session.html)**: An end-to-end encrypted messenger without a phone number or email: you get an Account ID, and messages travel through a network of nodes that hides your IP address.  
@@ -723,6 +733,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 5.0+ · offline · tracker code found: ACRA · GPL-3.0-only · [source](https://github.com/lucasnlm/antimine-android)
 - **[Battleship](https://h5.2113.net/games/battleship.html)**: Place a five-ship fleet on a 10×10 board and fight a local AI opponent. Sunk ships unlock super weapons, while career statistics, medals and ranks persist between games.  
   Android 7.0+ · one player against AI · no internet · no known trackers found · Apache-2.0 · [source](https://github.com/cocodedk/Battleship)
+- **[Bim!](https://h5.2113.net/games/bim.html)**: Place bombs, open routes through crates and be the last player standing in short online arenas for two to four people, with optional rule twists.  
+  Android 6.0+ · internet · project server available · tracker code found: PostHog · AGPL-3.0-only · [source](https://github.com/j-jorge/bim/)
 - **[Breakout 71](https://h5.2113.net/games/breakout-71.html)**: A brick breaker built for short runs: clear seven levels, catch the coins that broken bricks drop to build your combo, and pick an upgrade after every level. Small, offline and without ads.  
   No root · Android 6.0+ · no known trackers found · AGPL-3.0-only · [source](https://gitlab.com/lecarore/breakout71)
 - **[Bubble Shooter](https://h5.2113.net/games/bubble-shooter.html)**: Aim coloured bubbles, bounce shots off the walls and connect three or more, in generated campaign stages or a nearly endless Zen session.  
@@ -757,6 +769,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 7.0+ · 64-bit ARM · works offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/likhithpraveenk/sudoku)
 - **[SuperTux](https://h5.2113.net/games/supertux.html)**: Run, jump and stomp through snowy and forest worlds as Tux on his way to rescue Penny. A complete game made by volunteers, with no ads; this is the team’s own Android build.  
   Android 9+ · 64-bit ARM · no account · no known trackers found · GPL-3.0 · [source](https://github.com/SuperTux/supertux)
+- **[Tile Match](https://h5.2113.net/games/tile-match.html)**: Tap matching tiles into a seven-slot bar and clear them in sets of three before the bar fills, entirely offline and without advertising.  
+  Android 7.0+ · no account or internet · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/infrared-developer/tile-match)
 - **[Vector Pinball](https://h5.2113.net/games/vector-pinball.html)**: Pinball drawn with lines and circles, where the physics matter more than the graphics: nine tables, multiball, local high scores, and not a single permission requested.  
   Android 4.4+ · no known trackers found · GPL-3.0-only · [source](https://github.com/dozingcat/Vector-Pinball)
 

@@ -454,6 +454,45 @@
       "olderVersions": []
     },
     {
+      "name": "Bim!",
+      "package": "bim.app",
+      "page": "https://h5.2113.net/games/bim.html",
+      "category": "Puzzle & Arcade",
+      "version": "17",
+      "versionCode": 1700,
+      "released": "2026-10-25",
+      "size": 64962960,
+      "sha256": "711e03303f5702a01ff372dd0d04611cd62544ba424290dc509f2eb0197e577c",
+      "signers": [
+        "3fd4e09dd9bd5aeb594337be38cb27cad8bde56e1d5ef8302d3dd5cadfbde93f"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/j-jorge/bim/",
+      "license": "AGPL-3.0-only",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86_64"
+      ],
+      "permissions": 3,
+      "trackers": [
+        "PostHog"
+      ],
+      "antiFeatures": [
+        "TetheredNet",
+        "Tracking"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Infra Arcana",
       "package": "camp.werewolf.infraarcana",
       "page": "https://h5.2113.net/games/infra-arcana.html",
@@ -569,11 +608,11 @@
       "package": "chat.simplex.app",
       "page": "https://h5.2113.net/apps/simplex-chat.html",
       "category": "Productivity",
-      "version": "7.1",
-      "versionCode": 391,
-      "released": "2026-11-04",
-      "size": 93312512,
-      "sha256": "5fa06aaa2dbbd0a18fec11625177db2b793ee8689069b056d456bac743e04e11",
+      "version": "7.1.2",
+      "versionCode": 393,
+      "released": "2026-11-07",
+      "size": 93320704,
+      "sha256": "1ce128d20ba2eb5c15117fa9cd3017d90481d161b3681b6fa95c1ad4dd107e3a",
       "signers": [
         "3c52c4fd3cad1c07c9b00a7080e358fab9fefcb8af5aec147765f16d0f21ad85"
       ],
@@ -894,6 +933,37 @@
         "x86_64"
       ],
       "permissions": 20,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "OSS Document Scanner",
+      "package": "com.akylas.documentscanner",
+      "page": "https://h5.2113.net/apps/oss-document-scanner.html",
+      "category": "Productivity",
+      "version": "1.26.2.165",
+      "versionCode": 165,
+      "released": "2026-10-22",
+      "size": 12006447,
+      "sha256": "bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
+      "signers": [
+        "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/ossappscollective/OSS-DocumentScanner",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a"
+      ],
+      "permissions": 9,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -1758,11 +1828,11 @@
       "package": "com.companyname.andriodapp1",
       "page": "https://h5.2113.net/apps/seeker.html",
       "category": "Media",
-      "version": "3.12.0",
-      "versionCode": 146,
-      "released": "2026-10-30",
-      "size": 16802917,
-      "sha256": "25abe7d825916c2e7a832265b690d7eaab5f0a84062d7655a52053ee06bb237b",
+      "version": "3.13.0",
+      "versionCode": 147,
+      "released": "2026-11-07",
+      "size": 16798821,
+      "sha256": "0c8de65a7f7bada05b5b82b9ee7c4c944d83dfa0d27e2cf48d43e473c1fd8866",
       "signers": [
         "73345e7d43feb55939450de4497d64c001d2ae764265b69c2cbf3ea03677a8a2"
       ],
@@ -2365,6 +2435,43 @@
         "x86_64"
       ],
       "permissions": 11,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "K-9 Mail",
+      "package": "com.fsck.k9",
+      "page": "https://h5.2113.net/apps/k-9-mail.html",
+      "category": "Productivity",
+      "version": "24.0",
+      "versionCode": 39046,
+      "released": "2026-10-05",
+      "size": 10895261,
+      "sha256": "6b80ec681f0c882ca334f4d533778e6e50e814ee214db798d9e129a369a85af4",
+      "signers": [
+        "55c8a523b97335f5bf60dfe8a9f3e1dde744516d9357e80a925b7b22e4f55524"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/thunderbird/thunderbird-android/releases/tag/K9MAIL_24_0",
+      "sourceCode": "https://github.com/thunderbird/thunderbird-android",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 16,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -4998,11 +5105,11 @@
       "package": "com.tungsten.fcl",
       "page": "https://h5.2113.net/games/fold-craft-launcher.html",
       "category": "Minecraft Launchers",
-      "version": "1.3.4.4",
-      "versionCode": 1344,
-      "released": "2026-11-02",
-      "size": 322113223,
-      "sha256": "7807570e1528d9ee47a51670ac81ada3210da81cfd36fc2a50c5322023a09840",
+      "version": "1.3.4.5",
+      "versionCode": 1345,
+      "released": "2026-11-07",
+      "size": 322098343,
+      "sha256": "6987f0850934f0f286f947fe860c7dbd442c371e0cfa56a2a06377c47be8012d",
       "signers": [
         "be114d96613f7375a510d836680b456c9d528d15b24c382b1137480f15894e5e"
       ],
@@ -5012,7 +5119,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.4",
+      "sourceRelease": "https://github.com/FCL-Team/FoldCraftLauncher/releases/tag/1.3.4.5",
       "sourceCode": "https://github.com/FCL-Team/FoldCraftLauncher",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -5743,6 +5850,41 @@
         "NonFreeDep",
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Voice Audiobook Player",
+      "package": "de.ph1b.audiobook",
+      "page": "https://h5.2113.net/apps/voice-audiobook-player.html",
+      "category": "Media",
+      "version": "26.10.8",
+      "versionCode": 5410008,
+      "released": "2026-10-29",
+      "size": 10393973,
+      "sha256": "d1c7de88f1e21c5c253d03d0308ec06facb6aa4c255b0b2271729dbe3358eaf7",
+      "signers": [
+        "11a4caee0ba3eb5a352d1125abd32925209e896015a5d9ca0fd9f82dae204faa"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "github",
+      "sourceRelease": "https://github.com/PaulWoitaschek/Voice/releases/tag/26.10.8-5410008",
+      "sourceCode": "https://github.com/PaulWoitaschek/Voice",
+      "license": "GPL-3.0",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -6781,6 +6923,42 @@
       "olderVersions": []
     },
     {
+      "name": "Tile Match",
+      "package": "infrared.tilematch",
+      "page": "https://h5.2113.net/games/tile-match.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "released": "2026-05-27",
+      "size": 14773579,
+      "sha256": "965a71f771418f4eabc30972432a2e90696aa5c221581ebc7c47ab4f2ef6a842",
+      "signers": [
+        "5b64369edde100ef71f239ca29b9733b58c2e104ccc0baf94655a9d8abf3e150"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://gitlab.com/infrared-developer/tile-match",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Mindustry",
       "package": "io.anuke.mindustry",
       "page": "https://h5.2113.net/games/mindustry.html",
@@ -6846,7 +7024,8 @@
       ],
       "permissions": 22,
       "trackers": [
-        "Sentry"
+        "Sentry",
+        "PostHog"
       ],
       "antiFeatures": [],
       "olderVersions": []
@@ -9337,6 +9516,42 @@
       "olderVersions": []
     },
     {
+      "name": "FreeOTP",
+      "package": "org.fedorahosted.freeotp",
+      "page": "https://h5.2113.net/apps/freeotp.html",
+      "category": "Network & Privacy",
+      "version": "2.0.6",
+      "versionCode": 48,
+      "released": "2026-02-19",
+      "size": 9340083,
+      "sha256": "48212d63dd3a3a8a8d6201b8d911f239efb1561f08472057b2c55a65ebb0a94f",
+      "signers": [
+        "ec54f194f75c15dd1e466b6e0810c18fba7b6b34e0c3e3dda9845a4618c6957f"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/freeotp/freeotp-android",
+      "license": "Apache-2.0",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "fheroes2",
       "package": "org.fheroes2",
       "page": "https://h5.2113.net/games/fheroes2.html",
@@ -9449,11 +9664,11 @@
       "package": "org.fossify.calendar",
       "page": "https://h5.2113.net/apps/fossify-calendar.html",
       "category": "Productivity",
-      "version": "1.12.1",
-      "versionCode": 24,
-      "released": "2026-10-24",
-      "size": 8204153,
-      "sha256": "dae815ce83285facf9fd8648b8c4f039700d95126325db124521eba479b270ba",
+      "version": "1.12.2",
+      "versionCode": 25,
+      "released": "2026-11-07",
+      "size": 8228441,
+      "sha256": "2825816d0a972bd85eb289e556221293fadecfd3179a4a2531bde6f89c6f0238",
       "signers": [
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
@@ -9551,11 +9766,11 @@
       "package": "org.fossify.filemanager",
       "page": "https://h5.2113.net/apps/fossify-file-manager.html",
       "category": "System Tools",
-      "version": "1.6.3",
-      "versionCode": 15,
-      "released": "2026-10-24",
-      "size": 10030986,
-      "sha256": "9ba65c2ab8ca612fd90d8eba5320572ed1e1f99f2c6139244c7e05ef9a377d36",
+      "version": "1.6.4",
+      "versionCode": 16,
+      "released": "2026-11-07",
+      "size": 10033882,
+      "sha256": "6e4656b8947966a2853681691bb0005e802ee89983fb141ec0f7186497dcd5f4",
       "signers": [
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
@@ -9585,11 +9800,11 @@
       "package": "org.fossify.gallery",
       "page": "https://h5.2113.net/apps/fossify-gallery.html",
       "category": "Media",
-      "version": "1.14.1",
-      "versionCode": 30,
-      "released": "2026-10-24",
-      "size": 38538587,
-      "sha256": "9a9f2e06882abfdae6f4c86aeaa83ae8102b2e081591df0eb2134a6f629657c7",
+      "version": "1.14.2",
+      "versionCode": 40,
+      "released": "2026-11-07",
+      "size": 38538751,
+      "sha256": "ff3e6122ccf1873620e9e8e374b9c9dec4d7eb3a8f42559135bd82562c65f41f",
       "signers": [
         "affdb124d3f4720c2f98dbca9eacba0514fba4306e20a2786c861c3c0d6ff292"
       ],
@@ -10824,6 +11039,42 @@
       "olderVersions": []
     },
     {
+      "name": "strongSwan VPN Client",
+      "package": "org.strongswan.android",
+      "page": "https://h5.2113.net/apps/strongswan-vpn-client.html",
+      "category": "Network & Privacy",
+      "version": "2.6.3",
+      "versionCode": 100,
+      "released": "2026-10-27",
+      "size": 27051395,
+      "sha256": "205c60cf9d1f9591e757ff96d7a7d63207fe29a3d92041012c864bb10ab781c9",
+      "signers": [
+        "fbedb4835370c80d553cb48eecb329f5127287d83ab0f5ddbba3b084c5fcde91"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/strongswan/strongswan",
+      "license": "GPL-2.0-or-later",
+      "minSdk": 23,
+      "minAndroid": "Android 6.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 10,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "SuperTux",
       "package": "org.supertux.supertux2",
       "page": "https://h5.2113.net/games/supertux.html",
@@ -11146,11 +11397,11 @@
       "package": "org.ungoogled.chromium.stable",
       "page": "https://h5.2113.net/apps/ungoogled-chromium.html",
       "category": "Network & Privacy",
-      "version": "155.0.8059.39",
-      "versionCode": 805903904,
-      "released": "2026-10-15",
-      "size": 364938292,
-      "sha256": "44e0f664d80bf3b1c390f8030ff9a260aab06f137d17f2aa0e3816cc2bd61aee",
+      "version": "156.0.8078.79",
+      "versionCode": 807807904,
+      "released": "2026-11-08",
+      "size": 367008137,
+      "sha256": "149607f3d3537e4f9e9b5d4de31f729738f7d85abe225722fb1094af59e0ca7b",
       "signers": [
         "08b8740845f4354ddca77e5b31fe40dbd69645575b77deef2344d064c61d2f87"
       ],
@@ -11161,7 +11412,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/ungoogled-software/ungoogled-chromium-android/releases/tag/155.0.8059.39-1",
+      "sourceRelease": "https://github.com/ungoogled-software/ungoogled-chromium-android/releases/tag/156.0.8078.79-1",
       "sourceCode": "https://github.com/ungoogled-software/ungoogled-chromium-android",
       "license": "GPL-3.0",
       "minSdk": 29,
@@ -11215,9 +11466,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-11-06",
-      "size": 29294058,
-      "sha256": "75d2f4fc7261c99979060944c8775cd2ad361a2bbe8ac31d92a6e8df6dd84976",
+      "released": "2026-11-08",
+      "size": 29295882,
+      "sha256": "14b7f7d7e5c2c371dfaa2e5e4ae1b8a1d9685dcb5b58e52aeddfcc90a748bbc6",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
