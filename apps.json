@@ -321,11 +321,11 @@
       "package": "app.pwhs.universalinstaller",
       "page": "https://h5.2113.net/apps/universal-installer.html",
       "category": "System Tools",
-      "version": "1.21.0",
-      "versionCode": 45,
-      "released": "2026-11-01",
-      "size": 7279841,
-      "sha256": "172ae8d1d84fee46cb0993257a950657c5ddadb2e9a8a2e0410aabf349c42a07",
+      "version": "2.0.1",
+      "versionCode": 49,
+      "released": "2026-11-22",
+      "size": 8147089,
+      "sha256": "29b6f855e1924cdcadf09ac89b0d3cfbc10e6a5c03608e1c272d5f9cd876a331",
       "signers": [
         "40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de"
       ],
@@ -345,7 +345,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 23,
+      "permissions": 24,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -5310,11 +5310,11 @@
       "package": "com.vivi.vivimusic",
       "page": "https://h5.2113.net/apps/vivi.html",
       "category": "Media",
-      "version": "7.0.1",
-      "versionCode": 80,
-      "released": "2026-11-09",
-      "size": 34499019,
-      "sha256": "b1936f6cfe82462c65a16369b5574e8d6051d83ce3bde4bb308851e219d94012",
+      "version": "7.0.2",
+      "versionCode": 81,
+      "released": "2026-11-22",
+      "size": 13374383,
+      "sha256": "3321c8e490e97e7e4046191e153e8df58abfe4cdc170d40b5066075897eb6617",
       "signers": [
         "e0581bab0b930b179396e13008aa08509cdcd1ee38f7ae54102fc3cf93256a9d"
       ],
@@ -5454,11 +5454,11 @@
       "package": "com.zaneschepke.wireguardautotunnel",
       "page": "https://h5.2113.net/apps/wg-tunnel.html",
       "category": "Network & Privacy",
-      "version": "5.8.2",
-      "versionCode": 50802,
-      "released": "2026-10-19",
-      "size": 18766837,
-      "sha256": "0920451ed36f64cad9afd3f41d4677799c3e69401b4575a549238258f8a654a2",
+      "version": "5.9.0",
+      "versionCode": 50900,
+      "released": "2026-11-22",
+      "size": 18892813,
+      "sha256": "7c3df3ffdaf52c8c5b0fa298884f4d7e6000063b98572beb357f7fe6170a6ad6",
       "signers": [
         "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
       ],
