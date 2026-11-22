@@ -246,6 +246,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[AntennaPod](https://h5.2113.net/apps/antennapod.html)**: A podcast manager and player with no ads and no account: subscribe to any podcast by its feed, download or stream episodes, and control exactly when downloads happen.  
   No root · Android 6.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/AntennaPod/AntennaPod)
+- **[AppVolMgr](https://h5.2113.net/apps/volume-manager.html)**: Gives each app its own volume, from its own screen or a replacement volume popup.  
+  Shizuku · Android 13+ · no known trackers found · GPL-2.0-only · [source](https://github.com/yume-chan/VolumeManager)
 - **[ArchiveTune](https://h5.2113.net/apps/archivetune.html)**: A YouTube Music player built on Metrolist’s framework, with quick switching between accounts, local files alongside streaming, podcasts, and detailed audio and lyrics options.  
   No root · Android 8.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/rukamori/ArchiveTune)
 - **[Audio Recorder](https://h5.2113.net/apps/audio-recorder.html)**: Dmytro Ponomarenko’s open-source recorder: voice notes, lectures or meetings in M4A, WAV or 3GP with a live waveform, and on Android 10 and later what other apps are playing. Fully offline.  
@@ -340,8 +342,6 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · Android 4.2+ · no known trackers found · GPL-3.0-only · [source](https://code.videolan.org/videolan/vlc-android)
 - **[Voice Audiobook Player](https://h5.2113.net/apps/voice-audiobook-player.html)**: Play audiobook files already on your phone, resume each book where you stopped, and use bookmarks, speed controls and a sleep timer without creating an account.  
   Android 9.0+ · audiobook files on your phone · no known trackers found · GPL-3.0 · [source](https://github.com/PaulWoitaschek/Voice)
-- **[Volume Manager](https://h5.2113.net/apps/volume-manager.html)**: Gives each app its own volume, from its own screen or a replacement volume popup.  
-  Shizuku · Android 13+ · no known trackers found · GPL-2.0-only · [source](https://github.com/yume-chan/VolumeManager)
 - **[YTDLnis](https://h5.2113.net/apps/ytdlnis.html)**: A full-featured Android front end for yt-dlp: queue and schedule downloads, trim by timestamp or chapter, embed subtitles and metadata, or run your own yt-dlp commands.  
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/deniscerri/ytdlnis)
 
@@ -367,7 +367,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root for basics · root or ADB for more · Android 5.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/MuntashirAkon/AppManager)
 - **[aShell](https://h5.2113.net/apps/ashell.html)**: The original local ADB shell for Shizuku: type the commands you’d run with adb shell straight on the phone, with examples, bookmarks and history to help.  
   Shizuku · Android 7.0+ · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/sunilpaulmathew/ashell)
-- **[aShell You](https://h5.2113.net/apps/ashell-you.html)**: A Material You terminal for ADB commands: run shell commands on the phone itself through Shizuku or root, or on another Android device over OTG or wireless debugging.  
+- **[aShell You](https://h5.2113.net/apps/ashell-you.html)**: A Material You ADB toolkit: run shell commands on the phone through Shizuku or root, or manage another Android device over USB OTG or wireless debugging.  
   Shizuku or root · Android 9+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/DP-Hridayan/aShellYou)
 - **[Aurora Store](https://h5.2113.net/apps/aurora-store.html)**: An open-source client for Google Play: search, download and update free apps from Play without the Play Store app, signed in anonymously or with your own account.  
   No root · no Google services needed · no known trackers found · GPL-3.0-or-later · [source](https://gitlab.com/AuroraOSS/AuroraStore)
