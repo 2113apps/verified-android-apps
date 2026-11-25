@@ -43,11 +43,11 @@
       "package": "app.alextran.immich",
       "page": "https://h5.2113.net/apps/immich.html",
       "category": "Cloud & Self-Hosted",
-      "version": "3.4.1",
-      "versionCode": 3040199,
-      "released": "2026-11-17",
+      "version": "3.4.2",
+      "versionCode": 3040299,
+      "released": "2026-11-23",
       "size": 187786509,
-      "sha256": "b641edd8e603bf20698193bcb2300fbc5c73950e4dad806a0dcce6b13444ea1e",
+      "sha256": "04a2584bda9bee82720312d2ca696203ab844a72dbe22526b693e881a50b14c9",
       "signers": [
         "fa8b4395f4a64771a053d1c757735fa2301374f53d580dd175aaf7a135729cbf"
       ],
@@ -321,11 +321,11 @@
       "package": "app.pwhs.universalinstaller",
       "page": "https://h5.2113.net/apps/universal-installer.html",
       "category": "System Tools",
-      "version": "2.0.1",
-      "versionCode": 49,
-      "released": "2026-11-22",
-      "size": 8147089,
-      "sha256": "29b6f855e1924cdcadf09ac89b0d3cfbc10e6a5c03608e1c272d5f9cd876a331",
+      "version": "2.0.2",
+      "versionCode": 50,
+      "released": "2026-11-24",
+      "size": 8137653,
+      "sha256": "b6bee92c54db7beb8b91ef7555e1c2e7573136afea3835e0606ae6b46d8be3ec",
       "signers": [
         "40e1d86c6228809e07857a62edcf72952fea664e715317920150b937ef75f5de"
       ],
@@ -389,11 +389,11 @@
       "package": "at.bitfire.davdroid",
       "page": "https://h5.2113.net/apps/davx5.html",
       "category": "Cloud & Self-Hosted",
-      "version": "4.5.21-ose",
-      "versionCode": 405210002,
-      "released": "2026-10-15",
-      "size": 17706717,
-      "sha256": "8a41ae9d76484b86ce326e2002bae5ad5609aa5c4ea2179037287af676fd1b41",
+      "version": "4.5.22-ose",
+      "versionCode": 405220004,
+      "released": "2026-11-24",
+      "size": 17946162,
+      "sha256": "2537706a794da52932e5a75a3911fa870b8764e19f7fff3a45fb6062cc38f0ae",
       "signers": [
         "b39e7b77ec853483646b21b4a3e3ca540ba094ef8daa18e87e0be1fa4638d321"
       ],
@@ -413,7 +413,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 26,
+      "permissions": 27,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -563,11 +563,11 @@
       "package": "ch.protonvpn.android",
       "page": "https://h5.2113.net/apps/proton-vpn.html",
       "category": "Network & Privacy",
-      "version": "5.20.98.0",
-      "versionCode": 605209800,
-      "released": "2026-10-27",
-      "size": 60485262,
-      "sha256": "a9fbcaa5f31527dfcc10ff8821093f39fac13be3042190c04b2dc5c7449b5174",
+      "version": "5.21.57.0",
+      "versionCode": 605215700,
+      "released": "2026-11-23",
+      "size": 61129304,
+      "sha256": "18859473b86a5771fbbec813fbe7cf23403b4614664cdb34ad2c2273b178e277",
       "signers": [
         "950ee2d4d0a43ffba7ee1da9541c4a13defe81eb697ba7d24c17f6f886e32124"
       ],
@@ -608,11 +608,11 @@
       "package": "chat.simplex.app",
       "page": "https://h5.2113.net/apps/simplex-chat.html",
       "category": "Productivity",
-      "version": "7.1.4",
-      "versionCode": 397,
-      "released": "2026-11-14",
-      "size": 93341184,
-      "sha256": "6339d21c530ebbd6e8bbab34d29a7de874f1c579ee3df7a5d360ff56f7b0df42",
+      "version": "7.1.5",
+      "versionCode": 399,
+      "released": "2026-11-25",
+      "size": 93312681,
+      "sha256": "abdb9d484f09f3e18eb430de3c7d2bcb75ef7e32db2e4b5bf1a7a66978fc60b8",
       "signers": [
         "3c52c4fd3cad1c07c9b00a7080e358fab9fefcb8af5aec147765f16d0f21ad85"
       ],
@@ -942,11 +942,11 @@
       "package": "com.akylas.documentscanner",
       "page": "https://h5.2113.net/apps/oss-document-scanner.html",
       "category": "Productivity",
-      "version": "1.26.2.165",
-      "versionCode": 165,
-      "released": "2026-10-22",
-      "size": 12006447,
-      "sha256": "bd50e333c9d49f8838e04526c9ffdfb87c078dc42dafe9c13a112c4b848d6803",
+      "version": "2.00.0.166",
+      "versionCode": 166,
+      "released": "2026-11-24",
+      "size": 13130889,
+      "sha256": "8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
       "signers": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
@@ -1526,11 +1526,11 @@
       "package": "com.brave.browser",
       "page": "https://h5.2113.net/apps/brave.html",
       "category": "Network & Privacy",
-      "version": "1.100.58",
-      "versionCode": 430005804,
-      "released": "2026-11-18",
+      "version": "1.100.59",
+      "versionCode": 430005904,
+      "released": "2026-11-24",
       "size": 213076728,
-      "sha256": "1d35a8bf481735b10f134530b6f8517cad1a080bd2d94da267179bf1dbf8e7a7",
+      "sha256": "55549cadaf0abd88eb9c466e2bf22d63aba98920f494c25ce3dacdbbc09ba114",
       "signers": [
         "9c2db70513515fdbfbbc585b3edf3d7123d4dc67c94ffd306361c1d79bbf18ac"
       ],
@@ -1541,7 +1541,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.100.58",
+      "sourceRelease": "https://github.com/brave/brave-browser/releases/tag/v1.100.59",
       "sourceCode": "https://github.com/brave/brave-browser",
       "license": "MPL-2.0",
       "minSdk": 29,
@@ -2305,11 +2305,11 @@
       "package": "com.emanuelef.remote_capture",
       "page": "https://h5.2113.net/apps/pcapdroid.html",
       "category": "Network & Privacy",
-      "version": "2.0.2",
-      "versionCode": 95,
-      "released": "2026-09-22",
-      "size": 17560048,
-      "sha256": "e03f79082278b3754b4954c7537e7c9f7681e5995a44e70aa1589eca10190066",
+      "version": "2.0.3",
+      "versionCode": 96,
+      "released": "2026-11-23",
+      "size": 17633873,
+      "sha256": "b3f696033a958092aa4339a5066aad00c1a9bbfc53d0227995907250614d0eed",
       "signers": [
         "9fdd93b62bcc95e86ff681a401f81653e37626e83369a3e192e060f2a3ca147d"
       ],
@@ -2584,11 +2584,11 @@
       "package": "com.github.catfriend1.syncthingfork",
       "page": "https://h5.2113.net/apps/syncthing-fork.html",
       "category": "Cloud & Self-Hosted",
-      "version": "2.1.7.0",
-      "versionCode": 2010700,
-      "released": "2026-10-21",
-      "size": 61975393,
-      "sha256": "1ad568a373bd36c48100796e5fac3ebd0a0e0663ffdab1dc2baac355ab140063",
+      "version": "2.1.7.1",
+      "versionCode": 2010701,
+      "released": "2026-11-24",
+      "size": 61999838,
+      "sha256": "20fb0c3b81d0c583b97023289a104326504f969caab3ab4308cbe7590d052b3e",
       "signers": [
         "d374b8de5057013143c7d1515a015598c2df403be8160cae01a58c227e6e86aa"
       ],
@@ -2599,7 +2599,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/researchxxl/syncthing-android/releases/tag/v2.1.7.0",
+      "sourceRelease": "https://github.com/researchxxl/syncthing-android/releases/tag/v2.1.7.1",
       "sourceCode": "https://github.com/researchxxl/syncthing-android",
       "license": "MPL-2.0",
       "minSdk": 23,
@@ -3289,11 +3289,11 @@
       "package": "com.kunzisoft.keepass.libre",
       "page": "https://h5.2113.net/apps/keepassdx.html",
       "category": "Network & Privacy",
-      "version": "4.5.8",
-      "versionCode": 45800,
-      "released": "2026-11-01",
-      "size": 16786874,
-      "sha256": "8aaac6a0c55a9de760147990856726e197efbbcdc5ce2f6bfb4d4ab2a3d65f74",
+      "version": "4.5.9",
+      "versionCode": 45900,
+      "released": "2026-11-24",
+      "size": 16831506,
+      "sha256": "7f99ce824be52c070b43e7e29075a0460847598fcffbe251a71a7a03e0bd173d",
       "signers": [
         "7d55b8af210381aabf960f07e17cf7857b6d2a642ca2da6bf0bdf1b200362f04"
       ],
@@ -3597,6 +3597,42 @@
       "olderVersions": []
     },
     {
+      "name": "InnerTune",
+      "package": "com.malopieds.innertune",
+      "page": "https://h5.2113.net/apps/innertune.html",
+      "category": "Media",
+      "version": "0.5.14",
+      "versionCode": 31,
+      "released": "2025-03-23",
+      "size": 7177903,
+      "sha256": "b8d4ae296092e27c87e8027328f72519142fb058e8571d4a34d9935de15035d9",
+      "signers": [
+        "d667caf7d9759bf6298a9382692647a1d8fe07e819dd9534143d6f286ac45cc2"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "izzy",
+      "sourceCode": "https://github.com/Malopieds/InnerTune",
+      "license": "GPL-3.0-only",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 35,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 9,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "Transfer",
       "package": "com.matanh.transfer",
       "page": "https://h5.2113.net/apps/transfer.html",
@@ -3769,6 +3805,40 @@
       "olderVersions": []
     },
     {
+      "name": "Brick Blast",
+      "package": "com.mostafa.brickblast",
+      "page": "https://h5.2113.net/games/brick-blast.html",
+      "category": "Puzzle & Arcade",
+      "version": "1.6.0",
+      "versionCode": 10,
+      "released": "2026-08-30",
+      "size": 3035061,
+      "sha256": "8da3cce4630c904e4e760d78b3d4c130edd86bed4a4b50fd4751da9224bfeb54",
+      "signers": [
+        "c8075d7ffe193cc213bc38404816bb8dacf247f4c0e3e23e8a400d84f8ccde9f"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/ashrafimostafa/Brick-Blast",
+      "license": "MIT",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 1,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Zalith Launcher 2",
       "package": "com.movtery.zalithlauncher.v2",
       "page": "https://h5.2113.net/games/zalith-launcher-2.html",
@@ -3876,11 +3946,11 @@
       "package": "com.nextcloud.client",
       "page": "https://h5.2113.net/apps/nextcloud.html",
       "category": "Cloud & Self-Hosted",
-      "version": "35.0.2",
-      "versionCode": 350000290,
-      "released": "2026-10-31",
-      "size": 112503320,
-      "sha256": "c9ba2e85b13fee457238f959d367223834db44ec14531ec93abb2be97ab3fcff",
+      "version": "35.1.0",
+      "versionCode": 350010090,
+      "released": "2026-11-23",
+      "size": 108674963,
+      "sha256": "6c6ccd4e2a91b25ad0a2e2e64a87c8906179778ad511f30cbb5332ead048c57e",
       "signers": [
         "5709576f9d6c6a7687dd5d56b269d1fa5e379702b91bc83f39fd7b7c597c1b83"
       ],
@@ -4595,6 +4665,42 @@
       "olderVersions": []
     },
     {
+      "name": "Standard Notes",
+      "package": "com.standardnotes",
+      "page": "https://h5.2113.net/apps/standard-notes.html",
+      "category": "Productivity",
+      "version": "3.203.2",
+      "versionCode": 3005240,
+      "released": "2026-11-17",
+      "size": 89686677,
+      "sha256": "dcbc1d5b951dc048cf67cc3f33a31c38221387386b0fcdb37c2287b9e608893c",
+      "signers": [
+        "f5dee5e6538121146a4050bd4f4cf6ee2ddc4d690addb94544e9a3b20c4cb5a7"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/standardnotes/app",
+      "license": "AGPL-3.0-only",
+      "minSdk": 28,
+      "minAndroid": "Android 9",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 18,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
       "name": "Lemuroid",
       "package": "com.swordfish.lemuroid",
       "page": "https://h5.2113.net/games/lemuroid.html",
@@ -5172,11 +5278,11 @@
       "package": "com.unciv.app",
       "page": "https://h5.2113.net/games/unciv.html",
       "category": "Strategy Games",
-      "version": "5.0.0",
-      "versionCode": 1285,
-      "released": "2026-11-17",
-      "size": 27609377,
-      "sha256": "180b7bc0d08dd7a521b6ae8d2751eb1d1357cd9ac1128bb9cfffcaddbf54b4ef",
+      "version": "5.0.1",
+      "versionCode": 1286,
+      "released": "2026-11-23",
+      "size": 27621665,
+      "sha256": "721d3f752f60a42f06476a52969ab33326bfa1ac0269bcbb3b18b78c29adeafa",
       "signers": [
         "cd16e386469f23988fc9cdeca01bfefbd0deaed13a4907bce76e91acc9662c68"
       ],
@@ -5310,11 +5416,11 @@
       "package": "com.vivi.vivimusic",
       "page": "https://h5.2113.net/apps/vivi.html",
       "category": "Media",
-      "version": "7.0.2",
-      "versionCode": 81,
-      "released": "2026-11-22",
-      "size": 13374383,
-      "sha256": "3321c8e490e97e7e4046191e153e8df58abfe4cdc170d40b5066075897eb6617",
+      "version": "7.0.3",
+      "versionCode": 82,
+      "released": "2026-11-23",
+      "size": 13357999,
+      "sha256": "94f4f09a046ac29d05dd67afbde4a4a6108ac8feb32c851c69fc712ec6e01f00",
       "signers": [
         "e0581bab0b930b179396e13008aa08509cdcd1ee38f7ae54102fc3cf93256a9d"
       ],
@@ -5714,11 +5820,11 @@
       "package": "de.markusfisch.android.binaryeye",
       "page": "https://h5.2113.net/apps/binary-eye.html",
       "category": "System Tools",
-      "version": "1.75.7",
-      "versionCode": 182,
-      "released": "2026-11-04",
-      "size": 7521272,
-      "sha256": "6dd3737392fe2df47caa70a4df735fc7ea37c00e4fc328b7980aea428268cd3f",
+      "version": "1.76.1",
+      "versionCode": 184,
+      "released": "2026-11-23",
+      "size": 7541752,
+      "sha256": "6995b9a4242ea54141ac0a31a8b933a764c84d64e45d6082a33d7d808fdabedb",
       "signers": [
         "9ecdbf0677dd50609c76c2ba05dbe362232327b10a1c37cd58722993d9fe5d57"
       ],
@@ -6024,11 +6130,11 @@
       "package": "de.tutao.tutanota",
       "page": "https://h5.2113.net/apps/tuta-mail.html",
       "category": "Productivity",
-      "version": "368.261109.0",
-      "versionCode": 396740,
-      "released": "2026-11-13",
-      "size": 78432899,
-      "sha256": "380c6edc0b044504e62b02ed86e8cbac6e4fd3b2d6de6bb74062c350fa4a8b9e",
+      "version": "369.261119.0",
+      "versionCode": 396747,
+      "released": "2026-11-23",
+      "size": 78633485,
+      "sha256": "22f9eea8b439701acfae3bd21fe39b77c1545f3fffcb6596a2ed6f978ae37a4b",
       "signers": [
         "fc1932e08464aefcae82597dc0fc9d04c08b24aa09d1f950df20ea81234f30cb"
       ],
@@ -6552,11 +6658,11 @@
       "package": "eu.siacs.conversations",
       "page": "https://h5.2113.net/apps/conversations.html",
       "category": "Productivity",
-      "version": "2.21.3+free",
-      "versionCode": 4218604,
-      "released": "2026-11-20",
-      "size": 30821053,
-      "sha256": "ac1d778e896f1072767e77c0b4f110bb60001fcfb268538c04e4fc784290dfca",
+      "version": "2.21.4+free",
+      "versionCode": 4218704,
+      "released": "2026-11-23",
+      "size": 30827965,
+      "sha256": "61fd8ca12cdd2fd4736e1f36d995c174b5bda230435350c34a6c223f68749117",
       "signers": [
         "9c2e57c85c279e5e1a427f6e87927fc1e2278f62d61d7fcefde9346e568ccf86"
       ],
@@ -6584,11 +6690,11 @@
       "package": "fr.neamar.kiss",
       "page": "https://h5.2113.net/apps/kiss-launcher.html",
       "category": "Customization",
-      "version": "3.27.1",
-      "versionCode": 226,
-      "released": "2026-11-17",
-      "size": 2201575,
-      "sha256": "a5aa983d9303f98776253a6ebcb307d008c66e489e989015f1db3d9d44699448",
+      "version": "3.28.1",
+      "versionCode": 228,
+      "released": "2026-11-23",
+      "size": 2924358,
+      "sha256": "565b571848a3bfd9a356db98e9e6b26d9fdac7fa2ee8f46923f0396429418bdc",
       "signers": [
         "ec038e5b12c9fb8df23b5ecc1f71dd251bc503b30cec8d58a00cfae2c31abf1b"
       ],
@@ -6960,11 +7066,11 @@
       "package": "io.anuke.mindustry",
       "page": "https://h5.2113.net/games/mindustry.html",
       "category": "Strategy Games",
-      "version": "8-fdroid-160.7",
-      "versionCode": 1115,
-      "released": "2026-10-12",
-      "size": 78182684,
-      "sha256": "64bf33842d8f5495656c44868ea3d11ca5998bf6e36bbb428064dcc58c2e9f44",
+      "version": "8-fdroid-160.8",
+      "versionCode": 1116,
+      "released": "2026-11-23",
+      "size": 78190876,
+      "sha256": "fca4c9d9d2218eb6f9d0a810abb0f8bf66863abcc5362319882e5a7c3cee0290",
       "signers": [
         "fbd07935ef2e2ada5d918aea62ec25dd7dda7407492c6c3d1582b59b6cb84bed"
       ],
@@ -7153,6 +7259,35 @@
       "targetSdk": 36,
       "abis": [],
       "permissions": 0,
+      "trackers": [],
+      "antiFeatures": [],
+      "olderVersions": []
+    },
+    {
+      "name": "Chogan",
+      "package": "io.github.choganhq.chogan",
+      "page": "https://h5.2113.net/games/chogan.html",
+      "category": "Puzzle & Arcade",
+      "version": "0.34.0",
+      "versionCode": 56,
+      "released": "2026-11-20",
+      "size": 5574444,
+      "sha256": "48b5ff853a5f67e0ddcbbf715643bf32958001359667aeb5e49a64f8c1df973e",
+      "signers": [
+        "c3f70a1af8a45558678d1d9b413415d1b0a4c3208835ce78c1f37c4a3a008839"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v2"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/choganhq/chogan",
+      "license": "MIT",
+      "minSdk": 24,
+      "minAndroid": "Android 7.0",
+      "targetSdk": 36,
+      "abis": [],
+      "permissions": 2,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -7395,11 +7530,11 @@
       "package": "io.github.sds100.keymapper",
       "page": "https://h5.2113.net/apps/key-mapper.html",
       "category": "System Tools",
-      "version": "4.7.0-foss",
-      "versionCode": 292,
-      "released": "2026-11-13",
-      "size": 15100229,
-      "sha256": "dbbdf2dda829409a094b4a4aeadfd4db4ba597be989275c0f38f03fe1f05fc6a",
+      "version": "4.7.1-foss",
+      "versionCode": 295,
+      "released": "2026-11-23",
+      "size": 15161669,
+      "sha256": "a3b99633082a1efe789cbecbc8797c47df8ff0856972769bb0eea5bce67c5115",
       "signers": [
         "f4d753302710c9a7a40885c891aebdb1a0f275122fdcdb7c2f45a202b213f373"
       ],
@@ -7852,11 +7987,11 @@
       "package": "ls.bloomee.musicplayer",
       "page": "https://h5.2113.net/apps/bloomee.html",
       "category": "Media",
-      "version": "3.1.0",
-      "versionCode": 2207,
-      "released": "2026-10-22",
-      "size": 24962839,
-      "sha256": "516cad2401556cd4f2e794222faa3740474099bafb1b19bf7eeda51253ebcf11",
+      "version": "3.1.2",
+      "versionCode": 2208,
+      "released": "2026-11-24",
+      "size": 25140234,
+      "sha256": "184575264cbdbf10405e6d284e58c86ca5d5269fd85416a9713f4fe439dd4f68",
       "signers": [
         "7df992b9643abd442ad5eac0417503e0d8c4275104a0a66d8cf43df69611a47e"
       ],
@@ -8274,11 +8409,11 @@
       "package": "moe.rukamori.archivetune",
       "page": "https://h5.2113.net/apps/archivetune.html",
       "category": "Media",
-      "version": "16.0.0",
-      "versionCode": 143,
-      "released": "2026-11-18",
-      "size": 39664573,
-      "sha256": "5c0fc51d4cdcd296c87e29a64eb0b8fb85c5c09633fb0642567d33b9413ccab1",
+      "version": "16.1.0",
+      "versionCode": 144,
+      "released": "2026-11-23",
+      "size": 39758781,
+      "sha256": "3107bdb63fb6b2d7665d6e991ca1bc50c548b50ae9944e53cc3b5ccfcf834e9e",
       "signers": [
         "6269f57ae152da0d3332037dd3947cf9aac806b70631d5f312932b96f930fa22"
       ],
@@ -8289,7 +8424,7 @@
         "v3"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/rukamori/ArchiveTune/releases/tag/v16.0.0",
+      "sourceRelease": "https://github.com/rukamori/ArchiveTune/releases/tag/v16.1.0",
       "sourceCode": "https://github.com/rukamori/ArchiveTune",
       "license": "GPL-3.0",
       "minSdk": 26,
@@ -8466,11 +8601,11 @@
       "package": "net.cozic.joplin",
       "page": "https://h5.2113.net/apps/joplin.html",
       "category": "Productivity",
-      "version": "3.7.8",
-      "versionCode": 2097817,
-      "released": "2026-09-11",
-      "size": 154987817,
-      "sha256": "79acd24866ef5c3f8779fcdf926dd6e0d6e242ccffda8581c556f2a80f4b2782",
+      "version": "3.7.14",
+      "versionCode": 2097823,
+      "released": "2026-11-23",
+      "size": 155073833,
+      "sha256": "e5139520d9d7d735389f2c85fc0f527ac2b9f2c7e9abfa59a66b1021cccb8e1f",
       "signers": [
         "48a1cf9201b9079a6e0d5b33693e496db3c5cbec64a85afccd75e16d7a6cd54d"
       ],
@@ -8492,7 +8627,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 19,
+      "permissions": 18,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -9229,6 +9364,37 @@
       "antiFeatures": [
         "NonFreeNet"
       ],
+      "olderVersions": []
+    },
+    {
+      "name": "Cryptomator Lite",
+      "package": "org.cryptomator.lite",
+      "page": "https://h5.2113.net/apps/cryptomator-lite.html",
+      "category": "Cloud & Self-Hosted",
+      "version": "3.0.0",
+      "versionCode": 3237,
+      "released": "2026-11-23",
+      "size": 22296209,
+      "sha256": "f523e85dab8f6ec8403bbe295728bd6f39580dc5ad95799949042c0c866be288",
+      "signers": [
+        "f7c3ec3b0d588d3cb52983e9eb1a7421c93d4339a286398e71d7b651e8d8ecdd"
+      ],
+      "signedBy": "developer",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/cryptomator/android",
+      "license": "GPL-3.0-only",
+      "minSdk": 26,
+      "minAndroid": "Android 8.0",
+      "targetSdk": 37,
+      "abis": [],
+      "permissions": 16,
+      "trackers": [],
+      "antiFeatures": [],
       "olderVersions": []
     },
     {
@@ -10899,6 +11065,44 @@
       "olderVersions": []
     },
     {
+      "name": "RedReader",
+      "package": "org.quantumbadger.redreader",
+      "page": "https://h5.2113.net/apps/redreader.html",
+      "category": "Network & Privacy",
+      "version": "1.27",
+      "versionCode": 119,
+      "released": "2026-10-08",
+      "size": 9548608,
+      "sha256": "94ae92ce67a90aee4fdb05dbe2847f5eae6a312ce5fc4a1f7799e2772b797093",
+      "signers": [
+        "199fdbf83008ecce44edfdeef4e1a2dd1aefd9ca0f5c395a36b47c072207ac2f"
+      ],
+      "signedBy": "fdroid",
+      "signatureSchemes": [
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "source": "fdroid",
+      "sourceCode": "https://github.com/QuantumBadger/RedReader",
+      "license": "GPL-3.0-or-later",
+      "minSdk": 21,
+      "minAndroid": "Android 5.0",
+      "targetSdk": 36,
+      "abis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "permissions": 7,
+      "trackers": [],
+      "antiFeatures": [
+        "NonFreeNet"
+      ],
+      "olderVersions": []
+    },
+    {
       "name": "NewPipe",
       "package": "org.schabi.newpipe",
       "page": "https://h5.2113.net/apps/newpipe.html",
@@ -11147,11 +11351,11 @@
       "package": "org.tasks",
       "page": "https://h5.2113.net/apps/tasks-org.html",
       "category": "Productivity",
-      "version": "15.14",
-      "versionCode": 151404,
-      "released": "2026-11-20",
-      "size": 25811095,
-      "sha256": "88c447753b3dbbbe8e55b16943878d32ae1b4f2f2ba2d7c54b31b70209df117d",
+      "version": "15.14.1",
+      "versionCode": 151410,
+      "released": "2026-11-23",
+      "size": 25790505,
+      "sha256": "71a9d63461d9e49e29b49517607bc3f9d50ef4851967fe61a3fcf2b6952c6b9f",
       "signers": [
         "a038a055bf43b2659cbaf862808afd5e447d4d0e2749a10391910009cbd8dcfa"
       ],
@@ -11292,11 +11496,11 @@
       "package": "org.torproject.android",
       "page": "https://h5.2113.net/apps/orbot.html",
       "category": "Network & Privacy",
-      "version": "17.9.8-RC-1-tor-0.4.9.17-1-g75a2abad5",
-      "versionCode": 1798300102,
-      "released": "2026-11-16",
-      "size": 35884080,
-      "sha256": "f9acaa06b7651e1f070106b8d033722c746af863a4fe806f80b68a9ac56bdd25",
+      "version": "17.9.9-RC-1-tor-0.4.9.17.1",
+      "versionCode": 1799300102,
+      "released": "2026-11-24",
+      "size": 36116041,
+      "sha256": "0be6755b96658cac80dc2ce28c5d91d25ab60cd7b770c0ce13f112d422e724c1",
       "signers": [
         "a454b87a1847a89ed7f5e70fba6bba96f3ef29c26e0981204fe347bf231dfd5b"
       ],
@@ -11305,7 +11509,7 @@
         "v2"
       ],
       "source": "github",
-      "sourceRelease": "https://github.com/guardianproject/orbot-android/releases/tag/17.9.8-RC-1-tor-0.4.9.17",
+      "sourceRelease": "https://github.com/guardianproject/orbot-android/releases/tag/17.9.9-RC-1-tor-0.4.9.17.1",
       "sourceCode": "https://github.com/guardianproject/orbot-android",
       "license": "BSD-3-Clause",
       "minSdk": 24,
@@ -11314,7 +11518,7 @@
       "abis": [
         "arm64-v8a"
       ],
-      "permissions": 16,
+      "permissions": 17,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -11464,9 +11668,9 @@
       "category": "Console Emulators",
       "version": "0.2.1",
       "versionCode": 21,
-      "released": "2026-11-21",
-      "size": 29691223,
-      "sha256": "73d05ee37c6a4a0d86e4d6a820ae5b489ea43eb0f68031c14ff744d09c1ed3ab",
+      "released": "2026-11-25",
+      "size": 29743211,
+      "sha256": "5c965c8f7e5c8dd6b49ffc043de6a18c64cd5fc56ad4889fda9e3b3589ffb4ad",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
@@ -11528,11 +11732,11 @@
       "package": "org.wikipedia",
       "page": "https://h5.2113.net/apps/wikipedia.html",
       "category": "Reading & Maps",
-      "version": "r/50616-r-2026-11-03",
-      "versionCode": 50616,
-      "released": "2026-11-09",
-      "size": 104747428,
-      "sha256": "d225e5d08fe461f12fa0af7b617e6e715f3112986165c34e0572a1a056129dd1",
+      "version": "r/50619-r-2026-11-18",
+      "versionCode": 50619,
+      "released": "2026-11-23",
+      "size": 106770123,
+      "sha256": "ce0cd4a602bc6ae28d1b9e84623346a807b01d28a728a2f1dac10c5a6f37f367",
       "signers": [
         "1c3ddb0e8f3258b0ff3b7b6a608d19e7cdeed38a5897bbda23bac155923b1267"
       ],

@@ -2,7 +2,7 @@
 
 Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https://h5.2113.net/). Every file is the release the developer published, or F-Droid’s build of it, unchanged. Before it goes up, its signing key is checked; wherever a hash is published, in the signed repository index, on the project’s GitHub release or on the developer’s website, the file must match it; and its code is scanned for trackers. Each entry links to the app’s page, which lists the file’s SHA-256, the signer’s fingerprint, the permissions and the CPU types. [How the checks work](https://h5.2113.net/how-we-check.html).
 
-347 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
+353 apps. This list is generated from the site and updated when the site is. The version, SHA-256 and signer of every file are in [apps.json](apps.json) and [apps.csv](apps.csv) (fields: [SCHEMA.md](SCHEMA.md)), and [VERIFY.md](VERIFY.md) shows how to check an APK you downloaded.
 
 ## Contents
 
@@ -11,11 +11,11 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Guides](#guides)
 - [Root & Mods](#root--mods) (13)
 - [Customization](#customization) (14)
-- [Network & Privacy](#network--privacy) (50)
-- [Media](#media) (50)
+- [Network & Privacy](#network--privacy) (51)
+- [Media](#media) (51)
 - [System Tools](#system-tools) (67)
-- [Cloud & Self-Hosted](#cloud--self-hosted) (6)
-- [Productivity](#productivity) (50)
+- [Cloud & Self-Hosted](#cloud--self-hosted) (7)
+- [Productivity](#productivity) (51)
 - [Reading & Maps](#reading--maps) (14)
 - [Games: Strategy Games](#games-strategy-games) (13)
 - [Games: Sandbox Games](#games-sandbox-games) (3)
@@ -23,7 +23,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - [Games: Simulation Games](#games-simulation-games) (4)
 - [Games: Racing Games](#games-racing-games) (2)
 - [Games: Educational Games](#games-educational-games) (1)
-- [Games: Puzzle & Arcade](#games-puzzle--arcade) (24)
+- [Games: Puzzle & Arcade](#games-puzzle--arcade) (26)
 - [Games: Game Tools](#games-game-tools) (1)
 - [Games: PC Emulators](#games-pc-emulators) (3)
 - [Games: Minecraft Launchers](#games-minecraft-launchers) (4)
@@ -215,6 +215,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 8.1+ · a Proton account · no known trackers found · GPL-3.0-or-later · [source](https://github.com/protonpass/android-pass)
 - **[Proton VPN](https://h5.2113.net/apps/proton-vpn.html)**: The Proton VPN app with its free plan: one device, servers in ten countries and no data cap. This copy is F-Droid’s build, without Google’s code, and it needs a Proton account.  
   Android 8.0+ · Proton account (free) · tracker code found: Sentry · GPL-3.0-only · [source](https://github.com/ProtonVPN/android-app)
+- **[RedReader](https://h5.2113.net/apps/redreader.html)**: Browse Reddit with a compact, customisable client that can cache posts and comments, manage several accounts and prefetch selected media for later reading.  
+  Android 5.0+ · Reddit available · no known trackers found · GPL-3.0-or-later · [source](https://github.com/QuantumBadger/RedReader)
 - **[Rethink: DNS + Firewall + VPN](https://h5.2113.net/apps/rethink-dns.html)**: Encrypted DNS with optional block lists, a firewall that decides which apps may go online, and a WireGuard client, all from one local VPN on the phone. No root needed.  
   Android 6.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/celzero/rethink-app)
 - **[Shadowsocks](https://h5.2113.net/apps/shadowsocks.html)**: The Shadowsocks project’s own Android client. Add your server or a subscription link, then send all apps, or only the ones you choose, through an encrypted proxy.  
@@ -274,10 +276,12 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · 64-bit phone · Android 7.0+ · no known trackers found · GPL-3.0 · [source](https://github.com/sheikhhaziq/gyawun_music)
 - **[ImageToolbox](https://h5.2113.net/apps/image-toolbox.html)**: A huge open-source image toolkit: batch resizing and conversion, hundreds of filters, EXIF editing, background removal, text recognition and PDF tools. This build has no Google services.  
   Android 7.0+ · 64-bit ARM · no known trackers found · Apache-2.0 · [source](https://github.com/T8RIN/ImageToolbox)
+- **[InnerTune](https://h5.2113.net/apps/innertune.html)**: Stream YouTube Music without the official app, keep selected music offline and use background playback, synced lyrics and Android Auto.  
+  Android 7.0+ · YouTube Music available in your region · no known trackers found · GPL-3.0-only · [source](https://github.com/Malopieds/InnerTune)
 - **[Jellyfin](https://h5.2113.net/apps/jellyfin.html)**: The official Android app for Jellyfin, the free media server: stream your own films, series, music and audiobooks from a server you run, or download them to the phone.  
   Your own Jellyfin server · Android 5.0+ · no known trackers found · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-android)
 - **[Jellyfin for Android TV](https://h5.2113.net/apps/jellyfin-android-tv.html)**: Browse and play films, series, music, live TV and recordings from a Jellyfin server on Android TV, Nvidia Shield or Fire TV. This is the official remote-friendly TV client.  
-  Your own Jellyfin server · Android 5.0+ · TV interface · tracker code found: ACRA · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-androidtv)
+  Your own Jellyfin server · Android 6.0+ · TV interface · tracker code found: ACRA · GPL-2.0-or-later · [source](https://github.com/jellyfin/jellyfin-androidtv)
 - **[Just Player](https://h5.2113.net/apps/just-player.html)**: A plain video player with no library and no ads: open a file or a streaming link and it plays, with swipe gestures, picture-in-picture, subtitle choice and audio sync for Bluetooth earphones.  
   No root · 64-bit phone · Android 6.0+ · no known trackers found · Unlicense · [source](https://github.com/moneytoo/Player)
 - **[Kodi](https://h5.2113.net/apps/kodi.html)**: A media center designed for the TV screen and a remote control: organise and play your own videos, music and photos from local storage and network shares.  
@@ -486,6 +490,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 
 - **[Cryptomator](https://h5.2113.net/apps/cryptomator.html)**: Encrypts files on your phone before they are uploaded, so the cloud only ever stores scrambled data. Opens vaults made with the desktop app. Without a paid license key, access is read-only.  
   License key to edit vaults · Android 8.0+ · no known trackers found · GPL-3.0-only · [source](https://github.com/cryptomator/android)
+- **[Cryptomator Lite](https://h5.2113.net/apps/cryptomator-lite.html)**: Open client-side encrypted vaults on local storage, WebDAV or S3, with system file-picker access and a licence boundary on operations that change their contents.  
+  Android 8.0+ · vault credentials · local, S3 or WebDAV · no known trackers found · GPL-3.0-only · [source](https://github.com/cryptomator/android)
 - **[DAVx⁵](https://h5.2113.net/apps/davx5.html)**: Connects Android’s calendar, contacts and task apps to a CalDAV or CardDAV server you choose, such as Nextcloud, and keeps them in sync. This is the free open-source edition, from the developers.  
   No root · Android 7.0+ · a CalDAV/CardDAV server · no known trackers found · GPL-3.0-only · [source](https://github.com/bitfireAT/davx5-ose)
 - **[Home Assistant](https://h5.2113.net/apps/home-assistant.html)**: The official Android app for Home Assistant, in the minimal flavor that works without Google Play services. It needs a Home Assistant server that you run yourself.  
@@ -579,6 +585,8 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   No root · Android 7.0+ · no known trackers found · Apache-2.0 · [source](https://github.com/rkkr/simple-keyboard)
 - **[SimpleX Chat](https://h5.2113.net/apps/simplex-chat.html)**: A messenger without accounts: you connect to people through one-time links or QR codes, messages are end-to-end encrypted and relayed through servers you can swap for your own.  
   No root · Android 8.0+ · 64-bit ARM phone · no known trackers found · AGPL-3.0-or-later · [source](https://github.com/simplex-chat/simplex-chat)
+- **[Standard Notes](https://h5.2113.net/apps/standard-notes.html)**: Write notes offline, enable encryption with an account or passcode lock, and optionally synchronise across devices through Standard Notes or a compatible server you run yourself.  
+  Android 9.0+ · account or self-hosted server for sync · no known trackers found · AGPL-3.0-only · [source](https://github.com/standardnotes/app)
 - **[Tasks.org](https://h5.2113.net/apps/tasks-org.html)**: A to-do list app with nested subtasks, repeating tasks, start dates and reminders by time or place. It works offline, or syncs with your own CalDAV server and other services.  
   No root · Android 8.0+ · no account needed · tracker code found: OpenTelemetry (OpenCensus, OpenTracing) · GPL-3.0-only · [source](https://github.com/tasks/tasks)
 - **[Telegram](https://h5.2113.net/apps/telegram.html)**: The Telegram messenger as Telegram publishes it on its website: the same chats, channels, groups and calls as the Google Play app, installed as a separate app that checks for its own updates.  
@@ -737,12 +745,16 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
   Android 6.0+ · internet · project server available · tracker code found: PostHog · AGPL-3.0-only · [source](https://github.com/j-jorge/bim/)
 - **[Breakout 71](https://h5.2113.net/games/breakout-71.html)**: A brick breaker built for short runs: clear seven levels, catch the coins that broken bricks drop to build your combo, and pick an upgrade after every level. Small, offline and without ads.  
   No root · Android 6.0+ · no known trackers found · AGPL-3.0-only · [source](https://gitlab.com/lecarore/breakout71)
+- **[Brick Blast](https://h5.2113.net/games/brick-blast.html)**: Aim a stream of balls, break numbered bricks under four rule sets, collect random power-ups and spend locally earned coins on permanent upgrades or a temporary speed boost.  
+  Android 8.0+ · offline · no known trackers found · MIT · [source](https://github.com/ashrafimostafa/Brick-Blast)
 - **[Bubble Shooter](https://h5.2113.net/games/bubble-shooter.html)**: Aim coloured bubbles, bounce shots off the walls and connect three or more, in generated campaign stages or a nearly endless Zen session.  
   Android 7.0+ · 64-bit ARM device · works offline · no known trackers found · GPL-3.0-only · [source](https://github.com/sidhant947/BubbleShooter)
 - **[Burger Party](https://h5.2113.net/games/burger-party.html)**: Stack buns, meat, cheese and salad in the order each customer asks for, before the clock runs out, in the United States, on a pirate ship and in Japan. No ads and no purchases.  
   No root · no account · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/agateau/burgerparty)
 - **[Chess Puzzles](https://h5.2113.net/games/chess-puzzles.html)**: Solve 9,000 selected Lichess tactics and study 20 openings with no account or network connection. Progress, hints and streaks stay on the phone.  
   Android 7.0+ · no account or internet · no known trackers found · Apache-2.0 · [source](https://github.com/cocodedk/chess-puzzles)
+- **[Chogan](https://h5.2113.net/games/chogan.html)**: Keep board, card, logic and arcade games in one offline WebView collection, with local multiplayer in 32 titles and progression shared across the catalogue.  
+  Android 7.0+ · offline · no known trackers found · MIT · [source](https://github.com/choganhq/chogan)
 - **[Crossword](https://h5.2113.net/games/crossword.html)**: Find words from known letter positions, required letters and blanks, or rearrange a set of letters with the separate on-device anagram mode.  
   Android 5.0+ · internet for Wiktionary definitions · no known trackers found · GPL-3.0-or-later · [source](https://github.com/billthefarmer/crossword)
 - **[Gauguin](https://h5.2113.net/games/gauguin.html)**: A Sudoku-like puzzle where every group of cells must reach its target by adding, subtracting, multiplying or dividing. Endless grids from 3×3 to 11×11, with no ads and no internet.  
@@ -758,7 +770,7 @@ Open-source Android apps whose APKs are hosted and checked by [2113 Apps](https:
 - **[Open Surge: retro game engine](https://h5.2113.net/games/open-surge.html)**: A fast 16-bit-style platformer starring Surge the Rabbit, and the open-source engine it runs on: play the demo levels, change them on your phone, or load games other people made.  
   No root · ARM phone or TV · Android 5.0+ · no known trackers found · GPL-3.0-or-later · [source](https://github.com/alemart/opensurge)
 - **[osu!](https://h5.2113.net/games/osu.html)**: Tap circles, follow sliders and spin to the music in the free rhythm game, now on Android: the same osu!(lazer) as on computers, with all four game modes, online rankings and multiplayer.  
-  No root · Android 5.0+ · free osu! account for online play · tracker code found: Sentry · MIT · [source](https://github.com/ppy/osu)
+  No root · Android 7.0+ · free osu! account for online play · tracker code found: Sentry · MIT · [source](https://github.com/ppy/osu)
 - **[PySolFC](https://h5.2113.net/games/pysolfc.html)**: Choose from a very large offline collection of solitaire variants—not only Klondike and FreeCell, but Mahjongg, Shisen-Sho, memory and puzzle families—with hints and undo.  
   Android 5.0+ · ARM phone or tablet · offline · no known trackers found · GPL-3.0-or-later · [source](https://github.com/shlomif/PySolFC)
 - **[Simon Tatham's Puzzles](https://h5.2113.net/games/simon-tatham-puzzles.html)**: Forty small logic puzzles, from Sudoku-style Solo to Loopy, Bridges and Mines, each generating a new grid whenever you want one. Free, offline and without ads.  
