@@ -942,11 +942,11 @@
       "package": "com.akylas.documentscanner",
       "page": "https://h5.2113.net/apps/oss-document-scanner.html",
       "category": "Productivity",
-      "version": "2.00.0.166",
-      "versionCode": 166,
-      "released": "2026-11-24",
-      "size": 13130889,
-      "sha256": "8673465617c2c7e0b25eb46bfa1abbbda5a9abcba9f18e909a0c53018daad628",
+      "version": "2.00.1.167",
+      "versionCode": 167,
+      "released": "2026-11-25",
+      "size": 13131089,
+      "sha256": "46ce6f3f783ab68ca0ccdd8395a630ee98468061fbd1282ee0811b6285cab2ef",
       "signers": [
         "0d10aa10e03a7e769722be4388be63bd157a7b7bf196fb3cebab8737f96ca871"
       ],
@@ -11424,11 +11424,11 @@
       "package": "org.thoughtcrime.securesms",
       "page": "https://h5.2113.net/apps/signal.html",
       "category": "Productivity",
-      "version": "8.36.3",
-      "versionCode": 178201,
-      "released": "2026-11-18",
-      "size": 115872368,
-      "sha256": "c1fdce4d9c9d605a25a13fd9bbb8182d072e761cf70b91708d534c33674474fc",
+      "version": "8.37.3",
+      "versionCode": 178601,
+      "released": "2026-11-25",
+      "size": 116400893,
+      "sha256": "20468c91c2ffa3ed18d84c675d10a999c207f69faecd7ffb06e6b2c1dcf0bc49",
       "signers": [
         "29f34e5f27f211b424bc5bf9d67162c0eafba2da35af35c16416fc446276ba26",
         "4be4f6cd5be844083e900279dc822af65a547fecc26aba7ff1f5203a45518cd8"
@@ -11452,7 +11452,7 @@
         "x86",
         "x86_64"
       ],
-      "permissions": 77,
+      "permissions": 78,
       "trackers": [],
       "antiFeatures": [],
       "olderVersions": []
@@ -11669,8 +11669,8 @@
       "version": "0.2.1",
       "versionCode": 21,
       "released": "2026-11-25",
-      "size": 29743211,
-      "sha256": "5c965c8f7e5c8dd6b49ffc043de6a18c64cd5fc56ad4889fda9e3b3589ffb4ad",
+      "size": 29743207,
+      "sha256": "1f639424743384c3bf49106fb1513bac428da94ac13e2f14975fbc7f1a5456b9",
       "signers": [
         "eadeff93b5fb0317051111f77d56abbaa0e6716cc847969926aa36dac4beb202"
       ],
